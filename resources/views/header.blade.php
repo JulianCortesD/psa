@@ -2,16 +2,16 @@
     <div class="header ">
         <div class="container-fluid">
             <div class="row align-items-start justify-content-between">
-                <div class="col-4">
-                        <img src="{{asset("images/header/LogoAlcaldia.png")}}" alt="Alcaldía Bogotá" style="height: 39px;">
+                <div class="col-12 col-md-3">
+                        <img src="{{asset("images/header/LogoAlcaldia.svg")}}" alt="Alcaldía Bogotá" style="height: 30px;">
                     {{-- <div class="css-shapes-preview">
                         <div class="interno">
                             Alcaldía de Bogotá
                         </div> 
                     </div>   --}}  
                 </div>
-                <div class="col-md-4 ">
-                    <div class="row justify-content-md-center">
+                <div class="col-12 col-md-8 ">
+                    <div class="row justify-content-md-end">
                         <div class="search ">
                             <input type="search" name="busqueda" class="inputsearch">
                             {{-- <span class="icon"><i class="fa fa-search"></i></span> --}}
@@ -26,42 +26,42 @@
                 </div>
             </div>
             <div class="row justify-content-start">
-                <div class="col-4">
+                <div class="col-2">
                     <div class=" access-tool">
-                        <i class="far fa-eye fa-1x" style="color:#FFFFFF;"></i>
+                        <img  class="left-option"src="{{asset("images/header/IconoOjoAccesibilidad.svg")}}" alt="Alcaldía Bogotá">
                         <br>
-                        <i class="fas fa-assistive-listening-systems fa-1x" style="color:#FFFFFF;"></i>
+                        <img class="left-option" src="{{asset("images/header/IconoAccesibilidadOido.svg")}}" alt="Alcaldía Bogotá" >
                     </div> 
                 </div>
-                <div class="col-6 offset-2">
-                    <div class="row">
-                        <div class="col-sm-4 menu-header">
+                <div class="col-8 offset-2">
+                    <div class="row row justify-content-end">
+                        <div class="col-sm-2 menu-header">
                             <div class="row">
                                 <div class="d-inline-block">
                                     <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
                                 </div>
-                                <div class="d-inline">
-                                    <p>Política Distrital de Salud Ambiental</p> 
+                                <div class="d-inline menu-header-interno">
+                                    <p>Política Distrital de <br> Salud Ambiental</p> 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4 menu-header">
+                        <div class="col-sm-2 menu-header">
                             <div class="row">
-                                <div class="d-inline-block">
-                                    <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
+                                <div class="d-inline-block ">
+                                    <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoParticipacionCiudadana.svg")}}" alt=""  >
                                 </div>
-                                <div class="d-inline">
-                                    <p>Participación Ciudadana</p> 
+                                <div class="d-inline menu-header-interno">
+                                    <p>Participación <br> Ciudadana</p> 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4 menu-header">
+                        <div class="col-sm-2 menu-header">
                             <div class="row">
                                 <div class="d-inline-block">
-                                    <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
+                                    <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoVigilanciaSaludAmbiental.svg")}}" alt=""  >
                                 </div>
-                                <div class="d-inline">
-                                    <p>Vigilancia de la Salud Ambiental</p> 
+                                <div class="d-inline menu-header-interno">
+                                    <p>Vigilancia de la <br> Salud Ambiental</p> 
                                 </div>
                             </div>
                         </div>
@@ -74,43 +74,67 @@
     </div>
 
     <div class=" container-fluid menu-nav">
-            <nav class="navbar navbar-expand-lg navbar-dark  py-0">
+            <nav class="navbar navbar-expand-lg navbar-dark  py-0 menu-down-header">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <a class="navbar-brand" href="#">
-                        <img src="./imgs/Inactivo/PNG/Home.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                        <img src="{{asset("images/header/IconoHomeMenu.svg")}}" alt="home" style="height: 30px">
                     </a>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">
+                                <div >Aire, ruido y radiación   <br> electromagnética</div> 
+                                <div class="mt-2 ml-2"> <img   src="{{asset("images/header/IconoMenuAireRuidoyREM.svg")}}" alt="home" style="height: 20px"> </div>
+                                <span class="sr-only"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <div>Alimentos <br> y bebidas</div>
+                                <div class="mt-1 ml-2"> <img   src="{{asset("images/header/IconoMenuAlimentosSanos.svg")}}" alt="home" style="height: 30px"> </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <div>Agua y <br> saneamiento</div>
+                                <div class="mt-1 ml-2"> <img   src="{{asset("images/header/IconoMenuAguaySaneamiento.svg")}}" alt="home" style="height: 30px"> </div>
+                            </a>
+                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Aire, ruido y radiación  <span class="sr-only"></span></a>
+                            <a class="nav-link" href="#">
+                                <div>Cambio <br> climatico</div>
+                                <div class="mt-1 ml-2"> <img   src="{{asset("images/header/IconoMenuCambioClimatico.svg")}}" alt="home" style="height: 30px"> </div>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Alimentos y bebidas</a>
+                            <a class="nav-link" href="#">
+                                <div>Espacio y <br> movilidad</div>
+                                <div class="mt-1 ml-2"> <img   src="{{asset("images/header/IconoMenuEspacioyMovilidad.svg")}}" alt="home" style="height: 30px"> </div>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Agua y saneamiento</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Cambio climatico<span class="sr-only"></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Espacio y movilidad</a>
+                            <a class="nav-link" href="#">
+                                <div>Medicamentos y <br> dispositvos médicos</div>
+                                <div class="mt-1 ml-2"> <img   src="{{asset("images/header/IconoMenuMedicamentosSeguros.svg")}}" alt="home" style="height: 30px"> </div>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Medicamentos y dispositvos médicos</a>
+                            <a class="nav-link" href="#">
+                                <div>Productos químicos, <br> industria y belleza</div>
+                                <div class="mt-1 ml-2"> <img   src="{{asset("images/header/IconoMenuSeguridadQuimica.svg")}}" alt="home" style="height: 30px"> </div>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Productos químicos, industria y belleza</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Zoonosis y vectores</a>
+                            <a class="nav-link" href="#">
+                                <div>Zoonosis <br> y vectores</div>
+                                <div class="mt-1 ml-2"> <img   src="{{asset("images/header/IconoMenuZoonosisyVectores.svg")}}" alt="home" style="height: 30px"> </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            
-
         </div>
+        <div class="separator"></div>
 </header>

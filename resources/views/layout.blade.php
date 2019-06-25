@@ -7,6 +7,19 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/main.css")}}" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/main.css")}}" />
+        <link rel="stylesheet" href="css/demo.css"/>
+        <link rel="stylesheet" href="css/theme1.css"/>
+        <link href='packages/core/main.css' rel='stylesheet' />
+        <link href='packages/daygrid/main.css' rel='stylesheet' />
+        <script src='packages/core/locales-all.js'></script>
+        <script src='packages/core/main.js'></script>
+        <script src='packages/interaction/main.js'></script>
+        <script src='packages/daygrid/main.js'></script>
         
         @yield('styles')
             

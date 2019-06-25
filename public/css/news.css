@@ -16,8 +16,7 @@
     background-color: #009de2;
     width: 100%;
     height: 40px;
-    text-align: center;
-    color: white;
+    text-align: center;color: white;
     font-size: 25px;
 }
 
@@ -41,4 +40,42 @@
     padding: 20px 20px 0 10px ;
     font-size: 11pt !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.boton-register{
+    background-color: #033d65;
+    padding: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.boton-consult{
+    background-color: #009de2;
+    padding: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.contactenos {
+    background-image: url("../images/contactenos/FondoFormularioContactenos.png");
+    height: 310px;
+}
+.icono-contactenos {
+    color: #023864;
+    border-bottom: 1px solid #023864;
+    margin-left: -15px;
+}
+
+.form-contactenos {
+    color: #023864;
+    /* border-bottom: 1px solid #023864;
+    border-right: 1px solid #023864; */
+    border-left: 0px;
+    border-top: 0px;
 }

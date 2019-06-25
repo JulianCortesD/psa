@@ -1,9 +1,9 @@
 body{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .header {
-    height: 150px;
+    height: 145px;
     background-color: #019EE2;
     /*padding-left: 4%;*/
     padding-top: 25px;
@@ -32,19 +32,18 @@ body{
     background-color: #033d65;
     padding: 3.5px;
     margin-left: -6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     color: white;
     padding-right: 10px;
     padding-left: 10px;
-    padding-bottom: 6px;
 }
 .icon > img {
     width: 5%;
 }
 .inputsearch{
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 6px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
     -webkit-appearance: button-bevel;
 
 }
@@ -63,20 +62,43 @@ body{
     background-color: white;
     color: #019EE2;
     padding-top: 5px;
-    font-size: 8px;
+    font-size: 10;
+    margin-right: 10px;
+    padding-left: 25px;
+    height: 28%;
 }
+
 .menu-header img {
     width: 25px;
+}
+
+.menu-header-interno {
+    margin-left: 5px;
+}
+
+.menu-down-header {
+    font-size: 11px;
+}
+.nav-link {
+    display: inline-flex;
+    border-left: 1px solid white;
+    color: white;
 }
 
 .access-tool {
     margin-left: -15px;
     width: 50px;
-    height: 60px;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     background-color: #8db84f;
 }
+
+.left-option{
+    height: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
 .prev-access-tool{
     width: 250px;
     background-color: #8db84f;
@@ -133,7 +155,8 @@ body{
 .separator{
     height: 5px;
     background-color: #92b35c;
-    margin-top:-25px;
+    margin-bottom: 5px;
+    margin-top: -10;
 }
 
 .banner{
@@ -307,9 +330,11 @@ hr{
 /*** Medias
 **/
 
-@media (max-width: 768px){
+@media (max-width: 576px){
     .search {
         margin-left: 8%;
+        margin-top: 15px;
+        text-align: start;
     }
 
 }

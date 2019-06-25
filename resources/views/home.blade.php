@@ -1,0 +1,348 @@
+@extends('layout')
+@section('titulo')
+    Noticias
+@endsection
+@section('styles')
+    <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/news.css")}}" />
+@endsection
+@section('contenido')
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-news" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 altura" src="{{asset("images/carousel/banner lluvias.jpg")}}" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 altura" src="{{asset("images/carousel/bannersectorambiente.png")}}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner Conpes.jpg")}}" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>  
+        </div>    
+    </div>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="d-inline">
+                                <img  class="news-title" src="{{asset("images/news/news.svg")}}" alt="" >
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9 offset-2">
+                            <div id="rootwizard">
+                                <div class="tab-content">
+                                    <div class="tab-pane" id="tab1">
+                                        <section class="content">
+                                            <div class="content-inside">
+                                                <div class="header-content row col-sm-12">
+                                                    <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
+                                                </div>
+                                                <div class="row cont-inside">
+                                                    <figure class="img-content col-sm-3 ">
+                                                        <img src="{{asset("images/news/Silueta.png")}}">
+                                                    </figure>
+                                                    <div class="col-sm-8 offset-1">
+                                                        <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
+                                                            Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
+                                                            en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
+                                                        antitabaco. <a href="#"> <em> (ver mas) </em> </a>
+                                                        </p>
+                                                        <p>xxx</p>
+                                                    </div>
+                                                    </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="tab-pane" id="tab2">
+                                        2
+                                    </div>
+                                    <div class="tab-pane" id="tab3">
+                                        3
+                                    </div>
+                                    <div class="tab-pane" id="tab4">
+                                        4
+                                    </div>
+                                    <div class="tab-pane" id="tab5">
+                                        5
+                                    </div>
+                                </div>
+                                <div class="navbar">
+                                        <div class="navbar-inner">
+                                        <div class="container">
+                                            <ul>
+                                                <li><a href="#tab1" data-toggle="tab">1</a></li>
+                                                <li><a href="#tab2" data-toggle="tab">2</a></li>
+                                                <li><a href="#tab3" data-toggle="tab">3</a></li>
+                                                <li><a href="#tab4" data-toggle="tab">4</a></li>
+                                                <li><a href="#tab5" data-toggle="tab">5</a></li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-12 date-time-title">
+                           <span>Bogotá hoy</span> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 date-time" id="reloj">
+                           Fecha y hora
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" >
+                        </div>
+                        <div class="col-md-4">
+                            <img  src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" >
+                        </div>
+                        <div class="col-md-4">
+                            <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" >
+                        </div>
+                    </div>  
+                    <div class="mt-3">
+                        <div class="col-12" style="height:200px;">
+                            <div id='calendar'></div>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+            
+        </div>        
+    </div>
+    <div class="row mb-3">
+        <div class="col-3 offset-1">
+            <img class="d-block altura" src="{{asset("images/news/LogoAutorregulacion.svg")}}" alt="autorregulación" style="height: 80px;">
+        </div>
+        <div class="col-4" style="margin-left">
+            <div class="d-block mt-3">
+                <a href="#" class="boton-register">
+                    {{-- <img src="{{asset("images/news/BotonRegistresuEstablecimientocontexto.svg")}}" alt="registre aquín" style="height: 35px; margin-left: 5px"> --}}
+                    Registre aquí su establecimiento
+                </a>                
+            </div>
+            <div class="d-block mt-3" style="margin-top: 15px;">
+                <a href="" class="boton-consult">
+                    Consulte aquí establecimientos con concepto favorable
+                   {{--  <img src="{{asset("images/news/BotonConsulteEstablecimientocontexto.svg")}}" alt="autorregulación" style="height: 37px; margin-left: 5px;"> --}}
+                </a>                
+            </div>  
+        </div>
+        <div class="col-4 ">
+            <a href="">
+                <img src="{{asset("images/news/ExcelenciaSanitaria.jpg")}}" alt="Excelencia sanitaria" >
+            </a>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row mb-3">
+                    <img class="d-block w-100" src="{{asset("images/indicators/IndicadorDestacado.png")}}" alt="Indicador principal">
+                </div>            
+            </div>    
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row mb-3">
+                    <div class="contactenos col-12">
+                        <div class="col-8">
+                            <form class="form-contactenos">
+                                <div class="row align-items-start mt-4">
+                                    <div class="col-4 icono-contactenos media">
+                                        <img src="{{asset("images/contactenos/IconoContactenos.svg")}}" alt="" style="width: 70px;">
+                                        <div>
+                                            <h3 class="pt-3">Contáctenos</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 offset-2 pt-4">
+                                        <label >Eres:&nbsp;&nbsp;</label>  
+                                        <label class="radio-inline">
+                                                Propietario  <input type="radio" name="optradio" checked> &nbsp;&nbsp;
+                                        </label>
+                                        <label class="radio-inline">
+                                            Ciudadano <input type="radio" name="optradio">
+                                        </label>                                        
+                                    </div>
+                                </div>
+                                <div class="row justify-content-start mt-5">
+                                    <div class="col-12">                                        
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group row">
+                                                    <label for="Nombre" class="col-sm-2 col-form-label">Nombre:</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="email" class="form-control" id="nombre" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group row">
+                                                    <label for="Nombre" class="col-sm-3 col-form-label">Localidad:</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="email" class="form-control" id="localidad" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group row">
+                                                    <label for="Nombre" class="col-sm-3 col-form-label">Teléfono:</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="email" class="form-control" id="telefono" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group row">
+                                                    <label for="Nombre" class="col-sm-5 col-form-label">Tema de interes:</label>
+                                                    <div class="col-sm-7">
+                                                        <input type="email" class="form-control" id="ltemaInteres" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>      
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group row">
+                                                    <label for="Nombre" class="col-sm-3 col-form-label">E-mail:</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="email" class="form-control" id="e-mail" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group row">
+                                                    <label for="Nombre" class="col-sm-5 col-form-label">Comentarios:</label>
+                                                    <div class="col-sm-7">
+                                                        <input type="email" class="form-control" id="comentarios" placeholder="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                
+                                    </div>                                        
+                                </div>
+                            </form>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <a href="#">
+                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>    
+        </div>
+    </div>
+    
+@endsection
+@section('scripts')
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+    
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+        plugins: [  'dayGrid' ],
+        defaultDate: '2019-06-12',
+        editable: true,
+        lang: 'es',
+        eventLimit: true, // allow "more" link when too many events
+        events: [
+            {
+            title: 'All Day Event',
+            start: '2019-06-01'
+            },
+            {
+            title: 'Long Event',
+            start: '2019-06-07',
+            end: '2019-06-10'
+            },
+            {
+            groupId: 999,
+            title: 'Repeating Event',
+            start: '2019-06-09T16:00:00'
+            },
+            {
+            groupId: 999,
+            title: 'Repeating Event',
+            start: '2019-06-16T16:00:00'
+            },
+            {
+            title: 'Conference',
+            start: '2019-06-11',
+            end: '2019-06-13'
+            },
+            {
+            title: 'Meeting',
+            start: '2019-06-12T10:30:00',
+            end: '2019-06-12T12:30:00'
+            },
+            {
+            title: 'Lunch',
+            start: '2019-06-12T12:00:00'
+            },
+            {
+            title: 'Meeting',
+            start: '2019-06-12T14:30:00'
+            },
+            {
+            title: 'Happy Hour',
+            start: '2019-06-12T17:30:00'
+            },
+            {
+            title: 'Dinner',
+            start: '2019-06-12T20:00:00'
+            },
+            {
+            title: 'Birthday Party',
+            start: '2019-06-13T07:00:00'
+            },
+            {
+            title: 'Click for Google',
+            url: 'http://google.com/',
+            start: '2019-06-28'
+            }
+        ]
+        });
+    
+        calendar.render();
+    
+        calendar.setOption('locale','es');
+    });      
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap-wizard/1.2/jquery.bootstrap.wizard.js"></script>
+<script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
+@endsection
