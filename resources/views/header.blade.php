@@ -22,7 +22,7 @@
             </div>
             <div class="row align-items-center justify-content-md-center">
                 <div class="col-8">
-                    <h2 class="title-text">Salud Ambiental de Bogotá</h2>
+                    <h1 class="title-text">Salud Ambiental de Bogotá</h1>
                 </div>
             </div>
             <div class="row justify-content-start">
