@@ -25,13 +25,16 @@
             
     </head>
     <body>
-        <div class="wrapper">
+        <div class="wrapper" style="min-width: 768px;">
             <!-- Inicio header -->
             @include("header")
             <!-- Fin header -->
         </div> 
         <div class="content-wrapper">
             @yield('contenido')
+        </div>
+        <div class="wrapper">
+            @include('footer')
         </div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

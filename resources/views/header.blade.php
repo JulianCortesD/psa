@@ -2,7 +2,7 @@
     <div class="header ">
         <div class="container-fluid">
             <div class="row align-items-start justify-content-between">
-                <div class="col-12 col-md-3">
+                <div class="col-3">
                         <img src="{{asset("images/header/LogoAlcaldia.svg")}}" alt="Alcaldía Bogotá" style="height: 30px;">
                     {{-- <div class="css-shapes-preview">
                         <div class="interno">
@@ -10,8 +10,8 @@
                         </div> 
                     </div>   --}}  
                 </div>
-                <div class="col-12 col-md-8 ">
-                    <div class="row justify-content-md-end">
+                <div class="col-8 ">
+                    <div class="row justify-content-end">
                         <div class="search ">
                             <input type="search" name="busqueda" class="inputsearch">
                             {{-- <span class="icon"><i class="fa fa-search"></i></span> --}}
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center justify-content-md-center">
+            <div class="row align-items-center justify-content-center">
                 <div class="col-8">
                     <h1 class="title-text">Salud Ambiental de Bogotá</h1>
                 </div>
@@ -33,35 +33,35 @@
                         <img class="left-option" src="{{asset("images/header/IconoAccesibilidadOido.svg")}}" alt="Alcaldía Bogotá" >
                     </div> 
                 </div>
-                <div class="col-8 offset-2">
+                <div class="col-9">
                     <div class="row row justify-content-end">
-                        <div class="col-sm-2 menu-header">
+                        <div class="col-3 menu-header">
                             <div class="row">
                                 <div class="d-inline-block">
                                     <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
                                 </div>
                                 <div class="d-inline menu-header-interno">
-                                    <p>Política Distrital de <br> Salud Ambiental</p> 
+                                    <label>Política Distrital de <br> Salud Ambiental</label> 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-2 menu-header">
+                        <div class="col-3 menu-header">
                             <div class="row">
                                 <div class="d-inline-block ">
                                     <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoParticipacionCiudadana.svg")}}" alt=""  >
                                 </div>
                                 <div class="d-inline menu-header-interno">
-                                    <p>Participación <br> Ciudadana</p> 
+                                    <label>Participación <br> Ciudadana</label> 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-2 menu-header">
+                        <div class="col-3 menu-header">
                             <div class="row">
                                 <div class="d-inline-block">
                                     <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoVigilanciaSaludAmbiental.svg")}}" alt=""  >
                                 </div>
                                 <div class="d-inline menu-header-interno">
-                                    <p>Vigilancia de la <br> Salud Ambiental</p> 
+                                    <label>Vigilancia de la <br> Salud Ambiental</label> 
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="{{asset("noticias")}}">
                         <img src="{{asset("images/header/IconoHomeMenu.svg")}}" alt="home" style="height: 30px">
                     </a>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">

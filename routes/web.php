@@ -12,4 +12,8 @@
 */
 
 Route::get('/','InicioController@index');
-Route::get('/noticias','InicioController@index')->name('noticias');
+Route::get('/home','InicioController@index')->name('home');
+Route::get('/indicadores','IndicadorController@index')->name('indicadores');
+Route::get('/conceptos','ConceptosController@index')->name('conceptos');
+Route::get('/noticias','NewsController@index')->name('noticias');
+
