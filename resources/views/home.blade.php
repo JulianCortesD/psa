@@ -285,7 +285,9 @@
     <div class="wrapper min-ancho">
         <div class="row mb-3">
                 <div class="col-md-3 col-sm-4">
-                    <img class="d-block altura" src="{{asset("images/news/LogoAutorregulacion.svg")}}" alt="autorregulación" style="height: 80px;">
+                    <a href="http://autorregulacion.saludcapital.gov.co">
+                        <img class="d-block altura" src="{{asset("images/news/LogoAutorregulacion.svg")}}" alt="autorregulación" style="height: 80px;">
+                    </a>
                 </div>
                 <div class="col-md-2 col-sm-4" >
                     <div class="d-block mt-3">
