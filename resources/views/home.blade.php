@@ -75,7 +75,7 @@
                                                             <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
                                                                 Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
                                                                 en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                                            antitabaco. <a href="#"> <em> (ver mas) </em> </a>
+                                                            antitabaco. <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                             </p>
                                                         </div>
                                                         <div class="row justify-content-end">
@@ -109,7 +109,7 @@
                                                             <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
                                                                 Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
                                                                 en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                                            antitabaco. <a href="#"> <em> (ver mas) </em> </a>
+                                                            antitabaco. <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                             </p>
                                                         </div>
                                                         <div class="row justify-content-end">
@@ -143,7 +143,7 @@
                                                             <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
                                                                 Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
                                                                 en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                                            antitabaco. <a href="#"> <em> (ver mas) </em> </a>
+                                                            antitabaco. <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                             </p>
                                                         </div>
                                                         <div class="row justify-content-end">
@@ -177,7 +177,7 @@
                                                             <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
                                                                 Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
                                                                 en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                                            antitabaco. <a href="#"> <em> (ver mas) </em> </a>
+                                                            antitabaco. <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                             </p>
                                                         </div>
                                                         <div class="row justify-content-end">
@@ -211,7 +211,7 @@
                                                             <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
                                                                 Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
                                                                 en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                                            antitabaco. <a href="#"> <em> (ver mas) </em> </a>
+                                                            antitabaco. <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                             </p>
                                                         </div>
                                                         <div class="row justify-content-end">
@@ -303,7 +303,7 @@
                 </div>
                 <div class="col-md-2 col-sm-4">
                     <div class="d-block mt-3" style="margin-top: 15px;">
-                        <a href="" class="boton-consul">
+                        <a href="{{asset("conceptos")}}" class="boton-consul">
                             {{--   Consulte aquí establecimientos con concepto favorable --}}
                             <img src="{{asset("images/news/BotonConsulteEstablecimiento.svg")}}" alt="autorregulación" style="height: 55px; margin-left: 5px;"> 
                         </a>                
@@ -313,7 +313,7 @@
                 <div class="col-md-2 col-sm-4 offset-sm-2 offset-md-0" >
                     <div class="d-block mt-3">
                         <a href="#" class="boton-registe">
-                                <img src="{{asset("images/news/BotonConsulteEstablecimiento2.svg")}}" alt="registre aquín" style="height: 55px; margin-left: 5px">
+                                <img src="{{asset("images/news/BotonConsulteEstablecimiento2.svg")}}" alt="registre aquí" style="height: 55px; margin-left: 5px">
                         </a>                
                     </div>
                 </div>

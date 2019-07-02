@@ -3,6 +3,7 @@
     Noticias
 @endsection
 @section('styles')
+<link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/news.css")}}" />
 <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/indicator.css")}}" />
 @endsection
 @section('contenido')
@@ -92,143 +93,168 @@
             </div>
 
            <div class="row">
-                <div class="col-6">
-                    <section class="content">
-                        <div class="content-inside">
-                            <div class="header-content row col-sm-12">
-                                <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
-                            </div>
-                            <div class="row cont-inside">
-                                <figure class="img-content col-sm-3 ">
-                                    <img src="{{asset("images/news/Silueta.png")}}">
-                                </figure>
-                                <div class="col-sm-8 offset-1">
-                                    <div class="row">
-                                        <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
-                                            Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
-                                            en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                        antitabaco. <a href="#"> <em> (ver mas) </em> </a>
-                                        </p>
+                <div class="col-6" >
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <section class="content">
+                                <div class="content-inside">
+                                    <div class="header-content row col-sm-12">
+                                        <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
                                     </div>
-                                    <div class="row justify-content-end">
-                                        <div >
-                                            <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                    <div class="row cont-inside">
+                                    <div class="col-12">                                      
+                                        <div class="row">
+                                            <div class="col-10-justify-content-center" style="padding:10px;">
+                                                <img src="{{asset("images/news/Silueta.png")}}" class="rounded float-left">
+                                                <p style="text-align:justify;">Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
+                                                    Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
+                                                    en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
+                                                antitabaco. 
+                                                </p>
+                                                <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
+                                                </p style="text-align:justify;">
+                                            </div>                                            
                                         </div>
-                                        <div >
-                                            <img  src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
-                                        </div>
-                                        <div >
-                                            <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
-                                        </div>
-                                    </div>  
+                                        <div class="row justify-content-end">
+                                            <div>
+                                                <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                                            </div>
+                                        </div> 
+                                    </div>                                        
                                 </div>
-                                </div>
+                            </section>
                         </div>
-                    </section>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <section class="content">
-                        <div class="content-inside">
-                            <div class="header-content row col-sm-12">
-                                <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
-                            </div>
-                            <div class="row cont-inside">
-                                <figure class="img-content col-sm-3 ">
-                                    <img src="{{asset("images/news/Silueta.png")}}">
-                                </figure>
-                                <div class="col-sm-8 offset-1">
-                                    <div class="row">
-                                        <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
-                                            Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
-                                            en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                        antitabaco. <a href="#"> <em> (ver mas) </em> </a>
-                                        </p>
+                <div class="col-6" >
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <section class="content">
+                                <div class="content-inside">
+                                    <div class="header-content row col-sm-12">
+                                        <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
                                     </div>
-                                    <div class="row justify-content-end">
-                                        <div >
-                                            <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                    <div class="row cont-inside">
+                                    <div class="col-12">                                      
+                                        <div class="row">
+                                            <div class="col-10-justify-content-center" style="padding:10px;">
+                                                <img src="{{asset("images/news/Silueta.png")}}" class="rounded float-left">
+                                                <p style="text-align:justify;">Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
+                                                    Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
+                                                    en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
+                                                antitabaco. 
+                                                </p>
+                                                <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
+                                                </p style="text-align:justify;">
+                                            </div>                                            
                                         </div>
-                                        <div >
-                                            <img  src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
-                                        </div>
-                                        <div >
-                                            <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
-                                        </div>
-                                    </div>  
+                                        <div class="row justify-content-end">
+                                            <div>
+                                                <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                                            </div>
+                                        </div> 
+                                    </div>                                        
                                 </div>
-                                </div>
+                            </section>
                         </div>
-                    </section>
+                    </div>
                 </div>
            </div>
+
            <div class="row">
-                <div class="col-6">
-                    <section class="content">
-                        <div class="content-inside">
-                            <div class="header-content row col-sm-12">
-                                <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
-                            </div>
-                            <div class="row cont-inside">
-                                <figure class="img-content col-sm-3 ">
-                                    <img src="{{asset("images/news/Silueta.png")}}">
-                                </figure>
-                                <div class="col-sm-8 offset-1">
-                                    <div class="row">
-                                        <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
-                                            Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
-                                            en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                        antitabaco. <a href="#"> <em> (ver mas) </em> </a>
-                                        </p>
+                <div class="col-6" >
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <section class="content">
+                                <div class="content-inside">
+                                    <div class="header-content row col-sm-12">
+                                        <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
                                     </div>
-                                    <div class="row justify-content-end">
-                                        <div >
-                                            <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                    <div class="row cont-inside">
+                                    <div class="col-12">                                      
+                                        <div class="row">
+                                            <div class="col-10-justify-content-center" style="padding:10px;">
+                                                <img src="{{asset("images/news/Silueta.png")}}" class="rounded float-left">
+                                                <p style="text-align:justify;">Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
+                                                    Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
+                                                    en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
+                                                antitabaco. 
+                                                </p>
+                                                <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
+                                                </p style="text-align:justify;">
+                                            </div>                                            
                                         </div>
-                                        <div >
-                                            <img  src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
-                                        </div>
-                                        <div >
-                                            <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
-                                        </div>
-                                    </div>  
+                                        <div class="row justify-content-end">
+                                            <div>
+                                                <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                                            </div>
+                                        </div> 
+                                    </div>                                        
                                 </div>
-                                </div>
+                            </section>
                         </div>
-                    </section>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <section class="content">
-                        <div class="content-inside">
-                            <div class="header-content row col-sm-12">
-                                <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
-                            </div>
-                            <div class="row cont-inside">
-                                <figure class="img-content col-sm-3 ">
-                                    <img src="{{asset("images/news/Silueta.png")}}">
-                                </figure>
-                                <div class="col-sm-8 offset-1">
-                                    <div class="row">
-                                        <p>Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
-                                            Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
-                                            en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
-                                        antitabaco. <a href="#"> <em> (ver mas) </em> </a>
-                                        </p>
+                <div class="col-6" >
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <section class="content">
+                                <div class="content-inside">
+                                    <div class="header-content row col-sm-12">
+                                        <span>Bogotá intensifica operativos para verificar el cumplimiento de las normas antitabaco.</span>
                                     </div>
-                                    <div class="row justify-content-end">
-                                        <div >
-                                            <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                    <div class="row cont-inside">
+                                    <div class="col-12">                                      
+                                        <div class="row">
+                                            <div class="col-10-justify-content-center" style="padding:10px;">
+                                                <img src="{{asset("images/news/Silueta.png")}}" class="rounded float-left">
+                                                <p style="text-align:justify;">Con el objetivo de desistimular el consumo de tabaco y promover los espacios libres de humo, la 
+                                                    Secretraría Distrital de Salud (SDS) ha desarollado este año acciones de inspección, vigilancia y control
+                                                    en 16.239 establecimientos abiertos al público  de los cuales, en 1.054 se detectaron incumplientos a la ley 
+                                                antitabaco. 
+                                                </p>
+                                                <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
+                                                </p style="text-align:justify;">
+                                            </div>                                            
                                         </div>
-                                        <div >
-                                            <img  src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
-                                        </div>
-                                        <div >
-                                            <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
-                                        </div>
-                                    </div>  
+                                        <div class="row justify-content-end">
+                                            <div>
+                                                <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                                            </div>
+                                            <div>
+                                                <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                                            </div>
+                                        </div> 
+                                    </div>                                        
                                 </div>
-                                </div>
+                            </section>
                         </div>
-                    </section>
+                    </div>
                 </div>
            </div>
             

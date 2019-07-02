@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-9">
                     <div class="row row justify-content-end">
-                        <div class="col-3 menu-header">
+                        <div class="col-3 col-lg-2 menu-header">
                             <div class="row">
                                 <div class="d-inline-block">
                                     <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 menu-header">
+                        <div class="col-3 col-lg-2 menu-header">
                             <div class="row">
                                 <div class="d-inline-block ">
                                     <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoParticipacionCiudadana.svg")}}" alt=""  >
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 menu-header">
+                        <div class="col-3 col-lg-2 menu-header">
                             <div class="row">
                                 <div class="d-inline-block">
                                     <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoVigilanciaSaludAmbiental.svg")}}" alt=""  >
@@ -79,7 +79,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="{{asset("noticias")}}">
+                    <a class="navbar-brand" href="{{asset("home")}}">
                         <img src="{{asset("images/header/IconoHomeMenu.svg")}}" alt="home" style="height: 30px">
                     </a>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
