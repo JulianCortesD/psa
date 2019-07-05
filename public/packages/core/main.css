@@ -12,7 +12,12 @@ Docs & License: https://fullcalendar.io/
 
 body .fc {
   /* extra precedence to overcome jqui */
-  font-size: 1em; }
+  /* font-size: 1em;  */
+  font-size: 0.55em; 
+  margin-left: -30px;
+  margin-right: -30px;
+  background-color: #429de2;
+}
 
 /* Colors
 --------------------------------------------------------------------------------------------------*/
@@ -188,9 +193,9 @@ temporary rendered events).
 .fc .fc-row .fc-mirror-skeleton td {
   /* see-through to the background below */
   /* extra precedence to prevent theme-provided backgrounds */
-  background: none;
-  /* in case <td>s are globally styled */
-  border-color: transparent; }
+  border-color: #3788d8;
+
+}
 
 .fc-row .fc-content-skeleton td,
 .fc-row .fc-mirror-skeleton td {
@@ -490,7 +495,13 @@ TODO: more distinction between this file and common.css
 .fc-unthemed .fc-popover,
 .fc-unthemed .fc-list-view,
 .fc-unthemed .fc-list-heading td {
-  border-color: #ddd; }
+  /* border-color: #ddd;  */
+  border-color: #009de2;
+  background-color: #ffffff;
+  color: #009de2;
+  font-size: 10px;
+  font-family: GothamRoundedBold;
+}
 
 .fc-unthemed .fc-popover {
   background-color: #fff; }
@@ -703,7 +714,13 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
   align-items: center; }
 
 .fc-toolbar.fc-header-toolbar {
-  margin-bottom: 1.5em; }
+  /* margin-bottom: 1.5em;  */
+  margin-bottom: 0.5em;
+  background-color: #429de2;
+  padding-left: 10;
+  color: #2c3e50;
+  font-family: GothamRoundedBold;
+}
 
 .fc-toolbar.fc-footer-toolbar {
   margin-top: 1.5em; }
@@ -714,7 +731,9 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 
 .fc-toolbar h2 {
   font-size: 1.75em;
-  margin: 0; }
+  margin: 0; 
+  font-family: GothamRoundedBold;
+}
 
 /* View Structure
 --------------------------------------------------------------------------------------------------*/
@@ -898,3 +917,7 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
   .fc button {
     display: none;
     /* don't display any button-related controls */ } }
+/*-----------------------------------------------------------------------------------*/
+.fc-widget-header {
+  margin-right: -1px !important;
+}

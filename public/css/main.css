@@ -12,19 +12,10 @@ body{
     background-color: #019EE2;
     /*padding-left: 4%;*/
     padding-top: 25px;
-
 }
 
-.css-shapes-preview{ 
-    position: relative; 
-    /* height: 30px;  */
-    width: 261px; 
-    padding: 4px; 
-    background-color: #FFFFFF; 
-    margin-left: 10%;
-    top: 0px; 
-    transform: skew(338deg); 
-    -webkit-transform: skew(338deg); 
+.dropdown-toggle::after {
+    display:none;
 }
 
 .interno{
@@ -88,13 +79,25 @@ body{
 }
 
 .menu-down-header {
-    font-size: 11px;
+    font-size: 9px;
 }
 
 .nav-link {
     display: inline-flex;
     border-left: 1px solid white;
     color: white;
+}
+
+.redes {
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    width: 47px !important;
+    margin-left: -15px;
+    height: 44.5px;
+    border: solid 1.1px #0093d7;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .carousel-news {
@@ -138,6 +141,7 @@ body{
     margin-bottom: 15px;
     padding:0;
     display:inline-block;
+    font-family: GothamRoundedBold, Arial, Helvetica, sans-serif;
 }
 
 .nav-menu{
@@ -148,6 +152,26 @@ body{
     padding:0 !important;
     display:inline-block !important;
 }
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: white;
+    background-color: #019ee2;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 1px #019ee2;
+    color: #019ee2;
+}
+
 .jumbotron figure{
     display:inline-block !important;
     margin-left:-10px;
@@ -315,6 +339,20 @@ body{
 .form-contact{
     background-image: url('./imgs/Imagenes y fondos/PNG/Mesa de trabajo 124@72x.png');
     height:313px;
+}
+
+.container-boton-enviar {
+    height: 40;
+    width: 100px;
+    background-color: #003e67;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.rectangulo-boton-enviar {
+    width: 80;
+    height: 28px;
+    border: solid 0.7px #ffffff;
 }
 
 .preguntas{

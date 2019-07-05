@@ -8,6 +8,17 @@
 @section('contenido')
     <div class="wrapper min-ancho">
         <div class="container-fluid">
+            <div >
+                <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px">
+                    <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
+                </a>    
+                <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px">
+                    <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
+                </a> 
+                <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px">
+                    <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
+                </a>             
+            </div>
             <div id="carouselExampleIndicators" class="carousel slide carousel-news" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -81,13 +92,13 @@
                     </div>    
                     <div class="row">
                         <div class="col-4">
-                            <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" >
+                            <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" style="margin-left: -15px;">
                         </div>
                         <div class="col-4">
-                            <img  src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" >
+                            <img  src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" style="margin-left: -8px; margin-right: -8px">
                         </div>
                         <div class="col-4">
-                            <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" >
+                            <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" style="margin-right: -15px;">
                         </div>
                     </div>             
                 </div>
