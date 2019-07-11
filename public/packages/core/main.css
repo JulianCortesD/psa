@@ -210,7 +210,10 @@ temporary rendered events).
 /* Scrolling Container
 --------------------------------------------------------------------------------------------------*/
 .fc-scroller {
-  -webkit-overflow-scrolling: touch; }
+  -webkit-overflow-scrolling: touch;
+  overflow: hidden !important;
+  height: auto !important;
+}
 
 /* TODO: move to timegrid/daygrid */
 .fc-scroller > .fc-day-grid,

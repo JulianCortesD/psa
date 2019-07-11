@@ -94,7 +94,9 @@
                             <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" style="margin-left: -15px;">
                         </div>
                         <div class="col-4">
-                            <img  src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" style="margin-left: -8px; margin-right: -8px">
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
+                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" style="margin-left: -8px; margin-right: -8px">
+                            </a>
                         </div>
                         <div class="col-4">
                             <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" style="margin-right: -15px;">
@@ -105,40 +107,39 @@
 
             <div class="row mt-5">
                 <div class="col-6">
-                    <img class="d-block w-100 altura" src="{{asset("images/indicators/LogoAireRuidoREM.png")}}" alt="" style="height:113px;">
+                    <img class="d-block altura" src="{{asset("images/indicators/LogoAireRuidoREM.png")}}" alt="" >
                 </div>
                 <div class="col-6">
-                    <img class="d-block w-100 altura" src="{{asset("images/indicators/LogoEspacioyMovilidad.png")}}" alt="" style="height:113px;">
+                    <img class="d-block altura" src="{{asset("images/indicators/LogoEspacioyMovilidad.png")}}" alt="" >
                 </div>
             </div>
 
             <div class="row mt-3">
                 <div class="col-6">
-                    <img class="d-block w-100 altura" src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="" style="height:113px;">
+                    <img class="d-block altura" src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="" >
                 </div>
                 <div class="col-6">
-                    <img class="d-block w-100 altura" src="{{asset("images/indicators/LogoMedicamentosSeguros.png")}}" alt="" style="height:113px;">
+                    <img class="d-block altura" src="{{asset("images/indicators/LogoMedicamentosSeguros.png")}}" alt="">
                 </div>
             </div>
 
             <div class="row mt-3">
                 <div class="col-6">
-                    <img class="d-block w-100 altura" src="{{asset("images/indicators/LogoAguaSaneamiento.png")}}" alt="" style="height:113px;">
+                    <img class="d-block altura" src="{{asset("images/indicators/LogoAguaSaneamiento.png")}}" alt="" >
                 </div>
                 <div class="col-6">
-                    <img class="d-block w-100 altura" src="{{asset("images/indicators/LogoSeguridadQuimica.png")}}" alt="" style="height:113px;">
+                    <img class="d-block altura" src="{{asset("images/indicators/LogoSeguridadQuimica.png")}}" alt="" >
                 </div>
             </div>
 
             <div class="row mt-3">
                 <div class="col-6">
-                    <img class="d-block w-100 altura" src="{{asset("images/indicators/LogoCambioClimatico.png")}}" alt="" style="height:113px;">
+                    <img class="d-block  altura" src="{{asset("images/indicators/LogoCambioClimatico.png")}}" alt="" >
                 </div>
                 <div class="col-6">
-                    <img class="d-block w-100 altura" src="{{asset("images/indicators/LogoETOZ.png")}}" alt="" style="height:113px;">
+                    <img class="d-block altura" src="{{asset("images/indicators/LogoETOZ.png")}}" alt="" >
                 </div>
-            </div>
-            
+            </div>            
         </div>        
     </div>    
 @endsection

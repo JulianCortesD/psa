@@ -45,22 +45,22 @@
                         
                 <div class="col-lg-3 col-6">
                     <a href="http://www.subrednorte.gov.co/">
-                        <img  class="right-bottom-menu" src="{{asset("images/footer/LogoRedNorte.png")}}" alt=""  style="height:60px;">
+                        <img  class="right-bottom-menu" src="{{asset("images/footer/LogoRedNorte.png")}}" alt=""  style="height:55px;">
                     </a>
                 </div>   
                 <div class="col-lg-3 col-6">
                     <a href="http://www.subredcentrooriente.gov.co/">
-                        <img  class="right-bottom-menu" src="{{asset("images/footer/LogoRedcentrooriente.png")}}" alt=""  style="height:60px;">
+                        <img  class="right-bottom-menu" src="{{asset("images/footer/LogoRedcentrooriente.png")}}" alt=""  style="height:55px;">
                     </a>
                 </div>  
                 <div class="col-lg-3 col-6">
                     <a href="http://www.subredsuroccidente.gov.co/">
-                        <img  class="right-bottom-menu" src="{{asset("images/footer/LogoRedSurOccidente.png")}}" alt=""  style="height:60px;">
+                        <img  class="right-bottom-menu" src="{{asset("images/footer/LogoRedSurOccidente.png")}}" alt=""  style="height:55px;">
                     </a>
                 </div> 
                 <div class="col-lg-3 col-6">
                     <a href="http://www.subredsur.gov.co/">
-                        <img  class="right-bottom-menu" src="{{asset("images/footer/LogoRedSur.png")}}" alt=""  style="height:60px;">
+                        <img  class="right-bottom-menu" src="{{asset("images/footer/LogoRedSur.png")}}" alt=""  style="height:55px;">
                     </a>
                 </div>  
             </div>            

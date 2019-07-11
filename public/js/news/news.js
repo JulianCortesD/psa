@@ -1,8 +1,26 @@
 $(function() {
     calendar();
     reloj();
-    $('#rootwizard').bootstrapWizard();
+    if ( $('#rootwizard').length ) {
+      $('#rootwizard').bootstrapWizard();
+    }    
+    submenus();
 });
+
+function submenus() {
+  $('.dropdown-submenu').on("click", function(e) {
+    console.log('kk bb')
+    var submenu = $(this);
+    $('.dropdown-submenu .dropdown-menu').removeClass('show');
+    submenu.find('a').next('.dropdown-menu').addClass('show');
+    e.stopPropagation();
+  });
+
+  $('.dropdown').on("hidden.bs.dropdown", function() {
+      // hide any open menus when parent closes
+      $('.dropdown-menu.show').removeClass('show');
+  });
+}
 
 function reloj(){ 
     var momentoActual = new Date(); 
@@ -26,7 +44,7 @@ function calendar() {
         var calendar = new FullCalendar.Calendar(calendarEl, {
           plugins: [ 'interaction', 'dayGrid' ],
           defaultDate: '2019-06-12',
-          editable: true,
+          editable: false,
           lang: 'es',
           eventLimit: true, // allow "more" link when too many events
           events: [

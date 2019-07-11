@@ -12,6 +12,7 @@ body{
     background-color: #019EE2;
     /*padding-left: 4%;*/
     padding-top: 25px;
+    padding-bottom: 10px;
 }
 
 .dropdown-toggle::after {
@@ -28,7 +29,7 @@ body{
 
 .icon {
     background-color: #033d65;
-    padding: 3.5px;
+    padding: 5.5px;
     margin-left: -6px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -80,6 +81,11 @@ body{
 
 .menu-down-header {
     font-size: 9px;
+}
+
+.titulo-tecnico {
+  background-color: #0093d7 !important;
+  color: white !important;
 }
 
 .nav-link {
@@ -299,7 +305,6 @@ body{
 
 .cont-inside{
     margin-top:30px;
-    
 }
 
 .img-content{
@@ -342,16 +347,16 @@ body{
 }
 
 .container-boton-enviar {
-    height: 40;
+    height: 29px;
     width: 100px;
     background-color: #003e67;
-    padding-left: 10px;
-    padding-top: 7px;
+    padding-left: 8px;
+    padding-top: 3px;
 }
 
 .rectangulo-boton-enviar {
-    width: 80;
-    height: 28px;
+    width: 84px;
+    height: 22px;
     border: solid 0.7px #ffffff;
 }
 
@@ -462,13 +467,91 @@ hr{
     color: white;
     font-size: 14px;
     padding: 10px;
-    margin-bottom: 15px;
     font-family: GothamRoundedBold, Arial, Helvetica, sans-serif;
+}
+
+.container-calendar { 
+    background-color: #003e67;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: GothamRoundedBold, Arial, Helvetica, sans-serif;
+    /* margin-left: -15px;
+    margin-right: -15px; */
+    padding-bottom: 10px;
+}
+
+.dropdown-submenu {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.dropdown-menu-izq {
+    left: -255px !important;
+}
+
+.input-group .input-group-prepend {
+    height: 2rem;
+    border-radius: 5px 0px 0px 5px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ddd;
+    color: #ffffff;
+    background-color: #003e67;
+}
+
+.concept-title {
+    height: 80px;
+    background-color: #89b450;
+    padding: 10px;
+}
+
+.titulo-contenido {
+    background-color: #003e67;
+    color: white;
+    font-family: GothamRoundedBold, Arial, Helvetica, sans-serif;
+    height: 40px;
+    font-size: 21px;
+    display: flex !important;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.fluid-left {
+    margin-left: -15px !important;
+}
+
+.fluid-right {
+    margin-right: -15px !important;
 }
 /*** Medias
 **/
 
-/* @media (max-width: 576px){
+.img-calidad-aire{
+    margin-left: -15px;
+    height: 75px;
+}
+.img-indice-uv{
+    margin-left: -12px;
+    height: 75px;
+}
+.img-clima-actual {
+    height: 75px;
+    margin-left: -8px;
+}
+
+@media (max-width: 576px){
     .search {
         margin-left: 8%;
         margin-top: 15px;
@@ -481,4 +564,108 @@ hr{
     .title-text {
         font-size: 27px;
     }
-} */
+} 
+/* 
+@media (min-width: 0px) {
+    .img-calidad-aire {
+        margin-left: -15px;
+        height: 75px;
+        width: 85;
+    }
+    .img-indice-uv {
+        margin-left: -14px;
+        height: 75px;
+        width: 85;
+    }
+    .img-clima-actual {
+        height: 75px;
+        margin-left: -12px;
+        width: 85;
+    }
+    .wrapper {
+        max-width: 768px;
+    }
+    
+} 
+
+@media (min-width: 768px) {
+    .img-calidad-aire {
+        margin-left: -15px;
+        height: 75px;
+        width: 85;
+    }
+    .img-indice-uv {
+        margin-left: -14px;
+        height: 75px;
+        width: 85;
+    }
+    .img-clima-actual {
+        height: 75px;
+        margin-left: -13px;
+        width: 85;
+    }
+    .wrapper {
+        max-width: 768px;
+    }
+} 
+
+@media (min-width: 992px) {
+    .img-calidad-aire {
+        margin-left: -15px;
+        width: 84px;
+    }
+    .img-indice-uv {
+        margin-left: -13px;
+        width: 84px;
+    }
+    .img-clima-actual {
+        margin-left: -10px;
+        width: 84px;
+    }
+    .wrapper, .wrapper-content {
+        max-width: 793px;
+    }
+    .menu-down-header {
+        font-size: 9px;
+    }
+} 
+
+@media (min-width: 1200px) {
+    .img-calidad-aire{
+        margin-left: -22px;
+        width: 116.5;
+        height: 75px;
+    }
+    .img-indice-uv{
+        margin-left: -21px;
+        width: 116.5;
+        height: 75px;
+    }
+    .img-clima-actual {
+        height: 75px;
+        width: 116.5;
+        margin-left: -18px;
+    }
+    .wrapper, .wrapper-content {
+        max-width: 1050px;
+    }
+    .menu-down-header {
+        font-size: 9px;
+    }
+}  */
+
+
+/* @media (max-width: 992px) {
+    .img-calidad-aire {
+        margin-left: -15px;
+        height: 62px;
+    }
+    .img-indice-uv {
+        margin-left: -14px;
+        height: 62px;
+    }
+    .img-clima-actual {
+        height: 62px;
+        margin-left: -13px;
+    }
+}  */

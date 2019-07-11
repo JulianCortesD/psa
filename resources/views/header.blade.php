@@ -10,7 +10,7 @@
                         </div> 
                     </div>   --}}  
                 </div>
-                <div class="col-8 ">
+                <div class="col-7 ">
                     <div class="row justify-content-end">
                         <div class="search ">
                             <input type="search" name="busqueda" class="inputsearch">
@@ -27,11 +27,11 @@
             </div>
             <div class="row justify-content-start">
                 <div class="col-2">
-                    <div class=" access-tool">
+                    {{-- <div class=" access-tool">
                         <img  class="left-option"src="{{asset("images/header/IconoOjoAccesibilidad.svg")}}" alt="Alcaldía Bogotá">
                         <br>
                         <img class="left-option" src="{{asset("images/header/IconoAccesibilidadOido.svg")}}" alt="Alcaldía Bogotá" >
-                    </div> 
+                    </div>  --}}
                 </div>
                 <div class="col-9">
                     <div class="row row justify-content-end">
@@ -90,15 +90,16 @@
                                 {{-- <span class="sr-only">(current)</span> --}}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Calidad del aire</a>
-                                <a class="dropdown-item" href="#">Espacios libres de humo</a>
-                                <a class="dropdown-item" href="#">Ruido</a>
-                                <a class="dropdown-item" href="#">Radiación electromagnética</a>
-                                <a class="dropdown-item" href="#">Indicadores</a>
+                                <a class="dropdown-item titulo-tecnico" href="{{asset("aire_ruido_rem")}}"> <em>Aire, ruido y REM</em> </a>
+                                <a class="dropdown-item" href="{{asset("aire_calidad")}}">Calidad del aire</a>
+                                <a class="dropdown-item" href="{{asset("aire_calidad_tabaco")}}">Espacios libres de humo</a>
+                                <a class="dropdown-item" href="{{asset("aire_calidad_ruido")}}">Ruido</a>
+                                <a class="dropdown-item" href="{{asset("aire_calidad_radiacion")}}">Radiación electromagnética</a>
+                                <a class="dropdown-item" href="{{asset("aire_indicadores")}}">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
-                                <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investiaciones</a>
-                                <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
+                                <a class="dropdown-item" href="{{asset("aire_mapas")}}">Mapas</a>
+                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                               {{--  <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -106,48 +107,93 @@
                                 <img src="{{asset("images/header/IconoMenuAlimentosSanos.svg")}}" alt="Alimentos Sanos" style="height: 28px;  margin-right: 5px;">
                                 <div>Alimentos <br> y bebidas</div>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Alertas</a>
-                                <a class="dropdown-item" href="#">Restaurantes 1A</a>
-                                <a class="dropdown-item" href="#">Expendio de carnes y cárnicos comestibles</a>
-                                <a class="dropdown-item" href="#">Vehículos transportadoes</a>
-                                <a class="dropdown-item" href="#">Establecimientos con concepto favorable</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item titulo-tecnico" href="#"> <em>Alimentos sanos y seguros</em> </a>
+                                <a class="dropdown-item" href="https://app.invima.gov.co/alertas/alertas-alimentos-bebidas">Alertas</a>
+                                <a class="dropdown-item" href="http://autorregulacion.saludcapital.gov.co/buenpropietario#estrategiasexcelencia">Restaurantes 1A</a>
+                                <li class="dropdown-item dropdown-submenu">
+                                    <a >Expendio de carnes y cárnicos comestibles</a>
+                                    <ul class="dropdown-menu">
+                                        <a href="http://autorregulacion.saludcapital.gov.co/carnicerias">
+                                            <li class="dropdown-item">
+                                                Inscripción Sanitaria
+                                            </li>
+                                        </a>
+                                        <a href="http://appb.saludcapital.gov.co/SivigilaDC/Login.aspx">
+                                            <li class="dropdown-item">
+                                             Autorización sanitaria
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-item dropdown-submenu">
+                                    <a>Vehículos transportadores</a>
+                                    <ul class="dropdown-menu">
+                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&amp;n=&amp;Origen=Login">
+                                            <li class="dropdown-item">
+                                                Cárnicos
+                                             </li>   
+                                        </a>
+                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&amp;n=&amp;Origen=Login">
+                                            <li class="dropdown-item">
+                                                Alimentos
+                                            </li>
+                                        </a>                                        
+                                    </ul>
+                                </li>
+                                <a class="dropdown-item" href="{{asset("conceptos")}}">Establecimientos con concepto favorable</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
-                                <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investiaciones</a>
-                                <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
-                            </div>
+                                {{-- <a class="dropdown-item" href="#">Mapas</a> --}}
+                                {{-- <a class="dropdown-item" href="#">Documentos e investigaciones</a> --}}
+                                {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src="{{asset("images/header/IconoMenuAguaySaneamiento.svg")}}" alt="Agua y Saneamiento" style="height: 28px;  margin-right: 5px;">
                                 <div>Agua y <br> saneamiento</div>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Carro tanques</a>
+                            <ul class="dropdown-menu" >
+                                <a class="dropdown-item titulo-tecnico" href="#"> <em>Calidad del agua y Sanemaiento Básico</em> </a>
+                                <li class="dropdown-item dropdown-submenu">
+                                    <a>Carro tanques</a>
+                                    <ul class="dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a href="https://drive.google.com/open?id=1viKWkuMqYlujwWnJLNfSfXw_ARKD9THh">
+                                            <li class="dropdown-item">
+                                                Lista de vehículos
+                                            </li>
+                                        </a>
+                                        <a href="https://drive.google.com/open?id=1fy8BouY9rKpWETj07mpzjTrtf293_GB_">
+                                            <li class="dropdown-item">
+                                             Lista de coches fúnebres
+                                            </li>
+                                        </a>                                        
+                                    </ul>
+                                </li> 
                                 <a class="dropdown-item" href="#">Hogares para persona mayor</a>
-                                <a class="dropdown-item" href="#">Establecimientos con concepto favorable</a>
+                                <a class="dropdown-item" href="{{asset("conceptos")}}">Establecimientos con concepto favorable</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investiaciones</a>
-                                <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
-                            </div>
+                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                                {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src="{{asset("images/header/IconoMenuCambioClimatico.svg")}}" alt="Cambio climatico" style="height: 28px;  margin-right: 5px;">
                                 <div>Cambio <br> climatico</div>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Indice de radicaón UV</a>
-                                <a class="dropdown-item" href="#">Indice de vulnerabilidad</a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item titulo-tecnico" href="#"><em>Cambio Climático</em> </a>
+                                <a class="dropdown-item" href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">Índice de radicaón UV</a>
+                                <a class="dropdown-item" href="https://drive.google.com/open?id=1qQLcL0pdxRg6FWcKoUIH7WPqhE5Ndog-">Índice de vulnerabilidad</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investiaciones</a>
-                                <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
+                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                                {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -156,10 +202,11 @@
                                 <div>Espacio y <br> movilidad</div>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item titulo-tecnico" href="#"> <em>Hábitat, Espacio público y movilidad</em> </a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investiaciones</a>
+                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
                                 <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
                             </div>
                         </li>
@@ -169,14 +216,15 @@
                                 <div>Medicamentos y <br> dispositvos médicos</div>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item titulo-tecnico" href="#"> <em>Medicamentos Seguros</em> </a>
                                 <a class="dropdown-item" href="#">Requisitos para apertura y funcionamiento establecimientos</a>
                                 <a class="dropdown-item" href="#">Alertas sanitarias</a>
                                 <a class="dropdown-item" href="#">Establecimiento con concepto favorable</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investiaciones</a>
-                                <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
+                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                               {{--  <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -185,14 +233,15 @@
                                 <div>Productos químicos, <br> industria y belleza</div>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Sector belleza y estética</a>
-                                <a class="dropdown-item" href="#">Proyecto PISAs</a>
-                                <a class="dropdown-item" href="#">Establecimiento con concepto favorable</a>
+                                <a class="dropdown-item titulo-tecnico" href="#"><em>Seguridad Química</em> </a>
+                                <a class="dropdown-item" href="http://www.saludcapital.gov.co/SectorBelleza/Paginas/Inicio.aspx">Sector belleza y estética</a>
+                                <a class="dropdown-item" href="http://appb.saludcapital.gov.co/microsivigiladc/ServiciosComuni5.aspx">Proyecto PISA</a>
+                                <a class="dropdown-item" href="{{asset("conceptos")}}">Establecimiento con concepto favorable</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investiaciones</a>
-                                <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
+                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                                {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -200,7 +249,8 @@
                                 <img  src="{{asset("images/header/IconoMenuZoonosisyVectores.svg")}}" alt="Zoonosis" style="height: 28px;  margin-right: 5px;">
                                 <div>Zoonosis <br> y vectores</div>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="dropdown-menu dropdown-menu-izq" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item titulo-tecnico" href="#"><em>Eventos Transmisibles de Origen <br> Zoonótico ETOZ</em> </a>
                                 <a class="dropdown-item" href="#">Clínicas y consultorios veterinarios</a>
                                 <a class="dropdown-item" href="#">Vacunación antirrábica canina y felina</a>
                                 <a class="dropdown-item" href="#">Control de roedores e insectos</a>
@@ -208,8 +258,8 @@
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investiaciones</a>
-                                <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
+                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                                {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
                     </ul>
