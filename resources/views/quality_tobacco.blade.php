@@ -88,11 +88,9 @@
                     <div class="seccionIcono">
                     <img src="images/aire/IMG_AGUA_INDICADORES.jpg" width="85" height="63" alt="indicadores aire" />
                     </div>
-                    <div class="sinSaltoLinea">No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando
-                    esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales
-                    contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker,
-                    el cual incluye versiones de Lorem Ipsum.miten mostrar las principales acciones afines con la implementación de
-                    la norma de espacios libres de humo de tabaco y la frecuencia de la exposición al humo de tabaco en Bogotá. </div>
+                    <div class="sinSaltoLinea">
+                        Representan las tendencias de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá.                    
+                    </div>
                 </div>
 
 
@@ -101,9 +99,9 @@
                     <div class="seccionIcono">
                     <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="normas aire" />
                     </div>
-                    <div class="sinSaltoLinea">Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web
-                    que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los
-                    años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</div>
+                    <div class="sinSaltoLinea">
+                        Compilación de las normas expedidas por las diferentes organizaciones gubernamentales relacionadas con la calidad del aire.   
+                    </div>
                 </div>
 
 
@@ -112,9 +110,9 @@
                     <div class="seccionIcono">
                     <img src="images/aire/IMG_AIRE_MAPA.jpg" width="85" height="63" alt="mapas aire" />
                     </div>
-                    <div class="sinSaltoLinea">Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices
-                    en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera
-                    mas de 2000 años de antiguedad.</div>
+                    <div class="sinSaltoLinea">
+                        Aquí podrá observar la ubicación geográfica de las acciones de vigilancia ambiental, sintomatología y enfermedades respiratorias posiblemente asociadas con la exposición a contaminación del aire en Bogotá.
+                    </div>
                 </div>
 
 
@@ -123,9 +121,9 @@
                     <div class="seccionIcono">
                     <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="normas aire" />
                     </div>
-                    <div class="sinSaltoLinea">Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web
-                    que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los
-                    años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</div>
+                    <div class="sinSaltoLinea">
+                        Compendio de documentos e investigaciones relacionados con la contaminación del aire en Bogotá.
+                    </div>
                 </div>
 
 
