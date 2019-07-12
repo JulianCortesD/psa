@@ -12,6 +12,16 @@ class MovilidadController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function indexVerMas()
+    {
+        return view("movilidad/index_ver");
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
         return view("movilidad/index");

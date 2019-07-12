@@ -79,7 +79,7 @@
                         del espacio físico y el entorno incluyendo la calidad y disponibilidad de los sistemas de transporte teniendo
                         en cuenta una movilidad activa, accesible y segura por medio de la promoción de estilos de vida saludables.
                         </p>
-                    <p class="verMas colorEspacio">Ver más</p>
+                    <a href="{{asset("espacio_movilidad_ver")}}" class="verMas colorEspacio">Ver más</a>
                 </div>
 
             </div>  
