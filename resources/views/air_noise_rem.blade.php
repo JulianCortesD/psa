@@ -90,116 +90,116 @@
                     <p class="mt20">Compendio de documentos e investigaciones relacionados con la contaminación del aire, contaminación auditiva, exposición
                     al humo de tabaco y contaminación por radiación electromagnética en Bogotá.</p>
                     <ul>
-                    <li>Informe anual de calidad del aire en Bogotá. Año 2017</li>
-                    <li>Informe de la semana ambiental. Año 2018:
-                        <a href="http://201.245.192.252:81/">http://201.245.192.252:81/</a>
-                    </li>
-                    <li>Informe ejecutivo de las jornadas de profundización del día mundial sin tabaco del año 2018 en Bogotá.</li>
-                    <li>Informe de la Jornada de profundización contra el Ruido. Año 2018</li>
-                    <li>Informe de la jornada de profundización en radiaciones electromagnéticas. Año 2018</li>
-                    <li>Infografía &ldquo;Mejoremos el aire que respiramos&rdquo;</li>
-                    <li>Infografía &ldquo;Día Mundial sin tabaco&rdquo;. Año 2019 </li>
-                    <li>Infografía &ldquo;Calidad del sueño&rdquo;. Año 2019</li>
-                    <li>Infografía &ldquo;Día sin carro y sin moto&rdquo;. Año 2019</li>
-                    <li>Infografía &ldquo;Efectos en salud de la radiación electromagnética&rdquo;. </li>
+                        <li>Informe anual de calidad del aire en Bogotá. Año 2017</li>
+                        <li>Informe de la semana ambiental. Año 2018:
+                            <a href="http://201.245.192.252:81/">http://201.245.192.252:81/</a>
+                        </li>
+                        <li>Informe ejecutivo de las jornadas de profundización del día mundial sin tabaco del año 2018 en Bogotá.</li>
+                        <li>Informe de la Jornada de profundización contra el Ruido. Año 2018</li>
+                        <li>Informe de la jornada de profundización en radiaciones electromagnéticas. Año 2018</li>
+                        <li>Infografía &ldquo;Mejoremos el aire que respiramos&rdquo;</li>
+                        <li>Infografía &ldquo;Día Mundial sin tabaco&rdquo;. Año 2019 </li>
+                        <li>Infografía &ldquo;Calidad del sueño&rdquo;. Año 2019</li>
+                        <li>Infografía &ldquo;Día sin carro y sin moto&rdquo;. Año 2019</li>
+                        <li>Infografía &ldquo;Efectos en salud de la radiación electromagnética&rdquo;. </li>
                     </ul>
 
                     <h3 class="colorAire mt40">NORMATIVIDAD</h3>
                     <p>Compilación de las normas expedidas por las diferentes organizaciones gubernamentales relacionadas con la calidad del
                     aire, ambientes 100% libres de humo de tabaco, contaminación por ruido y radiación electromagnética.</p>
                     <table border="0" cellspacing="0" cellpadding="0" width="0">
-                    <tr>
-                        <td width="179" nowrap="nowrap">
-                        <p>Ley 09 de 1979</p>
-                        </td>
-                        <td width="628">
-                        <p>
-                            <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=1177">https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=1177</a>
-                        </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="179" nowrap="nowrap">
-                        <p>Ley 675 de 2001</p>
-                        </td>
-                        <td width="628">
-                        <p>
-                            <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=4162">https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=4162</a>
-                        </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="179" nowrap="nowrap">
-                        <p>Ley 715 de 2001</p>
-                        </td>
-                        <td width="628">
-                        <p>
-                            <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=4452&amp;dt=S">https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=4452&amp;dt=S</a>
-                        </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="179" nowrap="nowrap">
-                        <p>Decreto 3518 de 2006</p>
-                        </td>
-                        <td width="628">
-                        <p>
-                            <a href="https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%203518%20DE%202006.pdf">https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%203518%20DE%202006.pdf</a>
-                        </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="179" nowrap="nowrap">
-                        <p>Conpes 3550 de 2008</p>
-                        </td>
-                        <td width="628">
-                        <p>
-                            <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SA/marco-conpes-3550-2008-RSI-2005.pdf">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SA/marco-conpes-3550-2008-RSI-2005.pdf</a>
-                        </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="179" nowrap="nowrap">
-                        <p>Decreto 596 de 2011</p>
-                        </td>
-                        <td width="628">
-                        <p>
-                            <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/decreto-596-de-2011.pdf">http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/decreto-596-de-2011.pdf</a>
-                        </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="179" nowrap="nowrap">
-                        <p>Ley 1801 de 2016</p>
-                        </td>
-                        <td width="628">
-                        <p>
-                            <a href="https://www.policia.gov.co/sites/default/files/ley-1801-codigo-nacional-policia-convivencia.pdf">https://www.policia.gov.co/sites/default/files/ley-1801-codigo-nacional-policia-convivencia.pdf</a>
-                        </p>
-                        </td>
-                    </tr>
+                        <tr>
+                            <td width="179" nowrap="nowrap">
+                            <p>Ley 09 de 1979</p>
+                            </td>
+                            <td width="628">
+                            <p>
+                                <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=1177">https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=1177</a>
+                            </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="179" nowrap="nowrap">
+                            <p>Ley 675 de 2001</p>
+                            </td>
+                            <td width="628">
+                            <p>
+                                <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=4162">https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=4162</a>
+                            </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="179" nowrap="nowrap">
+                            <p>Ley 715 de 2001</p>
+                            </td>
+                            <td width="628">
+                            <p>
+                                <a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=4452&amp;dt=S">https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=4452&amp;dt=S</a>
+                            </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="179" nowrap="nowrap">
+                            <p>Decreto 3518 de 2006</p>
+                            </td>
+                            <td width="628">
+                            <p>
+                                <a href="https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%203518%20DE%202006.pdf">https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%203518%20DE%202006.pdf</a>
+                            </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="179" nowrap="nowrap">
+                            <p>Conpes 3550 de 2008</p>
+                            </td>
+                            <td width="628">
+                            <p>
+                                <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SA/marco-conpes-3550-2008-RSI-2005.pdf">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SA/marco-conpes-3550-2008-RSI-2005.pdf</a>
+                            </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="179" nowrap="nowrap">
+                            <p>Decreto 596 de 2011</p>
+                            </td>
+                            <td width="628">
+                            <p>
+                                <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/decreto-596-de-2011.pdf">http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/decreto-596-de-2011.pdf</a>
+                            </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="179" nowrap="nowrap">
+                            <p>Ley 1801 de 2016</p>
+                            </td>
+                            <td width="628">
+                            <p>
+                                <a href="https://www.policia.gov.co/sites/default/files/ley-1801-codigo-nacional-policia-convivencia.pdf">https://www.policia.gov.co/sites/default/files/ley-1801-codigo-nacional-policia-convivencia.pdf</a>
+                            </p>
+                            </td>
+                        </tr>
                     </table>
 
                     <hr class="lineaAire mt80" />
 
                     <div class="logos colorAire bold140p">
-                    <div class="centrado">
-                        <p>Documentos e investigaciones</p>
-                        <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Aire docs"
-                        />
-                    </div>
-                    <div class="centrado">
-                        <p>Mapas</p>
-                        <img src="images/aire/IMG_AIRE_MAPA.jpg" width="85" height="63" alt="Aire mapa" />
-                    </div>
-                    <div class="centrado">
-                        <p>Normatividad</p>
-                        <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
-                    </div>
-                    <div class="centrado">
-                        <p>Calidad del aire</p>
-                        <img src="images/aire/IMG_AIRE_TITULO.jpg" width="85" height="63" alt="Aire título" />
-                    </div>
+                        <div class="centrado">
+                            <p>Documentos e investigaciones</p>
+                            <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Aire docs"
+                            />
+                        </div>
+                        <div class="centrado">
+                            <p>Mapas</p>
+                            <img src="images/aire/IMG_AIRE_MAPA.jpg" width="85" height="63" alt="Aire mapa" />
+                        </div>
+                        <div class="centrado">
+                            <p>Normatividad</p>
+                            <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
+                        </div>
+                        <div class="centrado">
+                            <p>Calidad del aire</p>
+                            <img src="images/aire/IMG_AIRE_TITULO.jpg" width="85" height="63" alt="Aire título" />
+                        </div>
                     </div>
                 </div>
 

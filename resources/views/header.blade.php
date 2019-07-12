@@ -92,7 +92,7 @@
                                 <a class="dropdown-item" href="{{asset("aire_calidad_ruido")}}">Ruido</a>
                                 <a class="dropdown-item" href="{{asset("aire_calidad_radiacion")}}">Radiación electromagnética</a>
                                 <a class="dropdown-item" href="{{asset("aire_indicadores")}}">Indicadores</a>
-                                <a class="dropdown-item" href="#">Normatividad</a>
+                                <a class="dropdown-item" href="{{asset("aire_normatividad")}}">Normatividad</a>
                                 <a class="dropdown-item" href="{{asset("aire_mapas")}}">Mapas</a>
                                 <!-- <a class="dropdown-item" href="#">Documentos e investigaciones</a> -->
                                {{--  <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
@@ -104,7 +104,7 @@
                                 <div>Alimentos <br> y bebidas</div>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item titulo-tecnico" href="#"> <em>Alimentos sanos y seguros</em> </a>
+                                <a class="dropdown-item titulo-tecnico"  href="{{asset("alimentos_sanos")}}"> <em>Alimentos sanos y seguros</em> </a>
                                 <a class="dropdown-item" href="https://app.invima.gov.co/alertas/alertas-alimentos-bebidas">Alertas</a>
                                 <a class="dropdown-item" href="http://autorregulacion.saludcapital.gov.co/buenpropietario#estrategiasexcelencia">Restaurantes 1A</a>
                                 <li class="dropdown-item dropdown-submenu">
@@ -138,8 +138,8 @@
                                     </ul>
                                 </li>
                                 <a class="dropdown-item" href="http://autorregulacion.saludcapital.gov.co">Establecimientos con concepto favorable</a>
-                                <a class="dropdown-item" href="#">Indicadores</a>
-                                <a class="dropdown-item" href="#">Normatividad</a>
+                                <a class="dropdown-item" href="{{asset("alimentos_sanos_indicadores")}}">Indicadores</a>
+                                <a class="dropdown-item" href="{{asset("alimentos_sanos_normatividad")}}">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
                                 {{-- <a class="dropdown-item" href="#">Documentos e investigaciones</a> --}}
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}

@@ -69,8 +69,48 @@
             </div>
 
             <div class="row">
-                
+
                 <div class="contenidoSecAmb centradoDiv">
+                    <div>
+                        <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Calidad aire" />
+                        <h1 class="seccion fondoAire sinSaltoLinea"> Indicadores</h1>
+                    </div>
+
+                    <h2 class="centrado colorAire mt40">Calidad del aire</h2>
+                    <p>Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente
+                        asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá. </p>
+                    <ul>
+                        <li>Prevalencia de sibilancias en menores de 5 años posiblemente asociado a material particulado en Bogotá D.C.</li>
+                        <li>Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/" class="colorAire">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/</a>
+                        </li>
+                        <li>Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</li>
+                        <li>Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/" class="colorAire">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/</a>
+                        </li>
+                    </ul>
+
+                    <h2 class="centrado colorAire mt40">Espacios libre de humo y tabaco</h2>
+                    <p>Permiten mostrar las principales acciones afines con la implementación de la norma de espacios libres de humo de tabaco
+                        y la frecuencia de la exposición al humo de tabaco en Bogotá. </p>
+                    <ul>
+                        <li>
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco" class="colorAire">Prevalencia de consumo de tabaco en hogares en Bogotá D.C</a>
+                        </li>
+                        <li>Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/" class="colorAire">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/</a>
+                        </li>
+                    </ul>
+
+
+                    <h2 class="centrado colorAire mt40">Ruido</h2>
+                    <p>Describen la tendencia de la frecuencia de casos relacionados con la pérdida de audición y la calidad del sueño debido
+                        a la exposición a ruido y los resultados de las acciones de la vigilancia sanitaria y ambiental por contaminación
+                        auditiva en Bogotá.</p>
+
+                    </div>
+                
+                <!-- <div class="contenidoSecAmb centradoDiv">
                     <div>
                         <img src="images/aire/IMG_AIRE_TITULO.jpg" width="85" height="63" alt="Calidad aire: espacios libres de humo" />
                         <h1 class="seccion fondoAire sinSaltoLinea"> Espacios libres de humo</h1>
@@ -126,9 +166,34 @@
                     </div>
 
 
-                </div>
+                </div> -->
 
             </div>        
+
+            
+            <div class="row">
+                <hr class="lineaAire mt80" style="width: 100%;" />
+            </div>
+
+            <div class="logos colorAire bold140p">
+            <div class="centrado colorAire">
+                <p>Documentos e investigaciones</p>
+                <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
+                />
+            </div>
+            <div class="centrado colorAire">
+                <p>Mapas</p>
+                <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
+            </div>
+            <div class="centrado colorAire">
+                <p>Normatividad</p>
+                <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
+            </div>
+            <div class="centrado colorAire">
+                <p>Calidad del aire</p>
+                <img src="images/aire/aireNUBE.png" width="85" height="63" alt="Agua título" />
+            </div>
+            </div>
         </div>    
 @endsection
 @section('scripts')

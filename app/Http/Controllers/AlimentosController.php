@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AireController extends Controller
+class AlimentosController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +14,7 @@ class AireController extends Controller
      */
     public function index()
     {
-        return view("questions");
+        return view("alimentos/index");
     }
 
     /**
@@ -21,9 +22,9 @@ class AireController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function calidad()
+    public function indexMas()
     {
-        return view("quality_air");
+        return view("alimentos/index_ver");
     }
 
     /**
@@ -31,9 +32,9 @@ class AireController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function calidadContaminacion()
+    public function adultoMayor()
     {
-        return view("quality_pollution");
+        return view("alimentos/adulto_mayor");
     }
 
     /**
@@ -41,9 +42,29 @@ class AireController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function calidadIBOCA()
+    public function adultoMayorMas()
     {
-        return view("quality_iboca");
+        return view("alimentos/adulto_mayor_ver_mas");
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function indicadores()
+    {
+        return view("alimentos/indicadores");
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function normatividad()
+    {
+        return view("alimentos/normatividad");
     }
 
     /**
@@ -81,16 +102,6 @@ class AireController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function indicadores()
-    {
-        return view("air_indicators");
-    }
-
-     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function mapas()
     {
         return view("air_maps");
@@ -104,16 +115,6 @@ class AireController extends Controller
     public function aireRuidoREM()
     {
         return view("air_noise_rem");
-    } 
-
-     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function aireNormatividad()
-    {
-        return view("aire_normatividad");
     } 
 
      /**

@@ -63,10 +63,10 @@
                         <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
                     </a>             
             </div> 
-                <div height="355">
-                    <img src="images/aire/BannerEstAire.png" width="100%" alt="Slider aire" />
-                </div>
+            <div height="355">
+                <img src="images/aire/BannerEstAire.png" width="100%" alt="Slider aire" />
             </div>
+        </div>
 
             <div class="row">
                 <div class="contenidoSecAmb centradoDiv">
@@ -207,8 +207,32 @@
                     <li>Quejas atendidas por exposición a contaminación de radiación electromagnética en Bogotá. Año 2018.</li>
                     </ul>
                 </div>
-            </div>        
-        </div>    
+            </div> 
+            
+            <div class="row">
+                <hr class="lineaAire mt80" style="width: 100%;" />
+            </div>
+
+            <div class="logos colorAire bold140p">
+                <div class="centrado colorAire">
+                    <p>Documentos e investigaciones</p>
+                    <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
+                    />
+                </div>
+                <div class="centrado colorAire">
+                    <p>Mapas</p>
+                    <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
+                </div>
+                <div class="centrado colorAire">
+                    <p>Normatividad</p>
+                    <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
+                </div>
+                <div class="centrado colorAire">
+                    <p>Calidad del aire</p>
+                    <img src="images/aire/aireNUBE.png" width="85" height="63" alt="Agua título" />
+                </div>
+            </div>
+        </div> 
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

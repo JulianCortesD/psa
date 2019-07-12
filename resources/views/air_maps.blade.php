@@ -70,59 +70,83 @@
 
             <div class="row">
                 
-                <div class="contenidoSecAmb centradoDiv">
-                    <div>
-                        <img src="images/aire/IMG_AIRE_TITULO.jpg" width="85" height="63" alt="Calidad aire" />
-                        <h1 class="seccion fondoAire sinSaltoLinea"> Calidad del aire</h1>
-                    </div>
+            <div class="contenidoSecAmb centradoDiv">
+                <div >
+                    <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Calidad aire" /> 
+                    <h1 class="seccion fondoAire sinSaltoLinea"> Mapas</h1></div>
 
-                    <h3 class="centrado mt40">La contaminación del aire en Bogotá y los posibles efectos en salud</h3>
-                    <p>La Secretaria Distrital de Salud realiza el monitoreo de la información sobre las condiciones de exposición a
-                        contaminación del aire de la población vulnerable en Bogotá, mediante procesos de vigilancia epidemiológica,
-                        ambiental y sanitaria orientada al diseño de estrategias e intervenciones tendientes a mitigar los efectos
-                        nocivos asociados a este factor de riesgo.</p>
-                    <p class="verMas colorAire">Ver más</p>
+                    <h2 class="centrado colorAire mt40">Detalle de mapas de contaminación por ruido</h2>
 
+                    <h3 class="centrado colorAire">Mapas 2016</h3>
+                    <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis turpis elit. Nunc tincidunt risus eu rhoncus convallis. Fusce nisi velit, dapibus eu lacus eget, bibendum dignissim lorem.</li>
+                    <li>Fusce a lorem fermentum, tincidunt urna malesuada, iaculis justo. Nam eu orci non elit fermentum condimentum in et erat.</li>
+                    </ul>
 
+                    <h3 class="centrado colorAire">Mapas 2015</h3>
+                    <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis turpis elit. Nunc tincidunt risus eu rhoncus convallis. Fusce nisi velit, dapibus eu lacus eget, bibendum dignissim lorem.</li>
+                    <li>Fusce a lorem fermentum, tincidunt urna malesuada, iaculis justo. Nam eu orci non elit fermentum condimentum in et erat.</li>
+                    <li>Ut quis turpis elit. Nunc tincidunt risus eu rhoncus convallis. Fusce nisi velit, dapibus eu lacus eget, bibendum dignissim lorem.</li>
+                    </ul>
 
-                    <h3 class="centrado colorAire">IBOCA</h3>
-                    <p>Índice Bogotano del Calidad de Aire (IBOCA): Aquí encontrara la información en tiempo real referente al índice
-                        bogotano de calidad de aire, modelación de calidad del aire y datos de inmisión (contaminantes criterio).</p>
-                    <p class="verMas colorAire">Ver más</p>
+                    <h3 class="centrado colorAire">Mapas 2014</h3>
+                    <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis turpis elit. Nunc tincidunt risus eu rhoncus convallis. Fusce nisi velit, dapibus eu lacus eget, bibendum dignissim lorem.</li>
+                    <li>Fusce a lorem fermentum, tincidunt urna malesuada, iaculis justo. Nam eu orci non elit fermentum condimentum in et erat.</li>
+                    </ul>
 
+                    <h3 class="centrado colorAire">Mapas 2013</h3>
+                    <ul>
+                    <li>Curabitur elit metus, lobortis vel diam eget, semper posuere ante. Quisque vulputate diam mauris, sit amet facilisis odio rutrum sed. Duis id velit ultrices, gravida nulla a, lacinia odio. </li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis turpis elit. Nunc tincidunt risus eu rhoncus convallis. Fusce nisi velit, dapibus eu lacus eget, bibendum dignissim lorem.</li>
+                    <li>Fusce a lorem fermentum, tincidunt urna malesuada, iaculis justo. Nam eu orci non elit fermentum condimentum in et erat.</li>
+                    </ul>
 
-
-                    <h1 class="colorAire mt40 centrado">Espacios libres de humo de tabaco</h1>
-                    <p>La Secretaría Distrital de Salud realiza la inspección y vigilancia de la Ley 1335 de 2009 a establecimientos
-                        públicos, garantizando ambientes 100% libres de humo de tabaco. De igual manera, analiza los posibles efectos
-                        en salud por la exposición al humo de tabaco.</p>
-                    <p class="verMas colorAire">Ver más</p>
-
-
-
-                    <h1 class="colorAire mt40 centrado">Ruido</h1>
-                    <p>La Secretaría Distrital de Salud realiza la vigilancia epidemiológica, ambiental y sanitaria de la contaminación
-                        auditiva manteniendo actualizada la información sobre las condiciones de exposición de la población a ruido,
-                        mediante procesos orientados al diseño de estrategias e intervenciones tendientes a mitigar los efectos nocivos
-                        asociados a este factor de riesgo.</p>
-                    <p class="verMas colorAire">Ver más</p>
-
-
-
-                    <h1 class="colorAire mt40 centrado">Radiación electromagnética</h1>
-                    <p>La Secretaría Distrital de Salud realiza la vigilancia sanitaria, ambiental y epidemiológica de la exposición
-                        poblacional a radiación electromagnética, desarrollando procesos para orientar el diseño de estrategias e
-                        intervenciones tendientes a mitigar los efectos nocivos asociados a este factor de riesgo.</p>
-                    <p class="verMas colorAire">Ver más</p>
+                    <h3 class="centrado colorAire">Te puede interesar</h3>
+                    <ul>
+                    <li>Quisque vulputate diam mauris, sit amet facilisis odio rutrum sed. Duis id velit ultrices, gravida nulla a, lacinia odio. </li>
+                    <li>Consectetur adipiscing elit. Ut quis turpis elit. Nunc tincidunt risus eu rhoncus convallis. Fusce nisi velit, dapibus eu lacus eget, bibendum dignissim lorem.</li>
+                    <li>Donec pulvinar blandit ex, et pulvinar nibh auctor vel.</li>
+                    <li>Fincidunt urna malesuada, iaculis justo. Nam eu orci non .</li>
+                    <li>Nullam convallis ipsum id vehicula accumsan. Suspendisse ut aliquet odio. Nulla venenatis ex enim, id vestibulum</li>
+                    </ul>
 
 
+                    <h2 class="centrado colorAire mt40">Calidad del aire</h2>
+                    <p>Aquí podrá observar la ubicación geográfica de las acciones de vigilancia ambiental, sintomatología y enfermedades respiratorias posiblemente asociadas con la exposición a contaminación del aire en Bogotá.</p>
+                    <ul>
+                    <li>Sibilancias en adulto mayor  vs. Zonas de exposición de contaminación del aire en Bogotá, año 2018</li>
+                    <li>Tos en adulto mayor vs.  Zonas de exposición de contaminación del aire en Bogotá, año 2018. </li>
+                    <li>Ausentismo escolar en  menores de 5 años vs. Zonas de exposición de contaminación del aire en Bogotá,  año 2018.</li>
+                    <li>Sibilancias en menores de  cinco años vs. Zonas de exposición de contaminación del aire en Bogotá, año  2018.</li>
+                    <li>Tos en menores de 5 años vs.  Zonas de exposición de contaminación de aire en Bogotá, año 2018. </li>
+                    <li>Ausentismo escolar en niños  de 5 a 14 años vs. Zonas de exposición de contaminación de aire, año 2018.</li>
+                    <li>Sibilancias en niños de 5 a  14 años vs. Zonas de exposición de contaminación de aire en Bogotá, año 2018. </li>
+                    <li>Tos en niños de 5 a 14 años  vs. Zonas de exposición de contaminación de aire en Bogotá, año 2018.</li>
+                    <li>Quejas atendidas por  exposición a contaminación del aire, Bogotá, año 2018</li>
+                    </ul>
 
-                    <hr class="lineaAireNotas mt40" />
-                    <p class="notaPiePagina">1. Coordinadora, Grupo Políticas, Legislación y Movilización Social. Instituto Nacional de Cancerología, Colombia.
-                        drivera@cancer.gov.co</p>
-                    <p class="notaPiePagina">2. ABC de la Ley Antitabaco (Ley 1335 de 2009). Diana Esperanza Rivera Rodríguez.
-                        <a href="https://www.minsalud.gov.co/Documentos%20y%20Publicaciones/ABC%20DE%20LA%20LEY%20ANTITABACO.pdf">https://www.minsalud.gov.co/Documentos%20y%20Publicaciones/ABC%20DE%20LA%20LEY%20ANTITABACO.pdf</a>
-                    </p>
+                    <h2 class="centrado colorAire mt40">Espacios libres de humo de tabaco</h2>
+                    <p>Aquí podrá encontrar la “ubicación geográfica” de las acciones de vigilancia, inspección y control a establecimientos públicos que garanticen ambientes 100% libres de humo de tabaco y la frecuencia de casos relacionados con la exposición al humo de tabaco.</p>
+                    <ul>
+                    <li>Quejas atendidas por exposición a contaminación de  tabaco, Bogotá, año 2018. </li>
+                    </ul>
+
+                    <h2 class="centrado colorAire mt40">Ruido</h2>
+                    <p>La Secretaría Distrital de Salud realiza la vigilancia epidemiológica, ambiental y sanitaria de la contaminación auditiva manteniendo actualizada la información sobre las condiciones de exposición de la población a ruido, mediante procesos orientados al diseño de estrategias e intervenciones tendientes a mitigar los efectos nocivos asociados a este factor de riesgo.</p>
+                    <ul>
+                    <li>Quejas atendidas por  exposición a contaminación de ruido. Bogotá, año 2018. </li>
+                    <li>Distribución de casos de  buenos y malos dormidores según el ICSP Bogotá, año 2018. </li>
+                    <li>Distribución de casos de  buenos y malos dormidores en población, según EPWORTH Bogotá, año 2018. </li>
+                    <li>Distribución de casos de  buenos y malos dormidores en población, según el ICSP. Bogotá, año 2018. </li>
+                    </ul>
+
+                    <h2 class="centrado colorAire mt40">Radiación electromagnética </h2>
+                    <p>Muestran las ubicaciones geográficas de las acciones de vigilancia ambiental, sanitaria y eventos de interés en salud pública relacionados con la exposición a radiación electromagnética en Bogotá. </p>
+                    <ul>
+                    <li>Quejas atendidas por exposición a contaminación de  radiación electromagnética en Bogotá. Año 2018. </li>
+                    </ul>
 
                 </div>
 
