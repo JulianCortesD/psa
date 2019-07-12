@@ -198,8 +198,8 @@
                                 <div>Espacio y <br> movilidad</div>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item titulo-tecnico" href="#"> <em>Hábitat, Espacio público y movilidad</em> </a>
-                                {{-- <a class="dropdown-item" href="#">Indicadores</a>--}}
+                                <a class="dropdown-item titulo-tecnico" href="{{asset("espacio_movilidad")}}"> <em>Hábitat, Espacio público y movilidad</em> </a>
+                                {{-- <a class="dropdown-item" href="{{asset("espacio_movilidad_indicadores")}}">Indicadores</a>--}}
                                 {{-- <a class="dropdown-item" href="#">Normatividad</a>--}}
                                 {{-- <a class="dropdown-item" href="#">Mapas</a>--}}
                                 <a class="dropdown-item" href="#">Documentos e investigaciones</a>

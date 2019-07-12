@@ -47,3 +47,6 @@ Route::get('/cambio_climatico','ClimaController@index')->name('climaIndex');
 Route::get('/cambio_climatico_indicadores','ClimaController@indicadores')->name('climaIndicadores');
 Route::get('/cambio_climatico_mapas','ClimaController@mapas')->name('climaMapas');
 Route::get('/cambio_climatico_normatividad','ClimaController@normatividad')->name('climaNormatividad');
+Route::get('/espacio_movilidad','MovilidadController@index')->name('espacioIndex');
+Route::get('/espacio_movilidad_indicadores','MovilidadController@indicadores')->name('espacioIndicadores');
+Route::get('/espacio_movilidad_normatividad','MovilidadController@normatividad')->name('espacioNormatividad');
