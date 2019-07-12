@@ -51,3 +51,4 @@ Route::get('/espacio_movilidad','MovilidadController@index')->name('espacioIndex
 Route::get('/espacio_movilidad_indicadores','MovilidadController@indicadores')->name('espacioIndicadores');
 Route::get('/espacio_movilidad_normatividad','MovilidadController@normatividad')->name('espacioNormatividad');
 Route::get('/espacio_movilidad_ver','MovilidadController@indexVerMas')->name('espacioVerMas');
+Route::get('/espacio_movilidad_indicadores','MovilidadController@indicadores')->name('espacioVerMas');
