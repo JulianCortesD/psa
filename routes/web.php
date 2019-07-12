@@ -28,3 +28,13 @@ Route::get('/aire_indicadores','AireController@indicadores')->name('aireIndicado
 Route::get('/aire_mapas','AireController@mapas')->name('aireMapas');
 Route::get('/aire_ruido_rem','AireController@aireRuidoREM')->name('aireRuidoREM');
 Route::get('/aire_que_hacemos','AireController@aireQueHacemos')->name('aireQueHacemos');
+Route::get('/acreditados','ConceptosController@acredited')->name('acreditados');
+Route::get('/politica_distrital_salud_ambiental','PoliticaController@index')->name('politicaDistrital');
+Route::get('/vigilancia_salud_ambiental','VigilanciaController@index')->name('vigilanciaDistrital');
+Route::get('/participacion_ciudadana','ParticipacionController@index')->name('participacion');
+Route::get('/agua_saneamiento_basico','AguaController@index')->name('aguaIndex');
+Route::get('/agua_saneamiento_basico_ver','AguaController@indexMas')->name('aguaIndexMas');
+Route::get('/agua_saneamiento_adulto_mayor','AguaController@adultoMayor')->name('adultoMayor');
+Route::get('/agua_saneamiento_adulto_mayor_ver','AguaController@adultoMayorMas')->name('adultoMayorMas');
+Route::get('/agua_saneamiento_indicadores','AguaController@indicadores')->name('aguaIndicadores');
+Route::get('/agua_saneamiento_normatividad','AguaController@normatividad')->name('aguaBormatividad');

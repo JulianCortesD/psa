@@ -1,15 +1,15 @@
 <footer class="min-ancho mt-4">
         <div class="container-fluid">
             <div class="row justify-content-center mb-3">
-                <div class=" col-10">                        
+                <div class=" col-10 col-lg-11 offset-lg-1">                        
                     <div class="d-inline-block mr-2">
                         <a href="http://www.saludcapital.gov.co/Paginas2/Linea106-Inicio.aspx">
-                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLinea106.png")}}" alt="" >
+                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLinea106.svg")}}" alt="" >
                         </a>
                     </div>   
                     <div class="d-inline-block mr-2">
                         <a href="http://www.saludcapital.gov.co/Paginas2/Linea_123.aspx">
-                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLinea123.png")}}" alt=""  >
+                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLinea123.svg")}}" alt=""  >
                         </a>
                     </div>  
                     <div class="d-inline-block mr-2">
@@ -19,7 +19,7 @@
                     </div> 
                     <div class="d-inline-block mr-2">
                         <a href="http://www.saludcapital.gov.co/Paginas2/Linea_Purpura.aspx">
-                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLineaPurpura.png")}}" alt=""  
+                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLineaPurpura.svg")}}" alt=""  
                         </a>
                     </div> 
                     <div class="d-inline-block mr-2">
@@ -29,12 +29,12 @@
                     </div>  
                     <div class="d-inline-block mr-2">
                         <a href="http://centroderelevo.gov.co/632/w3-channel.html">
-                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoCentroRelevo.png")}}" alt=""  >
+                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoCentroRelevo.svg")}}" alt=""  >
                         </a>
                     </div>  
                     <div class="d-inline-block ">
                         <a href="https://secretariageneral.gov.co/servicio-ciudadania/telefonico/línea-195">
-                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/Linea_195.jpg")}}" alt=""  >
+                            <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLinea195.svg")}}" alt=""  >
                         </a>
                     </div>  
                 </div>

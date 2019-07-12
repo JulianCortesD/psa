@@ -11,11 +11,12 @@
     display: flex;
     margin-top:10px;
 }
+
 .content-inside{
     border: solid 2.1px #003e66;
     padding: 20px 20px 0 10px ;
     font-size: 11pt !important;
-    font-family: GothamRoundedBold, Verdana, Geneva, Tahoma, sans-serif;    
+    font-family:  "Gotham Rounded Book", Verdana, Geneva, Tahoma, sans-serif;    
 }
 
 .boton-register{

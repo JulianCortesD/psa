@@ -22,7 +22,7 @@
         @yield('styles')
             
     </head>
-    <body style="width: 1250px;">
+    <body style="min-width: 1250px;">
         <div class="wrapper" style="min-width: 768px;">
             <!-- Inicio header -->
             @include("header")

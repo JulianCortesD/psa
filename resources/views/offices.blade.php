@@ -1,6 +1,6 @@
 @extends('layout')
 @section('titulo')
-    Noticias
+    Oficinas de Atención al Ambiente
 @endsection
 @section('styles')
     <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/offices.css")}}" />
@@ -8,45 +8,53 @@
 @section('contenido')
     <div class="wrapper min-ancho">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-9 col-6">
+            <div class="row mb-3">
+                <div class="col-8">
                     <div class="row">
-                            <div class="col-md-8">
-                                <div class="d-inline" style="margin-left: -15px;">
-                                    <img  class="offices-title d-inline-block" src="{{asset("images/contactenos/IconoOficinasdeAtencion.svg")}}" alt="" >
-                                    <div class="titulo-offices d-inline-block ">
-                                        <label for=""> Oficinas de Atención al Ambiente</label>                                    
-                                    </div>
-                                </div>
-                            </div>                        
+                        <div class=" d-inline-block" >
+                            <img class="concept-title d-inline-block"  src="{{asset("images/contactenos/IconoOficinasdeAtencion.svg")}}" alt="">
                         </div>
-                </div>
-                <div class="col-md-3 col-6">
+                        <div class="d-inline-block titulo-contenido px-5">
+                            <label > Oficinas de Atención al Ambiente </label> 
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                           <span>Bogotá hoy</span> 
+                            <span>Bogotá hoy</span> 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
-                           Fecha y hora
+                            Fecha y hora
                         </div>
-                    </div>    
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 offset-8" >
                     <div class="row">
                         <div class="col-4">
-                            <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" style="margin-left: -15px;">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
+                                <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
+                            </a>                            
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
-                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" style="margin-left: -8px; margin-right: -8px">
+                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
                             </a>
                         </div>
                         <div class="col-4">
-                            <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" style="margin-right: -15px;">
+                            <a href="http://www.ideam.gov.co/">
+                                <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                            </a>                            
                         </div>
-                    </div>             
-                </div>
+                    </div>  
+                </div>  
             </div>   
+
+
             <div class="row block mapa" id="quien">
                 <div class="col-12">
                     <div class="subtitle">

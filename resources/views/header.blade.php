@@ -4,11 +4,6 @@
             <div class="row align-items-start justify-content-between">
                 <div class="col-3">
                         <img src="{{asset("images/header/LogoAlcaldia.svg")}}" alt="Alcaldía Bogotá" style="height: 30px;">
-                    {{-- <div class="css-shapes-preview">
-                        <div class="interno">
-                            Alcaldía de Bogotá
-                        </div> 
-                    </div>   --}}  
                 </div>
                 <div class="col-7 ">
                     <div class="row justify-content-end">
@@ -27,42 +22,43 @@
             </div>
             <div class="row justify-content-start">
                 <div class="col-2">
-                    {{-- <div class=" access-tool">
-                        <img  class="left-option"src="{{asset("images/header/IconoOjoAccesibilidad.svg")}}" alt="Alcaldía Bogotá">
-                        <br>
-                        <img class="left-option" src="{{asset("images/header/IconoAccesibilidadOido.svg")}}" alt="Alcaldía Bogotá" >
-                    </div>  --}}
                 </div>
                 <div class="col-9">
                     <div class="row row justify-content-end">
                         <div class="col-3 col-lg-2 menu-header">
                             <div class="row">
-                                <div class="d-inline-block">
-                                    <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
-                                </div>
-                                <div class="d-inline menu-header-interno">
-                                    <label>Política Distrital de <br> Salud Ambiental</label> 
-                                </div>
+                                <!-- <a href="{{asset("politica_distrital_salud_ambiental")}}" style="color: #019EE2;"> -->
+                                    <div class="d-inline-block">
+                                        <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
+                                    </div>
+                                    <div class="d-inline menu-header-interno">
+                                        <label>Política Distrital de <br> Salud Ambiental</label> 
+                                    </div>
+                               <!--  </a> -->
+                            </div>
+                        </div>
+                        <div class="col-3 col-lg-2 menu-header" style="color: #019EE2;" >
+                            <div class="row">
+                                <!-- <a href="{{asset("politica_distrital_salud_ambiental")}}" style="color: #019EE2;"> -->
+                                    <div class="d-inline-block ">
+                                        <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoParticipacionCiudadana.svg")}}" alt=""  >
+                                    </div>
+                                    <div class="d-inline menu-header-interno">
+                                        <label>Participación <br> Ciudadana</label> 
+                                    </div>
+                                <!-- </a> -->
                             </div>
                         </div>
                         <div class="col-3 col-lg-2 menu-header">
                             <div class="row">
-                                <div class="d-inline-block ">
-                                    <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoParticipacionCiudadana.svg")}}" alt=""  >
-                                </div>
-                                <div class="d-inline menu-header-interno">
-                                    <label>Participación <br> Ciudadana</label> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3 col-lg-2 menu-header">
-                            <div class="row">
-                                <div class="d-inline-block">
-                                    <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoVigilanciaSaludAmbiental.svg")}}" alt=""  >
-                                </div>
-                                <div class="d-inline menu-header-interno">
-                                    <label>Vigilancia de la <br> Salud Ambiental</label> 
-                                </div>
+                                <!-- <a href="{{asset("politica_distrital_salud_ambiental")}}" style="color: #019EE2;"> -->
+                                    <div class="d-inline-block">
+                                        <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoVigilanciaSaludAmbiental.svg")}}" alt=""  >
+                                    </div>
+                                    <div class="d-inline menu-header-interno">
+                                        <label>Vigilancia de la <br> Salud Ambiental</label> 
+                                    </div>
+                                <!-- </a>  -->   
                             </div>
                         </div>
                     </div>
@@ -74,7 +70,7 @@
     </div>
 
     <div class=" container-fluid menu-nav">
-            <nav class="navbar navbar-expand-lg navbar-dark  py-0 menu-down-header">
+            <nav class="navbar navbar-expand-sm navbar-dark  py-0 menu-down-header">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -98,7 +94,7 @@
                                 <a class="dropdown-item" href="{{asset("aire_indicadores")}}">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
                                 <a class="dropdown-item" href="{{asset("aire_mapas")}}">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                                <!-- <a class="dropdown-item" href="#">Documentos e investigaciones</a> -->
                                {{--  <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
@@ -141,10 +137,10 @@
                                         </a>                                        
                                     </ul>
                                 </li>
-                                <a class="dropdown-item" href="{{asset("conceptos")}}">Establecimientos con concepto favorable</a>
+                                <a class="dropdown-item" href="http://autorregulacion.saludcapital.gov.co">Establecimientos con concepto favorable</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
-                                {{-- <a class="dropdown-item" href="#">Mapas</a> --}}
+                                <a class="dropdown-item" href="#">Mapas</a>
                                 {{-- <a class="dropdown-item" href="#">Documentos e investigaciones</a> --}}
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </ul>
@@ -155,7 +151,7 @@
                                 <div>Agua y <br> saneamiento</div>
                             </a>
                             <ul class="dropdown-menu" >
-                                <a class="dropdown-item titulo-tecnico" href="#"> <em>Calidad del agua y Sanemaiento Básico</em> </a>
+                                <a class="dropdown-item titulo-tecnico" href="{{asset("agua_saneamiento_basico")}}"> <em>Calidad del agua y Sanemaiento Básico</em> </a>
                                 <li class="dropdown-item dropdown-submenu">
                                     <a>Carro tanques</a>
                                     <ul class="dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -171,10 +167,10 @@
                                         </a>                                        
                                     </ul>
                                 </li> 
-                                <a class="dropdown-item" href="#">Hogares para persona mayor</a>
-                                <a class="dropdown-item" href="{{asset("conceptos")}}">Establecimientos con concepto favorable</a>
-                                <a class="dropdown-item" href="#">Indicadores</a>
-                                <a class="dropdown-item" href="#">Normatividad</a>
+                                <a class="dropdown-item" href="{{asset("agua_saneamiento_adulto_mayor")}}">Hogares para persona mayor</a>
+                                <a class="dropdown-item" href="http://autorregulacion.saludcapital.gov.co">Establecimientos con concepto favorable</a>
+                                <a class="dropdown-item" href="{{asset("agua_saneamiento_indicadores")}}">Indicadores</a>
+                                <a class="dropdown-item" href="{{asset("agua_saneamiento_normatividad")}}">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
                                 <a class="dropdown-item" href="#">Documentos e investigaciones</a>
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
@@ -191,7 +187,7 @@
                                 <a class="dropdown-item" href="https://drive.google.com/open?id=1qQLcL0pdxRg6FWcKoUIH7WPqhE5Ndog-">Índice de vulnerabilidad</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
-                                <a class="dropdown-item" href="#">Mapas</a>
+                                {{-- <a class="dropdown-item" href="#">Mapas</a> --}}
                                 <a class="dropdown-item" href="#">Documentos e investigaciones</a>
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
@@ -203,11 +199,11 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="#"> <em>Hábitat, Espacio público y movilidad</em> </a>
-                                <a class="dropdown-item" href="#">Indicadores</a>
-                                <a class="dropdown-item" href="#">Normatividad</a>
-                                <a class="dropdown-item" href="#">Mapas</a>
+                                {{-- <a class="dropdown-item" href="#">Indicadores</a>--}}
+                                {{-- <a class="dropdown-item" href="#">Normatividad</a>--}}
+                                {{-- <a class="dropdown-item" href="#">Mapas</a>--}}
                                 <a class="dropdown-item" href="#">Documentos e investigaciones</a>
-                                <a class="dropdown-item" href="#">Gestión de la salud ambiental</a>
+                                {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -222,9 +218,9 @@
                                 <a class="dropdown-item" href="#">Establecimiento con concepto favorable</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
-                                <a class="dropdown-item" href="#">Mapas</a>
+                                {{-- <a class="dropdown-item" href="#">Mapas</a> --}}
                                 <a class="dropdown-item" href="#">Documentos e investigaciones</a>
-                               {{--  <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
+                                {{--  <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -239,7 +235,7 @@
                                 <a class="dropdown-item" href="{{asset("conceptos")}}">Establecimiento con concepto favorable</a>
                                 <a class="dropdown-item" href="#">Indicadores</a>
                                 <a class="dropdown-item" href="#">Normatividad</a>
-                                <a class="dropdown-item" href="#">Mapas</a>
+                                {{-- <a class="dropdown-item" href="#">Mapas</a> --}}
                                 <a class="dropdown-item" href="#">Documentos e investigaciones</a>
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>

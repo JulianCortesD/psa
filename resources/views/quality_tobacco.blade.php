@@ -33,7 +33,7 @@
                 <div class="col-4" style="margin-left: 7px;">
                     <div class="row">
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
                             </a>                            
                         </div>
@@ -43,7 +43,7 @@
                             </a>
                         </div>
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
                             </a>                            
                         </div>
@@ -76,10 +76,11 @@
                     <h1 class="seccion fondoAire sinSaltoLinea"> Espacios libres de humo</h1>
                 </div>
 
-                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de
-                    relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
-                    desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
-                <p class="verMas colorAire">Ver más</p>
+                <p>La Secretaría Distrital de Salud realiza la inspección y vigilancia de la Ley 1335 de 2009 a establecimientos públicos, garantizando ambientes 100% libres de humo de tabaco. De igual manera, analiza los posibles efectos en salud por la exposición al humo de tabaco. El consumo de tabaco es uno de los principales factores de riesgo de varias enfermedades crónicas, como el cáncer y de enfermedades pulmonares y cardiovasculares. El consumo de tabaco es un hábito aún aceptado y admitido por una parte importante de nuestra sociedad  que ocasiona deterioro de la calidad de vida e importantes costos económicos, sociales y ambientales. Es la primera causa de muerte evitable en el mundo, ocasionando alrededor de 5 millones de defunciones anuales.  En Colombia se cuenta con la Resolución 1956 de 2008 del Ministerio de Salud y Protección Social y la Ley 1335 de 2009, las cuales adoptan las medidas necesarias para garantizar un ambiente sano y libre de humo de tabaco, así mismo, la ley 1109 de 2006 por la cual se adopta el “Convenio Marco de la Organización Mundial de la Salud  para el control del tabaco”. </p>
+                <p>Vigilancia Epidemiológica </p>
+                <p>Vigila los posibles efectos en salud en la población debido al consumo de tabaco y a la exposición poblacional de humo de segunda mano, indagando a través de las encuestas de prevalencia realizadas en la población vulnerable. Vigilancia Sanitaria Establece las condiciones sanitarias de los lugares de trabajo o establecimientos abiertos al público por medio de acciones de inspección, vigilancia y control, verificando el cumplimiento de las exigencias consignadas en la Ley 1335 de 2009, así mismo, contempla la atención y respuesta a quejas y peticiones interpuestas por los capitalinos, relacionadas con el incumplimiento de la Ley 1335 de 2009 y la exposición al humo de tabaco. </p>
+                <p>Vigilancia Ambiental </p>
+                <p>Realiza el monitoreo de los niveles de contaminación del aire a nivel intramural por humo de tabaco.</p>
 
 
                 <h3 class="seccion fondoAire mt40">Indicadores</h3>

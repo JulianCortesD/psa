@@ -1,5 +1,5 @@
 .indicator-title {
-    height: 76px;
+    height: 80px;
 }
 
 .titulo-contenido {
@@ -7,8 +7,5 @@
     text-align: center;
     color: white;
     font-family: GothamRoundedBold, Arial, Helvetica, sans-serif;
-    margin-left: -5px;
-    height: 54px;
-    width: 300;
     font-size: 18px;
 }

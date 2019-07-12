@@ -33,7 +33,7 @@
                 <div class="col-4" style="margin-left: 7px;">
                     <div class="row">
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
                             </a>                            
                         </div>
@@ -43,7 +43,7 @@
                             </a>
                         </div>
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
                             </a>                            
                         </div>
@@ -68,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" style="text-align: justify;">
                 
                 <div class="contenidoSecAmb centradoDiv">
                     <h3 class="colorAire">¿Qué hacemos?</h3>
@@ -87,7 +87,31 @@
 
                 </div>
 
-            </div>        
+            </div>    
+            <div class="row">
+                <hr class="lineaAire mt80"  style="width: 100%" />
+            </div>
+            
+                      
+            <div class="logos colorAire bold140p">
+                    <div class="centrado">
+                        <p>Documentos e investigaciones</p>
+                        <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Aire docs"
+                        />
+                    </div>
+                    <div class="centrado">
+                        <p>Mapas</p>
+                        <img src="images/aire/IMG_AIRE_MAPA.jpg" width="85" height="63" alt="Aire mapa" />
+                    </div>
+                    <div class="centrado">
+                        <p>Normatividad</p>
+                        <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
+                    </div>
+                    <div class="centrado">
+                        <p>Calidad del aire</p>
+                        <img src="images/aire/IMG_AIRE_TITULO.jpg" width="85" height="63" alt="Aire título" />
+                    </div>
+            </div>
         </div>    
 @endsection
 @section('scripts')

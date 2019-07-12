@@ -58,54 +58,55 @@
     </div>
     <div class="wrapper min-ancho">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-9 col-6">
+            <div class="row mb-3">
+                <div class="col-8">
                     <div class="row">
-                        <div class="col-md-8">
-                            <div class="d-inline" style="margin-left: -15px;">
-                                <img  class="indicator-title d-inline-block" src="{{asset("images/indicators/IconoIndicadores.svg")}}" alt="" >
-                                <div class="titulo-contenido d-inline-block ">
-                                    <label for=""> Noticias y publicaciones</label>                                    
-                                </div>
-                            </div>
-                        </div>                        
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-12">
-                            <p style="text-align: justify;">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-                            </p>
+                        <div class=" d-inline-block" >
+                            <img class="concept-title d-inline-block"  src="{{asset("images/contactenos/IconoOficinasdeAtencion.svg")}}" alt="">
+                        </div>
+                        <div class="d-inline-block titulo-contenido px-5">
+                            <label > Noticias y publicaciones </label> 
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-6">
+                </div>  
+                <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                           <span>Bogotá hoy</span> 
+                            <span>Bogotá hoy</span> 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
-                           Fecha y hora
+                            Fecha y hora
                         </div>
-                    </div>    
+                    </div>                                    
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-4 offset-8" >
                     <div class="row">
                         <div class="col-4">
-                            <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" style="margin-left: -15px;">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
+                                <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
+                            </a>                            
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
-                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" style="margin-left: -8px; margin-right: -8px">
+                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
                             </a>
                         </div>
                         <div class="col-4">
-                            <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" style="margin-right: -15px;">
+                            <a href="http://www.ideam.gov.co/">
+                                <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                            </a>                            
                         </div>
-                    </div>            
-                </div>
+                    </div>  
+                </div>  
             </div>
 
-           <div class="row">
+            
+            <div class="row">
                 <div class="col-6" >
                     <div class="tab-content">
                         <div class="tab-pane active" id="tab1">
@@ -196,193 +197,193 @@
                         </div>
                     </div>
                 </div>
-           </div>
+            </div>
 
-           <div class="row">
-                <div class="col-6" >
-                    <div class="tab-content">
-                        <div class="tab-pane active" id="tab1">
-                            <section class="content">
-                                <div class="content-inside">
-                                    <div class="header-content row col-sm-12">
-                                        <span style="text-align: justify;">
-                                            OPERATIVO DE VIGILANCIA EN EXPENDIOS AVÍCOLAS DE CORABASTO
-                                        </span>
-                                    </div>
-                                    <div class="row cont-inside">
-                                    <div class="col-12">                                      
-                                        <div class="row">
-                                            <div class="col-10-justify-content-center" style="padding:10px;">
-                                                <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
-                                                <p style="text-align:justify; margin-left: 5px;">
-                                                    Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos. 
-                                                    <br> En el operativo que inició a las tres de la mañana se inspeccionaron plantas de beneficio,  expendios y vehículos trasportadores de productos cárnicos, aplicando las medidas sanitarias de decomiso y desnaturalizaciónde los productos en uno de los establecimientos por mal almacenamiento, pues estaban expuestosa la manipulación directa del consumidor y al ambiente, en conjunto con la Policía Nacional se tomó la medida de sellamiento del mismo establecimiento. Esta actividad  fue coordinada  por la Secretaria Distrital de Salud, con la participación delINVIMA y las Subredes Integradas de Servicios de Salud Sur y Norte. 
-                                                    <br> La pérdida de la cadena de frío y la exposición  directa al consumidor, trae como consecuencia la contaminación de los productos cárnicos, afectando la salud delosBogotano. La Secretaria Distrital de Salud continuará realizando este tipo de operativos en diferentes puntos de la ciudad mediante la inspección, vigilancia y control de estos y otros alimentos, verificando su inocuidad y previniendo las enfermedades transmitidas por los mismos.
-                                                </p>
-                                            </div>                                            
+            <div class="row">
+                    <div class="col-6" >
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab1">
+                                <section class="content">
+                                    <div class="content-inside">
+                                        <div class="header-content row col-sm-12">
+                                            <span style="text-align: justify;">
+                                                OPERATIVO DE VIGILANCIA EN EXPENDIOS AVÍCOLAS DE CORABASTO
+                                            </span>
                                         </div>
-                                        <div class="row justify-content-end">
-                                            <div>
-                                                <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                        <div class="row cont-inside">
+                                        <div class="col-12">                                      
+                                            <div class="row">
+                                                <div class="col-10-justify-content-center" style="padding:10px;">
+                                                    <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
+                                                    <p style="text-align:justify; margin-left: 5px;">
+                                                        Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos. 
+                                                        <br> En el operativo que inició a las tres de la mañana se inspeccionaron plantas de beneficio,  expendios y vehículos trasportadores de productos cárnicos, aplicando las medidas sanitarias de decomiso y desnaturalizaciónde los productos en uno de los establecimientos por mal almacenamiento, pues estaban expuestosa la manipulación directa del consumidor y al ambiente, en conjunto con la Policía Nacional se tomó la medida de sellamiento del mismo establecimiento. Esta actividad  fue coordinada  por la Secretaria Distrital de Salud, con la participación delINVIMA y las Subredes Integradas de Servicios de Salud Sur y Norte. 
+                                                        <br> La pérdida de la cadena de frío y la exposición  directa al consumidor, trae como consecuencia la contaminación de los productos cárnicos, afectando la salud delosBogotano. La Secretaria Distrital de Salud continuará realizando este tipo de operativos en diferentes puntos de la ciudad mediante la inspección, vigilancia y control de estos y otros alimentos, verificando su inocuidad y previniendo las enfermedades transmitidas por los mismos.
+                                                    </p>
+                                                </div>                                            
                                             </div>
-                                            <div>
-                                                <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
-                                            </div>
-                                            <div>
-                                                <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
-                                            </div>
-                                        </div> 
-                                    </div>                                        
-                                </div>
-                            </section>
+                                            <div class="row justify-content-end">
+                                                <div>
+                                                    <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                                </div>
+                                                <div>
+                                                    <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                                                </div>
+                                                <div>
+                                                    <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                                                </div>
+                                            </div> 
+                                        </div>                                        
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-6" >
-                    <div class="tab-content">
-                        <div class="tab-pane active" id="tab1">
-                            <section class="content">
-                                <div class="content-inside">
-                                    <div class="header-content row col-sm-12">
-                                        <span style="text-align: justify;">
-                                            RECONOCIMIENTO A 7 RESTAURANTES POPULARES POR SU CALIDAD Y CUMPLIMIENTO SANITARIO
-                                        </span>
-                                    </div>
-                                    <div class="row cont-inside">
-                                    <div class="col-12">                                      
-                                        <div class="row">
-                                            <div class="col-10-justify-content-center" style="padding:10px;">
-                                                <img  src="{{asset("images/news/restaurantes.jpg")}}" style="width:203px; margin-right: 10px;" class="rounded float-left" >
-                                                <p style="text-align:justify; margin-left: 5px;">
-                                                    La Secretaría Distrital de Salud (SDS) entrega hoy la distinción ‘Restaurantes1A’ a 7 establecimientos populares de la ciudad que se destacan por cumplir con las normas sanitarias y contar con menús balanceados y variados, buenos niveles de calidad y de atención y una adecuada manipulación de alimentos.
-                                                    <br> Los restaurantes populares son reconocidos por ofrecer almuerzos ejecutivos o ‘corrientazos’. El programa ‘Restaurantes 1A’ busca que los propietarios implementen buenas prácticas sanitarias y de alimentación adecuada y así los clientes tengan confianza que los productos que consumen son de calidad y seguros para su salud.
-                                                    <br> Para ser un ‘Restaurante 1A’, el establecimiento debe tener al menos un año de funcionamiento, vender como mínimo 30 servicios al día (desayunos, almuerzos, cenas), que el costo no sea mayor a $ 11.00, no ser de venta callejera ni estar ubicado en plazoletas de centros comerciales o pertenecer a una cadena de restaurantes y tener afiliados a los empleados al Sistema General de Seguridad Social en Salud.
-                                                    <br> Así mismo, el reconocimiento se otorga a los restaurantes que cumplen con la normatividad sanitaria vigente para estos establecimientos, análisis microbiológico óptimo para jugos y ensaladas, platos balanceados nutricionalmente y con bajo contenido de sal y azúcar.
-                                                    <br> Durante 2018, 25 restaurantes que cumplieron con todos los requerimientos fueron distinguidos por un año. Adicionalmente, la SDS les brindó asesoría técnica de gastronomía y de mercadeo para mejorar el servicio a sus clientes.
-                                                    <br> El día de hoy 7 establecimientos se suman para recibir la distinción en el año 2019, esperando a final de este año realizar otro evento de distinción con los restaurantes que se encuentran en proceso.
-                                                    <br> Los restaurantes a los que se les otorgará el reconocimiento como ‘Restaurantes 1A’ son:
-                                                    <br> <table>
-                                                            <tbody>
-                                                            <tr>
-                                                            <td width="65" style=" border: 1px solid;">
-                                                            <p><strong>No</strong></p>
-                                                            </td>
-                                                            <td width="378"  style=" border: 1px solid;">
-                                                            <p><strong>RESTAURANTES A RECIBIR DISTINCI&Oacute;N</strong></p>
-                                                            </td>
-                                                            <td width="161"  style=" border: 1px solid;">
-                                                            <p><strong>LOCALIDAD</strong></p>
-                                                            </td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td width="65"  style=" border: 1px solid;">
-                                                            <p>1</p>
-                                                            </td>
-                                                            <td width="378"  style=" border: 1px solid;">
-                                                            <p>RESTAURANTE LOS ALMENDROS COLONIAL</p>
-                                                            <p>Direcci&oacute;n: Cl 1F 28 23 Barrio: SANTA ISABEL</p>
-                                                            </td>
-                                                            <td width="161"  style=" border: 1px solid;">
-                                                            <p>MARTIRES</p>
-                                                            </td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td width="65" style=" border: 1px solid;">
-                                                            <p>2</p>
-                                                            </td>
-                                                            <td width="378" style=" border: 1px solid;">
-                                                            <p>SOL Y LUNA RESTAURANTE</p>
-                                                            <p>Direcci&oacute;n: Kr 6B 32 34 Barrio: SAN MARTIN</p>
-                                                            </td>
-                                                            <td width="161" style=" border: 1px solid;">
-                                                            <p>SANTA FE</p>
-                                                            </td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td width="65" style=" border: 1px solid;">
-                                                            <p>3</p>
-                                                            </td>
-                                                            <td width="378" style=" border: 1px solid;">
-                                                            <p>RESTAURANTE EL ZOOLOGICO</p>
-                                                            <p>Direcci&oacute;n: Cl 19 25 04 Barrio: PALOQUEMAO</p>
-                                                            </td>
-                                                            <td width="161" style=" border: 1px solid;">
-                                                            <p>MARTIRES</p>
-                                                            </td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td width="65" style=" border: 1px solid;">
-                                                            <p>4</p>
-                                                            </td>
-                                                            <td width="378" style=" border: 1px solid;">
-                                                            <p>RESTAURANTE CAFETERIA LA 33</p>
-                                                            <p>Direcci&oacute;n: Cl 33 SUR 18 02 Barrio: QUIROGA CENTRAL</p>
-                                                            </td>
-                                                            <td width="161" style=" border: 1px solid;">
-                                                            <p>RAFAEL URIBE</p>
-                                                            </td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td width="65" style=" border: 1px solid;">
-                                                            <p>5</p>
-                                                            </td>
-                                                            <td width="378" style=" border: 1px solid;">
-                                                            <p>RESTAURANTE BON APPETIT</p>
-                                                            <p>Direcci&oacute;n: Kr 54A 46 10 SUR Barrio: VENECIA</p>
-                                                            </td>
-                                                            <td width="161" style=" border: 1px solid;">
-                                                            <p>TUNJUELITO</p>
-                                                            </td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td width="65" style=" border: 1px solid;">
-                                                            <p>6</p>
-                                                            </td>
-                                                            <td width="378" style=" border: 1px solid;">
-                                                            <p>RESTAURANTE GIRASSOL</p>
-                                                            <p>Direcci&oacute;n: Av Kr 50 91 64 Barrio: LA CASTELLANA</p>
-                                                            </td>
-                                                            <td width="161" style=" border: 1px solid;">
-                                                            <p>BARRIOS UNIDOS</p>
-                                                            </td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td width="65" style=" border: 1px solid;">
-                                                            <p>7</p>
-                                                            </td>
-                                                            <td width="378" style=" border: 1px solid;">
-                                                            <p>MONT CAF&Eacute; RESTAURANTE</p>
-                                                            <p>Direcci&oacute;n: KR 22 8 49</p>
-                                                            <p>Barrio: LA PEPITA</p>
-                                                            </td>
-                                                            <td width="161" style=" border: 1px solid;">
-                                                            <p>MARTIRES</p>
-                                                            </td>
-                                                            </tr>
-                                                            </tbody>
-                                                            </table>
-                                                    
-                                                </p>
-                                            </div>                                            
+                    <div class="col-6" >
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab1">
+                                <section class="content">
+                                    <div class="content-inside">
+                                        <div class="header-content row col-sm-12">
+                                            <span style="text-align: justify;">
+                                                RECONOCIMIENTO A 7 RESTAURANTES POPULARES POR SU CALIDAD Y CUMPLIMIENTO SANITARIO
+                                            </span>
                                         </div>
-                                        <div class="row justify-content-end">
-                                            <div>
-                                                <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                        <div class="row cont-inside">
+                                        <div class="col-12">                                      
+                                            <div class="row">
+                                                <div class="col-10-justify-content-center" style="padding:10px;">
+                                                    <img  src="{{asset("images/news/restaurantes.jpg")}}" style="width:203px; margin-right: 10px;" class="rounded float-left" >
+                                                    <p style="text-align:justify; margin-left: 5px;">
+                                                        La Secretaría Distrital de Salud (SDS) entrega hoy la distinción ‘Restaurantes1A’ a 7 establecimientos populares de la ciudad que se destacan por cumplir con las normas sanitarias y contar con menús balanceados y variados, buenos niveles de calidad y de atención y una adecuada manipulación de alimentos.
+                                                        <br> Los restaurantes populares son reconocidos por ofrecer almuerzos ejecutivos o ‘corrientazos’. El programa ‘Restaurantes 1A’ busca que los propietarios implementen buenas prácticas sanitarias y de alimentación adecuada y así los clientes tengan confianza que los productos que consumen son de calidad y seguros para su salud.
+                                                        <br> Para ser un ‘Restaurante 1A’, el establecimiento debe tener al menos un año de funcionamiento, vender como mínimo 30 servicios al día (desayunos, almuerzos, cenas), que el costo no sea mayor a $ 11.00, no ser de venta callejera ni estar ubicado en plazoletas de centros comerciales o pertenecer a una cadena de restaurantes y tener afiliados a los empleados al Sistema General de Seguridad Social en Salud.
+                                                        <br> Así mismo, el reconocimiento se otorga a los restaurantes que cumplen con la normatividad sanitaria vigente para estos establecimientos, análisis microbiológico óptimo para jugos y ensaladas, platos balanceados nutricionalmente y con bajo contenido de sal y azúcar.
+                                                        <br> Durante 2018, 25 restaurantes que cumplieron con todos los requerimientos fueron distinguidos por un año. Adicionalmente, la SDS les brindó asesoría técnica de gastronomía y de mercadeo para mejorar el servicio a sus clientes.
+                                                        <br> El día de hoy 7 establecimientos se suman para recibir la distinción en el año 2019, esperando a final de este año realizar otro evento de distinción con los restaurantes que se encuentran en proceso.
+                                                        <br> Los restaurantes a los que se les otorgará el reconocimiento como ‘Restaurantes 1A’ son:
+                                                        <br> <table>
+                                                                <tbody>
+                                                                <tr>
+                                                                <td width="65" style=" border: 1px solid;">
+                                                                <p><strong>No</strong></p>
+                                                                </td>
+                                                                <td width="378"  style=" border: 1px solid;">
+                                                                <p><strong>RESTAURANTES A RECIBIR DISTINCI&Oacute;N</strong></p>
+                                                                </td>
+                                                                <td width="161"  style=" border: 1px solid;">
+                                                                <p><strong>LOCALIDAD</strong></p>
+                                                                </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td width="65"  style=" border: 1px solid;">
+                                                                <p>1</p>
+                                                                </td>
+                                                                <td width="378"  style=" border: 1px solid;">
+                                                                <p>RESTAURANTE LOS ALMENDROS COLONIAL</p>
+                                                                <p>Direcci&oacute;n: Cl 1F 28 23 Barrio: SANTA ISABEL</p>
+                                                                </td>
+                                                                <td width="161"  style=" border: 1px solid;">
+                                                                <p>MARTIRES</p>
+                                                                </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td width="65" style=" border: 1px solid;">
+                                                                <p>2</p>
+                                                                </td>
+                                                                <td width="378" style=" border: 1px solid;">
+                                                                <p>SOL Y LUNA RESTAURANTE</p>
+                                                                <p>Direcci&oacute;n: Kr 6B 32 34 Barrio: SAN MARTIN</p>
+                                                                </td>
+                                                                <td width="161" style=" border: 1px solid;">
+                                                                <p>SANTA FE</p>
+                                                                </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td width="65" style=" border: 1px solid;">
+                                                                <p>3</p>
+                                                                </td>
+                                                                <td width="378" style=" border: 1px solid;">
+                                                                <p>RESTAURANTE EL ZOOLOGICO</p>
+                                                                <p>Direcci&oacute;n: Cl 19 25 04 Barrio: PALOQUEMAO</p>
+                                                                </td>
+                                                                <td width="161" style=" border: 1px solid;">
+                                                                <p>MARTIRES</p>
+                                                                </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td width="65" style=" border: 1px solid;">
+                                                                <p>4</p>
+                                                                </td>
+                                                                <td width="378" style=" border: 1px solid;">
+                                                                <p>RESTAURANTE CAFETERIA LA 33</p>
+                                                                <p>Direcci&oacute;n: Cl 33 SUR 18 02 Barrio: QUIROGA CENTRAL</p>
+                                                                </td>
+                                                                <td width="161" style=" border: 1px solid;">
+                                                                <p>RAFAEL URIBE</p>
+                                                                </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td width="65" style=" border: 1px solid;">
+                                                                <p>5</p>
+                                                                </td>
+                                                                <td width="378" style=" border: 1px solid;">
+                                                                <p>RESTAURANTE BON APPETIT</p>
+                                                                <p>Direcci&oacute;n: Kr 54A 46 10 SUR Barrio: VENECIA</p>
+                                                                </td>
+                                                                <td width="161" style=" border: 1px solid;">
+                                                                <p>TUNJUELITO</p>
+                                                                </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td width="65" style=" border: 1px solid;">
+                                                                <p>6</p>
+                                                                </td>
+                                                                <td width="378" style=" border: 1px solid;">
+                                                                <p>RESTAURANTE GIRASSOL</p>
+                                                                <p>Direcci&oacute;n: Av Kr 50 91 64 Barrio: LA CASTELLANA</p>
+                                                                </td>
+                                                                <td width="161" style=" border: 1px solid;">
+                                                                <p>BARRIOS UNIDOS</p>
+                                                                </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td width="65" style=" border: 1px solid;">
+                                                                <p>7</p>
+                                                                </td>
+                                                                <td width="378" style=" border: 1px solid;">
+                                                                <p>MONT CAF&Eacute; RESTAURANTE</p>
+                                                                <p>Direcci&oacute;n: KR 22 8 49</p>
+                                                                <p>Barrio: LA PEPITA</p>
+                                                                </td>
+                                                                <td width="161" style=" border: 1px solid;">
+                                                                <p>MARTIRES</p>
+                                                                </td>
+                                                                </tr>
+                                                                </tbody>
+                                                                </table>
+                                                        
+                                                    </p>
+                                                </div>                                            
                                             </div>
-                                            <div>
-                                                <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
-                                            </div>
-                                            <div>
-                                                <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
-                                            </div>
-                                        </div> 
-                                    </div>                                        
-                                </div>
-                            </section>
+                                            <div class="row justify-content-end">
+                                                <div>
+                                                    <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                                </div>
+                                                <div>
+                                                    <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                                                </div>
+                                                <div>
+                                                    <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                                                </div>
+                                            </div> 
+                                        </div>                                        
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                     </div>
-                </div>
-           </div>
+            </div>
             
         </div>        
     </div>    

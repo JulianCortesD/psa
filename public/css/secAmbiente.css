@@ -24,15 +24,30 @@ body {
 	font-family: "Gotham Rounded Book";
 }
 .bordeNaranja {
-	border: orange solid 1px;
+	border: white solid 1px;
 }
 .anchoPagina {
-	width: 1500px;
-	margin: -5px auto;
+	width: 1200px;
+	margin: -15px auto;
 }
 .breadcrumb_ {
 	font-family: "Gotham Rounded Book";
-	color: #0f80b8;
+
+}
+.breadcrumb_.aire {
+	color: #0f80b8 !important;
+}
+.breadcrumb_.agua {
+	color: #00b8cd !important;
+}
+.breadcrumb_.indicadores, .breadcrumb_.alimentos {
+	color: #cf414c !important;
+} 
+.breadcrumb_.cambioC {
+	color: #eaa71a !important;
+}
+.breadcrumb_.espacio {
+	color: #9d5b31 !important;
 }
 .mtHeader {
 	margin-top: 340px;	
@@ -72,13 +87,19 @@ p { margin-top: 20px }
 
 /*Color títulos*/
 .colorAire { color: #0f80b8; }
+.colorAgua { color: #00b8cd; }  
+.colorIndicadores { color: #cf414c; }
+.colorAlimentos { color: #cf414c; } 
+.colorCambioC { color: #eaa71a; }
+.colorEspacio { color: #9d5b31; }
+
 .bold140p {
 	font-size: 140%;
 	font-family: "Gotham Rounded";
 }
 .seccion {
 	padding: 5px 13px;
-	width: max-content;
+	width: max-content; 
 	color: white;
 	font-family: "Gotham Rounded";	
 }
@@ -86,7 +107,13 @@ p { margin-top: 20px }
 	vertical-align: top;
 	margin-right: 20px;	
 }
-.fondoAire { background: #0f80b8; }
+.fondoAire { background: #0f80b8; }  
+.fondoAgua { background: #00b8cd; }
+.fondoIndicadores { background: #cf414c; } 
+.fondoAlimentos { background: #cf414c; } 
+.fondoCambioC { background: #eaa71a; }
+.fondoEspacio { background: #9d5b31; }
+
 .sinSaltoLinea { display: inline; }
 
 .mt-20 { margin-top: -20px; }
@@ -99,16 +126,43 @@ p { margin-top: 20px }
 	margin-top:-10px;
 }
 .cursiva { font-style:italic; }
+.mb0 { margin-bottom: 0px; }
 
 /*Color líneas*/
-.lineaAire { border: 2px solid #0f80b8; }
+.lineaAire { border: 2px solid #0f80b8; } 
+.lineaAgua { border: 2px solid #00b8cd; }
+.lineaIndicadores { border: 2px solid #cf414c; }
+.lineaAlimentos { border: 2px solid #cf414c; } 
+.lineaCambioC { border: 2px solid #eaa71a; }
+.lineaEspacio { border: 2px solid #9d5b31; }
+
 .lineaAireNotas { 
 	border: thin solid #0f80b8;
 	margin-right: 50%;
 }
 
-
 .notaPiePagina {
 	font-size: 70%;
 	margin-top: -4px;
 }
+
+
+/*TABLAS*/
+.alinearVerticalInicial { vertical-align: initial; }
+.alinearIzquierda {
+	text-align: left;
+}
+table { border-spacing: 10px 5px; }
+
+/*LISTAS*/
+ul.sinVinetas {
+margin:0;
+padding:0;
+list-style-type:none;
+}
+
+
+
+
+
+

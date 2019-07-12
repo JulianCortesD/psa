@@ -33,7 +33,7 @@
                 <div class="col-4" style="margin-left: 7px;">
                     <div class="row">
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
                             </a>                            
                         </div>
@@ -43,7 +43,7 @@
                             </a>
                         </div>
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
                             </a>                            
                         </div>
@@ -84,7 +84,7 @@
                     de la normatividad sanitaria relacionada con los espacios libres de humo de tabaco y cigarrillo, contribuyendo así
                     a la prevención de enfermedades, la promoción de la salud y al proceso de toma de decisiones en la implementación
                     de la Política Distrital de Salud Ambiental (PDSA).</p>
-                    <p class="verMas colorAire">Ver más</p>
+                    <a href="{{asset("/aire_que_hacemos")}}" class="verMas colorAire">Ver más</a>
 
                     <h3 class="colorAire">DOCUMENTOS E INVESTIGACIONES</h3>
                     <p class="mt20">Compendio de documentos e investigaciones relacionados con la contaminación del aire, contaminación auditiva, exposición

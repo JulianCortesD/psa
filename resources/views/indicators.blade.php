@@ -58,54 +58,54 @@
     </div>
     <div class="wrapper min-ancho">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-9 col-6">
+            <div class="row mb-3">
+                <div class="col-8">
                     <div class="row">
-                        <div class="col-md-8">
-                            <div class="d-inline" style="margin-left: -15px;">
-                                <img  class="indicator-title d-inline-block" src="{{asset("images/indicators/IconoIndicadores.svg")}}" alt="" >
-                                <div class="titulo-contenido d-inline-block ">
-                                    <label for=""> Indicadores locales y distritales </label>                                    
-                                </div>
-                            </div>
-                        </div>                        
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-12">
-                            <p style="text-align: justify;">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-                            </p>
+                        <div class=" d-inline-block" >
+                            <img class="concept-title d-inline-block"  src="{{asset("images/indicators/IconoIndicadores.svg")}}" alt="">
+                        </div>
+                        <div class="d-inline-block titulo-contenido px-5">
+                            <label > Indicadores locales y distritales </label> 
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-6">
+                </div>  
+                <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                           <span>Bogotá hoy</span> 
+                            <span>Bogotá hoy</span> 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
-                           Fecha y hora
+                            Fecha y hora
                         </div>
-                    </div>    
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" style="margin-left: -15px;">
-                        </div>
-                        <div class="col-4">
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
-                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" style="margin-left: -8px; margin-right: -8px">
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" style="margin-right: -15px;">
-                        </div>
-                    </div>              
+                    </div>                                    
                 </div>
             </div>
 
-            <div class="row mt-5">
+            <div class="row">
+                <div class="col-4 offset-8" >
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
+                                <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
+                            </a>                            
+                        </div>
+                        <div class="col-4">
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
+                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="http://www.ideam.gov.co/">
+                                <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                            </a>                            
+                        </div>
+                    </div>  
+                </div>  
+            </div>
+
+           <div class="row mt-5">
                 <div class="col-6">
                     <img class="d-block altura" src="{{asset("images/indicators/LogoAireRuidoREM.png")}}" alt="" >
                 </div>

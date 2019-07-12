@@ -268,7 +268,7 @@
                 <div class="col-4" style="margin-left: 7px;">
                     <div class="row">
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
                             </a>                            
                         </div>
@@ -278,7 +278,7 @@
                             </a>
                         </div>
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
                             </a>                            
                         </div>
@@ -298,37 +298,35 @@
 
     <div class="wrapper min-ancho">
         <div class="row mb-3">
-                <div class="col-lg-3 col-sm-4">
+                <div class="col-3 ">
                     <a href="http://autorregulacion.saludcapital.gov.co">
                         <img class="d-block altura" src="{{asset("images/news/LogoAutorregulacion.svg")}}" alt="autorregulación" style="height: 80px;">
                     </a>
                 </div>
-                <div class="col-lg-2 col-sm-4" >
+                <div class="col-2" >
                     <div class="d-block mt-3">
-                        <a href="#" class="boton-registe">
-                            <img src="{{asset("images/news/BotonRegistreEstablecimiento.svg")}}" alt="registre aquín" style="height: 55px; margin-left: 5px"> 
-                            {{-- Registre aquí su establecimiento --}}
+                        <a href="http://autorregulacion.saludcapital.gov.co" class="boton-registe">
+                            <img src="{{asset("images/news/BotonRegistreEstablecimiento.svg")}}" alt="registre aquí" style="height: 60px; margin-left: 25px"> 
                         </a>                
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-4">
+                <div class="col-2">
                     <div class="d-block mt-3" style="margin-top: 15px;">
                         <a href="{{asset("conceptos")}}" class="boton-consul">
-                            {{--   Consulte aquí establecimientos con concepto favorable --}}
-                            <img src="{{asset("images/news/BotonConsulteEstablecimiento.svg")}}" alt="autorregulación" style="height: 55px; margin-left: 5px;"> 
+                            <img src="{{asset("images/news/BotonConsulteEstablecimiento.svg")}}" alt="autorregulación" style="height: 60px; margin-left: 50px;"> 
                         </a>                
                     </div> 
                 </div>                
-                <div class="col-lg-2 col-sm-4 offset-md-2 offset-lg-0" >
+                <div class="col-2" >
                     <div class="d-block mt-3">
-                        <a href="#" class="boton-registe">
-                            <img src="{{asset("images/news/BotonConsulteEstablecimiento2.svg")}}" alt="registre aquí" style="height: 55px; margin-left: 5px">
+                        <a href="{{asset("acreditados")}}" class="boton-registe">
+                            <img src="{{asset("images/news/BotonConsulteEstablecimiento2.svg")}}" alt="restablecimientos acreditados" style="height: 60px; margin-left: 65px">
                         </a>                
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-4">
+                <div class="col-3" style="text-align: center;">
                     <a href="">
-                        <img src="{{asset("images/news/LogoExcelenciaSanitaria.svg")}}" alt="Excelencia sanitaria" style="height: 80px; margin-left: 5px;">
+                        <img src="{{asset("images/news/LogoExcelenciaSanitaria.svg")}}" alt="Excelencia sanitaria" style="height: 80px; margin-left: 70px;">
                     </a>
                 </div>
             </div>

@@ -34,7 +34,7 @@
                 <div class="col-4" style="margin-left: 7px;">
                     <div class="row">
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
                             </a>                            
                         </div>
@@ -44,7 +44,7 @@
                             </a>
                         </div>
                         <div class="col-4">
-                            <a href="">
+                            <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
                             </a>                            
                         </div>
