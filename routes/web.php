@@ -43,3 +43,7 @@ Route::get('/alimentos_sanos','AlimentosController@index')->name('alimentosIndex
 Route::get('/alimentos_sanos_ver','AlimentosController@indexMas')->name('alimentosIndexMas');
 Route::get('/alimentos_sanos_indicadores','AlimentosController@indicadores')->name('alimentosIndicadores');
 Route::get('/alimentos_sanos_normatividad','AlimentosController@normatividad')->name('alimentosNormatividad');
+Route::get('/cambio_climatico','ClimaController@index')->name('climaIndex');
+Route::get('/cambio_climatico_indicadores','ClimaController@indicadores')->name('climaIndicadores');
+Route::get('/cambio_climatico_mapas','ClimaController@mapas')->name('climaMapas');
+Route::get('/cambio_climatico_normatividad','ClimaController@normatividad')->name('climaNormatividad');

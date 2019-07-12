@@ -32,7 +32,7 @@
                                         <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
                                     </div>
                                     <div class="d-inline menu-header-interno">
-                                        <label>Política Distrital de <br> Salud Ambiental</label> 
+                                        <a href="{{asset("politica_distrital_salud_ambiental")}}" style="color: #019EE2;">Política Distrital de <br> Salud Ambiental</a> 
                                     </div>
                                <!--  </a> -->
                             </div>
@@ -44,7 +44,7 @@
                                         <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoParticipacionCiudadana.svg")}}" alt=""  >
                                     </div>
                                     <div class="d-inline menu-header-interno">
-                                        <label>Participación <br> Ciudadana</label> 
+                                        <a href="{{asset("participacion_ciudadana")}}" style="color: #019EE2;">Participación <br> Ciudadana</ > 
                                     </div>
                                 <!-- </a> -->
                             </div>
@@ -56,7 +56,7 @@
                                         <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoVigilanciaSaludAmbiental.svg")}}" alt=""  >
                                     </div>
                                     <div class="d-inline menu-header-interno">
-                                        <label>Vigilancia de la <br> Salud Ambiental</label> 
+                                        <a href="{{asset("vigilancia_salud_ambiental")}}" style="color: #019EE2;">Vigilancia de la <br> Salud Ambiental</a> 
                                     </div>
                                 <!-- </a>  -->   
                             </div>
@@ -172,7 +172,7 @@
                                 <a class="dropdown-item" href="{{asset("agua_saneamiento_indicadores")}}">Indicadores</a>
                                 <a class="dropdown-item" href="{{asset("agua_saneamiento_normatividad")}}">Normatividad</a>
                                 <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                                {{--<a class="dropdown-item" href="#">Documentos e investigaciones</a>--}}
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </ul>
                         </li>
@@ -182,13 +182,13 @@
                                 <div>Cambio <br> climatico</div>
                             </a>
                             <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item titulo-tecnico" href="#"><em>Cambio Climático</em> </a>
+                                <a class="dropdown-item titulo-tecnico"  href="{{asset("cambio_climatico")}}"><em>Cambio Climático</em> </a>
                                 <a class="dropdown-item" href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">Índice de radicaón UV</a>
                                 <a class="dropdown-item" href="https://drive.google.com/open?id=1qQLcL0pdxRg6FWcKoUIH7WPqhE5Ndog-">Índice de vulnerabilidad</a>
-                                <a class="dropdown-item" href="#">Indicadores</a>
-                                <a class="dropdown-item" href="#">Normatividad</a>
-                                {{-- <a class="dropdown-item" href="#">Mapas</a> --}}
-                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                                <a class="dropdown-item" href="{{asset("cambio_climatico_indicadores")}}">Indicadores</a>
+                                <a class="dropdown-item" href="{{asset("cambio_climatico_normatividad")}}">Normatividad</a>
+                                <a class="dropdown-item" href="{{asset("cambio_climatico_mapas")}}">Mapas</a>
+                                {{--<a class="dropdown-item" href="#">Documentos e investigaciones</a>--}}
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
