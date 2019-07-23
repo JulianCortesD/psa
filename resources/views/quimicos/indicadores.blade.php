@@ -73,21 +73,20 @@
                 <div class="contenidoSecAmb centradoDiv">
                     <h2 class="colorSeguridadquimica">
                     <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" align="absbottom" />Indicadores</h2>
-                    <h2 class="seccion fondoSeguridadquimica sinSaltoLinea"></h2>
-
+                    
                     <p>Refleja la proporción  de las intervenciones realizadas en los  procesos de vigilancia y control, en las actividades
                     de la industria y del sector belleza, así como el acompañamiento a los establecimientos en su gestión de la salud ambiental.</p>
                     <p>&nbsp;</p>
                     <ul>
-                    <li>
-                        <span class="colorIndicadores">Tasa incidencia de intoxicación con sustancias químicas en Bogotá D.C</span>..
+                    <li class="colorSeguridadquimica">
+                        <span >Tasa incidencia de intoxicación con sustancias químicas en Bogotá D.C</span>..
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/intoxicacion/">Ver aquí</a>
                     </li>
                     </ul>
                     <p>&nbsp;</p>
                     <ul>
-                    <li>
-                        <span class="colorIndicadores">Cantidad de sustancias químicas peligrosas por habitante en Bogotá D.C</span>.
+                    <li class="colorSeguridadquimica">
+                        <span >Cantidad de sustancias químicas peligrosas por habitante en Bogotá D.C</span>.
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/distribucionsustanciasquimicaspeligrosaspercapita/">ver aquí</a>
                     </li>
                     </ul>
