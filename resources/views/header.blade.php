@@ -87,7 +87,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("aire_ruido_rem")}}"> <em>Aire, ruido y REM</em> </a>
-                                <a class="dropdown-item" href="{{asset("aire_calidad")}}">Calidad del aire</a>
+                                <a class="dropdown-item"  href="{{asset("aire_ruido_rem")}}">Calidad del aire</a>
                                 <a class="dropdown-item" href="{{asset("aire_calidad_tabaco")}}">Espacios libres de humo</a>
                                 <a class="dropdown-item" href="{{asset("aire_calidad_ruido")}}">Ruido</a>
                                 <a class="dropdown-item" href="{{asset("aire_calidad_radiacion")}}">Radiación electromagnética</a>
