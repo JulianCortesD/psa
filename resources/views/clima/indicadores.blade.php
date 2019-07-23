@@ -79,8 +79,8 @@
                         <div class="anchoPagina">
                         <Indicadores>
                         </indicadores>
-                        <p class="colorcambioclimatico">
-                            <span class="colorIndicadoressinSaltoLinea">Reflejan la variabilidad climática y las notificaciones de eventos de interés en salud pública posiblemente asociados
+                        <p >
+                            <span >Reflejan la variabilidad climática y las notificaciones de eventos de interés en salud pública posiblemente asociados
                             al fenómeno de cambio climático en Bogotá.</span>
                         </p>
                         <p>&nbsp;</p>
@@ -88,7 +88,7 @@
                         <div class="colorIndicadoressinSaltoLinea"></div>
                     </div>
                     <ul>
-                        <li >Eventos notificados de ESI-IRAG en temporada de lluvias en Bogotá D.C
+                        <li class="colorcambioclimatico">Eventos notificados de ESI-IRAG en temporada de lluvias en Bogotá D.C
                         <a  href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/temporadalluvias/" align="right">
                             <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
                             {{-- Ver más --}}
@@ -97,7 +97,7 @@
                     </ul>
                     <p>&nbsp;</p>
                     <ul>
-                        <li >Temperatura en Bogotá D.C
+                        <li class="colorcambioclimatico">Temperatura en Bogotá D.C
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tbogota/" align="right">
                                 <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
                                 {{-- Ver más --}}

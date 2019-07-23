@@ -167,19 +167,19 @@
             <div class="logos colorETOZ bold140p">
                 <div class="centrado">
                     <p class="colorETOZ">Documentos e investigaciones</p>
-                    <img src="images/quimica/espacioDOCUMENTOS.jpg" width="85" height="63" alt="Aire docs" />
+                    <img src="images/Eventos zoonoticos/DOCUMENTOS.png" width="85" height="63" alt="Aire docs" />
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Mapas</p>
-                    <img src="images/quimica/espacioMAPA.jpg" width="85" height="63" alt="Aire mapa" />
+                    <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" alt="Aire mapa" />
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Normatividad</p>
-                    <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
+                    <img src="imagesEventos zoonoticos/oNORMATIVIDAD.png" width="85" height="63" alt="Aire normas" />
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Indicadores</p>
-                    <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />                    </a>
+                    <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" alt="Aire título" />                    </a>
                 </div>
             </div>        
             

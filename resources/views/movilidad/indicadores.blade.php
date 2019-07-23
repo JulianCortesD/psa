@@ -83,12 +83,12 @@
                     <p>Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente
                     asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá. </p>
                     <ul>
-                    <li>Prevalencia de sibilancias en menores de 5 años posiblemente asociado a material particulado en Bogotá D.C.</li>
-                    <li>Link:
+                    <li class="colorEspacio">Prevalencia de sibilancias en menores de 5 años posiblemente asociado a material particulado en Bogotá D.C.</li>
+                    <li class="colorEspacio">Link:
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/</a>
                     </li>
-                    <li>Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</li>
-                    <li>Link:
+                    <li class="colorEspacio">Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</li>
+                    <li class="colorEspacio">Link:
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/</a>
                     </li>
                     </ul>
@@ -97,10 +97,10 @@
                     <p>Permiten mostrar las principales acciones afines con la implementación de la norma de espacios libres de humo de tabaco
                     y la frecuencia de la exposición al humo de tabaco en Bogotá.</p>
                     <ul>
-                    <li>
+                    <li class="colorEspacio">
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco" class="colorEspacio">Prevalencia de consumo de tabaco en hogares en Bogotá D.C</a>
                     </li>
-                    <li>Link:
+                    <li class="colorEspacio">Link:
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/</a>
                     </li>
                     </ul>
