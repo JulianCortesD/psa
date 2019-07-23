@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" width="50%" alt="símbolo sección agua" />
+                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="símbolo sección agua" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -73,50 +73,52 @@
                 
                 <div class="contenidoSecAmb centradoDiv">
                     <div>
-                        <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Calidad aire" />
-                        <h1 class="seccion fondoIndicadores sinSaltoLinea"> Normatividad</h1>
+                        <p align="left" class="colorAlimentos">
+                            <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" align="absbottom" />Normatividad</p>
+                        <p align="center" class="colorAlimentos">Regulación Transversal</p>
+                        <p align="center" class="colorAlimentos">&nbsp;</p>
                     </div>
-
-                    <h2 class="centrado colorIndicadores mt80">Regulación Transversal</h2>
 
                     <table width="100%" border="0">
                         <tr class="alinearVerticalInicial">
 
                             <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.6.1.1 Aditivos alimentarios</h3>
+                                <h3 class="alinearIzquierda mb0">Aditivos alimentarios</h3>
                                 <ul class="sinVinetas">
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1qU3b1d8fV-bcJWmPQRBDhQ-RcCbDAX6e" class="colorAlimentos">Decreto 2106 de 1983</a>
+                                        <a href="https://drive.google.com/open?id=1qU3b1d8fV-bcJWmPQRBDhQ-RcCbDAX6e" class="colorIndicadores">Decreto 2106 de 1983</a>
+                                        </span>
+                                        <a href="https://drive.google.com/open?id=1qU3b1d8fV-bcJWmPQRBDhQ-RcCbDAX6e"></a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1QCd2q41GH763DKwAE7G0KNk1Gj0u9dTG" class="colorAlimentos">Resolución 13402 de 1985</a>
+                                        <a href="https://drive.google.com/open?id=1QCd2q41GH763DKwAE7G0KNk1Gj0u9dTG" class="colorIndicadores">Resolución 13402 de 1985</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1dxHBEtkmTnB7kGCcTjv8i1ssL29rAEr5" class="colorAlimentos">Resolución 10593 de 1985 </a>
+                                        <a href="https://drive.google.com/open?id=1dxHBEtkmTnB7kGCcTjv8i1ssL29rAEr5" class="colorIndicadores">Resolución 10593 de 1985 </a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1vimH2nd9e2VYrVMJLeHMsIN9C-AmOu2b" class="colorAlimentos">Resolución 14985 de 1988 </a>
+                                        <a href="https://drive.google.com/open?id=1vimH2nd9e2VYrVMJLeHMsIN9C-AmOu2b" class="colorIndicadores">Resolución 14985 de 1988 </a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1U-kyp8ew5SuY1aKxR8d7AHW2WIT92kmI" class="colorAlimentos">Resolución 1618 de 1991</a>
+                                        <a href="https://drive.google.com/open?id=1U-kyp8ew5SuY1aKxR8d7AHW2WIT92kmI" class="colorIndicadores">Resolución 1618 de 1991</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1W8cf6DU66BpHCzXXW7v160z11z7v0E20f" class="colorAlimentos">Resolución 4124 de 1991</a>
+                                        <a href="https://drive.google.com/open?id=1W8cf6DU66BpHCzXXW7v160z11z7v0E20f" class="colorIndicadores">Resolución 4124 de 1991</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1pQwPMcqRmUeXqXanuoQnmYrBV1o6q3Ca" class="colorAlimentos">Resolución 4125 de 1991</a>
+                                        <a href="https://drive.google.com/open?id=1pQwPMcqRmUeXqXanuoQnmYrBV1o6q3Ca" class="colorIndicadores">Resolución 4125 de 1991</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1h7G_TCABIYi6vvBX4w-qhS6smIn1AVuF" class="colorAlimentos">Resolución 4126 de 1991</a>
+                                        <a href="https://drive.google.com/open?id=1h7G_TCABIYi6vvBX4w-qhS6smIn1AVuF" class="colorIndicadores">Resolución 4126 de 1991</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1zRSzDu4-eAb5iQMajdmNGlP6YmjvdiSg" class="colorAlimentos">Resolución 2826 de 1996</a>
+                                        <a href="https://drive.google.com/open?id=1zRSzDu4-eAb5iQMajdmNGlP6YmjvdiSg" class="colorIndicadores">Resolución 2826 de 1996</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1Y3cCvhCdUWPHAf6izIVyiWgtiRn7Dtf4" class="colorAlimentos">Resolución 1528 de 2002</a>
+                                        <a href="https://drive.google.com/open?id=1Y3cCvhCdUWPHAf6izIVyiWgtiRn7Dtf4" class="colorIndicadores">Resolución 1528 de 2002</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1IkJseLgFhv5zZeP6ecQSCHYsWzYdUEWJ" class="colorAlimentos">Resolución 2606 de 2009</a>
+                                        <a href="https://drive.google.com/open?id=1IkJseLgFhv5zZeP6ecQSCHYsWzYdUEWJ" class="colorIndicadores">Resolución 2606 de 2009</a>
                                     </li>
                                 </ul>
 
@@ -125,133 +127,41 @@
 
 
                             <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.6.1.2 Inspección, vigilancia y control de procedimientos </h3>
+                                <h3 class="alinearIzquierda mb0">Inspección, vigilancia y control de procedimientos </h3>
                                 <ul class="sinVinetas">
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1nSU8kNR_tQE5GeNwfp7yTiiB5COnM4jn" class="colorAlimentos">Ley 1437 de 2011 </a>
+                                        <a href="https://drive.google.com/open?id=1nSU8kNR_tQE5GeNwfp7yTiiB5COnM4jn" class="colorIndicadores">Ley 1437 de 2011 </a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1gLn30CxiwVzhHc94usgiDw7FBDJQrvYP" class="colorAlimentos">Ley 09 de 1979</a>
+                                        <a href="https://drive.google.com/open?id=1gLn30CxiwVzhHc94usgiDw7FBDJQrvYP" class="colorIndicadores">Ley 09 de 1979</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=139EzdpytDpNPse9XKSBK2XuFW_H9d6D6" class="colorAlimentos">Decreto 2078 de 2012 </a>
+                                        <a href="https://drive.google.com/open?id=139EzdpytDpNPse9XKSBK2XuFW_H9d6D6" class="colorIndicadores">Decreto 2078 de 2012 </a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1iSe6j9ijb8PMIhN1YEjr0l6PDCGCHVFE" class="colorAlimentos">Resolución 1229 de 2013</a>
+                                        <a href="https://drive.google.com/open?id=1iSe6j9ijb8PMIhN1YEjr0l6PDCGCHVFE" class="colorIndicadores">Resolución 1229 de 2013</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=18cCHzeWRbRTRO30zS8W5GCdk-NFF9jma" class="colorAlimentos">Resolución 5296 de 2013 </a>
+                                        <a href="https://drive.google.com/open?id=18cCHzeWRbRTRO30zS8W5GCdk-NFF9jma" class="colorIndicadores">Resolución 5296 de 2013 </a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1NcLl0m7AMC3UMuWxDF4MQtkxbzXtvkOQ" class="colorAlimentos">Resolución 770 de 2014</a>
+                                        <a href="https://drive.google.com/open?id=1NcLl0m7AMC3UMuWxDF4MQtkxbzXtvkOQ" class="colorIndicadores">Resolución 770 de 2014</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1HH4uxBN8iDMZXv-WuKm9JlZKBCBFnaTF" class="colorAlimentos">Circular 046 de 2014</a>
+                                        <a href="https://drive.google.com/open?id=1HH4uxBN8iDMZXv-WuKm9JlZKBCBFnaTF" class="colorIndicadores">Circular 046 de 2014</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1peevQae8SttoSRxik2G8skhOSbgydD4j" class="colorAlimentos">Circular 031 de 2015</a>
+                                        <a href="https://drive.google.com/open?id=1peevQae8SttoSRxik2G8skhOSbgydD4j" class="colorIndicadores">Circular 031 de 2015</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.6.1.3 Muestras sin valor comercial, incentivos</h3>
+                                <h3 class="alinearIzquierda mb0"> Muestras sin valor comercial, incentivos</h3>
                                 <ul class="sinVinetas">
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1PeYzUB3V7VhmhYTGoaPUxgUeH6Ej0j3y" class="colorAlimentos">Resolución 1893 de 2001</a>
+                                        <a href="https://drive.google.com/open?id=1PeYzUB3V7VhmhYTGoaPUxgUeH6Ej0j3y" class="colorIndicadores">Resolución 1893 de 2001</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1obY98rX3sWdCNz1GvKyaIT64kjxyB6Tn" class="colorAlimentos">Resolución 3772 de 2013</a>
-                                    </li>
-                                </ul>
-                            </td>
-
-
-
-                            <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.6.1.4 Importación y exportación</h3>
-                                <ul class="sinVinetas">
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1cVT92qwtUIFr78XgiXbb5gF_vDXXEOK9" class="colorAlimentos">Ley 915 de 2004 </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1Gxu5_brVUMOolJKjyZdbugJRFYxs_XSI" class="colorAlimentos">Decreto ley 019 de 2012</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1-RTCj9DpVKsKLT8f-bJPkwrEnL7b3XG2" class="colorAlimentos">Decreto 1686 de 2012</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1pG2FJZ8AF0lia4gQ5Tj4BISXYWa_GXgj" class="colorAlimentos">Decreto 539 de 2014</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1uUSyBfA4CTYfKHDidLUC5KUbC76Yoa58" class="colorAlimentos">Decreto 590 de 2014</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1uUSyBfA4CTYfKHDidLUC5KUbC76Yoa58" class="colorAlimentos">Decreto 590 de 2014</a>
-                                    </li>
-                                </ul>
-
-                                <h3 class="alinearIzquierda mb0">2.6.1.5 Superficies en contacto</h3>
-                                <ul class="sinVinetas">
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1wcLkKwjV6uzMtkO8Xiv5UcM-oTpe1V0j" class="colorAlimentos">Resolución 683 de 2012</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1cY2mZzBLlhVX7Bcri86WizykCnyfcXWJ" class="colorAlimentos">Resolución 4142 de 2012</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=13hHY-LUHjlc80xaUcxNfMSK-KnPsU09k" class="colorAlimentos">Resolución 4143 de 2012</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1kTKMYeFrgjD-Q7FUl7_fWDd2bnllFkX2" class="colorAlimentos">Resolución 834 de 2013</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1gvK-Iw4vJnLIDg1yXkxto5rMpf27Ozfs" class="colorAlimentos">Resolución 835 de 2013</a>
-                                    </li>
-                                </ul>
-
-                            </td>
-
-
-
-                            <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.6.1.6 Buenas Prácticas de Manufactura - BPM, Sistema de Análisis de Riesgos y Puntos Críticos de
-                                    Control HACCP, Registro, Permiso y Notificación</h3>
-                                <ul class="sinVinetas">
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1LAr6p8vv-tfoDzyIKvCWxULNJ17bIsUY" class="colorAlimentos">Resolución 604 de 1993 </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1gDpdXwyaC8mni0zR10YvMff_99woa49v" class="colorAlimentos">Decreto 60 de 2002 </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1sJICP07TMBLmhuv4ShMtYlCf_thmfbkU" class="colorAlimentos">Ley 915 de 2004 </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1nSnGNYQgDGhC5rGr-YN3OIskYoSfo3ga" class="colorAlimentos">Decreto 1686 de 2012 </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1hSuAe5O1FNLeMs2X-pJezO1yklAb-1DP" class="colorAlimentos">Decreto 2674 de 2013</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=15Euii53-GizFSxoclTCVEePa_FMiGXcM" class="colorAlimentos">Resolución 719 de 2015</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1Z5in7wcwsufIsL1UrdlpoFqcXlnX57LM" class="colorAlimentos">Resolución 3168 de 2015</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1Y1zhE91hRaKgkE6TUwq7xRklYe5s9aJp" class="colorAlimentos">Resolución 2015048290 de 2015 </a>
-                                    </li>
-                                </ul>
-
-                                <h3 class="alinearIzquierda mb0">2.6.1.7 Rotulado etiquetado</h3>
-                                <ul class="sinVinetas">
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1l-zQUx7YABiVJUKodw1t2tNfNSaDvWAO" class="colorAlimentos">Resolución 5109 de 2005 </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1enMWjm1yrcbaGIXuA5VDQhLgUGClvEHj" class="colorAlimentos">Resolución 1506 de 2011 </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1jQUTCb8gmLTV3vhqJtx5l4KW9DwRVLV5" class="colorAlimentos">Resolución 333 de 2011 </a>
+                                        <a href="https://drive.google.com/open?id=1obY98rX3sWdCNz1GvKyaIT64kjxyB6Tn" class="colorIndicadores">Resolución 3772 de 2013</a>
                                     </li>
                                 </ul>
                             </td>
@@ -259,38 +169,128 @@
 
 
                             <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.6.1.8 Alimentos envasados herméticamente</h3>
+                                <h3 class="alinearIzquierda mb0"> Importación y exportación</h3>
                                 <ul class="sinVinetas">
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1jqf3EAl8_Bq6DgdEfKn0XHyEs_UEiG8S" class="colorAlimentos">Resolución 2195 De 2010</a>
+                                        <a href="https://drive.google.com/open?id=1cVT92qwtUIFr78XgiXbb5gF_vDXXEOK9" class="colorIndicadores">Ley 915 de 2004 </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1Gxu5_brVUMOolJKjyZdbugJRFYxs_XSI" class="colorIndicadores">Decreto ley 019 de 2012</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1-RTCj9DpVKsKLT8f-bJPkwrEnL7b3XG2" class="colorIndicadores">Decreto 1686 de 2012</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1pG2FJZ8AF0lia4gQ5Tj4BISXYWa_GXgj" class="colorIndicadores">Decreto 539 de 2014</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1uUSyBfA4CTYfKHDidLUC5KUbC76Yoa58" class="colorIndicadores">Decreto 590 de 2014</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1uUSyBfA4CTYfKHDidLUC5KUbC76Yoa58" class="colorIndicadores">Decreto 590 de 2014</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.6.1.9 Límites máximos de residuos y niveles máximos</h3>
+                                <h3 class="alinearIzquierda mb0"> Superficies en contacto</h3>
                                 <ul class="sinVinetas">
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1YBw3J4W0ZfTspLDMt3DH4asvuoU8W5Ha" class="colorAlimentos">Resolución 2906 de 2007</a>
+                                        <a href="https://drive.google.com/open?id=1wcLkKwjV6uzMtkO8Xiv5UcM-oTpe1V0j" class="colorIndicadores">Resolución 683 de 2012</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1fJUr7TbNn0CzdABlSCvEyQcQFplUNZHe" class="colorAlimentos">Resolución 1382 de 2013 </a>
+                                        <a href="https://drive.google.com/open?id=1cY2mZzBLlhVX7Bcri86WizykCnyfcXWJ" class="colorIndicadores">Resolución 4142 de 2012</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1XydwBheV6gPyZyaDSqhGiRlE7YsuHhKC" class="colorAlimentos">Resolución 4506 de 2013</a>
+                                        <a href="https://drive.google.com/open?id=13hHY-LUHjlc80xaUcxNfMSK-KnPsU09k" class="colorIndicadores">Resolución 4143 de 2012</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1zU4tROM_ez6keYIisjxcnrmGkjuI2O8o" class="colorAlimentos">Resolución 2671 de 2014</a>
+                                        <a href="https://drive.google.com/open?id=1kTKMYeFrgjD-Q7FUl7_fWDd2bnllFkX2" class="colorIndicadores">Resolución 834 de 2013</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1PNtDyMBxXw7tbHADEFjbkQ_l63lvavT4" class="colorAlimentos">Resolución 3709 de 2015</a>
+                                        <a href="https://drive.google.com/open?id=1gvK-Iw4vJnLIDg1yXkxto5rMpf27Ozfs" class="colorIndicadores">Resolución 835 de 2013</a>
+                                    </li>
+                                </ul>
+
+                            </td>
+
+
+
+                            <td width="20%">
+                                <h3 class="alinearIzquierda mb0">Buenas Prácticas de Manufactura - BPM, Sistema de Análisis de Riesgos y Puntos Críticos de Control
+                                    HACCP, Registro, Permiso y Notificación</h3>
+                                <ul class="sinVinetas">
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1LAr6p8vv-tfoDzyIKvCWxULNJ17bIsUY" class="colorIndicadores">Resolución 604 de 1993 </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1gDpdXwyaC8mni0zR10YvMff_99woa49v" class="colorIndicadores">Decreto 60 de 2002 </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1sJICP07TMBLmhuv4ShMtYlCf_thmfbkU" class="colorIndicadores">Ley 915 de 2004 </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1nSnGNYQgDGhC5rGr-YN3OIskYoSfo3ga" class="colorIndicadores">Decreto 1686 de 2012 </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1hSuAe5O1FNLeMs2X-pJezO1yklAb-1DP" class="colorIndicadores">Decreto 2674 de 2013</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=15Euii53-GizFSxoclTCVEePa_FMiGXcM" class="colorIndicadores">Resolución 719 de 2015</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1Z5in7wcwsufIsL1UrdlpoFqcXlnX57LM" class="colorIndicadores">Resolución 3168 de 2015</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1Y1zhE91hRaKgkE6TUwq7xRklYe5s9aJp" class="colorIndicadores">Resolución 2015048290 de 2015 </a>
+                                    </li>
+                                </ul>
+
+                                <h3 class="alinearIzquierda mb0">Rotulado etiquetado</h3>
+                                <ul class="sinVinetas">
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1l-zQUx7YABiVJUKodw1t2tNfNSaDvWAO" class="colorIndicadores">Resolución 5109 de 2005 </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1enMWjm1yrcbaGIXuA5VDQhLgUGClvEHj" class="colorIndicadores">Resolución 1506 de 2011 </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1jQUTCb8gmLTV3vhqJtx5l4KW9DwRVLV5" class="colorIndicadores">Resolución 333 de 2011 </a>
+                                    </li>
+                                </ul>
+                            </td>
+
+
+
+                            <td width="20%">
+                                <h3 class="alinearIzquierda mb0">Alimentos envasados herméticamente</h3>
+                                <ul class="sinVinetas">
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1jqf3EAl8_Bq6DgdEfKn0XHyEs_UEiG8S" class="colorIndicadores">Resolución 2195 De 2010</a>
+                                    </li>
+                                </ul>
+
+                                <h3 class="alinearIzquierda mb0">Límites máximos de residuos y niveles máximos</h3>
+                                <ul class="sinVinetas">
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1YBw3J4W0ZfTspLDMt3DH4asvuoU8W5Ha" class="colorIndicadores">Resolución 2906 de 2007</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1fJUr7TbNn0CzdABlSCvEyQcQFplUNZHe" class="colorIndicadores">Resolución 1382 de 2013 </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1XydwBheV6gPyZyaDSqhGiRlE7YsuHhKC" class="colorIndicadores">Resolución 4506 de 2013</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1zU4tROM_ez6keYIisjxcnrmGkjuI2O8o" class="colorIndicadores">Resolución 2671 de 2014</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://drive.google.com/open?id=1PNtDyMBxXw7tbHADEFjbkQ_l63lvavT4" class="colorIndicadores">Resolución 3709 de 2015</a>
                                     </li>
                                 </ul>
                             </td>
                         </tr>
                     </table>
-
-
-
-                    <h2 class="centrado colorIndicadores mt40">Regulación Específica</h2>
+                    
+                    <h2 align="center" class="colorAlimentos">Regulación Específica</h2>
                     <table width="100%" border="0">
                         <tr class="alinearVerticalInicial">
                             <td width="20%">
@@ -374,7 +374,7 @@
                                 </ul>
                             </td>
                             <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.7.2.5 Productos de la pesca</h3>
+                                <h3 class="alinearIzquierda mb0">Productos de la pesca</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1QVvFMGs-POJIFrTFrAIgwEbKHrORkDYI" class="colorIndicadores">Decreto 561 de 1984</a>
@@ -402,7 +402,7 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.2.6 Bebidas alcohólicas</h3>
+                                <h3 class="alinearIzquierda mb0">Bebidas alcohólicas</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1KaGASuWU7Hk5XliY2n-JDR-xbVdATFeG" class="colorIndicadores">Decreto 4445 de 2005</a>
@@ -411,14 +411,14 @@
                                         <a href="https://drive.google.com/open?id=1aTByf8np5T2PqxTcp4k521gn1Yz2NHxV" class="colorIndicadores">Decreto 3515 de 2007</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1cO-VgoHx8dcDfHWXFs9yKISk7iRpbzE0" class="colorAlimentos">Decreto 1686 de 2012</a>
+                                        <a href="https://drive.google.com/open?id=1cO-VgoHx8dcDfHWXFs9yKISk7iRpbzE0" class="colorIndicadores">Decreto 1686 de 2012</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1eynM0gT0bLFdpLMLvwLf-WIKBthSnXBk" class="colorAlimentos">Decreto 1506 de 2014</a>
+                                        <a href="https://drive.google.com/open?id=1eynM0gT0bLFdpLMLvwLf-WIKBthSnXBk" class="colorIndicadores">Decreto 1506 de 2014</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.2.7 Laboratorios</h3>
+                                <h3 class="alinearIzquierda mb0">Laboratorios</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1HrT6D4Iy_eZswumfPdYbFxN2-iioR84h" class="colorIndicadores">Resolución 1619 de 2015</a>
@@ -428,7 +428,7 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.2.8 Aceites y grasas</h3>
+                                <h3 class="alinearIzquierda mb0">Aceites y grasas</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1fvJdr5o7SLRy6Vsurf-k0NMAqKnFGlef" class="colorIndicadores">Resolución 2154 De 2012</a>
@@ -437,7 +437,7 @@
 
                             </td>
                             <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.7.2.8 Bebidas Embriagantes</h3>
+                                <h3 class="alinearIzquierda mb0">Bebidas Embriagantes</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1VM1SBJssq2jPdxzd1G8ie4NmvA_I16V5" class="colorIndicadores">Resolución 982 de 1994</a>
@@ -447,7 +447,7 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.2.9 Derivados lácteos</h3>
+                                <h3 class="alinearIzquierda mb0">Derivados lácteos</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=159D2kAg8vd_MCw9AkcrSWREi-YHLz6J-" class="colorIndicadores">Resolución 2310 de 1986</a>
@@ -460,7 +460,7 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.3.1 Sal</h3>
+                                <h3 class="alinearIzquierda mb0">Sal</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1JVqLhcpUsl-0-AVIX0Y4dmLz6jKqTiAF" class="colorIndicadores">Decreto 547 de 1996 </a>
@@ -473,14 +473,14 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.3.2 Miel</h3>
+                                <h3 class="alinearIzquierda mb0">Miel</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1BBeRS0lzNO9KrjIBW5ZHzgggT1EzdXmt" class="colorIndicadores">Resolución 1057 De 2010 </a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.3.3 Lacto sueros</h3>
+                                <h3 class="alinearIzquierda mb0"> Lacto sueros</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=11ZrjJROhiUkrbmqJbuw2xZW7359nrWgU" class="colorIndicadores">Resolución 2997 de 2007</a>
@@ -495,14 +495,14 @@
 
                             </td>
                             <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.7.3.4 Bebidas energizantes</h3>
+                                <h3 class="alinearIzquierda mb0"> Bebidas energizantes</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1ZvDfNSmUf2hVqYZQobv-6L6gLBACZd3p" class="colorIndicadores">Resolución 4150 de 2009</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.3.4 Leche</h3>
+                                <h3 class="alinearIzquierda mb0">Leche</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1phnbd2REvygs4XqGaMMggaYzLlHyJ3JB" class="colorIndicadores">Decreto 616 de 2006 </a>
@@ -515,7 +515,7 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda">2.7.3.5 Mayonesa</h3>
+                                <h3 class="alinearIzquierda">Mayonesa</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1OAu2B01ql8KkUL20fhoHc8dgrX2sQpF-" class="colorIndicadores">Resolución 17882 de 1985</a>
@@ -525,14 +525,14 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.3.6 Pastas alimenticias</h3>
+                                <h3 class="alinearIzquierda mb0">Pastas alimenticias</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=171MYx2k_Uy8pbdJ6HTntSBJ6tPjFoGKn" class="colorIndicadores">Resolución 4393 De 1991 </a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.3.7 Especias</h3>
+                                <h3 class="alinearIzquierda mb0">Especias</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1XziOHH7DMVCdZQw1Sw6gYbMyEbFYNqf9" class="colorIndicadores">Resolución 19021 de 1985</a>
@@ -542,7 +542,7 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.3.8 Organismos Genéticamente Modificados - OGM</h3>
+                                <h3 class="alinearIzquierda mb0"> Organismos Genéticamente Modificados - OGM</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1nOJvnGc5NkRCeMH8xpMFfdWFxFPXeyPO" class="colorIndicadores">Ley 165 de 1994</a>
@@ -551,66 +551,65 @@
                                         <a href="https://drive.google.com/open?id=1tHs9quchN00t3aSGV1SaEfE22hzYpeS5" class="colorIndicadores">Ley 740 de 2002</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1kbL2SiUohkg1m1NC3GyqCWXiXfvZwvBK" class="colorAlimentos">Decreto 4525 de 2005</a>
+                                        <a href="https://drive.google.com/open?id=1kbL2SiUohkg1m1NC3GyqCWXiXfvZwvBK" class="colorIndicadores">Decreto 4525 de 2005</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1KAvXevFPHm5rPjdBn9O9zpuTSkjMmsvV" class="colorAlimentos">Resolución 227 de 2007</a>
+                                        <a href="https://drive.google.com/open?id=1KAvXevFPHm5rPjdBn9O9zpuTSkjMmsvV" class="colorIndicadores">Resolución 227 de 2007</a>
                                     </li>
                                     <li>
-                                        <a href=" " class="colorAlimentos">Resolución 4254 de 2011</a>
+                                        <a href=" " class="colorIndicadores">Resolución 4254 de 2011</a>
                                     </li>
                                 </ul>
                             </td>
 
 
                             <td width="20%">
-                                <h3 class="alinearIzquierda mb0">2.7.3.9 Bebidas hidratantes</h3>
+                                <h3 class="alinearIzquierda mb0"> Bebidas hidratantes</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=11CDHRzMu0b4EaP1ZTEvGoqY-6vEkzXBx" class="colorIndicadores">Decreto 2229 de 1994</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.4.1 Producción de cacao</h3>
+                                <h3 class="alinearIzquierda mb0"> Producción de cacao</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1BAkLDpAdk1vjHGebnuLYmXp2lTgNIRkk" class="colorIndicadores">Resolución 1511 de 2011</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.4.2 Agua envasada</h3>
+                                <h3 class="alinearIzquierda mb0">Agua envasada</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1-1SPetH6PiBco-bbsGLQ4prekJZA0iFb" class="colorIndicadores">Resolución 12186 de 1991</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.4.3 Frutas y hortalizas</h3>
+                                <h3 class="alinearIzquierda mb0"> Frutas y hortalizas</h3>
+                                <h3 class="alinearIzquierda mb0">Resolución 14712 de 1984 </h3>
                                 <ul class="sinVinetas">
-                                    <li>
-                                        <a href="https://drive.google.com/open?id=1VDdLXJ_8QZ8YrmpGoL7W8MM4VFOIX-kR" class="colorIndicadores">Resolución 14712 de 1984 /a></li>
                                     <li>
                                         <a href="https://drive.google.com/open?id=1wTKweZB0YGGi4VZmqTBlKij1WYZN2dEy" class="colorIndicadores">Resolución 15790 de 1984 </a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1PRvARwsIxlDNPwKl39qi815ZTHblvKnf" class="colorAlimentos">Resolución 2155 de 2012</a>
+                                        <a href="https://drive.google.com/open?id=1PRvARwsIxlDNPwKl39qi815ZTHblvKnf" class="colorIndicadores">Resolución 2155 de 2012</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=12RHTVwFl2Cw3CPQUOoCj-sD3MPO8zre6" class="colorAlimentos">Resolución 3929 de 2013 </a>
+                                        <a href="https://drive.google.com/open?id=12RHTVwFl2Cw3CPQUOoCj-sD3MPO8zre6" class="colorIndicadores">Resolución 3929 de 2013 </a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1hv865LLKQt_IGSQp1YgE1KH7Cq6Ss_cY" class="colorAlimentos">Resolución 1155 de 2014</a>
+                                        <a href="https://drive.google.com/open?id=1hv865LLKQt_IGSQp1YgE1KH7Cq6Ss_cY" class="colorIndicadores">Resolución 1155 de 2014</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.4.4 Vinagre</h3>
+                                <h3 class="alinearIzquierda mb0">Vinagre</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="•	Resolución 775 de 2008 " class="colorIndicadores">Resolución 775 de 2008</a>
                                     </li>
                                 </ul>
 
-                                <h3 class="alinearIzquierda mb0">2.7.4.5 Panela</h3>
+                                <h3 class="alinearIzquierda mb0"> Panela</h3>
                                 <ul class="sinVinetas">
                                     <li>
                                         <a href="https://drive.google.com/open?id=1XHKci9oCPYHorm1YBwwOZRQ6U7HFVj_1" class="colorIndicadores">Resolución 779 de 2006</a>
@@ -619,13 +618,13 @@
                                         <a href="https://drive.google.com/open?id=1LyH60Z6L6t184ML8NClQNsSncxRAs-gN" class="colorIndicadores">Resolución 3462 de 2008</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1cvBqhghDIXF4Z1_OXR0a_7JsM2kkoKzu" class="colorAlimentos">Resolución 3544 de 2009</a>
+                                        <a href="https://drive.google.com/open?id=1cvBqhghDIXF4Z1_OXR0a_7JsM2kkoKzu" class="colorIndicadores">Resolución 3544 de 2009</a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1qffL8XZrq4-4YnSqAlr2NRz0S2KhL_t_" class="colorAlimentos">Resolución 4121 de 2011 </a>
+                                        <a href="https://drive.google.com/open?id=1qffL8XZrq4-4YnSqAlr2NRz0S2KhL_t_" class="colorIndicadores">Resolución 4121 de 2011 </a>
                                     </li>
                                     <li>
-                                        <a href="https://drive.google.com/open?id=1mOHgY2xNR0Y48BWtY79SacxiYiHx4BW0" class="colorAlimentos">Resolución 4217 de 2013 </a>
+                                        <a href="https://drive.google.com/open?id=1mOHgY2xNR0Y48BWtY79SacxiYiHx4BW0" class="colorIndicadores">Resolución 4217 de 2013 </a>
                                     </li>
                                 </ul>
 
@@ -633,8 +632,7 @@
                         </tr>
                     </table>
 
-
-                </div>               
+                </div>             
 
             </div>  
 
@@ -646,23 +644,27 @@
 
             <div class="logos colorAlimentos bold140p">
                 <div class="centrado colorAlimentos">
-                    <p>Documentos e investigaciones</p>
+                    <p class="colorAlimentos">Documentos e investigaciones</p>
                     <img src="images/alimentos/IMG_ALIMENTOS_DOCUMENTOS.jpg" width="85" height="63"
                         alt="Agua docs" />
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Mapas</p>
+                    <p class="colorAlimentos">Mapas</p>
                     <img src="images/alimentos/IMG_ALIMENTOS_ MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Normatividad</p>
-                    <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas"
-                    />
+                    <p class="colorAlimentos">Normatividad</p>
+                    <a href="Alimentos_normatividad.html">
+                        <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
+                    </a>
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Calidad del aire</p>
-                    <img src="images/alimentos/IMG_ALIMENTOS_TITULO.jpg" width="85" height="63" alt="Agua título"
-                    />
+                    <p class="colorAlimentos">Indicadores</p>
+                    <p class="colorAlimentos">
+                        <a href="Alimentos_indicadores.html">
+                        <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
+                        </a>
+                    </p>
                 </div>
             </div>           
             

@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/indicators/LogoCambioClimatico.png")}}" width="50%" alt="símbolo sección agua" />
+                        <img src="{{asset("images/indicators/LogoCambioClimatico.png")}}" alt="símbolo sección agua" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -72,92 +72,32 @@
             <div class="row" style="text-align:justify;">
                 
                 <div class="contenidoSecAmb centradoDiv">
-
-                    <h1 class="centrado colorCambioC mt20">Mapas de contaminación por ruido</h1>
-
-                    <h2 class="centrado colorCambioC mt20">Mapas 2016</h2>
-                    <ul>
-                    <li>Habitantes con hipoacusia. Bogotá año 2016</li>
-                    <li>Habitantes con hipoacusia. Bogotá año 2016</li>
-                    <li> del sueño en los habitante de Bogoá. Bogotá año 2016</li>
-                    </ul>
-
-                    <h2 class="centrado colorCambioC mt20">Mapas 2015</h2>
-                    <ul>
-                    <li>Quejas atendidas por exposición a contaminación por ruido. Bogotá año 2015</li>
-                    <li>Personas con hipoacusia. Bogotá año 2015</li>
-                    <li>Calidad del sueño. Bogotá año 2015</li>
-                    </ul>
-
-                    <h2 class="centrado colorCambioC mt20">Mapas 2014</h2>
-                    <ul>
-                    <li>Localizción del total de enuestas relacionadas con problemas auditivos asocidos a conaminación sonora</li>
-                    <li>Personas sensibilizadas sobre el impacto del ruido en la salud. Bogotá año 2014</li>
-                    <li>Prevalencia de hipoacusia en zonas de contaminación por ruido. Bogotá año 2014</li>
-                    <li>Quejas atendidas por exposición a contaminación por ruido. Bogotá año 2014</li>
-                    <li>Prevalencia de insomnio en zonas de contaminacón por ruido. Bogotá año 2014</li>
-                    <li>Localización de población con problemas auditivos asociados a la contamnación sonora</li>
-                    </ul>
-
-                    <h2 class="centrado colorCambioC mt20">Mapas 2013</h2>
-                    <ul>
-                    <li>Prevalencia de hipoacusia en zonas de contaminación por ruido. Bogotá año 2013</li>
-                    <li>Personas sensibilizadas sobre el impacto del ruido en la salud. Bogotá año 2013</li>
-                    <li>Quejas atendidas por exposición a contaminación por ruido. Bogotá año 2013</li>
-                    <li>Prevalencia de insomnio en zonas de contaminacón por ruido. Bogotá año 2013</li>
-                    </ul>
-
-                    <h2 class="centrado colorCambioC mt20">Te puede interesar</h2>
-                    <ul>
-                    <li>Aire, ruido y radiación electromagnética</li>
-                    <li>Calidad del aire</li>
-                    <li>Humo de tabaco</li>
-                    <li>Monóxido de carbaono</li>
-                    <li>Olores ofensivos</li>
-                    <li>Radiación electromagnética</li>
-                    </ul>
-
-
-                    <h3 class="seccion fondoCambioC mt40">Calidad del aire</h3>
-                    <p>Aquí podrá observar la ubicación geográfica de las acciones de vigilancia ambiental, sintomatología y enfermedades
-                    respiratorias posiblemente asociadas con la exposición a contaminación del aire en Bogotá.</p>
-                    <ul>
-                    <li>Sibilancias en adulto mayor vs. Zonas de exposición de contaminación del aire en Bogotá, año 2018</li>
-                    <li>Tos en adulto mayor vs. Zonas de exposición de contaminación del aire en Bogotá, año 2018. </li>
-                    <li>Ausentismo escolar en menores de 5 años vs. Zonas de exposición de contaminación del aire en Bogotá, año 2018.</li>
-                    <li>Sibilancias en menores de cinco años vs. Zonas de exposición de contaminación del aire en Bogotá, año 2018.</li>
-                    <li>Tos en menores de 5 años vs. Zonas de exposición de contaminación de aire en Bogotá, año 2018. </li>
-                    <li>Ausentismo escolar en niños de 5 a 14 años vs. Zonas de exposición de contaminación de aire, año 2018.</li>
-                    <li>Sibilancias en niños de 5 a 14 años vs. Zonas de exposición de contaminación de aire en Bogotá, año 2018. </li>
-                    <li>Tos en niños de 5 a 14 años vs. Zonas de exposición de contaminación de aire en Bogotá, año 2018.</li>
-                    <li>Quejas atendidas por exposición a contaminación del aire, Bogotá, año 2018</li>
-                    </ul>
-
-                    <h3 class="seccion fondoCambioC mt40">Espacios libres de humo de tabaco</h3>
-                    <p> Aquí podrá encontrar la “ubicación geográfica” de las acciones de vigilancia, inspección y control a establecimientos
-                    públicos que garanticen ambientes 100% libres de humo de tabaco y la frecuencia de casos relacionados con la exposición
-                    al humo de tabaco.</p>
-                    <p>Quejas atendidas por exposición a contaminación de tabaco, Bogotá, año 2018.</p>
-
-                    <h3 class="seccion fondoCambioC mt40">Ruido</h3>
-                    <p>La Secretaría Distrital de Salud realiza la vigilancia epidemiológica, ambiental y sanitaria de la contaminación auditiva
-                    manteniendo actualizada la información sobre las condiciones de exposición de la población a ruido, mediante procesos
-                    orientados al diseño de estrategias e intervenciones tendientes a mitigar los efectos nocivos asociados a este factor
-                    de riesgo.</p>
-                    <ul>
-                    <li>Quejas atendidas por exposición a contaminación de ruido. Bogotá, año 2018. </li>
-                    <li>Distribución de casos de buenos y malos dormidores según el ICSP Bogotá, año 2018. </li>
-                    <li>Distribución de casos de buenos y malos dormidores en población, según EPWORTH Bogotá, año 2018. </li>
-                    <li>Distribución de casos de buenos y malos dormidores en población, según el ICSP. Bogotá, año 2018. </li>
-                    </ul>
-
-                    <h3 class="seccion fondoCambioC mt40">Radiación electromagnética</h3>
-                    <p>Muestran las ubicaciones geográficas de las acciones de vigilancia ambiental, sanitaria y eventos de interés en salud
-                    pública relacionados con la exposición a radiación electromagnética en Bogotá.</p>
-                    <ul>
-                    <li>Quejas atendidas por exposición a contaminación de radiación electromagnética en Bogotá. Año 2018</li>
-                    </ul>
-
+                    <h2 class="colorCambioC">
+                    <img src="images/cambioClimatico/cambioMAPA.jpg" width="85" height="63" align="absbottom" />Mapas</h2>
+                    <h2 class="colorCambioC">&nbsp;</h2>
+                    <div align="justify">
+                    <p>Aquí podrá encontrar la &ldquo;ubicación geográfica&rdquo; de la variabilidad climática y de los eventos relacionados
+                        con este fenómeno en Bogotá. Documentos e investigaciones: Compendio de documentos e investigaciones relacionadas
+                        con la variabilidad climática y los eventos de interés en salud pública.
+                    </p>
+                    <p>&nbsp;</p>
+                    </div>
+                    <table width="928" border="0">
+                    <tr>
+                        <td width="70">
+                        <a href="https://drive.google.com/open?id=15IYJNOPHcr3PrcnlHBL6D19mG7XxXBZ1" class="colorCambioC">Descargar</a>
+                        </td>
+                        <td width="848">Vulnerabilidad en salud asociada a la variabilidad climática 2015</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <a href="https://drive.google.com/open?id=1GNpKY8G0m4ngtBr08GhSFIXBI2ay0tJ2" class="colorCambioC">Descargar</a>
+                        </td>
+                        <td>Vulnerabilidad en salud asociada a la variabilidad climática 2014</td>
+                    </tr>
+                    </table>
+                    <h2 align="left" class="colorCambioC">&nbsp;</h2>
+               
                 </div>
 
             </div>  
@@ -170,25 +110,33 @@
 
             <div class="logos colorCambioC bold140p">
                 <div class="centrado colorCambioC">
-                    <p>Documentos e investigaciones</p>
-                    <img src="images/cambioClimatico/cambioDOCUMENTOS.jpg" width="85" height="63" alt="Cambio climático docs"
-                    />
+                    <p class="colorCambioC">Documentos e investigaciones</p>
+                    <a href="CambioClimatico_Documentos.html">
+                    <img src="images/cambioClimatico/cambioDOCUMENTOS.jpg" width="85" height="63" alt="Cambio climático docs" />
+                    </a>
                 </div>
                 <div class="centrado colorCambioC">
-                    <p>Mapas</p>
+                    <p class="colorCambioC">Mapas</p>
+                    <a href="CambioClimatico_mapas.html">
                     <img src="images/cambioClimatico/cambioMAPA.jpg" width="85" height="63" alt="Cambio climático mapa" />
+                    </a>
                 </div>
                 <div class="centrado colorCambioC">
-                    <p>Normatividad</p>
-                    <img src="images/cambioClimatico/cambioNORMATIVIDAD.jpg" width="85" height="63" alt="Cambio climático normas"
-                    />
+                    <p class="colorCambioC">Normatividad</p>
+                    <a href="CambioClimatico_normatividad.html">
+                    <img src="images/cambioClimatico/cambioNORMATIVIDAD.jpg" width="85" height="63" alt="Cambio climático normas" />
+                    </a>
                 </div>
                 <div class="centrado colorCambioC">
-                    <p>Calidad del aire</p>
-                    <img src="images/cambioClimatico/cambioClimaticoNUBE.png" width="85" height="63" alt="Cambio climático título"
-                    />
+                    <p class="colorCambioC">Indicadores</p>
+                    <p>
+                    <a href="CambioClimatico_Indicadores.html">
+                        <img src="images/cambioClimatico/cambioINDICADORES.jpg" width="85" height="63" alt="Cambio climático título" />
+                    </a>
+                    </p>
+                    <p>&nbsp;</p>
                 </div>
-            </div>          
+            </div>           
             
         </div>    
 @endsection

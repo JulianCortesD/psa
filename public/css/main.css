@@ -571,6 +571,18 @@ hr{
     margin-left: -8px;
 }
 
+.alert-ambiental {
+    background-color: #009ee0;
+    color:white;
+    font-family: 'Gotham Rounded Book'
+}
+
+.btn-modal {
+    background-color: white;
+    color: #009ee0;
+    font-family: 'GothamRoundedBold','Gotham Rounded Book'
+}
+
 @media (max-width: 576px){
     .search {
         margin-left: 8%;

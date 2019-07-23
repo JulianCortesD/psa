@@ -149,11 +149,9 @@
                     <div class="row">
                         <div class="col-10 offset-1">
                             <p style="text-align: justify;">
-                                El Portal de Salud Ambiental de Bogotá D.C., es un centro de refrencia a nivel distrital para el abordaje intersecional y el 
-                                análisis integral de los determinantes socio ambientales del proceso salud enfermedad en la ciudad. Tiene como propósito
-                                integrar, promover y apoyar esfuerzos distritales de carácter técnico, político y social tendientes a la conservación del ambiente
-                                como estrategia de mejoramiento de las condiciones de salud y la calidad de vida de los bogotanos. 
+                                Incidir positivamente sobre las condiciones sanitarias y socio-ambientales que determinan la calidad de vida y salud de los y las habitantes del Distrito Capital.
                             </p>
+                            <a href="">Ver más</a>
                         </div>
                     </div>                      
                 </div>
@@ -172,10 +170,7 @@
                     <div class="row">
                         <div class="col-10 offset-1">
                             <p style="text-align: justify;">
-                                El Portal de Salud Ambiental de Bogotá D.C., es un centro de refrencia a nivel distrital para el abordaje intersecional y el 
-                                análisis integral de los determinantes socio ambientales del proceso salud enfermedad en la ciudad. Tiene como propósito
-                                integrar, promover y apoyar esfuerzos distritales de carácter técnico, político y social tendientes a la conservación del ambiente
-                                como estrategia de mejoramiento de las condiciones de salud y la calidad de vida de los bogotanos. 
+                                La Política Distrital de Salud Ambiental para Bogotá 2011- 2023 adoptada mediante el Decreto 596 de 2011, permite orientar la gestión distrital para el mejoramiento de la Salud Ambiental en la ciudad, mediante fortalecimiento institucional y territorial, trabajo articulado de la administración y construcción de espacios de coordinación participativa por medio de líneas de intervención, contribuyendo a la construcción de una ciudad habitable, sostenible, integral, incluyente, participativa y saludable, aportando a una buena calidad de vida y salud para toda su población.
                             </p>
                         </div>
                     </div>                      

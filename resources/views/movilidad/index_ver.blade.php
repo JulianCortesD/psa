@@ -10,7 +10,7 @@
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> | Hábitat, Espacio Público y Movilidad |</span>
-                    <span class="breadcrumb_ espacio"></span>
+                    <span class="breadcrumb_ espacio">Ver más</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/indicators/LogoEspacioyMovilidad.png")}}" width="50%" alt="símbolo sección agua" />
+                        <img src="{{asset("images/indicators/LogoEspacioyMovilidad.png")}}"  alt="símbolo sección agua" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -70,48 +70,45 @@
             </div>
 
             <div class="row" style="text-align:justify;">
-                           
                 <div class="contenidoSecAmb centradoDiv">
 
-                    <div>
-                        <img src="images/espacio/espacio1INDICADORES.jpg" width="85" height="63" alt="Calidad aire" />
-                        <h1 class="seccion fondoEspacio sinSaltoLinea">Indicadores</h1>
-                    </div>
+                    <h1 class="colorEspacio">Objetivo General</h1>
+                    <p>Contribuir al mejoramiento de las condiciones de calidad de vida y salud de las personas residentes en el Distrito Capital,
+                        a través de la adecuada gestión y uso del espacio físico y el entorno, la prevención de la enfermedad y la promoción
+                        de la salud frente a problemáticas ambientales propias del hábitat, el espacio público y la movilidad.</p>
 
+                    <img src="images/espacio/espacioMovilidad_objetivos.png" width="100%" height="100%" alt="Objetivos específicos" />
 
-                    <h2 class="colorEspacio centrado">Calidad del aire</h2>
-                    <p>Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente
-                    asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá. </p>
+                    <h2 class="colorEspacio">Ejes temáticos</h2>
+                    <p class="colorEspacio">
+                        <strong>Hábitat</strong>
+                    </p>
                     <ul>
-                        <li>Prevalencia de sibilancias en menores de 5 años posiblemente asociado a material particulado en Bogotá D.C.</li>
-                        <li>Link:
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/</a>
-                        </li>
-                        <li>Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</li>
-                        <li>Link:
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/</a>
-                        </li>
+                        <li class="colorIndicadores">Mejoramiento de las condiciones de habitabilidad para una vivienda digna y segura.</li>
                     </ul>
-
-                    <h2 class="colorEspacio centrado mt40">Espacios libre de humo y tabaco</h2>
-                    <p>Permiten mostrar las principales acciones afines con la implementación de la norma de espacios libres de humo de tabaco
-                    y la frecuencia de la exposición al humo de tabaco en Bogotá.</p>
+                    <p class="colorEspacio">
+                        <strong>Espacio público</strong>
+                    </p>
                     <ul>
-                        <li>
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco" class="colorEspacio">Prevalencia de consumo de tabaco en hogares en Bogotá D.C</a>
-                        </li>
-                        <li>Link:
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/</a>
-                        </li>
+                        <li class="colorIndicadores">Generación, construcción, mantenimiento y optimización del espacio público.</li>
+                        <li class="colorIndicadores">Promoción de cultura ciudadana para el buen uso del espacio público y mejoramiento ambiental del entorno.</li>
+                        <li class="colorIndicadores">Promoción del uso de espacios para la práctica de la actividad física, deportiva, recreativa y cultural como factor protector
+                            de la salud, potenciador del desarrollo humano.</li>
                     </ul>
+                    <p class="colorEspacio">
+                        <strong>Movilidad</strong>
+                    </p>
+                    <ul>
+                        <li class="colorIndicadores">Fortalecimiento de la infraestructura, formación, divulgación de la información, control y regulación para la movilidad
+                            segura, accesible y activa</li>
+                    </ul>
+                    <p>&nbsp;</p>
 
-                    <h2 class="colorEspacio centrado mt40">Ruido</h2>
-                    <p>Describen la tendencia de la frecuencia de casos relacionados con la pérdida de audición y la calidad del sueño debido
-                    a la exposición a ruido y los resultados de las acciones de la vigilancia sanitaria y ambiental por contaminación
-                    auditiva en Bogotá.</p>
-
-
+                    <p class="verMas colorAgua">
+                        <a href="{{asset("espacio_movilidad")}}">Volver</a>
+                    </p>
                 </div>
+                
 
             </div>  
 
@@ -121,26 +118,25 @@
 
             <div class="logos colorEspacio bold140p">
                 <div class="centrado colorEspacio">
-                    <p>Documentos e investigaciones</p>
+                    <p class="colorEspacio">Documentos e investigaciones</p>
                     <img src="images/espacio/espacioDOCUMENTOS.png" width="85" height="63" alt="Espacio y movilidad docs"
                     />
                 </div>
                 <div class="centrado colorEspacio">
-                    <p>Mapas</p>
-                    <img src="images/espacio/espacioMAPA.jpg" width="85" height="63" alt="Espacio y movilidad mapa"
-                    />
+                    <p class="colorEspacio">Mapas</p>
+                    <img src="images/espacio/espacioMAPA.jpg" width="85" height="63" alt="Espacio y movilidad mapa" />
                 </div>
                 <div class="centrado colorEspacio">
-                    <p>Normatividad</p>
+                    <p class="colorEspacio">Normatividad</p>
                     <img src="images/espacio/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Espacio y movilidad normas"
                     />
                 </div>
                 <div class="centrado colorEspacio">
-                    <p>Calidad del aire</p>
-                    <img src="images/espacio/espacioNube.png" width="85" height="63" alt="Espacio y movilidad título"
+                    <p class="colorEspacio">Indicadores</p>
+                    <img src="images/espacio/espacio1INDICADORES.jpg" width="85" height="63" alt="Espacio y movilidad título"
                     />
                 </div>
-            </div>        
+            </div>         
             
         </div>    
 @endsection

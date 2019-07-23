@@ -23,7 +23,7 @@ class AireController extends Controller
      */
     public function calidad()
     {
-        return view("quality_air");
+        return view("aire/quality_aire");
     }
 
     /**
@@ -33,7 +33,7 @@ class AireController extends Controller
      */
     public function calidadContaminacion()
     {
-        return view("quality_pollution");
+        return view("aire/quality_pollution");
     }
 
     /**
@@ -43,7 +43,7 @@ class AireController extends Controller
      */
     public function calidadIBOCA()
     {
-        return view("quality_iboca");
+        return view("aire/quality_iboca");
     }
 
     /**
@@ -53,7 +53,7 @@ class AireController extends Controller
      */
     public function calidadRuido()
     {
-        return view("quality_noise");
+        return view("aire/quality_noise");
     }
 
     /**
@@ -63,7 +63,7 @@ class AireController extends Controller
      */
     public function calidadRadiacion()
     {
-        return view("quality_radiation");
+        return view("aire/quality_radiation");
     }
 
     /**
@@ -73,7 +73,7 @@ class AireController extends Controller
      */
     public function calidadTabaco()
     {
-        return view("quality_tobacco");
+        return view("aire/quality_tobacco");
     }
 
     /**
@@ -83,7 +83,7 @@ class AireController extends Controller
      */
     public function indicadores()
     {
-        return view("air_indicators");
+        return view("aire/air_indicators");
     }
 
      /**
@@ -93,7 +93,17 @@ class AireController extends Controller
      */
     public function mapas()
     {
-        return view("air_maps");
+        return view("aire/air_maps");
+    } 
+
+     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function documentos()
+    {
+        return view("aire/air_documents");
     } 
 
      /**
@@ -103,7 +113,7 @@ class AireController extends Controller
      */
     public function aireRuidoREM()
     {
-        return view("air_noise_rem");
+        return view("aire/air_noise_rem");
     } 
 
      /**
@@ -113,7 +123,7 @@ class AireController extends Controller
      */
     public function aireNormatividad()
     {
-        return view("aire_normatividad");
+        return view("aire/aire_normatividad");
     } 
 
      /**
@@ -123,7 +133,7 @@ class AireController extends Controller
      */
     public function aireQueHacemos()
     {
-        return view("air_whatdo");
+        return view("aire/air_whatdo");
     } 
 
     /**

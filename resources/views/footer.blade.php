@@ -1,4 +1,4 @@
-<footer class="min-ancho mt-4">
+<footer class="min-ancho mt80">
         <div class="container-fluid">
             <div class="row justify-content-center mb-3">
                 <div class=" col-10 col-lg-11 offset-lg-1">                        
@@ -146,7 +146,7 @@
                     </div>          
                     <div class="row footer-alcaldia justify-content-between">
                         <div class="col-4">
-                            <p>
+                            <p style="color:white;">
                                 <strong class="fondo-aliados-texto">Alcaldía Mayor de Bogotá </strong> <br>
                                 Carrera 8 No. 10-55 <br>
                                 Teléfono: (571) 381 3000 <br>

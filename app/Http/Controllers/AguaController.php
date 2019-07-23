@@ -72,9 +72,9 @@ class AguaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function calidadRuido()
+    public function documentos()
     {
-        return view("quality_noise");
+        return view("agua/documentos");
     }
 
     /**
@@ -82,19 +82,9 @@ class AguaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function calidadRadiacion()
+    public function favorable()
     {
-        return view("quality_radiation");
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function calidadTabaco()
-    {
-        return view("quality_tobacco");
+        return view("agua/favorables");
     }
 
     /**
@@ -104,28 +94,10 @@ class AguaController extends Controller
      */
     public function mapas()
     {
-        return view("air_maps");
-    } 
+        return view("agua/mapas");
+    }
 
-     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function aireRuidoREM()
-    {
-        return view("air_noise_rem");
-    } 
-
-     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function aireQueHacemos()
-    {
-        return view("air_whatdo");
-    } 
+   
 
     /**
      * Show the form for creating a new resource.

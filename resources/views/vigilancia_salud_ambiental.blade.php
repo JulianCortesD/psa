@@ -215,7 +215,7 @@
                     <div class="row">
                             <div class="col-10 offset-1">
                                 <p style="text-align: justify;">
-                                    REalizar el seguimiento continuo y sistemático de la salud ambiental, de acuerdo con procesos
+                                    Realizar el seguimiento continuo y sistemático de la salud ambiental, de acuerdo con procesos
                                     estalecidos para la notificación, resolución, recolección, procesamiento y análisis de los datos
                                     ambientales y de eventos de salud relacionados con las siguientes líneas de acción: Alimentos 
                                     sanos y seguros, Seguridad química, Agua potable y saneamiento básico, Eventos transmisibles

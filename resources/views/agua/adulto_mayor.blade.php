@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/indicators/LogoAguaSaneamiento.png")}}" width="50%" alt="símbolo sección agua" />
+                        <img src="{{asset("images/indicators/LogoAguaSaneamiento.png")}}" alt="símbolo sección agua" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -69,14 +69,19 @@
                 </div>
             </div>
 
-            <div class="row" >
+            <div class="row mt-5">
                 
                 <div class="contenidoSecAmb centradoDiv">
-                    <h1 class="centrado colorAgua mt20">Adulto mayor</h1>
-                    <p>A continuación, usted encontrar las definiciones de cada una de las Instituciones Protectoras de la Persona Mayor
-                        que funcionan en el Distrito Capital. Así mismo señor usuario escogerá la Institución que más se acomode
-                        a sus expectativas de trabajo o de constitución de los mismos.</p>
-                    <a href="{{asset("agua_saneamiento_adulto_mayor_ver")}}" class="verMas colorAgua">Ver más</a>
+                    <h1 class="seccion fondoAgua sinSaltoLinea">Adulto mayor</h1>
+                    <p align="justify">A continuación, usted encontrará las definiciones de cada una de las Instituciones Protectoras de la Persona Mayor que
+                    funcionan en el Distrito Capital. Así mismo señor usuario escogerá la Institución que más se acomode a sus expectativas
+                    de trabajo o de constitución de los mismos.</p>
+                    <p class="verMas colorAgua">
+                        <a href="{{asset("agua_saneamiento_adulto_mayor_ver_mas")}}">
+                            <img src="images/agua/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                            {{-- Ver más --}}
+                        </a>
+                    </p>
                 </div>
             </div>  
 
@@ -85,27 +90,24 @@
             </div>
 
            <!--  <div class="row"> -->
-                <div class="logos colorAgua bold140p">
+            <div class="logos colorAgua bold140p">
                 <div class="centrado colorAgua">
-                    <p>Documentos e investigaciones</p>
-                    <img src="images/agua/IMG_AGUA_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
-                    />
+                    <p class="colorAgua">Documentos e investigaciones</p>
+                    <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
                 </div>
                 <div class="centrado colorAgua">
-                    <p>Mapas</p>
+                    <p class="colorAgua">Mapas</p>
                     <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAgua">
-                    <p>Normatividad</p>
+                    <p class="colorAgua">Normatividad</p>
                     <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
-                    <p>Calidad del aire</p>
+                    <p class="colorAgua">Calidad del aire</p>
                     <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
             <!-- </div> -->
-            
-            
         </div>    
 @endsection
 @section('scripts')

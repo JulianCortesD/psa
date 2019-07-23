@@ -10,7 +10,7 @@
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> | Cambio climático | </span>
-                    <span class="breadcrumb_ cambioC"> Indicadores</span>
+                    <span class="breadcrumb_ cambioC">Indicadores</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -72,31 +72,45 @@
             <div class="row" style="text-align:justify;">
                 
                 <div class="contenidoSecAmb centradoDiv">
-
-                    <h3 class="seccion fondoCambioC mt40">Indicadores</h3>
-                    <div class="logos">
-                    <div class="seccionIcono">
-                        <img src="images/cambioClimatico/cambioINDICADORES.jpg" width="85" height="63" alt="indicadores aire" />
-                    </div>
-                    <div class="sinSaltoLinea">Reflejan la variabilidad climática y las notificaciones de eventos de interés en salud pública posiblemente asociados
-                        al fenómeno de cambio climático en Bogotá. </div>
+                    <h2 class="colorcambioclimatico">
+                        <img src="images/cambioClimatico/cambioINDICADORES.jpg" width="85" height="63" align="absbottom" />Indicadores</h2>
+                    <p>&nbsp;</p>
+                    <div class="mR30">
+                        <div class="anchoPagina">
+                        <Indicadores>
+                        </indicadores>
+                        <p class="colorcambioclimatico">
+                            <span class="colorIndicadoressinSaltoLinea">Reflejan la variabilidad climática y las notificaciones de eventos de interés en salud pública posiblemente asociados
+                            al fenómeno de cambio climático en Bogotá.</span>
+                        </p>
+                        <p>&nbsp;</p>
+                        </div>
+                        <div class="colorIndicadoressinSaltoLinea"></div>
                     </div>
                     <ul>
-                    <li>Eventos notificados de ESI-IRAG en temporada de lluvias en Bogotá D.C. este indicador está disponible en el enlace:
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/temporadalluvias/" class="colorCambioC">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/temporadalluvias/</a>
-                    </li>
-                    <li>
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tbogota/" class="colorCambioC">Temperatura en Bogotá D.C.</a> este indicador está disponible en el enlace:
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tbogota/"
-                        class="colorCambioC">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tbogota/</a>
-                    </li>
+                        <li >Eventos notificados de ESI-IRAG en temporada de lluvias en Bogotá D.C
+                        <a  href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/temporadalluvias/" align="right">
+                            <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                            {{-- Ver más --}}
+                        </a>
+                        </li>
                     </ul>
+                    <p>&nbsp;</p>
+                    <ul>
+                        <li >Temperatura en Bogotá D.C
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tbogota/" align="right">
+                                <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                                {{-- Ver más --}}
+                            </a>
+                        </li>
+                    </ul>
+
+
 
                 </div>
 
             </div>  
 
-            
 
             <div class="row">
                 <hr class="lineaCambioC mt80" style="width: 100%;" />
@@ -104,25 +118,33 @@
 
             <div class="logos colorCambioC bold140p">
                 <div class="centrado colorCambioC">
-                    <p>Documentos e investigaciones</p>
-                    <img src="images/cambioClimatico/cambioDOCUMENTOS.jpg" width="85" height="63" alt="Cambio climático docs"
-                    />
+                    <p class="colorCambioC">Documentos e investigaciones</p>
+                    <a href="CambioClimatico_Documentos.html">
+                    <img src="images/cambioClimatico/cambioDOCUMENTOS.jpg" width="85" height="63" alt="Cambio climático docs" />
+                    </a>
                 </div>
                 <div class="centrado colorCambioC">
-                    <p>Mapas</p>
+                    <p class="colorCambioC">Mapas</p>
+                    <a href="CambioClimatico_mapas.html">
                     <img src="images/cambioClimatico/cambioMAPA.jpg" width="85" height="63" alt="Cambio climático mapa" />
+                    </a>
                 </div>
                 <div class="centrado colorCambioC">
-                    <p>Normatividad</p>
-                    <img src="images/cambioClimatico/cambioNORMATIVIDAD.jpg" width="85" height="63" alt="Cambio climático normas"
-                    />
+                    <p class="colorCambioC">Normatividad</p>
+                    <a href="CambioClimatico_normatividad.html">
+                    <img src="images/cambioClimatico/cambioNORMATIVIDAD.jpg" width="85" height="63" alt="Cambio climático normas" />
+                    </a>
                 </div>
                 <div class="centrado colorCambioC">
-                    <p>Calidad del aire</p>
-                    <img src="images/cambioClimatico/cambioClimaticoNUBE.png" width="85" height="63" alt="Cambio climático título"
-                    />
+                    <p class="colorCambioC">Indicadores</p>
+                    <p>
+                    <a href="CambioClimatico_Indicadores.html">
+                        <img src="images/cambioClimatico/cambioINDICADORES.jpg" width="85" height="63" alt="Cambio climático título" />
+                    </a>
+                    </p>
+                    <p>&nbsp;</p>
                 </div>
-            </div>          
+            </div>           
             
         </div>    
 @endsection

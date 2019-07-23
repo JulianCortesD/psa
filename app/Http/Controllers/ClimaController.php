@@ -22,6 +22,16 @@ class ClimaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function indexVer()
+    {
+        return view("clima/index_ver");
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function mapas()
     {
         return view("clima/mapas");
@@ -57,6 +67,16 @@ class ClimaController extends Controller
     public function normatividad()
     {
         return view("clima/normatividad");
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function documentos()
+    {
+        return view("clima/documentos");
     }
 
     /**

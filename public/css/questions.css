@@ -1,0 +1,43 @@
+.ask-aire {
+    color: white;
+    background-color: #0f82bb;
+}
+
+.ask-alimentos {
+    color: white;
+    background-color: #d2414c;
+}
+
+.ask-agua {
+    color: white;
+    background-color: #00bbd0;
+}
+
+.ask-clima {
+    color: white;
+    background-color: #edaa1a;
+}
+
+.ask-espacio {
+    color: white;
+    background-color: #a05b31;
+}
+
+.ask-medicamentos {
+    color: white;
+    background-color: #662d91;
+}
+
+.ask-quimicos {
+    color: white;
+    background-color: #f05a24;
+}
+
+.ask-zoonosis {
+    color: white;
+    background-color: #0ec946;
+}
+.panel-questions {
+    max-height: 300px;
+    overflow: auto;
+}

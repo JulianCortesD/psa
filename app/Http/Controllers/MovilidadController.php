@@ -64,6 +64,16 @@ class MovilidadController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function radiacion()
+    {
+        return view("movilidad/radiacion");
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function normatividad()
     {
         return view("movilidad/normatividad");

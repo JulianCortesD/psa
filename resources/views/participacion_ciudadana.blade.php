@@ -149,7 +149,7 @@
                     </div>                      
                 </div>
             </div>
-
+{{-- 
             <div class="row mt-3">
                 <div class="col-10 offset-1">
                     <div class="row">
@@ -166,7 +166,7 @@
                         </div>
                     </div>                      
                 </div>
-            </div>
+            </div> --}}
 
            
     

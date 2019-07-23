@@ -10,7 +10,7 @@
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> | Agua y saneamiento |</span>
-                    <span class="breadcrumb_ agua"></span>
+                    <span class="breadcrumb_ agua"> Calidad del agua y saneamiento básico</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -72,18 +72,26 @@
             <div class="row" >
                 
                 <div class="contenidoSecAmb centradoDiv">
-
-                    <h1 class="centrado colorAgua mt20">LÍNEA DE INTERVENCIÓN AGUA Y SANEAMIENTO</h1>
-
-                    <h2 class="centrado colorAgua mt20">1. Calidad de Agua y Saneamiento Básico: </h2>
-                    <p>La Línea de Calidad de Agua y Saneamiento Básico, comprende el conjunto de acciones técnicas y sociales que buscan
-                        alcanzar niveles crecientes de salubridad en los diferentes establecimientos que son objeto de intervención
-                        de forma regular o intensificada, aportando al control de factores de riesgo sanitarios y ambientales, mediante
-                        la implementación de estrategias de vigilancia y control a los procesos relacionados con el abastecimiento
-                        de agua, el manejo de residuos sólidos y líquidos, contribuyendo de esta forma a la promoción y al mejoramiento
-                        de las condiciones de vida de la población urbana y rural de Bogotá D. C.</p>
-                    <a href="{{asset("agua_saneamiento_basico_ver")}}" class="verMas colorAgua">Ver más</a>
-
+                    <span class="cursiva">.</span>
+              
+                    <h2 class="colorAgua">&nbsp;</h2>
+                    <h1 class="seccion fondoAgua sinSaltoLinea">Calidad del agua y sanemiento básico</h1>
+                    <p>&nbsp;</p>
+                    <p align="justify">
+                      <span class="anchoPagina">La Línea de Calidad de Agua y Saneamiento Básico, comprende el conjunto de acciones técnicas y sociales que buscan
+                        alcanzar niveles crecientes de salubridad en los diferentes establecimientos que son objeto de intervención de
+                        forma regular o intensificada, aportando al control de factores de riesgo sanitarios y ambientales, mediante la
+                        implementación de estrategias de vigilancia y control a los procesos relacionados con el abastecimiento de agua,
+                        el manejo de residuos sólidos y líquidos, contribuyendo de esta forma a la promoción y al mejoramiento de las condiciones
+                        de vida de la población urbana y rural de Bogotá D. C.</span>
+                    </p>
+                    <p class="verMas colorAgua">
+                        <a href="{{asset("agua_saneamiento_basico_ver")}}" class="verMas colorAgua">
+                            <img src="images/agua/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                            {{-- Ver más --}}
+                        </a>
+                    </p>
+                    <p align="justify">&nbsp;</p>
                 </div>
 
             </div>  
@@ -93,24 +101,24 @@
             </div>
 
            <!--  <div class="row"> -->
-                <div class="logos colorAgua bold140p">
+            <div class="logos colorAgua bold140p">
                 <div class="centrado colorAgua">
-                    <p>Documentos e investigaciones</p>
-                    <img src="images/agua/IMG_AGUA_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
-                    />
+                    <p class="colorAgua">Documentos e investigaciones</p>
+                    <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
                 </div>
                 <div class="centrado colorAgua">
-                    <p>Mapas</p>
+                    <p class="colorAgua">Mapas</p>
                     <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAgua">
-                    <p>Normatividad</p>
+                    <p class="colorAgua">Normatividad</p>
                     <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
-                    <p>Calidad del aire</p>
+                    <p class="colorAgua">Calidad del aire</p>
                     <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
+            </div>   
             <!-- </div> -->
             
             

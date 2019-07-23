@@ -9,8 +9,8 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Alimentos y bebidas</span>
-                    <span class="breadcrumb_ alimentos"></span>
+                    <span class="breadcrumb_"> | Alimentos y bebidas | </span>
+                    <span class="breadcrumb_ alimentos">Alimentos Sanos y Seguros</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" width="50%" alt="símbolo sección agua" />
+                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="símbolo sección agua" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -72,19 +72,23 @@
             <div class="row" style="text-align:justify;">
                 <div class="contenidoSecAmb centradoDiv">
 
-                    <h1 class="centrado colorAlimentos mt20">LÍNEA ALIMENTOS SANOS Y SEGUROS</h1>
+                    <div>
+                        <p>&nbsp;</p>
+                        <h1 class="seccion fondoAlimentos sinSaltoLinea"> Alimentos Sanos y Seguros</h1>
+                    </div>
 
-                    <h2 class="centrado colorAlimentos mt20">2.1 Alimentos Sanos y seguros:</h2>
-                    <p>Este es el nombre técnico de este apartado donde se tendrá siguiente texto, acompañado de un banner distrital
-                        y un logo que identifica la línea correspondiente:</p>
-                    <p>La línea de alimentos sanos y seguros contribuye al mejoramiento la calidad de vida de la población mediante
-                        la verificación del cumplimiento de los requisitos higiénico-sanitarios y del funcionamiento y manipulación
-                        exigidos en la normatividad sanitaria, promoviendo la identificación y control de factores de riesgo que
-                        puedan afectar la calidad e inocuidad de los alimentos y bebidas (alcohólicas y no alcohólicas) en los establecimientos
-                        que los preparan, almacenan, distribuyen, transportan y comercializan en el distrito capital. Igualmente,
-                        se promueve la acción intersectorial en la ejecución de estrategias de fomento de la seguridad alimentaria
-                        y nutricional en espacios educativos, laborales y de vivienda.</p>
-                    <a href="{{asset("alimentos_sanos_ver")}}" class="verMas colorAlimentos">Ver más</a>
+                    <p align="justify" class="colornegro">Este es el nombre técnico de este apartado donde se tendrá siguiente texto, acompañado de un banner distrital y un
+                        logo que identifica la línea correspondiente:</p>
+                    <p align="justify" class="colornegro">La línea de alimentos sanos y seguros contribuye al mejoramiento la calidad de vida de la población mediante la verificación
+                        del cumplimiento de los requisitos higiénico-sanitarios y del funcionamiento y manipulación exigidos en la normatividad
+                        sanitaria, promoviendo la identificación y control de factores de riesgo que puedan afectar la calidad e inocuidad
+                        de los alimentos y bebidas (alcohólicas y no alcohólicas) en los establecimientos que los preparan, almacenan, distribuyen,
+                        transportan y comercializan en el distrito capital. Igualmente, se promueve la acción intersectorial en la ejecución
+                        de estrategias de fomento de la seguridad alimentaria y nutricional en espacios educativos, laborales y de vivienda.</p>
+                        <a href="{{asset("alimentos_sanos_ver")}}">
+                            <img src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                            {{-- Ver más --}}
+                        </a>
                 </div>
                 
 
@@ -98,25 +102,29 @@
 
             <div class="logos colorAlimentos bold140p">
                 <div class="centrado colorAlimentos">
-                    <p>Documentos e investigaciones</p>
+                    <p class="colorAlimentos">Documentos e investigaciones</p>
                     <img src="images/alimentos/IMG_ALIMENTOS_DOCUMENTOS.jpg" width="85" height="63"
                         alt="Agua docs" />
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Mapas</p>
+                    <p class="colorAlimentos">Mapas</p>
                     <img src="images/alimentos/IMG_ALIMENTOS_ MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Normatividad</p>
-                    <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas"
-                    />
+                    <p class="colorAlimentos">Normatividad</p>
+                    <a href="Alimentos_normatividad.html">
+                        <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
+                    </a>
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Calidad del aire</p>
-                    <img src="images/alimentos/IMG_ALIMENTOS_TITULO.jpg" width="85" height="63" alt="Agua título"
-                    />
+                    <p class="colorAlimentos">Indicadores</p>
+                    <p class="colorAlimentos">
+                        <a href="Alimentos_indicadores.html">
+                        <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
+                        </a>
+                    </p>
                 </div>
-            </div>           
+            </div>         
             
         </div>    
 @endsection

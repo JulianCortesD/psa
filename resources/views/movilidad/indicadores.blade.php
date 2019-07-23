@@ -10,7 +10,7 @@
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> | Hábitat, Espacio Público y Movilidad |</span>
-                    <span class="breadcrumb_ espacio"></span>
+                    <span class="breadcrumb_ espacio">Indicadores</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -74,8 +74,8 @@
                 <div class="contenidoSecAmb centradoDiv">
 
                     <div>
-                        <img src="images/espacio/espacio1INDICADORES.jpg" width="85" height="63" alt="Calidad aire" />
-                        <h1 class="seccion fondoEspacio sinSaltoLinea">Indicadores</h1>
+                    <img src="images/espacio/espacio1INDICADORES.jpg" width="85" height="63" alt="Calidad aire" />
+                    <h1 class="seccion fondoEspacio sinSaltoLinea">Indicadores</h1>
                     </div>
 
 
@@ -83,26 +83,26 @@
                     <p>Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente
                     asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá. </p>
                     <ul>
-                        <li>Prevalencia de sibilancias en menores de 5 años posiblemente asociado a material particulado en Bogotá D.C.</li>
-                        <li>Link:
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/</a>
-                        </li>
-                        <li>Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</li>
-                        <li>Link:
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/</a>
-                        </li>
+                    <li>Prevalencia de sibilancias en menores de 5 años posiblemente asociado a material particulado en Bogotá D.C.</li>
+                    <li>Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/</a>
+                    </li>
+                    <li>Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</li>
+                    <li>Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/</a>
+                    </li>
                     </ul>
 
                     <h2 class="colorEspacio centrado mt40">Espacios libre de humo y tabaco</h2>
                     <p>Permiten mostrar las principales acciones afines con la implementación de la norma de espacios libres de humo de tabaco
                     y la frecuencia de la exposición al humo de tabaco en Bogotá.</p>
                     <ul>
-                        <li>
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco" class="colorEspacio">Prevalencia de consumo de tabaco en hogares en Bogotá D.C</a>
-                        </li>
-                        <li>Link:
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/</a>
-                        </li>
+                    <li>
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco" class="colorEspacio">Prevalencia de consumo de tabaco en hogares en Bogotá D.C</a>
+                    </li>
+                    <li>Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/</a>
+                    </li>
                     </ul>
 
                     <h2 class="colorEspacio centrado mt40">Ruido</h2>
@@ -114,35 +114,32 @@
                 </div>
 
             </div>  
-
             
-
             <div class="row">
                 <hr class="lineaEspacio mt80" style="width: 100%;" />
             </div>
 
             <div class="logos colorEspacio bold140p">
                 <div class="centrado colorEspacio">
-                    <p>Documentos e investigaciones</p>
+                    <p class="colorEspacio">Documentos e investigaciones</p>
                     <img src="images/espacio/espacioDOCUMENTOS.png" width="85" height="63" alt="Espacio y movilidad docs"
                     />
                 </div>
                 <div class="centrado colorEspacio">
-                    <p>Mapas</p>
-                    <img src="images/espacio/espacioMAPA.jpg" width="85" height="63" alt="Espacio y movilidad mapa"
-                    />
+                    <p class="colorEspacio">Mapas</p>
+                    <img src="images/espacio/espacioMAPA.jpg" width="85" height="63" alt="Espacio y movilidad mapa" />
                 </div>
                 <div class="centrado colorEspacio">
-                    <p>Normatividad</p>
+                    <p class="colorEspacio">Normatividad</p>
                     <img src="images/espacio/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Espacio y movilidad normas"
                     />
                 </div>
                 <div class="centrado colorEspacio">
-                    <p>Calidad del aire</p>
-                    <img src="images/espacio/espacioNube.png" width="85" height="63" alt="Espacio y movilidad título"
+                    <p class="colorEspacio">Indicadores</p>
+                    <img src="images/espacio/espacio1INDICADORES.jpg" width="85" height="63" alt="Espacio y movilidad título"
                     />
                 </div>
-            </div>        
+            </div>         
             
         </div>    
 @endsection

@@ -20,15 +20,19 @@
     url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.svg#Gotham Rounded") format("svg");
 }
 body {
-	font-family: "Gotham Rounded";
-	font-family: "Gotham Rounded Book";
+	font-family:  "Gotham Rounded Book","Gotham Rounded";
 }
 .bordeNaranja {
 	border: white solid 1px;
 }
 .anchoPagina {
-	width: 1200px;
-	margin: -15px auto;
+	/* width: 1200px;
+	margin: -15px auto; */
+	width: 950px;
+	margin-top: -15px;
+	margin-right: auto;
+	margin-bottom: -15px;
+	margin-left: auto;
 }
 .breadcrumb_ {
 	font-family: "Gotham Rounded Book";
@@ -74,24 +78,49 @@ body {
 }
 
 /*CONTENIDOS*/
-.contenidoSecAmb { width:80%; }
-.centradoDiv { margin: 0px auto; }
+.contenidoSecAmb {
+	width: 95%;
+	color: #0f80b8;
+}
+.centradoDiv {
+	margin: 0px auto;
+	font-size: 14px;
+}
 h1,h2,h3 {
 	font-family:"Gotham Rounded Book";
 }
 h1,h2 { font-size: 22px; }
 h3 { font-size: 18px;
 	text-align:justify; }
-p { margin-top: 20px }
+p {
+	margin-top: 20px;
+	font-family: "Gotham Rounded Book";
+	font-size: 14px;
+	color: #000000;
+}
 .centrado { text-align:center; }
 
 /*Color títulos*/
-.colorAire { color: #0f80b8; }
+.colorAire {
+	color: #0f80b8;
+	font-size: 22px;
+}
 .colorAgua { color: #00b8cd; }  
 .colorIndicadores { color: #cf414c; }
-.colorAlimentos { color: #cf414c; } 
-.colorCambioC { color: #eaa71a; }
-.colorEspacio { color: #9d5b31; }
+.colorAlimentos {
+	color: #cf414c;
+	font-size: 22px;
+	font-weight: bold;
+} 
+.colorCambioC, .colorcambioclimatico { color: #eaa71a; }
+.colorEspacio { color: #9d5b31 !important; }
+.colorMedicamentos { color: #662d8d; }
+.colorSeguridadquimica { color: #ed5a24 ; } 
+.colorETOZ { color: #0ec546 ; } 
+.colorIndicadores {
+	color: #000000;
+	font-size: 16px;
+}
 
 .bold140p {
 	font-size: 140%;
@@ -107,39 +136,73 @@ p { margin-top: 20px }
 	vertical-align: top;
 	margin-right: 20px;	
 }
-.fondoAire { background: #0f80b8; }  
+.fondoAire {
+	background: #0f80b8;
+	color: #FFF;
+	font-size: 22px;
+}  
 .fondoAgua { background: #00b8cd; }
 .fondoIndicadores { background: #cf414c; } 
 .fondoAlimentos { background: #cf414c; } 
 .fondoCambioC { background: #eaa71a; }
-.fondoEspacio { background: #9d5b31; }
+.fondoEspacio {
+	 background: #9d5b31; 
+	 color: white !important;
+	}
+.fondoEtoz { background: #0ec546; } 
+.fondoSeguridadquimica { background: #ed5a24; }
+.fondoMedicamentos { background: #662d8d; }
 
 .sinSaltoLinea { display: inline; }
 
 .mt-20 { margin-top: -20px; }
-.mt20 { margin-top: 20px; }
-.mt40 { margin-top: 40px; }
-.mt80 { margin-top: 80px; }
+.mt20 {
+	margin-top: 20px;
+	color: #cf414c;
+	font-size: 14px;
+	font-family: "Gotham Rounded Book";
+}
+.mt40 {
+	margin-top: 40px;
+	color: #0f80b8;
+	font-size: 18px;
+	font-family: "Gotham Rounded Book";
+}
+.mt80 {
+	margin-top: 80px;
+	color: #cf414c;
+}
+.mt80 {
+	margin-top: 80px;
+	color: #ed5a24;
+}
 .verMas {
-	text-align:right;
-	text-decoration:underline;
-	margin-top:-10px;
+	text-align: right;
+	text-decoration: underline;
+	margin-top: -10px;
+	font-size: 0.9em;
 }
 .cursiva { font-style:italic; }
 .mb0 { margin-bottom: 0px; }
 
 /*Color líneas*/
-.lineaAire { border: 2px solid #0f80b8; } 
-.lineaAgua { border: 2px solid #00b8cd; }
-.lineaIndicadores { border: 2px solid #cf414c; }
+
+.lineaIndicadores {
+	border: 2px solid #cf414c;
+	color: #0f80b8;
+}
 .lineaAlimentos { border: 2px solid #cf414c; } 
 .lineaCambioC { border: 2px solid #eaa71a; }
 .lineaEspacio { border: 2px solid #9d5b31; }
+.lineaQuimica { border: 2px solid #ed5a24; }
 
 .lineaAireNotas { 
 	border: thin solid #0f80b8;
 	margin-right: 50%;
 }
+.lineaAire { border: 2px solid #0f80b8; } 
+.lineaAgua { border: 2px solid #00b8cd; }
+
 
 .notaPiePagina {
 	font-size: 70%;
@@ -160,6 +223,70 @@ margin:0;
 padding:0;
 list-style-type:none;
 }
+
+
+/*TABLAS*/
+.alinearVerticalInicial { vertical-align: initial; }
+.alinearIzquierda {
+	text-align: left;
+	font-size: 14px;
+}
+table {
+	border-spacing: 10px 5px;
+	font-size: 16px;
+}
+
+/*LISTAS*/
+ul.sinVinetas {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	color: #000;
+	font-size: 0.9em;
+}
+.colornegro {
+	color: #000000;
+	font-size: 14px;
+}
+.texto {
+	font-size: 0.9em;
+}
+.titulos1 {
+	font-size: 14px;
+}
+.titulos1 {
+	font-family: "Gotham Rounded Book";
+	font-size: 0.8px;
+}
+.titulos1 {
+	font-family: "Gotham Rounded Book";
+	font-size: 14px;
+}
+.titulo1 {
+	font-family: "Gotham Rounded Book";
+}
+.titulo1 {
+	font-size: 0.8px;
+}
+.texto {
+	font-size: 14px;
+}
+.texto {
+	font-family: "Gotham Rounded Book";
+}
+.texto {
+	font-family: "Gotham Rounded Book";
+}
+.texto {
+	font-size: 14px;
+}
+.titulo {
+	font-family: "Gotham Rounded Book";
+}
+.texto {
+	font-size: 14px;
+}
+
 
 
 

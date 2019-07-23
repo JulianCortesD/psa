@@ -352,7 +352,7 @@
                     <div class="contactenos col-12">
                         <div class="row">
                             <div class="col-lg-8 col-sm-12">
-                                <form class="form-contactenos">
+                                <form id ="form-contactenos" class="form-contactenos" action="email.php">
                                     <div class="row align-items-start mt-4">
                                         <div class="col-4 icono-contactenos media">
                                             <img src="{{asset("images/contactenos/IconoContactenos.svg")}}" alt="" style="width: 70px;">
@@ -363,10 +363,10 @@
                                         <div class="col-6 offset-2 pt-4">
                                             <label >Eres:&nbsp;&nbsp;</label>  
                                             <label class="radio-inline">
-                                                Propietario  <input type="radio" name="optradio" checked> &nbsp;&nbsp;
+                                                Propietario  <input type="radio" name="optradio" value="propietario" checked> &nbsp;&nbsp;
                                             </label>
                                             <label class="radio-inline">
-                                                Ciudadano <input type="radio" name="optradio">
+                                                Ciudadano <input type="radio" name="optradio" value="ciudadano">
                                             </label>                                        
                                         </div>
                                     </div>
@@ -403,7 +403,7 @@
                                                             <span class="inputIconBox"><i class="fas fa-phone"></i></span>
                                                         </div>
                                                         <input id="telefono" name="telefono" type="number" class="form-control" placeholder="Teléfono" required="">
-                                                    </div>
+                                                    </div> 
                                                 </div>
                                                 <div class="col-6">
                                                     <div class="input-group">
@@ -411,7 +411,7 @@
                                                             <span class="inputIconBox"><i class="fas fa-heart"></i></span>
                                                         </div>
                                                         <input id="temainteres" name="temainteres" type="text" class="form-control" placeholder="Tema de Interes" required="">
-                                                    </div>
+                                                    </div> 
                                                 </div>
                                             </div>      
                                             <div class="row mb-3">
@@ -420,8 +420,8 @@
                                                         <div class="input-group-prepend">
                                                             <span class="inputIconBox"><i class="fas fa-envelope"></i></span>
                                                         </div>
-                                                        <input id="correo" name="correo" type="text" class="form-control" placeholder="Correo electrónico" required="">
-                                                    </div>
+                                                        <input id="correo" name="correo" type="email" class="form-control" placeholder="Correo electrónico" required="">
+                                                    </div> 
                                                 </div>            
                                                 <div class="col-6">
                                                     <div class="input-group">
@@ -429,7 +429,7 @@
                                                             <span class="inputIconBox"><i class="fas fa-edit"></i></span>
                                                         </div>
                                                         <input id="comentarios" name="comentarios" type="text" class="form-control" placeholder="Comentarios" required="">
-                                                    </div>
+                                                    </div> 
                                                     {{-- <div class="form-group row">
                                                         <label for="comentarios" class="col-sm-5 col-form-label">Comentarios: </label>
                                                         <div class="col-sm-7">
@@ -974,24 +974,13 @@
                                                                 <option value="1678">Carpa ferias de juguetes</option>
                                                                 <option value="1679">Planta de tratamiento de aguas residuales</option>
                                                                 <option value="1688">Lavado de accesorios de motocicleta y otros microempresas y pequeñas empresas</option>
-                                                        </select> --}}
-                                                    </div>
+                                                            </select> --}}
+                                                    </div> 
                                                 </div>
                                             </div>
                                             <div class="row mt-1 justify-content-end">                                    
                                                 <div class="col-3 offset-1">
-                                                    <button id="btn_submit" class="btn blue w-100 py-2" type="submit">Enviar</button>
-                                                    {{-- <a href="#">
-                                                        <div class="container-boton-enviar">
-                                                            <div class="rectangulo-boton-enviar">
-                                                                <div class="row align-items-center ml-2 mt-1">
-                                                                    <div class="d-inline menu-header-interno preguntas-frecuentes">
-                                                                        <label style="margin-top:-5px;"> Enviar</label> 
-                                                                    </div>
-                                                                </div>
-                                                            </div> 
-                                                        </div>
-                                                    </a> --}}
+                                                    <button id="btn_submit" class="btn blue w-100 py-2"  data-toggle="modal" data-target="#contactModal" data-line="contact-send" >Enviar</button>
                                                 </div>
                                             </div>                                
                                         </div>                                        
@@ -1073,21 +1062,62 @@
             </div>    
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade  bd-example-modal-lg" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content alert-ambiental">
+                <div class="modal-header" style="border-bottom: 0px solid #dee2e6;">
+                    <h5 class="modal-title" id="exampleModalLabel">¿Desea recibir más información sobre salud ambiental?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <input type="radio" name="gender" value="male"> Acepta los términos y condiciones: autorizo expresamente a las Secretaria  Distrital de Salud y el Fondo Financiero Distrital de Salud,
+                        para hacer uso y tratamiento de datos personales de conformidad con lo previsto en Decreto 1377 de 2013 que reglamenta la Ley 1581 de 2012. (Política de Protección de Datos Personales)
+                        <br>
+                    </form>
+                </div>
+                <div class="modal-footer" style="border-top: 0px solid #dee2e6; align-items: center; justify-content:center;">
+                    <div class="container-fluid">
+                        <div class="row justify-content-between">
+                            <div class="col offset-2">
+                                <button type="button" class="btn btn-modal" data-dismiss="modal">No, Gracias</button>
+                            </div>
+                            <div class="col">
+                            <button id="btn-enviar" type="button" class="btn btn-modal">Sí, suscribirme</button>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
     
 @endsection
 @section('scripts')
 <script>
+    $(function() {
+        $('#btn-enviar').click( function(){
+            if(  $('#name').val() !== '' && $('#localidad').val() !== '' && $('#telefono').val() !== '' && $('#temainteres').val() !== '' && $('#correo').val() !== '' && $('#comentarios').val() !== '' && $('#tiponegocio').val() !== '' ) {
+                $('#form-contactenos').submit()
+            }
+                
+        });
+    });
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
     
         var calendar = new FullCalendar.Calendar(calendarEl, {
         plugins: [  'dayGrid' ],
-        defaultDate: '2019-06-12',
+        defaultDate: '2019-07-22',
         editable: true,
         lang: 'es',
         eventLimit: true, // allow "more" link when too many events
         events: [
-            {
+            /* {
             title: 'All Day Event',
             start: '2019-06-01'
             },
@@ -1140,7 +1170,7 @@
             title: 'Click for Google',
             url: 'http://google.com/',
             start: '2019-06-28'
-            }
+            } */
         ]
         });
     

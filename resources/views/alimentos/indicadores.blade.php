@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" width="50%" alt="símbolo sección agua" />
+                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="símbolo sección agua" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -70,25 +70,24 @@
             </div>
 
             <div class="row" style="text-align:justify;">
-                
                 <div class="contenidoSecAmb centradoDiv">
 
-                    <h1 class="centrado colorAlimentos mt20">Alimentos Sanos y Seguros</h1>
-                    <p>Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria
-                        posiblemente asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá.</p>
-                    <p>Casos de morbilidad por ETA por ciclo vital en Bogotá:</p>
-                    <ul>
-                        <li>
-                            Link:
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/eta/"
-                                class="colorAlimentos">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/eta/</a>
-                        </li>
-                    </ul>
+                    <div class="colorAlimentos">
+                        <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" align="absbottom" />Indicadores</div>
 
-                </div>                
+                        <p align="justify" class="colornegro">Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente
+                        asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá.</p>
+                        <p align="justify">Casos de morbilidad por ETA por ciclo vital en Bogotá
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/eta/">
+                                <img src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                                {{-- Ver más --}}
+                            </a>
+                        </p>
 
-            </div>  
-
+                    </div>
+                             
+                </div>  
+            </div>
             
 
             <div class="row">
@@ -97,23 +96,27 @@
 
             <div class="logos colorAlimentos bold140p">
                 <div class="centrado colorAlimentos">
-                    <p>Documentos e investigaciones</p>
+                    <p class="colorAlimentos">Documentos e investigaciones</p>
                     <img src="images/alimentos/IMG_ALIMENTOS_DOCUMENTOS.jpg" width="85" height="63"
                         alt="Agua docs" />
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Mapas</p>
+                    <p class="colorAlimentos">Mapas</p>
                     <img src="images/alimentos/IMG_ALIMENTOS_ MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Normatividad</p>
-                    <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas"
-                    />
+                    <p class="colorAlimentos">Normatividad</p>
+                    <a href="Alimentos_normatividad.html">
+                        <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
+                    </a>
                 </div>
                 <div class="centrado colorAlimentos">
-                    <p>Calidad del aire</p>
-                    <img src="images/alimentos/IMG_ALIMENTOS_TITULO.jpg" width="85" height="63" alt="Agua título"
-                    />
+                    <p class="colorAlimentos">Indicadores</p>
+                    <p class="colorAlimentos">
+                        <a href="Alimentos_indicadores.html">
+                        <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
+                        </a>
+                    </p>
                 </div>
             </div>           
             
