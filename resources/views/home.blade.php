@@ -298,7 +298,7 @@
 
     <div class="wrapper min-ancho">
         <div class="row mb-3">
-                <div class="col-3 ">
+                <div class="col-3 offset-1">
                     <a href="http://autorregulacion.saludcapital.gov.co">
                         <img class="d-block altura" src="{{asset("images/news/LogoAutorregulacion.svg")}}" alt="autorregulación" style="height: 80px;">
                     </a>
@@ -310,13 +310,13 @@
                         </a>                
                     </div>
                 </div>
-                <div class="col-2">
+                <!-- <div class="col-2">
                     <div class="d-block mt-3" style="margin-top: 15px;">
                         <a href="{{asset("conceptos")}}" class="boton-consul">
                             <img src="{{asset("images/news/BotonConsulteEstablecimiento.svg")}}" alt="autorregulación" style="height: 60px; margin-left: 50px;"> 
                         </a>                
                     </div> 
-                </div>                
+                </div>    -->             
                 <div class="col-2" >
                     <div class="d-block mt-3">
                         <a href="{{asset("acreditados")}}" class="boton-registe">
@@ -352,7 +352,7 @@
                     <div class="contactenos col-12">
                         <div class="row">
                             <div class="col-lg-8 col-sm-12">
-                                <form id ="form-contactenos" class="form-contactenos" action="email.php">
+                                <form id ="form-contactenos" class="form-contactenos" >
                                     <div class="row align-items-start mt-4">
                                         <div class="col-4 icono-contactenos media">
                                             <img src="{{asset("images/contactenos/IconoContactenos.svg")}}" alt="" style="width: 70px;">
@@ -980,7 +980,7 @@
                                             </div>
                                             <div class="row mt-1 justify-content-end">                                    
                                                 <div class="col-3 offset-1">
-                                                    <button id="btn_submit" class="btn blue w-100 py-2"  data-toggle="modal" data-target="#contactModal" data-line="contact-send" >Enviar</button>
+                                                    <button  class="btn blue w-100 py-2"  data-toggle="modal" data-target="#contactModal" data-line="contact-send" >Enviar</button>
                                                 </div>
                                             </div>                                
                                         </div>                                        
@@ -1087,7 +1087,32 @@
                                 <button type="button" class="btn btn-modal" data-dismiss="modal">No, Gracias</button>
                             </div>
                             <div class="col">
-                            <button id="btn-enviar" type="button" class="btn btn-modal">Sí, suscribirme</button>
+                                <button id="btn-enviar" type="button" class="btn btn-modal">Sí, suscribirme</button>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content alert-ambiental">
+                <div class="modal-header" style="border-bottom: 0px solid #dee2e6;">
+                    <h5 class="modal-title" id="exampleModalLabel">Error</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Debe ingresar toda la información solicitada.
+                </div>
+                <div class="modal-footer" style="border-top: 0px solid #dee2e6; align-items: center; justify-content:center;">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col offset-4">
+                                <button type="button" class="btn btn-modal" data-dismiss="modal">Aceptar</button>
                             </div>
                         </div>
                     </div>    
@@ -1102,7 +1127,11 @@
     $(function() {
         $('#btn-enviar').click( function(){
             if(  $('#name').val() !== '' && $('#localidad').val() !== '' && $('#telefono').val() !== '' && $('#temainteres').val() !== '' && $('#correo').val() !== '' && $('#comentarios').val() !== '' && $('#tiponegocio').val() !== '' ) {
-                $('#form-contactenos').submit()
+               
+            } else {
+                $('#contactModal').modal('hide');
+            
+                $('#infoModal').modal('show');
             }
                 
         });

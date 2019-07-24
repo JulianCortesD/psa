@@ -153,7 +153,7 @@
                             <ul class="dropdown-menu" >
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("agua_saneamiento_basico")}}"> <em>Calidad del agua y Sanemaiento Básico</em> </a>
                                 <li class="dropdown-item dropdown-submenu">
-                                    <a>Carro tanques</a>
+                                    <a>Carrotanques</a>
                                     <ul class="dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <a href="https://drive.google.com/open?id=1viKWkuMqYlujwWnJLNfSfXw_ARKD9THh">
                                             <li class="dropdown-item">
@@ -200,8 +200,8 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("espacio_movilidad")}}"> <em>Hábitat, Espacio público y movilidad</em> </a>
                                 <a class="dropdown-item" href="{{asset("espacio_movilidad_indicadores")}}">Indicadores</a>
-                                <a class="dropdown-item" href="{{asset("espacio_movilidad_normatividad")}}">Normatividad</a>
-                                <a class="dropdown-item" href="{{asset("espacio_movilidad_radiacion")}}">Radiación Electromagnética</a>
+                                <!-- <a class="dropdown-item" href="{{asset("espacio_movilidad_normatividad")}}">Normatividad</a> -->
+                                {{-- <a class="dropdown-item" href="{{asset("espacio_movilidad_radiacion")}}">Radiación Electromagnética</a> --}}
                                 {{-- <a class="dropdown-item" href="#">Mapas</a>--}}
                                 <!-- <a class="dropdown-item" href="#">Documentos e investigaciones</a> -->
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}

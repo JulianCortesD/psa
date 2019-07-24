@@ -72,12 +72,14 @@
             <div class="row" style="text-align:justify;">
                 <div class="contenidoSecAmb centradoDiv">
 
-                    <div>
-                        <h1 class="seccion fondoCambioC sinSaltoLinea">&nbsp;</h1>
-                        </div>
-                        <h2 align="left" class="colorCambioC">
-                        <img src="images/cambioClimatico/cambioNORMATIVIDAD.jpg" width="85" height="63" align="absbottom" />Normatividad</h2>
-                        <h2 align="center" class="colorCambioC">Regulación Transversal</h2>
+                    <h2 align="left" class="colorCambioC">
+                    <img src="images/cambioClimatico/cambioNORMATIVIDAD.jpg" width="85" height="63" align="absbottom" />Normatividad</h2>
+                    <p>
+                        <h2 align="center" class="colorCambioC" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer; ">
+                            Regulación Transversal
+                        </h2>
+                    </p>
+                    <div class="collapse show" id="collapseTransversal">
                         <table border="0">
                             <tbody>
                                 <tr width="100%">
@@ -104,8 +106,15 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <br>
-                        <h2 align="center"class="colorCambioC" >Regulación Especifica</h2>
+                    </div>                        
+                    
+                    <br>
+                    <p>
+                        <h2 align="center"class="colorCambioC" data-toggle="collapse" href="#collapseEspecifico" role="button" aria-expanded="false" aria-controls="collapseEspecifico" style="cursor: pointer;">
+                            Regulación Especifica
+                        </h2>
+                    </p>
+                    <div class="collapse show" id="collapseEspecifico">
                         <table width="100%" border="0">
                             <tbody>
                                 <tr width="100%">
@@ -152,7 +161,6 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <h2 align="center" class="colorCambioC">&nbsp;</h2>
                     </div>
                 </div>             
 

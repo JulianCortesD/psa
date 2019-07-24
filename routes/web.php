@@ -78,9 +78,11 @@ Route::get('/quimicos_normatividad','QuimicosController@normatividad')->name('no
 Route::get('/quimicos_indicadores','QuimicosController@indicadores')->name('indicadores');
 
 Route::get('/etoz','EtozController@index')->name('index');
-Route::get('/etoz_ver','EtozController@indexVer')->name('indexVer');
+Route::get('/etoz_ver_mas','EtozController@indexVer')->name('indexVer');
 Route::get('/etoz_documentos','EtozController@documentos')->name('documentos');
 Route::get('/etoz_normatividad','EtozController@normatividad')->name('normatividad');
 Route::get('/etoz_indicadores','EtozController@indicadores')->name('indicadores');
+
+Route::get('/calendario','CalendarController@index')->name('index');
 
 

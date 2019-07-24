@@ -63,7 +63,7 @@
                     <h2 class="colorAgua">
                         <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" align="absbottom" />Documentos e investigaciones
                     </h2>
-                    <p>Compendio de documentos e investigaciones relacionados con las condiciones higiénicas sanitarias de los establecimientos
+                    <p style="font-size: 16px;">Compendio de documentos e investigaciones relacionados con las condiciones higiénicas sanitarias de los establecimientos
                         y eventos de interés en salud pública. 
                     </p>
                     <p>&nbsp;</p>

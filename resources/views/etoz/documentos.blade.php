@@ -9,7 +9,8 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="colorMedicamentos"> | Medicamentos seguros y dispositivos médicos|</span>
+                    <span class="breadcrumb_"> Zoonosis y Vectores |  </span>
+                    <span class="breadcrumb_ colorETOZ"> Documetos e Investigaciones</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -27,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/medicamentos/LogoMedicamentos.png")}}" width="480" height="93" alt="símbolo sección medicamentos" />
+                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -64,65 +65,60 @@
                     </a>             
                 </div>  -->
                 <div height="355">
-                    <img src="images/medicamentos/BannersMedicamentosParte_interna.png" width="100%" />
+                    <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" width="100%" alt="Slider Cambio climático" />
                 </div>
             </div>
-
-            <div class="row" style="text-align:justify;">
-                <div class="contenidoSecAmb centradoDiv">
-                    <span class="cursiva">.</span>
-
-                    <h2 class="colorMedicamentos">&nbsp;</h2>
-                    <h1 class="seccion fondoMedicamentos sinSaltoLinea">Medicamentos seguros y dispositivos médicos</h1>
-                    <p>&nbsp;</p>
-                    <p align="justify">La línea de intervención de Medicamentos Seguros, está orientada a contribuir en el derecho de los habitantes de la
-                        ciudad a la salud y a un ambiente sano, mediante la gestión integral de los medicamentos, dispositivos médicos y
-                        productos farmacéuticos, durante todo su ciclo de vida, con el fin de garantizar que la población del Distrito Capital,
-                        cuente con productos de calidad, promoviendo su uso seguro, minimizando el riesgo de consumo de productos alterados
-                        y/o fraudulentos, y contribuyendo a su disposición final en condiciones ambientalmente sostenibles.</p>
-                    <p align="justify">&nbsp;</p>
-                    <a href="{{asset("medicamentos_ver")}} " align="right" class="verMas colorMedicamentos">
-                        <img src="images/medicamentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
-                        {{-- Ver más --}}
-                    </a>
-
-                </div>
-            </div>  
 
             <div class="row">
-                <hr class="lineaMEdicamentos mt80" style="width: 100%;" />
-            </div>
+                <div class="contenidoSecAmb centradoDiv">
 
-            <div class="logos colorAgua bold140p">
-                <div class="centrado colorAgua">
-                    <p align="center" class="colorMedicamentos">Documentos e investigaciones</p>
-                    <p align="center" class="colorMedicamentos">
-                    <img src="images/medicamentos/IMG_MEDICAMENTOS_DOCUMENTOS.jpg" width="85" height="63" />
+                    <p>&nbsp;</p>
+                    <h2 align="left">
+                        <img src="images/Eventos zoonoticos/DOCUMENTOS.png" width="85" height="63" align="absbottom" />
+                        <span class="colorETOZ">Documentos e investigaciones</span>
+                    </h2>
+                    <p>&nbsp;</p>
+                    <p>Esta línea de intervención procura el mejoramiento de la calidad de vida y salud de la población bogotana, mediante
+                    la implementación de acciones integrales de vigilancia sanitaria y epidemiológica, promoción de la salud, prevención
+                    de la enfermedad y control de los eventos transmisibles de origen zoonótico, que puedan representar riesgo para la
+                    salud animal y la salud humana en el Distrito Capital. </p>
+                    <p>Comportamiento del evento de Vigilancia integrada de la rabia. Bogotá, 2017.
+                    <span class="Izquieda">
+                        <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" width="37" height="41" alt="Cambio climático docs" />
+                    </span>
+                    </p>
+                    <p>Comportamiento del evento de Vigilancia integrada de la rabia. Bogotá, año 2016.
+                    <span class="Izquieda">
+                        <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" width="37" height="41" alt="Cambio climático docs" />
+                    </span>
                     </p>
                     <p>&nbsp;</p>
+                    <p>&nbsp;</p>
                 </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Mapas</p>
-                    <p class="colorMedicamentos">
-                    <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
-                    </p>
-                    <p class="colorMedicamentos">&nbsp;</p>
+            </div>
+
+            <div class="row">
+                <hr class="lineETOZ mt80" style="width: 100%;" />
+            </div>
+
+            <div class="logos colorETOZ bold140p">
+                <div class="centrado">
+                    <p class="colorETOZ">Documentos e investigaciones</p>
+                    <img src="images/Eventos zoonoticos/DOCUMENTOS.png" width="85" height="63" alt="Aire docs" />
                 </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Normatividad</p>
-                    <p class="colorMedicamentos">
-                    <a href="Medicamentos_normatividad.html">
-                        <img src="images/medicamentos/IMG_MEDICAMENTOS_NORMATIVIDAD.jpg" width="85" height="63" />
-                    </a>
-                    </p>
+                <div class="centrado">
+                    <p class="colorETOZ">Mapas</p>
+                    <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" alt="Aire mapa" />
                 </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Indicadores</p>
-                    <p>
-                    <img src="images/medicamentos/IMG_MEDICAMENTOS_INDICADORES.jpg" width="85" height="63" />
-                    </p>
+                <div class="centrado">
+                    <p class="colorETOZ">Normatividad</p>
+                    <img src="images/Eventos zoonoticos/NORMATIVIDAD.png" width="85" height="63" alt="Aire normas" />
                 </div>
-            </div>         
+                <div class="centrado">
+                    <p class="colorETOZ">Indicadores</p>
+                    <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" alt="Aire título" />                    </a>
+                </div>
+            </div>        
             
         </div>    
 @endsection

@@ -19,6 +19,11 @@
     url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.svg#Gotham Rounded") format("svg");
 }
+.sinVinetas a {
+    color: black !important;
+    text-decoration: none;
+    background-color: transparent;
+}
 body {
 	font-family:  "Gotham Rounded Book","Gotham Rounded";
 }
@@ -92,10 +97,10 @@ h1,h2,h3 {
 h1,h2 { font-size: 22px; }
 h3 { font-size: 18px;
 	text-align:justify; }
-p {
+.centradoDiv p {
 	margin-top: 20px;
 	font-family: "Gotham Rounded Book";
-	font-size: 14px;
+	font-size: 16px;
 	color: #000000;
 }
 .centrado { text-align:center; }
@@ -195,7 +200,7 @@ p {
 .lineaCambioC { border: 2px solid #eaa71a; }
 .lineaEspacio { border: 2px solid #9d5b31; }
 .lineaQuimica { border: 2px solid #ed5a24; }
-
+.lineaMedicamentos {border: 2px solid  #662d8d; }
 .lineaAireNotas { 
 	border: thin solid #0f80b8;
 	margin-right: 50%;
@@ -242,7 +247,7 @@ ul.sinVinetas {
 	padding: 0;
 	list-style-type: none;
 	color: #000;
-	font-size: 0.9em;
+	/* font-size: 0.9em; */
 }
 .colornegro {
 	color: #000000;

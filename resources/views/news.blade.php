@@ -122,6 +122,7 @@
                                     <div class="col-12">                                      
                                         <div class="row">
                                             <div class="col-10-justify-content-center" style="padding:10px;">
+                                                <p>Junio 27 de 2019</p> <br>
                                                 <img src="{{asset("images/news/expendiocarnes.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
                                                 <p style="text-align:justify; margin-left: 5px;">
                                                         De los cerca de 9.700 establecimientos que venden y almacenan productos cárnicos en Bogotá, 4.039 han hecho durante 2019 ante la Secretaría Distrital de Salud (SDS) la solicitud de autorización sanitaria para su funcionamiento. De estos, 1.050 expendios han sido aprobados por ajustarse a los estándares sanitarios. Sin embargo, los que no cumplan con este requisito se exponen a sanciones, que contemplan incluso la clausura.
@@ -170,6 +171,7 @@
                                     <div class="col-12">                                      
                                         <div class="row">
                                             <div class="col-10-justify-content-center" style="padding:10px;">
+                                                <p>Febrero 15 de 2019</p> <br>
                                                 <img  src="{{asset("images/news/encuentrofarmaco.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
                                                 <p style="text-align:justify; margin-left: 5px;">
                                                         Con la participación de más de 200 asistentes se realizóen el auditorio principal de la Secretaría Distritalde Salud (SDS) el Encuentro de Fármacovigilancia, el evento estuvo dirigido a establecimientos farmacéuticos minoristas, el propósito fundamental fue brindar capacitación y sensibilizar a los asistentes en laimportancia del reportede eventosadversosrelacionados con el uso demedicamentos.
@@ -214,6 +216,7 @@
                                         <div class="col-12">                                      
                                             <div class="row">
                                                 <div class="col-10-justify-content-center" style="padding:10px;">
+                                                    <p>Febrero 15 de 2019</p> <br>
                                                     <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
                                                     <p style="text-align:justify; margin-left: 5px;">
                                                         Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos. 
@@ -253,6 +256,7 @@
                                         <div class="col-12">                                      
                                             <div class="row">
                                                 <div class="col-10-justify-content-center" style="padding:10px;">
+                                                    <p>Junio 27 de 2019</p> <br>
                                                     <img  src="{{asset("images/news/restaurantes.jpg")}}" style="width:203px; margin-right: 10px;" class="rounded float-left" >
                                                     <p style="text-align:justify; margin-left: 5px;">
                                                         La Secretaría Distrital de Salud (SDS) entrega hoy la distinción ‘Restaurantes1A’ a 7 establecimientos populares de la ciudad que se destacan por cumplir con las normas sanitarias y contar con menús balanceados y variados, buenos niveles de calidad y de atención y una adecuada manipulación de alimentos.

@@ -80,33 +80,33 @@
 
 
                     <h2 class="colorEspacio centrado">Calidad del aire</h2>
-                    <p>Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente
+                    <p style="font-size: 16px;">Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente
                     asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá. </p>
                     <ul>
-                    <li class="colorEspacio">Prevalencia de sibilancias en menores de 5 años posiblemente asociado a material particulado en Bogotá D.C.</li>
-                    <li class="colorEspacio">Link:
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/</a>
+                    <li style="font-size: 16px; color:black !important;">Prevalencia de sibilancias en menores de 5 años posiblemente asociado a material particulado en Bogotá D.C.</li>
+                    <li style="font-size: 16px; color:black !important;">Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/" style="font-size: 16px; color:black !important;">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilanciam5/</a>
                     </li>
-                    <li class="colorEspacio">Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</li>
-                    <li class="colorEspacio">Link:
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/</a>
+                    <li style="font-size: 16px; color:black;">Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</li>
+                    <li style="font-size: 16px; color:black;">Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/" style="font-size: 16px; color:black !important;">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/</a>
                     </li>
                     </ul>
 
                     <h2 class="colorEspacio centrado mt40">Espacios libre de humo y tabaco</h2>
-                    <p>Permiten mostrar las principales acciones afines con la implementación de la norma de espacios libres de humo de tabaco
+                    <p style="font-size: 16px;">Permiten mostrar las principales acciones afines con la implementación de la norma de espacios libres de humo de tabaco
                     y la frecuencia de la exposición al humo de tabaco en Bogotá.</p>
                     <ul>
-                    <li class="colorEspacio">
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco" class="colorEspacio">Prevalencia de consumo de tabaco en hogares en Bogotá D.C</a>
+                    <li style="font-size: 16px; color:black !important;">
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco" style="font-size: 16px; color:black !important;">Prevalencia de consumo de tabaco en hogares en Bogotá D.C</a>
                     </li>
-                    <li class="colorEspacio">Link:
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/" class="colorEspacio">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/</a>
+                    <li style="font-size: 16px; color:black;">Link:
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/" style="font-size: 16px; color:black !important;">http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tabaco-hogares/</a>
                     </li>
                     </ul>
 
                     <h2 class="colorEspacio centrado mt40">Ruido</h2>
-                    <p>Describen la tendencia de la frecuencia de casos relacionados con la pérdida de audición y la calidad del sueño debido
+                    <p style="font-size: 16px;">Describen la tendencia de la frecuencia de casos relacionados con la pérdida de audición y la calidad del sueño debido
                     a la exposición a ruido y los resultados de las acciones de la vigilancia sanitaria y ambiental por contaminación
                     auditiva en Bogotá.</p>
 

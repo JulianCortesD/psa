@@ -5,6 +5,12 @@ $(function() {
       $('#rootwizard').bootstrapWizard();
     }    
     submenus();
+
+    $("#ocultar-contenedor").hover(function(){
+      $(".ocultar").hide();
+    }, function(){
+        $(".ocultar").show();
+    });
 });
 
 function submenus() {
@@ -48,7 +54,7 @@ function calendar() {
           lang: 'es',
           eventLimit: true, // allow "more" link when too many events
           events: [
-            {
+            /* {
               title: 'All Day Event',
               start: '2019-06-01'
             },
@@ -101,7 +107,7 @@ function calendar() {
               title: 'Click for Google',
               url: 'http://google.com/',
               start: '2019-06-28'
-            }
+            } */
           ]
         });
     

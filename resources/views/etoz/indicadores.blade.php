@@ -9,26 +9,48 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Productos químicos, industria y belleza| </span>
-                    <span class="colorSeguridadquimica">Indicadores</span>
-                </div>  
-                <div class="col-4">
-                    <div class="row">
+                    <span class="breadcrumb_"> Zoonosis y Vectores |   Eventos Transmisibles de Origen Zoonótico ETOZ </span>
+                    <span class="breadcrumb_ colorETOZ">Más Información</span>
+
+                    <div width="300px">
+                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
+                    </div>
+
+                </div>
+                <div class="col-4" id="ocultar-contenedor">
+                    <div class="row ocultar">
                         <div class="col-12 date-time-title">
                         <span>Bogotá hoy</span> 
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row ocultar">
                         <div class="col-12 date-time" id="reloj">
                             Fecha y hora
+                        </div>
+                    </div>  
+                    <div class="row mt-2">
+                        <div class="col-4">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
+                                <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
+                            </a>                            
+                        </div>
+                        <div class="col-4">
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
+                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="http://www.ideam.gov.co/">
+                                <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                            </a>                            
                         </div>
                     </div>                                    
                 </div>
             </div>  
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/quimica/LogoSeguridadQuimica.png")}}" width="568" height="93" alt="símbolo sección medicamentos" />
+                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -50,7 +72,7 @@
                         </div>
                     </div>  
                 </div>
-            </div>  
+            </div>  -->  
             
             <div class="row">
                 <!-- <div >

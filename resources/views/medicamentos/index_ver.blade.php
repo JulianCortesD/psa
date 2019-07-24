@@ -73,17 +73,17 @@
                 <div class="contenidoSecAmb centradoDiv">
                     <div align="justify">
                         <p>&nbsp;</p>
-                        <p>
-                        <span class="colorMedicamentos">
-                            <strong>Objetivo General:</strong>
-                        </span>
+                        <h3 class="centrado colorMedicamentos"> Objetivo General: </h3>
+                        <p align="justify" style="font-size: 16px;">
+                                
                         <br /> Contribuir en la defensa de los derechos de las personas a que le sean suministrados medicamentos, dispositivos
                         médicos y productos farmacéuticos de calidad, realizando una gestión integral de los mismos en procura de un ambiente
                         sano.
                         </p>
                     </div>
-                    <p align="justify">
-                        <strong class="colorMedicamentos">Objetivos Específicos:</strong>
+
+                    <h3 class="centrado colorMedicamentos"> Objetivos Específicos:</h3>
+                    <p align="justify" style="font-size: 16px;">
                         <br /> Promover en los habitantes de la ciudad una cultura de uso racional de medicamentos, dispositivos médicos y productos
                         farmacéuticos. </p>
                     <p align="justify">Fomentar la gestión integral de los medicamentos, dispositivos médicos y productos farmacéuticos en condiciones seguras
@@ -101,13 +101,11 @@
                     <p align="justify">Gestión para el conocimiento y la regulación de alternativas farmacoterapéuticas. </p>
                     <p align="justify">Fortalecimiento de la capacidad institucional para la gestión de medicamentos, dispositivos médicos y demás productos
                         farmacéuticos.</p>
-                    <p align="justify">
-                        <span class="colorMedicamentos">
-                        <strong>Inspección, Vigilancia y Control de Establecimientos Farmacéuticos distribuidores minoristas y mayoristas entre
-                            otros</strong>
-                        <br />
-                        <strong>Objetivo</strong>
-                        </span>
+
+                    <h3 class="centrado colorMedicamentos"> Inspección, Vigilancia y Control de Establecimientos Farmacéuticos distribuidores minoristas y mayoristas entre
+                            otros</h3>
+                    <h3 class=" colorMedicamentos"> Objetivo</h3>
+                    <p align="justify" style="font-size: 16px;">
                         <br /> Vigilar la comercialización de medicamentos, dispositivos médicos entre otros, en los establecimientos competencia
                         de la línea de Medicamentos seguros, los cuales deberán contar con las condiciones sanitarias adecuadas para su consumo
                         y promover en los habitantes de la ciudad una cultura de uso racional de medicamentos propendiendo por su gestión

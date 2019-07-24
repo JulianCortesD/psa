@@ -1,38 +1,38 @@
 <footer class="min-ancho mt80">
         <div class="container-fluid">
-            <div class="row justify-content-center mb-3">
-                <div class=" col-10 col-lg-11 offset-lg-1">                        
-                    <div class="d-inline-block mr-2">
+            <div class="row justify-content-left mb-3">
+                <div class=" col-10 col-lg-12 ">                        
+                    <div class="d-inline-block mr-4">
                         <a href="http://www.saludcapital.gov.co/Paginas2/Linea106-Inicio.aspx">
                             <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLinea106.svg")}}" alt="" >
                         </a>
                     </div>   
-                    <div class="d-inline-block mr-2">
+                    <div class="d-inline-block mr-4 ml-3">
                         <a href="http://www.saludcapital.gov.co/Paginas2/Linea_123.aspx">
                             <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLinea123.svg")}}" alt=""  >
                         </a>
                     </div>  
-                    <div class="d-inline-block mr-2">
+                    <div class="d-inline-block mr-4 ml-3">
                         <a href="http://www.saludcapital.gov.co/Paginas2/Lineasaludparatodos.aspx">
                             <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLineaSaludparatodos.png")}}" alt=""  >
                         </a>
                     </div> 
-                    <div class="d-inline-block mr-2">
+                    <div class="d-inline-block mr-4 ml-3">
                         <a href="http://www.saludcapital.gov.co/Paginas2/Linea_Purpura.aspx">
                             <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLineaPurpura.svg")}}" alt=""  
                         </a>
                     </div> 
-                    <div class="d-inline-block mr-2">
+                    <div class="d-inline-block mr-4 ml-3">
                         <a href="http://www.saludcapital.gov.co/Paginas2/Linea_psicoactiva.aspx">
                             <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLineaPiensalo.svg")}}" alt=""  >
                         </a>
                     </div>  
-                    <div class="d-inline-block mr-2">
+                    <div class="d-inline-block mr-4 ml-3">
                         <a href="http://centroderelevo.gov.co/632/w3-channel.html">
                             <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoCentroRelevo.svg")}}" alt=""  >
                         </a>
                     </div>  
-                    <div class="d-inline-block ">
+                    <div class="d-inline-block ml-3">
                         <a href="https://secretariageneral.gov.co/servicio-ciudadania/telefonico/línea-195">
                             <img  class="right-bottom-menu link-footer" src="{{asset("images/footer/LogoLinea195.svg")}}" alt=""  >
                         </a>
