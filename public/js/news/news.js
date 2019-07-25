@@ -1,5 +1,4 @@
 $(function() {
-    calendar();
     reloj();
     if ( $('#rootwizard').length ) {
       $('#rootwizard').bootstrapWizard();
