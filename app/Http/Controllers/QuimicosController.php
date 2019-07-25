@@ -67,8 +67,6 @@ class QuimicosController extends Controller
         return view("quimicos/indicadores");
     }
 
-    
-
     /**
      * Display a listing of the resource.
      *
@@ -76,7 +74,18 @@ class QuimicosController extends Controller
      */
     public function normatividad()
     {
-        return view("medicamentos/normatividad");
+        return view("quimicos/normatividad");
+    }
+
+    
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function conceptos()
+    {
+        return view("quimicos/concepts");
     }
 
     /**

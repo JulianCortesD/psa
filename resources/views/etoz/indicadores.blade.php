@@ -10,7 +10,7 @@
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> Zoonosis y Vectores |   Eventos Transmisibles de Origen Zoonótico ETOZ </span>
-                    <span class="breadcrumb_ colorETOZ">Más Información</span>
+                    <span class="breadcrumb_ colorETOZ">Indicadores</span>
 
                     <div width="300px">
                         <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
@@ -87,29 +87,31 @@
                     </a>             
                 </div>  -->
                 <div height="355">
-                    <img src="images/quimica/Banner peluqueria parte interna.png" alt="Slider aire" width="945" />
+                    <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" alt="Slider aire" width="945" />
                 </div>
             </div>
 
-            <div class="row" style="text-align:justify;">
+            <div class="row mt-3" style="text-align:justify;">
                 <div class="contenidoSecAmb centradoDiv">
-                    <h2 class="colorSeguridadquimica">
-                    <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" align="absbottom" />Indicadores</h2>
-                    <h2 class="seccion fondoSeguridadquimica sinSaltoLinea"></h2>
+                    <h2 class="colorETOZ">
+                        <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" align="absbottom" />
+                        Indicadores
+                    </h2>
+                        
 
                     <p>Refleja la proporción  de las intervenciones realizadas en los  procesos de vigilancia y control, en las actividades
                     de la industria y del sector belleza, así como el acompañamiento a los establecimientos en su gestión de la salud ambiental.</p>
                     <p>&nbsp;</p>
                     <ul>
                     <li>
-                        <span class="colorIndicadores">Tasa incidencia de intoxicación con sustancias químicas en Bogotá D.C</span>..
+                        <span class="colorETOZ">Tasa incidencia de intoxicación con sustancias químicas en Bogotá D.C</span>..
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/intoxicacion/">Ver aquí</a>
                     </li>
                     </ul>
                     <p>&nbsp;</p>
                     <ul>
                     <li>
-                        <span class="colorIndicadores">Cantidad de sustancias químicas peligrosas por habitante en Bogotá D.C</span>.
+                        <span class="colorETOZ">Cantidad de sustancias químicas peligrosas por habitante en Bogotá D.C</span>.
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/distribucionsustanciasquimicaspeligrosaspercapita/">ver aquí</a>
                     </li>
                     </ul>
@@ -120,30 +122,30 @@
             </div>  
 
             <div class="row">
-                <hr class="lineaQuimica mt80" style="width: 100%;" />
+                <hr class="lineaETOZ mt80" style="width: 100%;" />
             </div>
 
-            <div class="logos colorSeguridadquimica bold140p">
+            <div class="logos colorETOZ bold140p">
                 <div class="centrado">
-                    <p class="colorSeguridadquimica">Documentos e investigaciones</p>
+                    <p class="colorETOZ">Documentos e investigaciones</p>
                     <a href="SeguridadQuimica_Documentos.html">
-                    <img src="images/quimica/espacioDOCUMENTOS.jpg" width="85" height="63" alt="Aire docs" />
+                    <img src="images/Eventos zoonoticos/DOCUMENTOS.png" width="85" height="63" alt="Aire docs" />
                     </a>
                 </div>
                 <div class="centrado">
-                    <p class="colorSeguridadquimica">Mapas</p>
-                    <img src="images/quimica/espacioMAPA.jpg" width="85" height="63" alt="Aire mapa" />
+                    <p class="colorETOZ">Mapas</p>
+                    <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" alt="Aire mapa" />
                 </div>
                 <div class="centrado">
-                    <p class="colorSeguridadquimica">Normatividad</p>
+                    <p class="colorETOZ">Normatividad</p>
                     <a href="SeguridadQuimica_Normatividad.html">
-                    <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
+                    <img src="images/Eventos zoonoticos/NORMATIVIDAD.png" width="85" height="63" alt="Aire normas" />
                     </a>
                 </div>
                 <div class="centrado">
-                    <p class="colorSeguridadquimica">Indicadores</p>
+                    <p class="colorETOZ">Indicadores</p>
                     <a href="SeguridadQuimica_Indicadores.html">
-                    <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />
+                    <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" alt="Aire título" />
                     </a>
                 </div>
                 </div>        

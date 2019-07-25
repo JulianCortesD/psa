@@ -110,7 +110,7 @@
             </div>
 
             <div class="row">
-                <hr class="lineETOZ mt80" style="width: 100%;" />
+                <hr class="lineaETOZ mt80" style="width: 100%;" />
             </div>
 
             <div class="logos colorETOZ bold140p">

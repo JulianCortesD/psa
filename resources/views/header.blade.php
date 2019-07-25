@@ -263,14 +263,14 @@
                             </a>
                             <div class="dropdown-menu dropdown-menu-izq" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("etoz")}}"><em>Eventos Transmisibles de Origen <br> Zoonótico ETOZ</em> </a>
-                                <a class="dropdown-item" href="#">Clínicas y consultorios veterinarios</a>
-                                <a class="dropdown-item" href="#">Vacunación antirrábica canina y felina</a>
-                                <a class="dropdown-item" href="#">Control de roedores e insectos</a>
+                                <!-- <a class="dropdown-item" href="#">Clínicas y consultorios veterinarios</a> -->
+                                <a class="dropdown-item" href="https://drive.google.com/open?id=0B2R7_2yRTHO0ZXo1aEFub29ab3pVVDdScl9XeWpHeWk2MXA4">Vacunación antirrábica canina y felina</a>
+                                <!-- <a class="dropdown-item" href="#">Control de roedores e insectos</a> -->
                                 <!-- <a class="dropdown-item" href="#">Establecimiento con concepto favorable</a> -->
-                                <a class="dropdown-item" href="#">Indicadores</a>
-                                <a class="dropdown-item" href="#">Normatividad</a>
-                                <a class="dropdown-item" href="#">Mapas</a>
-                                <a class="dropdown-item" href="#">Documentos e investigaciones</a>
+                                <a class="dropdown-item"  href="{{asset("etoz_indicadores")}}">Indicadores</a>
+                               <!--  <a class="dropdown-item" href="{{asset("etoz_normatividad")}}">Normatividad</a> -->
+                                <!-- <a class="dropdown-item" href="#">Mapas</a> -->
+                                <a class="dropdown-item"  href="{{asset("etoz_documentos")}}">Documentos e investigaciones</a>
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>

@@ -84,7 +84,6 @@
                         </p>
                        {{--  <a href="{{asset("agua_saneamiento_adulto_mayor_ver_mas")}}">
                             <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
-                            {{-- Ver más --}}
                         </a> --}}
                     
                     
