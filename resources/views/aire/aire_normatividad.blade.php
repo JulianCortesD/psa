@@ -221,12 +221,15 @@
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1E4vmtDEZ375T8FXBRiJK9ebouIVFB-lg" class="colorIndicadores">Convenio OMS para el control del Tabaco </a>
                                             </li>
+<<<<<<< HEAD
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1-A9Oo1reRSu2ws4b72rzWZVJe1tS_Axd" class="colorIndicadores">AUTO 2014-00011 DE NOVIEMBRE 17 DE 2017</a>
                                             </li>
                                             <li>
                                                 <a href="http://www.sic.gov.co/sites/default/files/normatividad/032018/circular01.pdf" class="colorIndicadores">Circular 01 de 2018 - SIC </a>
                                             </li>
+=======
+>>>>>>> c491aa3a333c86b3bd696afa412f2ffcdc41df46
                             
                                         </ul>
                                     </div>
@@ -260,7 +263,11 @@
                                     <div class="collapse" id="collapseRadiaciones">
                                         <ul class="sinVinetas">
                                             <li>
+<<<<<<< HEAD
                                                 <a href="https://drive.google.com/open?id=1h_PKeB9oBkCdG6dzUYIEQjCKLLQZ3JH2" class="colorIndicadores">Ley 99 de 1993 </a>
+=======
+                                                <a href="https://drive.google.com/open?id=1sYgKtjodBOjfl3LqUcZUA3jZrG_aFxkV" class="colorIndicadores">Ley 99 de 1993 </a>
+>>>>>>> c491aa3a333c86b3bd696afa412f2ffcdc41df46
                                             </li>
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1sYgKtjodBOjfl3LqUcZUA3jZrG_aFxkV" class="colorIndicadores">Circular 01 de 2005 </a>
@@ -268,6 +275,7 @@
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1gRJ7xHeo3RClH7gyWxcA10L3VZ-GY73E" class="colorIndicadores">Decreto 195 de 2005 </a>
                                             </li>
+<<<<<<< HEAD
                                             <li></li>
                                             <li></li>
                                             <li>
@@ -294,6 +302,18 @@
                                                 class="colorIndicadores">Resolución 774 de 2018</a>
                                             </li>
                                       
+=======
+                                            <li>
+                                                <a href="https://drive.google.com/drive/u/1/folders/1yCXW167TuWxKFL8MZ4hhxyhjN79WR51?ogsrc=32" class="colorIndicadores">Decreto 676 de 2011 </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://drive.google.com/open?id=1g2gh2UOYWT_LGV6CNNMzouIpOv6fudL3" class="colorIndicadores">Acuerdo 399 de 2008 </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://drive.google.com/open?id=1_vIGDkBeXzvxlnWLil1cJteMSZGu657n" class="colorIndicadores">Notas OMS </a>
+                                            </li>
+                            
+>>>>>>> c491aa3a333c86b3bd696afa412f2ffcdc41df46
                                         </ul>
                                     </div> 
                                 </td>

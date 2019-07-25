@@ -1130,6 +1130,7 @@
     $(function() {
         $('#btn-enviar').click( function(){
             if(  $('#name').val() !== '' && $('#localidad').val() !== '' && $('#telefono').val() !== '' && $('#temainteres').val() !== '' && $('#correo').val() !== '' && $('#comentarios').val() !== '' && $('#tiponegocio').val() !== '' ) {
+<<<<<<< HEAD
                 $.ajax({
                     method: "POST",
                     url: "email.php",
@@ -1138,6 +1139,9 @@
                 .done(function( msg ) {
                     alert( "Data Saved: " + msg );
                 });
+=======
+               
+>>>>>>> c491aa3a333c86b3bd696afa412f2ffcdc41df46
             } else {
                 $('#contactModal').modal('hide');
             

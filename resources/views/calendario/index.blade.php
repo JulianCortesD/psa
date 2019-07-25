@@ -4,7 +4,10 @@
 @endsection
 @section('styles')
     <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/news.css")}}" />
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/calendar.css")}}" />
+=======
+>>>>>>> c491aa3a333c86b3bd696afa412f2ffcdc41df46
 @endsection
 @section('contenido')
     
@@ -14,6 +17,7 @@
             <div class="row">
                 <div class="col-10 offset-1">
                     
+<<<<<<< HEAD
                     <div class="row justify-content-center">
                         <div class="mt-3 container-calendar">
                             <div style="height: 340px; width: 600px;">
@@ -40,6 +44,16 @@
                         
 
                     </div>
+=======
+                    <div class="row">
+                        <div class="mt-3 container-calendar">
+                            <label>Calendario de eventos Salud Ambiental</label>
+                            <div class="col-10 offset-1" >
+                                <div id='calendar'></div>
+                            </div>
+                        </div>  
+                    </div>
+>>>>>>> c491aa3a333c86b3bd696afa412f2ffcdc41df46
                     
                 </div>
             </div>            
@@ -61,6 +75,7 @@
         defaultDate: '2019-07-22',
         editable: true,
         lang: 'es',
+<<<<<<< HEAD
         height: 'parent',
         eventLimit: true, // allow "more" link when too many events
         events: [
@@ -77,6 +92,25 @@
             start: '2019-07-31'
             },
             /* {
+=======
+        eventLimit: true, // allow "more" link when too many events
+        events: [
+            /* {
+            title: 'All Day Event',
+            start: '2019-06-01'
+            },
+            {
+            title: 'Long Event',
+            start: '2019-06-07',
+            end: '2019-06-10'
+            },
+            {
+            groupId: 999,
+            title: 'Repeating Event',
+            start: '2019-06-09T16:00:00'
+            },
+            {
+>>>>>>> c491aa3a333c86b3bd696afa412f2ffcdc41df46
             groupId: 999,
             title: 'Repeating Event',
             start: '2019-06-16T16:00:00'

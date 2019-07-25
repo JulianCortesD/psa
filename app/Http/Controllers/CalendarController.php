@@ -24,7 +24,11 @@ class CalendarController extends Controller
      */
     public function create()
     {
+<<<<<<< HEAD
       //
+=======
+        //
+>>>>>>> c491aa3a333c86b3bd696afa412f2ffcdc41df46
     }
 
     /**
