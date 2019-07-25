@@ -61,7 +61,7 @@
             <div class="row mt-5">
                 <div class="contenidoSecAmb centradoDiv">
                     <h1 class="seccion fondoAgua sinSaltoLinea">
-                        <img src="images/agua/Exelencia_agua.png" width="80" height="90" align="absbottom" />
+                        {{-- <img src="images/agua/Exelencia_agua.png" width="80" height="90" align="absbottom" /> --}}
                         Establecimientos con concepto favorable
                     </h1>
                     <p></p>

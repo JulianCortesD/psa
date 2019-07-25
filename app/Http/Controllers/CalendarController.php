@@ -4,18 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class QuimicosController extends Controller
+class CalendarController extends Controller
 {
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function indexVer()
-    {
-        return view("quimicos/index_ver");
-    }
 
     /**
      * Display a listing of the resource.
@@ -24,59 +14,7 @@ class QuimicosController extends Controller
      */
     public function index()
     {
-        return view("quimicos/index");
-    }
-
-     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function documentos()
-    {
-        return view("quimicos/documentos");
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function mapas()
-    {
-        return view("quimicos/mapas");
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function  conceptos()
-    {
-        return view("quimicos/concepts");
-    }   
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function indicadores()
-    {
-        return view("quimicos/indicadores");
-    }
-
-    
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function normatividad()
-    {
-        return view("medicamentos/normatividad");
+        return view("calendario/index");
     }
 
     /**
@@ -86,7 +24,7 @@ class QuimicosController extends Controller
      */
     public function create()
     {
-        //
+      //
     }
 
     /**

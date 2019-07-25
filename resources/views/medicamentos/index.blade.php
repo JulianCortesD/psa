@@ -82,7 +82,7 @@
                         y/o fraudulentos, y contribuyendo a su disposición final en condiciones ambientalmente sostenibles.</p>
                     <p align="justify">&nbsp;</p>
                     <a href="{{asset("medicamentos_ver")}} " align="right" class="verMas colorMedicamentos">
-                        <img src="images/espacio/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                        <img src="images/medicamentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
                         {{-- Ver más --}}
                     </a>
 
@@ -90,7 +90,7 @@
             </div>  
 
             <div class="row">
-                <hr class="lineaCambioC mt80" style="width: 100%;" />
+                <hr class="lineaMEdicamentos mt80" style="width: 100%;" />
             </div>
 
             <div class="logos colorAgua bold140p">

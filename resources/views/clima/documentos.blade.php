@@ -77,7 +77,6 @@
                         <div class="anchoPagina">
                         <Indicadores>
                         </indicadores>
-                        <h1 align="left" class="seccion fondoCambioC sinSaltoLinea">&nbsp;</h1>
                         <h2 align="left">
                             <img src="images/cambioClimatico/cambioDOCUMENTOS.jpg" width="85" height="63" align="absbottom" />
                             <span class="colorcambioclimatico">Documentos e investigaciones</span>

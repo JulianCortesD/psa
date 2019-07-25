@@ -14,7 +14,7 @@
 Route::get('/','InicioController@index');
 Route::get('/home','InicioController@index')->name('home');
 Route::get('/indicadores','IndicadorController@index')->name('indicadores');
-Route::get('/conceptos','ConceptosController@index')->name('conceptos');
+
 Route::get('/noticias','NewsController@index')->name('noticias');
 Route::get('/oficinas','OfficesController@index')->name('oficinas');
 Route::get('/preguntas','QuestionsController@index')->name('preguntas');
@@ -51,6 +51,8 @@ Route::get('/alimentos_sanos','AlimentosController@index')->name('alimentosIndex
 Route::get('/alimentos_sanos_ver','AlimentosController@indexMas')->name('alimentosIndexMas');
 Route::get('/alimentos_sanos_indicadores','AlimentosController@indicadores')->name('alimentosIndicadores');
 Route::get('/alimentos_sanos_normatividad','AlimentosController@normatividad')->name('alimentosNormatividad');
+
+
 Route::get('/cambio_climatico','ClimaController@index')->name('climaIndex');
 Route::get('/cambio_climatico_ver_mas','ClimaController@indexVer')->name('climaIndexVer');
 Route::get('/cambio_climatico_indicadores','ClimaController@indicadores')->name('climaIndicadores');
@@ -76,11 +78,14 @@ Route::get('/quimicos_ver','QuimicosController@indexVer')->name('indexVer');
 Route::get('/quimicos_documentos','QuimicosController@documentos')->name('documentos');
 Route::get('/quimicos_normatividad','QuimicosController@normatividad')->name('normatividad');
 Route::get('/quimicos_indicadores','QuimicosController@indicadores')->name('indicadores');
+Route::get('/quimicos_conceptos','QuimicosController@conceptos')->name('conceptos');
 
 Route::get('/etoz','EtozController@index')->name('index');
-Route::get('/etoz_ver','EtozController@indexVer')->name('indexVer');
+Route::get('/etoz_ver_mas','EtozController@indexVer')->name('indexVer');
 Route::get('/etoz_documentos','EtozController@documentos')->name('documentos');
 Route::get('/etoz_normatividad','EtozController@normatividad')->name('normatividad');
 Route::get('/etoz_indicadores','EtozController@indicadores')->name('indicadores');
+
+Route::get('/calendario','CalendarController@index')->name('index');
 
 

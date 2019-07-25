@@ -80,7 +80,7 @@
                       </h2>
                     </div>
                     <p align="justify">&nbsp;</p>
-                    <p align="justify">El Índice de Riesgo de la Calidad del Agua (IRCA) es la metodología por la cual se evalúan los resultados de los análisis
+                    <p align="justify" style="font-size: 16px; text-decoration: underline;">El Índice de Riesgo de la Calidad del Agua (IRCA) es la metodología por la cual se evalúan los resultados de los análisis
                       de muestras de agua para consumo (Decreto 1575 de 2007); de acuerdo con el proceso de muestreo y análisis de resultados,
                       se integraron al cálculo del IRCA Distrital, los datos del monitoreo que se hace a los sistemas de abastecimiento
                       comunitarios, de veredas e instituciones, durante el periodo 2012-2018</p>

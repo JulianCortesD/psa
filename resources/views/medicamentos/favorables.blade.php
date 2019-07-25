@@ -9,7 +9,7 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="colorMedicamentos"> | Medicamentos seguros y dispositivos médicos|</span>
+                    <span > | Medicamentos seguros y dispositivos médicos|</span>
                     <span class="colorMedicamentos">|Favorable</span>
                 </div>  
                 <div class="col-4">
@@ -75,7 +75,9 @@
 
                     <h2 class="colorMedicamentos">&nbsp;</h2>
                     <h1 class="seccion fondoMedicamentos sinSaltoLinea">
-                        <img src="images/medicamentos/Exelencia sanitaria  morado.png" width="79" height="90" align="absbottom" />Establecimientos con concepto favorable</h1>
+                        {{-- <img src="images/medicamentos/Exelencia sanitaria  morado.png" width="79" height="90" align="absbottom" /> --}}
+                        Establecimientos con concepto favorable
+                    </h1>
                     <p>&nbsp;</p>
                     <p align="justify">Consulte aquí los establecimientos farmacéuticos ubicados en la ciudad de Bogotá, que cumplen al 100% con la norma
                         sanitaria y cuentan con concepto  favorable por parte de la Secretaria de Salud, emitido en la ultima visita de Inspeccion
@@ -120,7 +122,7 @@
             </div>  
 
             <div class="row">
-                <hr class="lineaCambioC mt80" style="width: 100%;" />
+                <hr class="lineaMedicamentos mt80" style="width: 100%;" />
             </div>
 
             <div class="logos colorAgua bold140p">

@@ -81,133 +81,170 @@
                     <p>Compilación de las normas expedidas por las diferentes organizaciones gubernamentales relacionadas con la inspección,
                       vigilancia y control de las condiciones higiénico sanitarias de establecimientos</p>
                     <p>&nbsp;</p>
-                    <h1 align="center" class="colorAgua">Regulación Transversal
-              
-                    </h1>
-                    <ul>
-              
-                      <div align="center">
-                        <a href="https://drive.google.com/open?id=1KM4SlJjP-ntbUQkeTW1hTvRxOmrGo1a_" class="colorIndicadores">Ley 09 de 1979</a>
-                      </div>
-                      <div align="center">
-                        <a href="https://drive.google.com/open?id=1lEQeeQvIfU0In99FD5VeD4xq3RA0M2n1" class="colorIndicadores">Ley 715 de 2001 </a>
-                      </div>
-                      <div align="center">
-                        <a href="https://drive.google.com/open?id=1dzlJPG_HB4RtJ_FzkWgQhHCl1HxMKVhC" class="colorIndicadores">Decreto 3518 de 2006 </a>
-                      </div>
-                      <div align="center">
-                        <a href="https://drive.google.com/open?id=1RwLN3yX-4K5kRx_tJielYDMDJcdVyp6P" class="colorIndicadores">Acuerdo 230 de 2006</a>
-                      </div>
-                      <div align="center">
-                        <a href="https://drive.google.com/open?id=1_6izKlJ7cMIGHmbTtYiZqsTd3JPTSfe1" class="colorIndicadores">Resolución 705 de 2007 </a>
-                      </div>
-                      <div align="center">
-                        <a href="https://drive.google.com/open?id=1r982i4y5kOKr0U-1d2HgeDB3Ph34d6bx" class="colorIndicadores">Resolución 1956 de 2008</a>
-                      </div>
-                      <div align="center">
-                        <a href="https://drive.google.com/open?id=1MuLSs_WieSjObX7s8H_2_GA7pBpzR3ux" class="colorIndicadores">Ley 1335 de 2009</a>
-                      </div>
-                      <div align="center">
-                        <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/ley_1801_2016.pdf" class="colorIndicadores">LEY 1801 DE 2016</a>
-                      </div>
-                      </li>
-                    </ul>
-              
+                    <p>
+                      <h1 align="center" class="colorAgua" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer;">
+                        Regulación Transversal
+                      </h1>  
+                    </p>
+                    <div class="collapse show" id="collapseTransversal">
+                      <ul>                
+                        <div align="center">
+                          <a href="https://drive.google.com/open?id=1KM4SlJjP-ntbUQkeTW1hTvRxOmrGo1a_" class="colorIndicadores">Ley 09 de 1979</a>
+                        </div>
+                        <div align="center">
+                          <a href="https://drive.google.com/open?id=1lEQeeQvIfU0In99FD5VeD4xq3RA0M2n1" class="colorIndicadores">Ley 715 de 2001 </a>
+                        </div>
+                        <div align="center">
+                          <a href="https://drive.google.com/open?id=1dzlJPG_HB4RtJ_FzkWgQhHCl1HxMKVhC" class="colorIndicadores">Decreto 3518 de 2006 </a>
+                        </div>
+                        <div align="center">
+                          <a href="https://drive.google.com/open?id=1RwLN3yX-4K5kRx_tJielYDMDJcdVyp6P" class="colorIndicadores">Acuerdo 230 de 2006</a>
+                        </div>
+                        <div align="center">
+                          <a href="https://drive.google.com/open?id=1_6izKlJ7cMIGHmbTtYiZqsTd3JPTSfe1" class="colorIndicadores">Resolución 705 de 2007 </a>
+                        </div>
+                        <div align="center">
+                          <a href="https://drive.google.com/open?id=1r982i4y5kOKr0U-1d2HgeDB3Ph34d6bx" class="colorIndicadores">Resolución 1956 de 2008</a>
+                        </div>
+                        <div align="center">
+                          <a href="https://drive.google.com/open?id=1MuLSs_WieSjObX7s8H_2_GA7pBpzR3ux" class="colorIndicadores">Ley 1335 de 2009</a>
+                        </div>
+                        <div align="center">
+                          <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/ley_1801_2016.pdf" class="colorIndicadores">LEY 1801 DE 2016</a>
+                        </div>
+                        </li>
+                      </ul>
+                    </div>
               
                     <h2 align="center" class="colorAgua">Regulación Específica</h2>
                     <table width="100%" border="0">
                       <tr class="alinearVerticalInicial">
                         <td width="36%">
-                          <h2 align="center" class="colorIndicadores">Agua para consumo humano</h2>
-                          <ul>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1hkBAmqeQlz5z4mOuQpohdBEB_w9ZEmbD" class="colorIndicadores">Resolución 1096 de 2000 </a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1Z8ArTEKyttPG4IzWd4IdbsHHixZfvrXx" class="colorIndicadores">Resolución 414 de 2002</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1hm5t_Sbvmo5VbUuY24nK_MNV14VL7Ge" class="colorIndicadores">Decreto 1575 de 2007</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1Kqbz9LCdZeTed84sTsfRSInZBQA-nsIR" class="colorIndicadores">Resolución 2115</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1i9O04ip1FN8d9Pv4M7QpbjHWU_9J4aH5" class="colorIndicadores">Resolución 811 de 2008</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1v03_qG4x80xTJJYuowYBWAaKtwQr4myA" class="colorIndicadores">Resolución 82 de 2009</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1WVpyBYzZkxmlxyK-3-7gdI_RLcBZ-h_G" class="colorIndicadores">Resolución 4716 de 2010</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1h_TFB3uhHnNynXmPSv0fNj7SYv3uKiVC" class="colorIndicadores">Decreto 552 de 2011</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1xZdBjgZ4a2Xo4Sz7aVoaByi_B2jTZz8y" class="colorIndicadores">Resolución 1615 de 2015</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1OmzgvkMVKlwD0JDU1itN8Zmpaps6jCng" class="colorIndicadores">Resolución 549 de 2017</a>
-                            </li>
-                          </ul>
+                          <p>
+                            <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseAgua" role="button" aria-expanded="false" aria-controls="collapseAgua" style="cursor: pointer; color:black; ">
+                              Agua para consumo humano
+                            </h2>
+                          </p>
+                          <div class="collapse show" id="collapseAgua">
+                            <ul>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1hkBAmqeQlz5z4mOuQpohdBEB_w9ZEmbD" class="colorIndicadores">Resolución 1096 de 2000 </a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1Z8ArTEKyttPG4IzWd4IdbsHHixZfvrXx" class="colorIndicadores">Resolución 414 de 2002</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1hm5t_Sbvmo5VbUuY24nK_MNV14VL7Ge" class="colorIndicadores">Decreto 1575 de 2007</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1Kqbz9LCdZeTed84sTsfRSInZBQA-nsIR" class="colorIndicadores">Resolución 2115</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1i9O04ip1FN8d9Pv4M7QpbjHWU_9J4aH5" class="colorIndicadores">Resolución 811 de 2008</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1v03_qG4x80xTJJYuowYBWAaKtwQr4myA" class="colorIndicadores">Resolución 82 de 2009</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1WVpyBYzZkxmlxyK-3-7gdI_RLcBZ-h_G" class="colorIndicadores">Resolución 4716 de 2010</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1h_TFB3uhHnNynXmPSv0fNj7SYv3uKiVC" class="colorIndicadores">Decreto 552 de 2011</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1xZdBjgZ4a2Xo4Sz7aVoaByi_B2jTZz8y" class="colorIndicadores">Resolución 1615 de 2015</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1OmzgvkMVKlwD0JDU1itN8Zmpaps6jCng" class="colorIndicadores">Resolución 549 de 2017</a>
+                              </li>
+                            </ul>
+                          </div>
                         </td>
                         <td width="31%">
-                          <h2 align="center" class="colorIndicadores">Residuos sólidos y líquidos</h2>
-                          <ul>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1eqtybUGOLxyNStIey2NYNh9L-lnEwowz" class="colorIndicadores">Decreto 605 de 1996</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1CYHOXXGKtqUen4uWveYmRFoOv-OVaYUt" class="colorIndicadores">Decreto 1505 de 2003</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1mYGrTxkHVupFqy3XykAgF-mJHYt9e1AD" class="colorIndicadores">Decreto 400 de 2004</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1j_pcpKQW_nu1XqKxMyXTbNQ9nl3fTJE" class="colorIndicadores">Decreto 838 de 2005</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1fQBKw618wJoXoRaAydNAuL4kfKKAuAqX" class="colorIndicadores">Resolución 0482 de 2009</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1Fzydu4vwZ-wJk5gqeRFCzrVoFcv_1qyi" class="colorIndicadores">Decreto 1076 de 2015</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1s2ZiNDOiRj6wbIXP85tWxWmuwKdspD9Z" class="colorIndicadores">Decreto 780 de 2016</a>
-                              <h2 align="center" class="colorIndicadores">Carrotanques</h2>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1ILIIT85UO6OL3vTrA5r7lVbPhX45dPXO" class="colorIndicadores">Resolución 2190 de 1991 </a>
-                              </span>
-                            </li>
-              
-                            <li>
-                              <a href="https://drive.google.com/open?id=1HZyA3bFqCNMsOMERU72oS8x6hjuYfa9Z" class="colorIndicadores"> Resolución 2115 de 07</a>
-                              </span>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1djG3BSM_XV0-SJyuZVZAcET2dx32PJ8u" class="colorIndicadores"> Decreto 1575 de 07</a>  </span>
-                              <p>&nbsp;</p>
-                            </li>
-                          </ul>
+                          <p>
+                            <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseResiduos" role="button" aria-expanded="false" aria-controls="collapseResiduos" style="cursor: pointer; color:black; ">
+                              Residuos sólidos y líquidos
+                            </h2>
+                          </p>
+                          <div class="collapse show" id="collapseResiduos">
+                            <ul>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1eqtybUGOLxyNStIey2NYNh9L-lnEwowz" class="colorIndicadores">Decreto 605 de 1996</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1CYHOXXGKtqUen4uWveYmRFoOv-OVaYUt" class="colorIndicadores">Decreto 1505 de 2003</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1mYGrTxkHVupFqy3XykAgF-mJHYt9e1AD" class="colorIndicadores">Decreto 400 de 2004</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1j_pcpKQW_nu1XqKxMyXTbNQ9nl3fTJE" class="colorIndicadores">Decreto 838 de 2005</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1fQBKw618wJoXoRaAydNAuL4kfKKAuAqX" class="colorIndicadores">Resolución 0482 de 2009</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1Fzydu4vwZ-wJk5gqeRFCzrVoFcv_1qyi" class="colorIndicadores">Decreto 1076 de 2015</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1s2ZiNDOiRj6wbIXP85tWxWmuwKdspD9Z" class="colorIndicadores">Decreto 780 de 2016</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <p>
+                            <h2 align="center" class="colorIndicadores"  data-toggle="collapse" href="#collapseCarro" role="button" aria-expanded="false" aria-controls="collapseCarro" style="cursor: pointer; color:black; ">
+                              Carrotanques
+                            </h2>
+                          </p>
+                          <div class="collapse show" id="collapseCarro">
+                            <ul>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1ILIIT85UO6OL3vTrA5r7lVbPhX45dPXO" class="colorIndicadores">Resolución 2190 de 1991 </a>
+                                </span>
+                              </li>
+                
+                              <li>
+                                <a href="https://drive.google.com/open?id=1HZyA3bFqCNMsOMERU72oS8x6hjuYfa9Z" class="colorIndicadores"> Resolución 2115 de 07</a>
+                                </span>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1djG3BSM_XV0-SJyuZVZAcET2dx32PJ8u" class="colorIndicadores"> Decreto 1575 de 07</a>  </span>
+                                <p>&nbsp;</p>
+                              </li>
+                            </ul>
+                            
+                          </div>
+
+
+
                         </td>
                         <td width="33%">
-                          <h2 align="center" class="colorIndicadores">Piscinas</h2>
-                          <ul>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1ECsMO6pOFkamwkxsAAunP7DUg3fUrXnx" class="colorIndicadores">Ley 1209 de 2008</a>
-                            </li>
-                            <li>
-                              <a href="https://drive.google.com/open?id=1LgFy0JBLqeJYiRHX4MBZ2t2Pl2AFHbUl" class="colorIndicadores">Resolución 1394 del 2015</a>
-                            </li>
-                            <li class="colorIndicadores">Decreto 780 de 2016</li>
-                            <li class="colorIndicadores">RETIE: Reglamento Técnico de Instalaciones Eléctricas y fue creado por el Decreto 18039 de 2004, del Ministerio
-                              de Minas y Energía</li>
-                            <li class="colorIndicadores">Guías para ambientes seguros en aguas recreativas Volumen 2 - Pis-cinas, balnearios y ambientes de agua recreativa
-                              similares</li>
-                          </ul>
-              
+                          <p>
+                            <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapsePiscinas" role="button" aria-expanded="false" aria-controls="collapsePiscinas" style="cursor: pointer; color:black; ">
+                              Piscinas
+                            </h2>
+                          </p>
+                          <div class="collapse show" id="collapsePiscinas">
+                            <ul>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1ECsMO6pOFkamwkxsAAunP7DUg3fUrXnx" class="colorIndicadores">Ley 1209 de 2008</a>
+                              </li>
+                              <li>
+                                <a href="https://drive.google.com/open?id=1LgFy0JBLqeJYiRHX4MBZ2t2Pl2AFHbUl" class="colorIndicadores">Resolución 1394 del 2015</a>
+                              </li>
+                              <li class="colorIndicadores">
+                                <a href="https://drive.google.com/open?id=18k39G0GT9MnLB0at36bUa-IalWziYw9g" style="color: black; text-decoration:none;"> 
+                                  Decreto 780 de 2016
+                                </a>
+                              </li>
+                              <li class="colorIndicadores">
+                                <a href="https://www.who.int/water_sanitation_health/bathing/bathing2/es/" style="color: black; text-decoration:none;">
+                                  Guías para ambientes seguros en aguas recreativas Volumen 2 - Pis-cinas, balnearios y ambientes de agua recreativa
+                                  similares
+                                </a> 
+                              </li>
+                            </ul>
+                          </div>
                         </td>
                       </tr>
                     </table>
@@ -216,137 +253,155 @@
                       <table width="100%" border="0">
                         <tr class="alinearVerticalInicial">
                           <td width="32%" height="275">
-                            <h2 class="colorIndicadores">Servicios funerarios y cementerios</h2>
-                            <ul class="colorIndicadores">
-                              <li>
-                                <a href="https://drive.google.com/open?id=1kDqwkCsCoZCO8nrkoKCj4EUSWZKebF-j" class="colorIndicadores">Decreto 391 de 1991</a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=17jq721aNmUSa3i8wiy413TWtB5Ctat9V" class="colorIndicadores"> Circular 026 de 2004 </a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1zIjDYWmwCWy8zvNxVyf4JMhVJ3gBN09F" class="colorIndicadores">Circular 027 de 2004 </a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1YHy33rPJ3vANE-sc6tbNWFoAENBPlCX0" class="colorIndicadores">Circular 028 de 2004</a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1sniBpBEwFyjo2rW5ve8Fg20XsN1y_-2z" class="colorIndicadores"> Decreto 313 de 2006 </a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=17WL4imZDIMJLAdyUu_o1U_LcQuosimtb" class="colorIndicadores">Resolución 5194 de 2010
-                                </a>
-                              </li>
-                            </ul>
-                            <div>
-                              <div>
-                                <div class="colorIndicadores"></div>
-                              </div>
+                            <p>
+                              <h2 class="colorIndicadores" data-toggle="collapse" href="#collapseFunerarios" role="button" aria-expanded="false" aria-controls="collapseFunerarios" style="cursor: pointer; color:black; ">
+                                Servicios funerarios y cementerios
+                              </h2>
+                            </p>
+                            <div class="collapse show" id="collapseFunerarios">
+                              <ul class="colorIndicadores">
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1kDqwkCsCoZCO8nrkoKCj4EUSWZKebF-j" class="colorIndicadores">Decreto 391 de 1991</a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=17jq721aNmUSa3i8wiy413TWtB5Ctat9V" class="colorIndicadores"> Circular 026 de 2004 </a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1zIjDYWmwCWy8zvNxVyf4JMhVJ3gBN09F" class="colorIndicadores">Circular 027 de 2004 </a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1YHy33rPJ3vANE-sc6tbNWFoAENBPlCX0" class="colorIndicadores">Circular 028 de 2004</a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1sniBpBEwFyjo2rW5ve8Fg20XsN1y_-2z" class="colorIndicadores"> Decreto 313 de 2006 </a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=17WL4imZDIMJLAdyUu_o1U_LcQuosimtb" class="colorIndicadores">Resolución 5194 de 2010
+                                  </a>
+                                </li>
+                              </ul>
                             </div>
-                            <p align="left">&nbsp;</p>
                           </td>
                           <td width="32%">
-                            <h2 align="center" class="colorIndicadores">Establecimientos con servicios de alto impacto</h2>
-                            <ul>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1fAwTe8A5s0CL84_xczwwRxKqsdk2MMMn" class="colorIndicadores">Decreto 400 de 2004</a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1OYWmG42FPVxiWiS62eRWfC7BFdbGqjrI" class="colorIndicadores">Decreto 780 de 2016</a>
-                              </li>
-                            </ul>
-                            <h2 align="center">
-                              <span class="colorIndicadores">Cárceles, centros de rehabilitación de menores y salas de retenidos</span>
-                            </h2>
-                            <ul>
-                              <li>
-                                <a href="https://drive.google.com/open?id=14cB2i-bKCPC-LV23_KGJhhVMIqV3jOFd" class="colorIndicadores">Ley 65 de1993</a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1-rDq3n9cqLaJ_It6GFV7tTlDyN2LdgDG" class="colorIndicadores">Acuerdo 011 de 1995</a>
-                              </li>
-                            </ul>
+                            <p>
+                              <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseServicios" role="button" aria-expanded="false" aria-controls="collapseServicios" style="cursor: pointer; color:black; ">
+                                Establecimientos con servicios de alto impacto
+                              </h2>
+                            </p>
+                            <div class="collapse show" id="collapseServicios">
+                              <ul>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1fAwTe8A5s0CL84_xczwwRxKqsdk2MMMn" class="colorIndicadores">Decreto 400 de 2004</a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1OYWmG42FPVxiWiS62eRWfC7BFdbGqjrI" class="colorIndicadores">Decreto 780 de 2016</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <p>
+                              <h2 class="colorIndicadores" align="center" data-toggle="collapse" href="#collapseCarcel" role="button" aria-expanded="false" aria-controls="collapseCarcel" style="cursor: pointer; color:black; ">
+                                Cárceles, centros de rehabilitación de menores y salas de retenidos
+                              </h2>
+                            </p>
+                            <div class="collapse show" id="collapseCarcel">
+                              <ul>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=14cB2i-bKCPC-LV23_KGJhhVMIqV3jOFd" class="colorIndicadores">Ley 65 de1993</a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1-rDq3n9cqLaJ_It6GFV7tTlDyN2LdgDG" class="colorIndicadores">Acuerdo 011 de 1995</a>
+                                </li>
+                              </ul>
+                            </div>                            
                           </td>
                           <td width="36%">
-                            <h2 align="center" class="colorIndicadores">Hogares geriátricos</h2>
-                            <ul>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1IhUMmoVcQHn79ZN8Up42IzvB068Q6oEk" class="colorIndicadores">Acuerdo 312 de 2008</a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1xEJR7ohoV7hjbEKBhNp-tVjAxsb7KapW" class="colorIndicadores">Resolución 110 de 1995</a>
-                              </li>
-                              <li>
-                                <a href="https://drive.google.com/open?id=1-A1KrFClmGs8EIqMi3urIeJS5TJO4Nlo" class="colorIndicadores">Ley 1315 de 2009</a>
-                              </li>
-                              <li>
-                                <a href=": https://drive.google.com/open?id=199TcCo-iJfAoKBRn4sHjavN2LuKKBlXc" class="colorIndicadores">Decreto 780 de 2016</a>
-                              </li>
-                            </ul>
+                            <p>
+                              <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseHogares" role="button" aria-expanded="false" aria-controls="collapseHogares" style="cursor: pointer; color:black; ">
+                                Hogares geriátricos
+                              </h2>
+                            </p>
+                            <div class="collapse show" id="collapseHogares">
+                              <ul>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1IhUMmoVcQHn79ZN8Up42IzvB068Q6oEk" class="colorIndicadores">Acuerdo 312 de 2008</a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1xEJR7ohoV7hjbEKBhNp-tVjAxsb7KapW" class="colorIndicadores">Resolución 110 de 1995</a>
+                                </li>
+                                <li>
+                                  <a href="https://drive.google.com/open?id=1-A1KrFClmGs8EIqMi3urIeJS5TJO4Nlo" class="colorIndicadores">Ley 1315 de 2009</a>
+                                </li>
+                                <li>
+                                  <a href=": https://drive.google.com/open?id=199TcCo-iJfAoKBRn4sHjavN2LuKKBlXc" class="colorIndicadores">Decreto 780 de 2016</a>
+                                </li>
+                              </ul>
+                            </div>
+                            
                           </td>
                         </tr>
                       </table>
-                      <h2 align="center" class="colorAgua">&nbsp;</h2>
-                      <h2 align="center" class="colorAgua">Establecimientos de bajo riesgo físico</h2>
-                      <table width="94%" border="0">
-                        <tr class="alinearVerticalInicial">
-                          <td width="27%" height="133">
-                            <div align="center">
-                              <a href="https://drive.google.com/open?id=1LFiim7IXylTAmRKADN0MLvixitAx-225" class="colorIndicadores">Resolución 3388 de 2008
-              
-              
-              
-                              </a>
-                              </span>
-                              <div>
-                                <a href="https://drive.google.com/open?id=1yPXYKiPD0rpsBTd5FVWVZfXJsIUupOKJ" align="center" class="colorIndicadores">Resolución 1842 de 2009
-              
-              
+
+                      <p>
+                        <h2 align="center" class="colorAgua"  data-toggle="collapse" href="#collapseBajo" role="button" aria-expanded="false" aria-controls="collapseBajo" style="cursor: pointer;">
+                          Establecimientos de bajo riesgo físico
+                        </h2>
+                      </p>
+                      <div class="collapse show" id="collapseBajo">
+                        <table width="94%" border="0">
+                          <tr class="alinearVerticalInicial">
+                            <td width="27%" height="133">
+                              <div align="center">
+                                <a href="https://drive.google.com/open?id=1LFiim7IXylTAmRKADN0MLvixitAx-225" class="colorIndicadores">Resolución 3388 de 2008
+                
+                
+                
                                 </a>
-                              </div>
-                              <div align="center" class="colorIndicadores">
+                                </span>
                                 <div>
-                                  <a href="https://drive.google.com/open?id=1oJpKKduY6iQ7LWWW0N2EpdMMfOdPUBus" align="center" class="colorIndicadores">Decreto 456 de 2010
-              
+                                  <a href="https://drive.google.com/open?id=1yPXYKiPD0rpsBTd5FVWVZfXJsIUupOKJ" align="center" class="colorIndicadores">Resolución 1842 de 2009
+                
+                
                                   </a>
                                 </div>
-                              </div>
-                              <div align="center">
-                                <a href="https://drive.google.com/open?id=1X_-En83FfovRwvWMvEOiIJa5CI0T911D" class="colorIndicadores">Resolución 1682 de 2010
-              
-              
-                                </a>
-                              </div>
-                              <div align="center">
-                                <div align="center">
-                                  <span class="colorIndicadores">
-                                    <a href="https://drive.google.com/open?id=19I4ahBG6uxPIdSrngU6ldiSesIfqNlvi" class="colorIndicadores">Decreto 113 de 2013</a>
-                                  </span>
+                                <div align="center" class="colorIndicadores">
+                                  <div>
+                                    <a href="https://drive.google.com/open?id=1oJpKKduY6iQ7LWWW0N2EpdMMfOdPUBus" align="center" class="colorIndicadores">Decreto 456 de 2010
+                
+                                    </a>
+                                  </div>
                                 </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div>
-                                <div>
-                                  <div align="left">
-                                    <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/resolucion-1842-de-2009.pdf"
-                                      class="colorIndicadores"></a>
+                                <div align="center">
+                                  <a href="https://drive.google.com/open?id=1X_-En83FfovRwvWMvEOiIJa5CI0T911D" class="colorIndicadores">Resolución 1682 de 2010
+                
+                
+                                  </a>
+                                </div>
+                                <div align="center">
+                                  <div align="center">
+                                    <span class="colorIndicadores">
+                                      <a href="https://drive.google.com/open?id=19I4ahBG6uxPIdSrngU6ldiSesIfqNlvi" class="colorIndicadores">Decreto 113 de 2013</a>
+                                    </span>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                            <p align="center">
-                              <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/resolucin-110-de-1995.pdf"
-                                class="colorIndicadores"></a>
-                            </p>
-                          </td>
-                        </tr>
-                      </table>
-                      <p align="center">&nbsp;</p>
-                    </div>
-                    <div>
-                      <center>
-                      </center>
+                              <div>
+                                <div>
+                                  <div>
+                                    <div align="left">
+                                      <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/resolucion-1842-de-2009.pdf"
+                                        class="colorIndicadores"></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <p align="center">
+                                <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/resolucin-110-de-1995.pdf"
+                                  class="colorIndicadores"></a>
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
                     </div>
                     <p>&nbsp;</p>
                 </div>

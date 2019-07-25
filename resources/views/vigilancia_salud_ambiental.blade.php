@@ -158,58 +158,6 @@
             <div class="row mt-3">
                 <div class="col-10 offset-1">
                     <div class="row">
-                        <img src="{{asset("images/menu/lineas_accion.png")}}" alt="lineas de accion">
-                    </div>                         
-                    <div class="row">
-                        <div class="col-11 offset-1">
-                            <p>Los ejes mencionados se encuentran organizados de acuerdo a la siguientes líneas de acción</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="row mt-5">
-                                <div class="col-6">
-                                    <img class="d-block altura" src="{{asset("images/indicators/LogoAireRuidoREM.png")}}" alt="" >
-                                </div>
-                                <div class="col-6">
-                                    <img class="d-block altura" src="{{asset("images/indicators/LogoEspacioyMovilidad.png")}}" alt="" >
-                                </div>
-                            </div>
-                
-                            <div class="row mt-3">
-                                <div class="col-6 ml-1">
-                                    <img class="d-block altura" src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="" >
-                                </div>
-                                <div class="col-5">
-                                    <img class="d-block altura" src="{{asset("images/indicators/LogoMedicamentosSeguros.png")}}" alt="">
-                                </div>
-                            </div>
-                
-                            <div class="row mt-3">
-                                <div class="col-6">
-                                    <img class="d-block altura" src="{{asset("images/indicators/LogoAguaSaneamiento.png")}}" alt="" >
-                                </div>
-                                <div class="col-6">
-                                    <img class="d-block altura" src="{{asset("images/indicators/LogoSeguridadQuimica.png")}}" alt="" >
-                                </div>
-                            </div>
-                
-                            <div class="row mt-3">
-                                <div class="col-6">
-                                    <img class="d-block  altura" src="{{asset("images/indicators/LogoCambioClimatico.png")}}" alt="" >
-                                </div>
-                                <div class="col-6">
-                                    <img class="d-block altura" src="{{asset("images/indicators/LogoETOZ.png")}}" alt="" >
-                                </div>
-                            </div>    
-                        </div>
-                    </div>                      
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-10 offset-1">
-                    <div class="row">
                         <img src="{{asset("images/menu/objetivos_vigilancia.png")}}" alt="">
                     </div>                         
                     <div class="row">

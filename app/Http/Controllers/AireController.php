@@ -23,7 +23,7 @@ class AireController extends Controller
      */
     public function calidad()
     {
-        return view("aire/quality_aire");
+        return view("aire/quality_air");
     }
 
     /**

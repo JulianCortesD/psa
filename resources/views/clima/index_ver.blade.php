@@ -9,8 +9,8 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Alimentos y bebidas</span>
-                    <span class="breadcrumb_ alimentos">Más Información</span>
+                    <span class="breadcrumb_"> | Cambio climático |</span>
+                    <span class="breadcrumb_ cambioC">Cambio climático</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -27,9 +27,9 @@
             </div>  
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
-                    <div width="300px">
-                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}"  alt="símbolo sección agua" />
-                    </div>
+                        <div width="300px">
+                            <img src="{{asset("images/indicators/LogoCambioClimatico.png")}}" alt="símbolo sección agua" />
+                        </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
                     <div class="row">

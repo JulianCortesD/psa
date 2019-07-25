@@ -9,25 +9,48 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Zoonosis y Vectores | </span>
-                </div>  
-                <div class="col-4">
-                    <div class="row">
+                    <span class="breadcrumb_"> Zoonosis y Vectores |   Eventos Transmisibles de Origen Zoonótico ETOZ </span>
+                    <span class="breadcrumb_ colorETOZ">Más Información</span>
+
+                    <div width="300px">
+                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
+                    </div>
+
+                </div>
+                <div class="col-4" id="ocultar-contenedor">
+                    <div class="row ocultar">
                         <div class="col-12 date-time-title">
                         <span>Bogotá hoy</span> 
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row ocultar">
                         <div class="col-12 date-time" id="reloj">
                             Fecha y hora
+                        </div>
+                    </div>  
+                    <div class="row mt-2">
+                        <div class="col-4">
+                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
+                                <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
+                            </a>                            
+                        </div>
+                        <div class="col-4">
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
+                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="http://www.ideam.gov.co/">
+                                <img src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                            </a>                            
                         </div>
                     </div>                                    
                 </div>
             </div>  
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" width="568" height="93" alt="símbolo sección etoz" />
+                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -49,7 +72,7 @@
                         </div>
                     </div>  
                 </div>
-            </div>  
+            </div>  --> 
             
             <div class="row">
                 <!-- <div >
@@ -64,100 +87,26 @@
                     </a>             
                 </div>  -->
                 <div height="355">
-                    <img src="images/Eventos zoonoticos/Banner ETOZ del Home.png" width="944" alt="Slider Cambio climático" />
+                    <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" width="100%" alt="Slider Cambio climático" />
                 </div>
             </div>
 
             <div class="contenidoSecAmb centradoDiv">
+                <h1 align="right" class="centrado colorETOZ mt20">&nbsp;</h1>
+                <h2 class="seccion fondoETOZ sinSaltoLinea">Cambio climático</h2>
 
-                <p>&nbsp;</p>
-                <h1 class=" seccion fondoEtoz sinSaltoLinea">
-                <span class="Izquieda">
-                    <img src="images/Eventos zoonoticos/IMG_ZOONOSIS_NORMATIVIDAD.jpg" width="85" height="63" alt="Cambio climático docs"
-                    />
-                </span>Normatividad</h1>
-                <p>&nbsp; </p>
-
-                <h2 align="center" class="colorETOZ">Regulación transversal</h2>
-                <table class="centradoDiv" border="0">
-                <tr class="alinearVerticalInicial" width="100%">
-                    <td width="153">
-                    <ul class="sinVinetas">
-                        <li>
-                        <a href="https://drive.google.com/open?id=1_M17u3d737D1Xur0634IrvgjZQeu56CW  " class="colorIndicadores">Ley 09 de 1979 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=13CMTGARKvotilOL0mNR8ejBodyzpVT74 " class="colorIndicadores">Decreto 2257 de 1986 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1AIjC7SbnFWziuyw_8LDDwxdnHHjsLeGR " class="colorIndicadores">Reglamento sanitario internacional 2005 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1HScdGhbI_pqBszlQpfq19MU4CDS9x-IM " class="colorIndicadores">Decreto 3518 de 2006 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1tqKgZxyPdUr3u1RgVYSNy1L8_YCPcvI8" class="colorIndicadores">Resolución 518 de 2015 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1qqDI10DnNTRNNKarCBeK9Wvumuzytdqj" class="colorIndicadores">Decreto 3518 de 2006</a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1Xfx2o0RU8QPr9DAIzuYkWhNJgHHzXA5C " class="colorIndicadores">Decreto 780 de 2016 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1P67vteDNIGSTCv7I64tSutK7RHiCjkzE " class="colorIndicadores">Decreto 596 de 2011 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1Mgv65-fsP-F34KUhUbaPLnNBkkF8UqPe" class="colorIndicadores">Ley 1801 de 2016 </a>
-                        </li>
-
-                    </ul>
-                    </td>
-                </tr>
-                </table>
+                <p>
+                    Esta línea de intervención procura el mejoramiento de la calidad de vida y salud de la población bogotana, mediante
+                    la implementación de acciones integrales de vigilancia sanitaria y epidemiológica, promoción de la salud, prevención
+                    de la enfermedad y control de los eventos transmisibles de origen zoonótico, que puedan representar riesgo para la
+                    salud animal y la salud humana en el Distrito Capital. 
+                </p>
+                <a href="{{asset("etoz_ver_mas")}} " align="right">
+                    <img src="images/Eventos zoonoticos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                    {{-- Ver más --}}
+                </a>
 
 
-                <h2 align="center" class="colorETOZ">Regulación Especifica</h2>
-                <table class="centradoDiv" border="0">
-                <tr class="alinearVerticalInicial" width="100%">
-                    <td width="153">
-                    <ul class="sinVinetas">
-                        <li>
-                        <a href="https://drive.google.com/open?id=1azuaX683ovzeIv8m-7X51YuNsTe-E_Dz " class="colorIndicadores">Ley 84 de 1989 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1gxhOwPNj8wkqJ-xUgfrGeOn6e601UQq1 " class="colorIndicadores">Sentencia T-035 de 1997 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1yDe43H0Z6EkGw3R6zfiopWLoNyQIx1hm " class="colorIndicadores">Resolución 2601 de 2003</a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1LP5OY9VCYUBQHgG8r-9PkxZsMkLJK2ao " class="colorIndicadores">Decreto 596 de 2011 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1tqKgZxyPdUr3u1RgVYSNy1L8_YCPcvI8" class="colorIndicadores">Resolución 518 de 2015 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1qqDI10DnNTRNNKarCBeK9Wvumuzytdqj" class="colorIndicadores">Decreto 3518 de 2006</a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1Xfx2o0RU8QPr9DAIzuYkWhNJgHHzXA5C " class="colorIndicadores">Decreto 780 de 2016 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1P67vteDNIGSTCv7I64tSutK7RHiCjkzE " class="colorIndicadores">Decreto 596 de 2011 </a>
-                        </li>
-                        <li>
-                        <a href="https://drive.google.com/open?id=1Mgv65-fsP-F34KUhUbaPLnNBkkF8UqPe" class="colorIndicadores">Ley 1801 de 2016 </a>
-                        </li>
-
-                    </ul>
-                    </td>
-                </tr>
-                </table>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-
-                <h1 class="seccion fondoCambioC sinSaltoLinea">&nbsp;</h1>
             </div>
 
             <div class="row">
@@ -175,7 +124,7 @@
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Normatividad</p>
-                    <img src="imagesEventos zoonoticos/oNORMATIVIDAD.png" width="85" height="63" alt="Aire normas" />
+                    <img src="images/Eventos zoonoticos/NORMATIVIDAD.png" width="85" height="63" alt="Aire normas" />
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Indicadores</p>
