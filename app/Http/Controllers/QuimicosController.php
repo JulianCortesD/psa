@@ -77,17 +77,6 @@ class QuimicosController extends Controller
         return view("quimicos/normatividad");
     }
 
-    
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function conceptos()
-    {
-        return view("quimicos/concepts");
-    }
-
     /**
      * Show the form for creating a new resource.
      *

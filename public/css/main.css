@@ -583,6 +583,11 @@ hr{
     font-family: 'GothamRoundedBold','Gotham Rounded Book'
 }
 
+.new {
+    color: white;
+    background-color: #003e67;;
+}
+
 @media (max-width: 576px){
     .search {
         margin-left: 8%;

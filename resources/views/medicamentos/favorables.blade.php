@@ -136,14 +136,14 @@
                 <div class="centrado colorAgua">
                     <p class="colorMedicamentos">Mapas</p>
                     <p class="colorMedicamentos">
-                    <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
+                        <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
                     </p>
                     <p class="colorMedicamentos">&nbsp;</p>
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorMedicamentos">Normatividad</p>
                     <p class="colorMedicamentos">
-                    <a href="Medicamentos_normatividad.html">
+                    <a href="{{asset("medicamentos_normatividad")}}">
                         <img src="images/medicamentos/IMG_MEDICAMENTOS_NORMATIVIDAD.jpg" width="85" height="63" />
                     </a>
                     </p>

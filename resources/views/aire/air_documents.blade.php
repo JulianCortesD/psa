@@ -138,28 +138,28 @@
                             </td>
                             </tr>
                             <tr>
-                            <td class="colornegro">
-                                <span class="colorIndicadores">
-                                <a href="https://drive.google.com/open?id=1Al6DHInDgmxVAkP0oe4csUOq6zJNZosD">
-                                    <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
-                                </a>
-                                </span>
-                            </td>
-                            <td class="colorIndicadores">
-                                <span class="colorIndicadores">Infografía &ldquo;Calidad del sueño&rdquo;. Año 2019</span>
-                            </td>
+                                <td class="colornegro">
+                                    <span class="colorIndicadores">
+                                    <a href="https://drive.google.com/open?id=1Al6DHInDgmxVAkP0oe4csUOq6zJNZosD">
+                                        <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                    </a>
+                                    </span>
+                                </td>
+                                <td class="colorIndicadores">
+                                    <span class="colorIndicadores">Infografía &ldquo;Calidad del sueño&rdquo;. Año 2019</span>
+                                </td>
                             </tr>
                             <tr>
-                            <td>
-                                <span class="colorIndicadores">
-                                <a href="https://drive.google.com/open?id=1H0eoDOKZmHERZ3sZeKCBrDmiS2HHWk-K">
-                                    <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
-                                </a>
-                                </span>
-                            </td>
-                            <td class="colorIndicadores">
-                                <span class="colorIndicadores">Infografía &ldquo;Día sin carro y sin moto&rdquo;. Año 2019</span>
-                            </td>
+                                <td>
+                                    <span class="colorIndicadores">
+                                    <a href="https://drive.google.com/open?id=1H0eoDOKZmHERZ3sZeKCBrDmiS2HHWk-K">
+                                        <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                    </a>
+                                    </span>
+                                </td>
+                                <td class="colorIndicadores">
+                                    <span class="colorIndicadores">Infografía &ldquo;Día sin carro y sin moto&rdquo;. Año 2019</span>
+                                </td>
                             </tr>
                             <tr>
                             <td>&nbsp;</td>
@@ -176,20 +176,28 @@
             <div class="logos colorAire bold140p">
                 <div class="centrado colorAire">
                     <p class="colorAire">Documentos e investigaciones</p>
-                    <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
-                    />
+                    <a href="{{asset("aire_documentos")}}">
+                        <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs" />
+                    </a>
+                    
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Mapas</p>
-                    <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
+                    <a href="{{asset("aire_mapas")}}">
+                        <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
+                    </a>                    
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Normatividad</p>
-                    <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
+                    <a href="{{asset("aire_normatividad")}}">
+                        <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
+                    </a>
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Indicadores</p>
-                    <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
+                    <a href="{{asset("aire_indicadores")}}">
+                        <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
+                    </a>                    
                 </div>
             </div>
         </div>    

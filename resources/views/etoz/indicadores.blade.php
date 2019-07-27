@@ -9,7 +9,7 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> Zoonosis y Vectores |   Eventos Transmisibles de Origen Zoonótico ETOZ </span>
+                    <span class="breadcrumb_"> Zoonosis y Vectores | </span>
                     <span class="breadcrumb_ colorETOZ">Indicadores</span>
 
                     <div width="300px">
@@ -128,8 +128,8 @@
             <div class="logos colorETOZ bold140p">
                 <div class="centrado">
                     <p class="colorETOZ">Documentos e investigaciones</p>
-                    <a href="SeguridadQuimica_Documentos.html">
-                    <img src="images/Eventos zoonoticos/DOCUMENTOS.png" width="85" height="63" alt="Aire docs" />
+                    <a href="{{asset("etoz_documentos")}}">
+                        <img src="images/Eventos zoonoticos/DOCUMENTOS.png" width="85" height="63" alt="Aire docs" />
                     </a>
                 </div>
                 <div class="centrado">
@@ -138,17 +138,17 @@
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Normatividad</p>
-                    <a href="SeguridadQuimica_Normatividad.html">
-                    <img src="images/Eventos zoonoticos/NORMATIVIDAD.png" width="85" height="63" alt="Aire normas" />
+                    <a href="{{asset("etoz_normatividad")}}">
+                        <img src="images/Eventos zoonoticos/NORMATIVIDAD.png" width="85" height="63" alt="Aire normas" />
                     </a>
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Indicadores</p>
-                    <a href="SeguridadQuimica_Indicadores.html">
-                    <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" alt="Aire título" />
+                    <a href="{{asset("etoz_indicadores")}}">
+                        <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" alt="Aire título" />
                     </a>
                 </div>
-                </div>        
+            </div>        
             
         </div>    
 @endsection

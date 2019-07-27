@@ -101,21 +101,29 @@
 
             <div class="logos colorAire bold140p">
                 <div class="centrado colorAire">
-                    <p>Documentos e investigaciones</p>
-                    <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
-                    />
+                    <p class="colorAire">Documentos e investigaciones</p>
+                    <a href="{{asset("aire_documentos")}}">
+                        <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs" />
+                    </a>
+                    
                 </div>
                 <div class="centrado colorAire">
-                    <p>Mapas</p>
-                    <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
+                    <p class="colorAire">Mapas</p>
+                    <a href="{{asset("aire_mapas")}}">
+                        <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
+                    </a>                    
                 </div>
                 <div class="centrado colorAire">
-                    <p>Normatividad</p>
-                    <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
+                    <p class="colorAire">Normatividad</p>
+                    <a href="{{asset("aire_normatividad")}}">
+                        <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
+                    </a>
                 </div>
                 <div class="centrado colorAire">
-                    <p>Calidad del aire</p>
-                    <img src="images/aire/aireNUBE.png" width="85" height="63" alt="Agua título" />
+                    <p class="colorAire">Indicadores</p>
+                    <a href="{{asset("aire_indicadores")}}">
+                        <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
+                    </a>                    
                 </div>
             </div>
         </div> 

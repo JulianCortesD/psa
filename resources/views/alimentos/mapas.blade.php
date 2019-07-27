@@ -657,15 +657,15 @@
                 </div>
                 <div class="centrado colorAlimentos">
                     <p class="colorAlimentos">Normatividad</p>
-                    <a href="Alimentos_normatividad.html">
+                    <a href="{{asset("alimentos_sanos_normatividad")}}">
                         <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                     </a>
                 </div>
                 <div class="centrado colorAlimentos">
                     <p class="colorAlimentos">Indicadores</p>
                     <p class="colorAlimentos">
-                        <a href="Alimentos_indicadores.html">
-                        <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
+                        <a href="{{asset("alimentos_sanos_indicadores")}}">
+                            <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
                         </a>
                     </p>
                 </div>

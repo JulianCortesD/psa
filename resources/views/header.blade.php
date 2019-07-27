@@ -110,12 +110,12 @@
                                 <li class="dropdown-item dropdown-submenu">
                                     <a >Expendio de carnes y cárnicos comestibles</a>
                                     <ul class="dropdown-menu">
-                                        <a href="http://autorregulacion.saludcapital.gov.co/carnicerias">
+                                        <a href="http://appb.saludcapital.gov.co/Sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&n=&Origen=Login#">
                                             <li class="dropdown-item">
-                                                Inscripción Sanitaria
+                                                Inscripción sanitaria
                                             </li>
                                         </a>
-                                        <a href="http://appb.saludcapital.gov.co/SivigilaDC/Login.aspx">
+                                        <a href="http://appb.saludcapital.gov.co/Sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&n=&Origen=Login#">
                                             <li class="dropdown-item">
                                              Autorización sanitaria
                                             </li>
@@ -125,14 +125,14 @@
                                 <li class="dropdown-item dropdown-submenu">
                                     <a>Vehículos transportadores</a>
                                     <ul class="dropdown-menu">
-                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&amp;n=&amp;Origen=Login">
+                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&Origen=Login&IdTipo=258&n=1295577553#">
                                             <li class="dropdown-item">
-                                                Cárnicos
+                                               Inscripción sanitaria
                                              </li>   
                                         </a>
-                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&amp;n=&amp;Origen=Login">
+                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&Origen=Login&IdTipo=258&n=990998692#">
                                             <li class="dropdown-item">
-                                                Alimentos
+                                                Autorización sanitaria
                                             </li>
                                         </a>                                        
                                     </ul>
@@ -199,7 +199,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("espacio_movilidad")}}"> <em>Hábitat, Espacio público y movilidad</em> </a>
-                                <a class="dropdown-item" href="{{asset("espacio_movilidad_indicadores")}}">Indicadores</a>
+                                <!-- <a class="dropdown-item" href="{{asset("espacio_movilidad_indicadores")}}">Indicadores</a> -->
                                 <!-- <a class="dropdown-item" href="{{asset("espacio_movilidad_normatividad")}}">Normatividad</a> -->
                                 {{-- <a class="dropdown-item" href="{{asset("espacio_movilidad_radiacion")}}">Radiación Electromagnética</a> --}}
                                 {{-- <a class="dropdown-item" href="#">Mapas</a>--}}
@@ -252,7 +252,7 @@
                                 <a class="dropdown-item" href="{{asset("quimicos_indicadores")}}">Indicadores</a>
                                 <a class="dropdown-item" href="{{asset("quimicos_normatividad")}}">Normatividad</a>
                                 {{-- <a class="dropdown-item" href="#">Mapas</a> --}}
-                                <!-- <a class="dropdown-item"href="{{asset("quimicos_documentos")}}">Documentos e investigaciones</a> -->
+                                <a class="dropdown-item" href="{{asset("quimicos_documentos")}}">Documentos e investigaciones</a> 
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
@@ -264,12 +264,12 @@
                             <div class="dropdown-menu dropdown-menu-izq" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("etoz")}}"><em>Eventos Transmisibles de Origen <br> Zoonótico ETOZ</em> </a>
                                 <!-- <a class="dropdown-item" href="#">Clínicas y consultorios veterinarios</a> -->
-                                <a class="dropdown-item" href="https://drive.google.com/open?id=0B2R7_2yRTHO0ZXo1aEFub29ab3pVVDdScl9XeWpHeWk2MXA4">Vacunación antirrábica canina y felina</a>
-                                <!-- <a class="dropdown-item" href="#">Control de roedores e insectos</a> -->
+                                <a class="dropdown-item" href="https://drive.google.com/open?id=1C6l1haE45ex5IJ_T_O10JEEwJ5iTG-zR">Vacunación antirrábica canina y felina</a>
+                                <a class="dropdown-item" href="https://drive.google.com/open?id=1O_1ttf1bCVs9W0xA1g8nSdw_B1ZiqVOi">Control de roedores e insectos</a>
                                 <!-- <a class="dropdown-item" href="#">Establecimiento con concepto favorable</a> -->
                                 <a class="dropdown-item"  href="{{asset("etoz_indicadores")}}">Indicadores</a>
-                               <!--  <a class="dropdown-item" href="{{asset("etoz_normatividad")}}">Normatividad</a> -->
-                                <!-- <a class="dropdown-item" href="#">Mapas</a> -->
+                                <a class="dropdown-item" href="{{asset("etoz_normatividad")}}">Normatividad</a> 
+                                 <a class="dropdown-item"  href="{{asset("etoz_mapas")}}">Mapas</a> 
                                 <a class="dropdown-item"  href="{{asset("etoz_documentos")}}">Documentos e investigaciones</a>
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>

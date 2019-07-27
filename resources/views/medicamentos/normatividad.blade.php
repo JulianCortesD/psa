@@ -81,11 +81,11 @@
                     <p>
                         <h1 align="center" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer; ">
                             <span class="colorMedicamentos">
-                                Regulación Transversal
+                                <u>Regulación Transversal</u> 
                             </span>
                         </h1>
                     </p>
-                    <div class="collapse show" id="collapsetransversal" align="center">
+                    <div class="collapse " id="collapsetransversal" align="center">
                         <table width="522" border="0">
                             <tr>
                                 <td width="263" class="colorIndicadores">
@@ -160,9 +160,9 @@
                         <tr class="colorMedicamentos">
                             <td width="223">
                                 <p align="left" class="colorIndicadores" data-toggle="collapse" href="#collapseReactivos" role="button" aria-expanded="false" aria-controls="collapseReactivos" style="cursor: pointer; color:black; ">
-                                    Reactivos de diagnóstico in vitro
+                                    <u>Reactivos de diagnóstico in vitro</u> 
                                 </p>
-                                <div class="collapse show" id="collapseReactivos">
+                                <div class="collapse" id="collapseReactivos">
                                     <ul class="sinVinetas">
                                         <li class="colorIndicadores">
                                             <a href="https://drive.google.com/open?id=1KkkUo1fi2rvAMJdXXlnxbomo4yjnryba" class="colorIndicadores">
@@ -179,9 +179,9 @@
                             </td>
                             <td width="177">
                                 <p align="left" class="colorIndicadores"  data-toggle="collapse" href="#collapseSuplementos" role="button" aria-expanded="false" aria-controls="collapseSuplementos" style="cursor: pointer; color:black; ">
-                                    Suplementos dietarios
+                                   <u>Suplementos dietarios</u>  
                                 </p>
-                                <div class="collapse show" id="collapseSuplementos">
+                                <div class="collapse" id="collapseSuplementos">
                                     <ul class="sinVinetas">
                                         <li class="colorIndicadores">
                                             <a href="https://drive.google.com/open?id=1kPqr3dQdtD8tfrJWHUEnjYVTcefVixxH" class="colorIndicadores">
@@ -203,9 +203,9 @@
                             </td>
                             <td width="204">
                                 <p align="left" class="colorIndicadores"  data-toggle="collapse" href="#collapseFito" role="button" aria-expanded="false" aria-controls="collapseFito" style="cursor: pointer; color:black; ">
-                                    Productos fitoterapéuticos
+                                    <u>Productos fitoterapéuticos</u> 
                                 </p>
-                                <div class="collapse show" id="collapseFito">
+                                <div class="collapse" id="collapseFito">
                                     <ul class="sinvinetas">
                                         <li class="colorIndicadores">
                                             <a href="https://drive.google.com/open?id=1bTWoz73IPdXzKdjV-akvqSF5dR5BSQgk" class="colorIndicadores">
@@ -232,9 +232,9 @@
                             </td>
                             <td width="202">
                                 <p align="left" class="colorIndicadores"  data-toggle="collapse" href="#collapseHomeopaticos" role="button" aria-expanded="false" aria-controls="collapseHomeopaticos" style="cursor: pointer; color:black; ">
-                                    Medicamentos homeopáticos
+                                    <u>Medicamentos homeopáticos</u> 
                                 </p>
-                                <div class="collapse show" id="collapseHomeopaticos">
+                                <div class="collapse" id="collapseHomeopaticos">
                                     <ul class="sinVinetas">
                                         <li class="colorIndicadores">
                                             <a href="https://drive.google.com/open?id=1KCA1KslrAzxVS1Bk_kSfpBlz7Zwqnigm" class="colorIndicadores">
@@ -270,9 +270,9 @@
                         <tr class="alinearVerticalInicial">
                             <td width="215" class="colorIndicadores">
                                 <p align="justify" class="colorIndicadores" data-toggle="collapse" href="#collapseMedicamentos" role="button" aria-expanded="false" aria-controls="collapseMedicamentos" style="cursor: pointer; color:black;">
-                                    Medicamentos
+                                    <u>Medicamentos</u> 
                                 </p>
-                                <div class="collapse show" id="collapseMedicamentos">
+                                <div class="collapse" id="collapseMedicamentos">
                                     <ul class="sinVinetas">
                                         <li class="colorIndicadores">
                                             <a href="https://drive.google.com/open?id=1kHb9U1XJ5QzU17nHsQxZvimFuyT0afx2" class="colorIndicadores">Decreto 677 de 1995 
@@ -307,11 +307,11 @@
                                     </ul>
                                 </div>
                             </td>
-                            <td width="208" class="colorIndicadores" >
-                                <p align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseHigiene" role="button" aria-expanded="false" aria-controls="collapseHigiene" style="cursor: pointer; color:black;">
-                                    Productos de higiene doméstica y absorbentes de higiene personal
+                            <td width="180" class="colorIndicadores" >
+                                <p align="left" class="colorIndicadores" data-toggle="collapse" href="#collapseHigiene" role="button" aria-expanded="false" aria-controls="collapseHigiene" style="cursor: pointer; color:black;">
+                                    <u>Productos de higiene doméstica y absorbentes de higiene personal</u> 
                                 </p>
-                                <div class="collapse show" id="collapseHigiene" >
+                                <div class="collapse" id="collapseHigiene" >
                                     <ul class="sinVinetas">
                                         <li class="colorIndicadores">
                                             <a href="hhttps://drive.google.com/open?id=1Iw2sjS200RoTTi_yxj-peTvm6xdl5Uve" class="colorIndicadores">Decreto 1545 de 1998
@@ -337,9 +337,9 @@
                             </td>
                             <td width="181">
                                 <p align="justify" class="colorIndicadores" data-toggle="collapse" href="#collapseCosmeticos" role="button" aria-expanded="false" aria-controls="collapseCosmeticos" style="cursor: pointer; color:black;">
-                                    Cosméticos
+                                    <u>Cosméticos</u> 
                                 </p>
-                                <div class="collapse show" id="Cosmeticos">
+                                <div class="collapse" id="collapseCosmeticos">
                                     <ul class="sinVinetas">
                                         <li class="colorIndicadores">
                                             <a href="https://drive.google.com/open?id=10ms-eWXFJ4yyBhaDSW12Dg_n9YpkXIdC" class="colorIndicadores">Decreto 2092 de 1986  
@@ -367,9 +367,9 @@
                             </td>
                             <td width="206" class="colorMedicamentos">
                                 <p align="justify" class="colorIndicadores" data-toggle="collapse" href="#collapseDispositivos" role="button" aria-expanded="false" aria-controls="collapseDispositivos" style="cursor: pointer; color:black;">
-                                    Dispositivos médicos
+                                    <u>Dispositivos médicos</u> 
                                 </p>
-                                <div class="collapse show" id="collapseDispositivos"> 
+                                <div class="collapse" id="collapseDispositivos"> 
                                     <ul class="sinVinetas">
                                         <li class="colorIndicadores">
                                             <a href="https://drive.google.com/open?id=1qbQT82PSJPSqSr27481hAO6Qk2GP9mIJ" class="colorIndicadores">Decreto 4725 de 2005 
@@ -429,7 +429,7 @@
                 <div class="centrado colorAgua">
                     <p class="colorMedicamentos">Normatividad</p>
                     <p class="colorMedicamentos">
-                    <a href="Medicamentos_normatividad.html">
+                    <a href="{{asset("medicamentos_normatividad")}}">
                         <img src="images/medicamentos/IMG_MEDICAMENTOS_NORMATIVIDAD.jpg" width="85" height="63" />
                     </a>
                     </p>

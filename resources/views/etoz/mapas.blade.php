@@ -10,7 +10,7 @@
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> Zoonosis y Vectores |  </span>
-                    <span class="breadcrumb_ colorETOZ"> Documetos e Investigaciones</span>
+                    <span class="breadcrumb_ colorETOZ"> Mapas</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -53,47 +53,53 @@
             </div>  
             
             <div class="row">
-                <!-- <div >
-                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
-                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
-                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
-                </div>  -->
                 <div height="355">
                     <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" width="100%" alt="Slider Cambio climático" />
                 </div>
             </div>
 
             <div class="row">
-                <div class="contenidoSecAmb centradoDiv">
-
-                    <p>&nbsp;</p>
-                    <h2 align="left">
-                        <img src="images/Eventos zoonoticos/DOCUMENTOS.png" width="85" height="63" align="absbottom" />
-                        <span class="colorETOZ">Documentos e investigaciones</span>
+                <div class="contenidoSecAmb centradoDiv mt-3">
+                    <h2>
+                    <span class="colorETOZ">
+                    <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" align="absbottom" />Mapas</span>
                     </h2>
-                    <p>&nbsp;</p>
-                    <p>Esta línea de intervención procura el mejoramiento de la calidad de vida y salud de la población bogotana, mediante
-                    la implementación de acciones integrales de vigilancia sanitaria y epidemiológica, promoción de la salud, prevención
-                    de la enfermedad y control de los eventos transmisibles de origen zoonótico, que puedan representar riesgo para la
-                    salud animal y la salud humana en el Distrito Capital. </p>
-                    <p>Comportamiento del evento de Vigilancia integrada de la rabia. Bogotá, 2017.
-                    <span class="Izquieda">
-                        <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" width="37" height="41" alt="Cambio climático docs" />
-                    </span>
-                    </p>
-                    <p>Comportamiento del evento de Vigilancia integrada de la rabia. Bogotá, año 2016.
-                    <span class="Izquieda">
-                        <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" width="37" height="41" alt="Cambio climático docs" />
-                    </span>
-                    </p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
+                    <p align="justify">Aquí encontrara la &ldquo;ubicación geográfica&rdquo; de las acciones integrales de vigilancia sanitaria y epidemiológica,
+                        promoción de la salud y prevención de las enfermedades transmisibles de origen zoonótico. </p>
+                    <table width="818" border="0">
+                        <tr>
+                        <td width="50">
+                            <a href="https://drive.google.com/open?id=10Y28wszAx8FnKkBec4mhZu2dhHWcBCb_">
+                            <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" width="37" height="41" />
+                            </a>
+                        </td>
+                        <td width="758" class="colorIndicadores">Establecimientos vigilados Vs Establecimientos que reportan Zoonosis</td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="https://drive.google.com/open?id=1tniIxdmCnTjFcDJkKxNgZ2WChRCaptSx">
+                            <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" alt="" width="37" height="41" />
+                            </a>
+                        </td>
+                        <td class="colorIndicadores">Eventos Zoonóticos reportados por establecimientos veterinarios</td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="https://drive.google.com/open?id=1Ulq932SFz5c58VwZ8oD4HFrJjk3Hx4uv ">
+                            <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" alt="" width="37" height="41" />
+                            </a>
+                        </td>
+                        <td class="colorIndicadores">Establecimientos vigilados Vs Establecimientos que reportan vacunación antirrábica </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="https://drive.google.com/open?id=1roDnSmB8Kvp9KddGC4XGixnasyrlmwQ2">
+                            <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" alt="" width="37" height="41" />
+                            </a>
+                        </td>
+                        <td class="colorIndicadores">Vacunación Antirrábica en Caninos y Felinos</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
 

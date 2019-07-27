@@ -9,7 +9,8 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="colorMedicamentos"> | Medicamentos seguros y dispositivos médicos|</span>
+                    <span class="breadcrumb_"> | Productos químicos, industria y belleza| </span>
+                    <span class="colorSeguridadquimica">Documentos e Investigaciones</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -27,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/medicamentos/LogoMedicamentos.png")}}" width="480" height="93" alt="símbolo sección medicamentos" />
+                        <img src="{{asset("images/quimica/LogoSeguridadQuimica.png")}}" width="568" height="93" alt="símbolo sección medicamentos" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -64,63 +65,51 @@
                     </a>             
                 </div>  -->
                 <div height="355">
-                    <img src="images/medicamentos/BannersMedicamentosParte_interna.png" width="100%" />
+                    <img src="images/quimica/Banner peluqueria parte interna.png" alt="Slider aire" width="945" />
                 </div>
             </div>
 
-            <div class="row" style="text-align:justify;">
+            <div class="row mt-3" style="text-align:justify;">
                 <div class="contenidoSecAmb centradoDiv">
-                    <span class="cursiva">.</span>
-
-                    <h2 class="colorMedicamentos">&nbsp;</h2>
-                    <h1 class="seccion fondoMedicamentos sinSaltoLinea">Medicamentos seguros y dispositivos médicos</h1>
+                    <h2 class="colorSeguridadquimica">
+                    <img src="images/quimica/espacioDOCUMENTOS.jpg" width="85" height="63" />Documentos e investigaciones</h2>
+                    <p>Compendio de documentos e investigaciones relacionados con la  implementación de los procesos de vigilancia y control
+                    en las actividades de la industria y del sector belleza. </p>
                     <p>&nbsp;</p>
-                    <p align="justify">La línea de intervención de Medicamentos Seguros, está orientada a contribuir en el derecho de los habitantes de la
-                        ciudad a la salud y a un ambiente sano, mediante la gestión integral de los medicamentos, dispositivos médicos y
-                        productos farmacéuticos, durante todo su ciclo de vida, con el fin de garantizar que la población del Distrito Capital,
-                        cuente con productos de calidad, promoviendo su uso seguro, minimizando el riesgo de consumo de productos alterados
-                        y/o fraudulentos, y contribuyendo a su disposición final en condiciones ambientalmente sostenibles.</p>
-                    <p align="justify">&nbsp;</p>
-                    <a href="{{asset("medicamentos_ver")}} " align="right" class="verMas colorMedicamentos">
-                        <img src="images/medicamentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
-                        {{-- Ver más --}}
+                    <p>
+                    <a href="https://drive.google.com/file/d/1hRS8EV4vYWmJW0MW95P2ag6Sa0tH6ZOP/view">
+                        <img src="images/quimica/IconoPDFparaSeguridadQuimica.png" width="37" height="43" />
                     </a>
-
+                    </span> Documento Técnico Línea de Intervención Seguridad Química 2011</p>
                 </div>
             </div>  
 
             <div class="row">
-                <hr class="lineaMEdicamentos mt80" style="width: 100%;" />
+                <hr class="lineaQuimica mt80" style="width: 100%;" />
             </div>
 
-            <div class="logos colorAgua bold140p">
-                <div class="centrado colorAgua">
-                    <p align="center" class="colorMedicamentos">Documentos e investigaciones</p>
-                    <p align="center" class="colorMedicamentos">
-                    <img src="images/medicamentos/IMG_MEDICAMENTOS_DOCUMENTOS.jpg" width="85" height="63" />
-                    </p>
-                    <p>&nbsp;</p>
-                </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Mapas</p>
-                    <p class="colorMedicamentos">
-                        <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
-                    </p>
-                    <p class="colorMedicamentos">&nbsp;</p>
-                </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Normatividad</p>
-                    <p class="colorMedicamentos">
-                    <a href="{{asset("medicamentos_normatividad")}}">
-                        <img src="images/medicamentos/IMG_MEDICAMENTOS_NORMATIVIDAD.jpg" width="85" height="63" />
+            <div class="logos colorSeguridadquimica bold140p">
+                <div class="centrado">
+                    <p class="colorSeguridadquimica">Documentos e investigaciones</p>
+                    <a href="{{asset("quimicos_documentos")}}">
+                    <img src="images/quimica/espacioDOCUMENTOS.jpg" width="85" height="63" alt="Aire docs" />
                     </a>
-                    </p>
                 </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Indicadores</p>
-                    <p>
-                    <img src="images/medicamentos/IMG_MEDICAMENTOS_INDICADORES.jpg" width="85" height="63" />
-                    </p>
+                <div class="centrado">
+                    <p class="colorSeguridadquimica">Mapas</p>
+                    <img src="images/quimica/espacioMAPA.jpg" width="85" height="63" alt="Aire mapa" />
+                </div>
+                <div class="centrado">
+                    <p class="colorSeguridadquimica">Normatividad</p>
+                    <a href="{{asset("quimicos_normatividad")}}">
+                        <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
+                    </a>
+                </div>
+                <div class="centrado">
+                    <p class="colorSeguridadquimica">Indicadores</p>
+                    <a href="{{asset("quimicos_indicadores")}}">
+                        <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />
+                    </a>
                 </div>
             </div>          
             

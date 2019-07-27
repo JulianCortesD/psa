@@ -173,26 +173,26 @@
             <div class="logos colorCambioC bold140p">
                 <div class="centrado colorCambioC">
                     <p class="colorCambioC">Documentos e investigaciones</p>
-                    <a href="CambioClimatico_Documentos.html">
+                    <a href="{{asset("cambio_climatico_documentos")}}">
                     <img src="images/cambioClimatico/cambioDOCUMENTOS.jpg" width="85" height="63" alt="Cambio climático docs" />
                     </a>
                 </div>
                 <div class="centrado colorCambioC">
                     <p class="colorCambioC">Mapas</p>
-                    <a href="CambioClimatico_mapas.html">
+                    <a href="{{asset("cambio_climatico_mapas")}}">
                     <img src="images/cambioClimatico/cambioMAPA.jpg" width="85" height="63" alt="Cambio climático mapa" />
                     </a>
                 </div>
                 <div class="centrado colorCambioC">
                     <p class="colorCambioC">Normatividad</p>
-                    <a href="CambioClimatico_normatividad.html">
+                    <a href="{{asset("cambio_climatico_normatividad")}}">
                     <img src="images/cambioClimatico/cambioNORMATIVIDAD.jpg" width="85" height="63" alt="Cambio climático normas" />
                     </a>
                 </div>
                 <div class="centrado colorCambioC">
                     <p class="colorCambioC">Indicadores</p>
                     <p>
-                    <a href="CambioClimatico_Indicadores.html">
+                    <a href="{{asset("cambio_climatico_indicadores")}}">
                         <img src="images/cambioClimatico/cambioINDICADORES.jpg" width="85" height="63" alt="Cambio climático título" />
                     </a>
                     </p>
