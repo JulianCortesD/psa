@@ -11,13 +11,13 @@
             <div >
                 <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px">
                     <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                </a>    
+                </a>
                 <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px">
                     <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                </a> 
+                </a>
                 <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px">
                     <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                </a>             
+                </a>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide carousel-news" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -25,7 +25,7 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>                    
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -52,8 +52,8 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>  
-        </div>    
+            </div>
+        </div>
     </div>
     <div class="wrapper min-ancho">
         <div class="container-fluid">
@@ -64,21 +64,21 @@
                             <img class="concept-title d-inline-block"  src="{{asset("images/news/Iconomodulonoticias.svg")}}" alt="">
                         </div>
                         <div class="d-inline-block titulo-contenido px-5">
-                            <label > Noticias y publicaciones </label> 
+                            <label > Noticias y publicaciones </label>
                         </div>
                     </div>
-                </div>  
+                </div>
                 <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                           <span>Bogotá hoy</span> 
+                           <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
                            Fecha y hora
                         </div>
-                    </div>                                    
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -92,20 +92,20 @@
                                             <div class="col-12">
                                                 <span style="text-align: justify">
                                                     AUMENTA EL NÚMERO EXPENDIOS DE CARNE AUTORIZADOS
-                                                    POR LA SECRETARÍA DISTRITAL DE SALUD                                                            
+                                                    POR LA SECRETARÍA DISTRITAL DE SALUD
                                                 </span>
-                                            </div>                                            
+                                            </div>
                                         </div>
                                         <div class="row cont-inside">
-                                            <div class="col-12">                                                
+                                            <div class="col-12">
                                                 <div class="row mr-1">
                                                     <div class="col" style="text-align: justify">
                                                             <p>Junio 27 de 2019</p> <br>
                                                             <img src="{{asset("images/news/expendiocarnes.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
-                                                            De los cerca de 9.700 establecimientos que venden y almacenan productos cárnicos en Bogotá, 4.039 han hecho durante 2019 ante la Secretaría Distrital de Salud (SDS) la solicitud de autorización sanitaria para su funcionamiento. De estos, 1.050 expendios han sido aprobados por ajustarse a los estándares sanitarios. Sin embargo, los que no cumplan con este requisito se exponen a sanciones, que contemplan incluso la clausura 
+                                                            De los cerca de 9.700 establecimientos que venden y almacenan productos cárnicos en Bogotá, 4.039 han hecho durante 2019 ante la Secretaría Distrital de Salud (SDS) la solicitud de autorización sanitaria para su funcionamiento. De estos, 1.050 expendios han sido aprobados por ajustarse a los estándares sanitarios. Sin embargo, los que no cumplan con este requisito se exponen a sanciones, que contemplan incluso la clausura
                                                         <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                     </div>
-                                                </div>    
+                                                </div>
                                                 <div class="row justify-content-end mb-1">
                                                     <div >
                                                         <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
@@ -116,7 +116,7 @@
                                                     <div >
                                                         <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
                                                     </div>
-                                                </div>                                                  
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -135,12 +135,12 @@
                                                 <div class="row">
                                                     <div class="col" style="text-align: justify">
                                                         <p>Febrero 15 de 2019</p> <br>
-                                                        <img  src="{{asset("images/news/encuentrofarmaco.jpg")}}" class="rounded float-left" style="margin-right: 10px;">        
+                                                        <img  src="{{asset("images/news/encuentrofarmaco.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
                                                         <p style="text-align: justify;">
                                                             Con la participación de más de 200 asistentes se realizóen el auditorio principal de la Secretaría Distritalde Salud (SDS) el Encuentro de Fármacovigilancia, el evento estuvo dirigido a establecimientos farmacéuticos minoristas, el propósito fundamental fue brindar capacitación y sensibilizar a los asistentes en laimportancia del reportede eventosadversosrelacionados con el uso demedicamentos
                                                             <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                         </p>
-                                                    </div>   
+                                                    </div>
                                                 </div>
                                                 <div class="row justify-content-end">
                                                     <div >
@@ -152,7 +152,7 @@
                                                     <div >
                                                         <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -173,10 +173,10 @@
                                                             <p>Febrero 15 de 2019</p> <br>
                                                             <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
                                                             <p style="text-align: justify;">
-                                                                Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos. 
+                                                                Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos.
                                                                 <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                             </p>
-                                                        </div>   
+                                                        </div>
                                                 </div>
                                                 <div class="row justify-content-end">
                                                     <div >
@@ -188,7 +188,7 @@
                                                     <div >
                                                         <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -207,12 +207,12 @@
                                                 <div class="row">
                                                     <div class="col-10-justify-content-center" style="padding:10px;">
                                                         <p>Junio 27 de 2019</p> <br>
-                                                        <img  src="{{asset("images/news/restaurantes.jpg")}}" style="width:203px; margin-right: 10px;" class="rounded float-left" > 
+                                                        <img  src="{{asset("images/news/restaurantes.jpg")}}" style="width:203px; margin-right: 10px;" class="rounded float-left" >
                                                         <p style="text-align: justify;">
-                                                            La Secretaría Distrital de Salud (SDS) entrega hoy la distinción ‘Restaurantes1A’ a 7 establecimientos populares de la ciudad que se destacan por cumplir con las normas sanitarias y contar con menús balanceados y variados, buenos niveles de calidad y de atención y una adecuada manipulación de alimentos 
+                                                            La Secretaría Distrital de Salud (SDS) entrega hoy la distinción ‘Restaurantes1A’ a 7 establecimientos populares de la ciudad que se destacan por cumplir con las normas sanitarias y contar con menús balanceados y variados, buenos niveles de calidad y de atención y una adecuada manipulación de alimentos
                                                             <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
                                                         </p>
-                                                    </div>   
+                                                    </div>
                                                 </div>
                                                 <div class="row justify-content-end">
                                                     <div >
@@ -224,7 +224,7 @@
                                                     <div >
                                                         <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -250,7 +250,7 @@
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -260,9 +260,9 @@
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                            </a>
                         </div>
-                    </div>  
+                    </div>
                     <div class="row">
                         <a href="{{asset("calendario")}}">
                             <div class="mt-3 container-calendar">
@@ -270,13 +270,13 @@
                                 <div class="col-10 offset-1" >
                                     <div id='calendar'></div>
                                 </div>
-                            </div> 
+                            </div>
                         </a>
-                         
+
                     </div>
                 </div>
-            </div>            
-        </div>        
+            </div>
+        </div>
     </div>
 
     <div class="wrapper min-ancho">
@@ -289,32 +289,32 @@
                 <div class="col-2" >
                     <div class="d-block mt-3">
                         <a href="http://appb.saludcapital.gov.co/MicroSivigilaDC/ServiciosComuni1.aspx" class="boton-registe">
-                            <img src="{{asset("images/news/BotonRegistreEstablecimiento.svg")}}" alt="registre aquí" style="height: 60px; margin-left: 25px"> 
-                        </a>                
+                            <img src="{{asset("images/news/BotonRegistreEstablecimiento.svg")}}" alt="registre aquí" style="height: 60px; margin-left: 25px">
+                        </a>
                     </div>
                 </div>
                 <!-- <div class="col-2">
                     <div class="d-block mt-3" style="margin-top: 15px;">
                         <a href="{{asset("conceptos")}}" class="boton-consul">
-                            <img src="{{asset("images/news/BotonConsulteEstablecimiento.svg")}}" alt="autorregulación" style="height: 60px; margin-left: 50px;"> 
-                        </a>                
-                    </div> 
-                </div>    -->             
+                            <img src="{{asset("images/news/BotonConsulteEstablecimiento.svg")}}" alt="autorregulación" style="height: 60px; margin-left: 50px;">
+                        </a>
+                    </div>
+                </div>    -->
                 <div class="col-2" >
                     <div class="d-block mt-3">
                         <a href="{{asset("acreditados")}}" class="boton-registe">
                             <img src="{{asset("images/news/BotonConsulteEstablecimiento2.svg")}}" alt="restablecimientos acreditados" style="height: 60px; margin-left: 65px">
-                        </a>                
+                        </a>
                     </div>
                 </div>
                 <div class="col-3" style="text-align: center;">
-                    <a href="http://autorregulacion.saludcapital.gov.co/buenpropietario">
+                    <a href="http://autorregulacion.saludcapital.gov.co/buenpropietario#estrategiasexcelencia">
                         <img src="{{asset("images/news/LogoExcelenciaSanitaria.svg")}}" alt="Excelencia sanitaria" style="height: 80px; margin-left: 70px;">
                     </a>
                 </div>
             </div>
     </div>
-    
+
 
     <div class="content-wrapper min-ancho" >
         <div class="wrapper">
@@ -322,9 +322,9 @@
                 <div class="row mb-3">
                     <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/consumodetabaco/">
                         <img class="d-block w-100" src="{{asset("images/indicators/IndicadorDestacado.png")}}" alt="Indicador principal">
-                    </a>                    
-                </div>            
-            </div>    
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -344,17 +344,17 @@
                                             </div>
                                         </div>
                                         <div class="col-6 offset-2 pt-4">
-                                            <label >Eres:&nbsp;&nbsp;</label>  
+                                            <label >Eres:&nbsp;&nbsp;</label>
                                             <label class="radio-inline">
                                                 Propietario  <input type="radio" name="optradio" value="propietario" checked> &nbsp;&nbsp;
                                             </label>
                                             <label class="radio-inline">
                                                 Ciudadano <input type="radio" name="optradio" value="ciudadano">
-                                            </label>                                        
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="row justify-content-start mt-3">
-                                        <div class="col-12">                                        
+                                        <div class="col-12">
                                             <div class="row mb-3">
                                                 <div class="col-6">
                                                     {{-- <div class="form-group row">
@@ -386,7 +386,7 @@
                                                             <span class="inputIconBox"><i class="fas fa-phone"></i></span>
                                                         </div>
                                                         <input id="telefono" name="telefono" type="number" class="form-control" placeholder="Teléfono" required="">
-                                                    </div> 
+                                                    </div>
                                                 </div>
                                                 <div class="col-6">
                                                     <div class="input-group">
@@ -394,9 +394,9 @@
                                                             <span class="inputIconBox"><i class="fas fa-heart"></i></span>
                                                         </div>
                                                         <input id="temainteres" name="temainteres" type="text" class="form-control" placeholder="Tema de Interes" required="">
-                                                    </div> 
+                                                    </div>
                                                 </div>
-                                            </div>      
+                                            </div>
                                             <div class="row mb-3">
                                                 <div class="col-6">
                                                     <div class="input-group">
@@ -404,15 +404,15 @@
                                                             <span class="inputIconBox"><i class="fas fa-envelope"></i></span>
                                                         </div>
                                                         <input id="correo" name="correo" type="email" class="form-control" placeholder="Correo electrónico" required="">
-                                                    </div> 
-                                                </div>            
+                                                    </div>
+                                                </div>
                                                 <div class="col-6">
                                                     <div class="input-group">
                                                         <div class="input-group-prepend">
                                                             <span class="inputIconBox"><i class="fas fa-edit"></i></span>
                                                         </div>
                                                         <input id="comentarios" name="comentarios" type="text" class="form-control" placeholder="Comentarios" required="">
-                                                    </div> 
+                                                    </div>
                                                     {{-- <div class="form-group row">
                                                         <label for="comentarios" class="col-sm-5 col-form-label">Comentarios: </label>
                                                         <div class="col-sm-7">
@@ -420,7 +420,7 @@
                                                         </div>
                                                     </div> --}}
                                                 </div>
-                                            </div> 
+                                            </div>
                                             <div class="row">
                                                 <div class="col-6">
                                                     {{-- <div class="form-group row">
@@ -958,20 +958,20 @@
                                                                 <option value="1679">Planta de tratamiento de aguas residuales</option>
                                                                 <option value="1688">Lavado de accesorios de motocicleta y otros microempresas y pequeñas empresas</option>
                                                             </select> --}}
-                                                    </div> 
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="row mt-1 justify-content-end">                                    
+                                            <div class="row mt-1 justify-content-end">
                                                 <div class="col-3 offset-1">
                                                     <button  class="btn blue w-100 py-2"  data-toggle="modal" data-target="#contactModal" data-line="contact-send" >Enviar</button>
                                                 </div>
-                                            </div>                                
-                                        </div>                                        
+                                            </div>
+                                        </div>
                                     </div>
-                                </form>                            
+                                </form>
                             </div>
                             <div class="col-lg-4 col-sm-12 alpha60">
-                                <div class="row mt-4">                                    
+                                <div class="row mt-4">
                                     <div class="col-6 ">
                                         <a href="{{asset("preguntas")}}">
                                             <div class="container-contactenos">
@@ -981,15 +981,15 @@
                                                             <img  class="right-bottom-menu" src="{{asset("images/contactenos/IconoPreguntasFrecuentes.svg")}}" alt=""  style="height:40.9px;">
                                                         </div>
                                                         <div class="d-inline menu-header-interno preguntas-frecuentes">
-                                                            <label> Preguntas Frecuentes</label> 
+                                                            <label> Preguntas Frecuentes</label>
                                                         </div>
                                                     </div>
-                                                </div> 
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="row mt-4">                                    
+                                <div class="row mt-4">
                                     <div class="col-6 ">
                                         <a href="{{asset("oficinas")}}">
                                             <div class="container-oficinas">
@@ -999,50 +999,50 @@
                                                             <img  class="right-bottom-menu" src="{{asset("images/contactenos/IconoOficinasdeAtencion.svg")}}" alt=""  style="height:40.9px;">
                                                         </div>
                                                         <div class="d-inline menu-header-interno oficinas">
-                                                            <label class="mt-2">Oficinas de Atención al <br> Ambiente</label> 
-                                                        </div>                                         
+                                                            <label class="mt-2">Oficinas de Atención al <br> Ambiente</label>
+                                                        </div>
                                                     </div>
-                                                </div>                                                
+                                                </div>
                                             </div>
                                         </a>
-                                    </div>                                   
+                                    </div>
                                 </div>
-                                <div class="row mt-3">                                    
+                                <div class="row mt-3">
                                     <div class="col-6 mt-3">
                                         <div class="puntos-recoleccion">
-                                            <label >Ubica los puntos de recolección</label> 
+                                            <label >Ubica los puntos de recolección</label>
                                         </div>
-                                    </div>                                   
+                                    </div>
                                 </div>
-                                <div class="row mt-4">          
+                                <div class="row mt-4">
                                     <div class="col alig-self-center">
                                         <div class="d-inline-block">
                                             <a href="https://www.pilascolombia.com/puntos">
                                                 <img  class="right-bottom-menu" src="{{asset("images/contactenos/BotonPilas.svg")}}" alt=""  style="height:58px;">
                                             </a>
-                                        </div>   
+                                        </div>
                                         <div class="d-inline-block">
                                             <a href="http://www.lumina.com.co/recolectar/puntos_recoleccion">
                                                 <img  class="right-bottom-menu" src="{{asset("images/contactenos/BotonBombillas.svg")}}" alt=""  style="height:58px;">
                                             </a>
-                                        </div>   
+                                        </div>
                                         <div class="d-inline-block">
                                             <a href="http://www.puntoazul.com.co/donde-estamos-3/">
                                                 <img  class="right-bottom-menu" src="{{asset("images/contactenos/BotonPuntoAzul.svg")}}" alt=""  style="height:58px;">
                                             </a>
-                                        </div> 
+                                        </div>
                                         <div class="d-inline-block">
                                             <a href="http://www.ambientebogota.gov.co/aceites-usados">
                                                 <img  class="right-bottom-menu" src="{{asset("images/contactenos/BotonRecolecciondeAceite.svg")}}" alt=""  style="height:58px;">
                                             </a>
-                                        </div>  
-                                    </div>                        
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>            
-            </div>    
+                </div>
+            </div>
         </div>
     </div>
 
@@ -1073,7 +1073,7 @@
                                 <button id="btn-enviar" type="button" class="btn btn-modal">Sí, suscribirme</button>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -1098,12 +1098,12 @@
                                 <button type="button" class="btn btn-modal" data-dismiss="modal">Aceptar</button>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
 @endsection
 @section('scripts')
 <script>
@@ -1120,15 +1120,15 @@
                 });
             } else {
                 $('#contactModal').modal('hide');
-            
+
                 $('#infoModal').modal('show');
             }
-                
+
         });
     });
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
-    
+
         var calendar = new FullCalendar.Calendar(calendarEl, {
         plugins: [  'dayGrid' ],
         defaultDate: '2019-07-22',
@@ -1204,11 +1204,11 @@
             } */
         ]
         });
-    
+
         calendar.render();
-    
+
         calendar.setOption('locale','es');
-    });      
+    });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap-wizard/1.2/jquery.bootstrap.wizard.js"></script>
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

@@ -11,7 +11,7 @@
                             <input type="search" name="busqueda" class="inputsearch">
                             {{-- <span class="icon"><i class="fa fa-search"></i></span> --}}
                             <span class="icon"><img src="{{asset("images/header/LupaBuscador.svg")}}" alt=""></span>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                                         <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoPoliticaDistrital.svg")}}" alt=""  >
                                     </div>
                                     <div class="d-inline menu-header-interno">
-                                        <a href="{{asset("politica_distrital_salud_ambiental")}}" style="color: #019EE2;">Política Distrital de <br> Salud Ambiental</a> 
+                                        <a href="{{asset("politica_distrital_salud_ambiental")}}" style="color: #019EE2;">Política Distrital de <br> Salud Ambiental</a>
                                     </div>
                                <!--  </a> -->
                             </div>
@@ -44,7 +44,7 @@
                                         <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoParticipacionCiudadana.svg")}}" alt=""  >
                                     </div>
                                     <div class="d-inline menu-header-interno">
-                                        <a href="{{asset("participacion_ciudadana")}}" style="color: #019EE2;">Participación <br> Ciudadana</ > 
+                                        <a href="{{asset("participacion_ciudadana")}}" style="color: #019EE2;">Participación <br> Ciudadana</ >
                                     </div>
                                 <!-- </a> -->
                             </div>
@@ -56,9 +56,9 @@
                                         <img  class="right-bottom-menu" src="{{asset("images/header/menu/IconoVigilanciaSaludAmbiental.svg")}}" alt=""  >
                                     </div>
                                     <div class="d-inline menu-header-interno">
-                                        <a href="{{asset("vigilancia_salud_ambiental")}}" style="color: #019EE2;">Vigilancia de la <br> Salud Ambiental</a> 
+                                        <a href="{{asset("vigilancia_salud_ambiental")}}" style="color: #019EE2;">Vigilancia de la <br> Salud Ambiental</a>
                                     </div>
-                                <!-- </a>  -->   
+                                <!-- </a>  -->
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src="{{asset("images/header/IconoMenuAireRuidoyREM.svg")}}" alt="home" style="height: 15px; margin-top: 10px; margin-right: 5px;">
-                                <div >Aire, ruido y radiación <br> electromagnética</div> 
+                                <div >Aire, ruido y radiación <br> electromagnética</div>
                                 {{-- <span class="sr-only">(current)</span> --}}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -110,14 +110,15 @@
                                 <li class="dropdown-item dropdown-submenu">
                                     <a >Expendio de carnes y cárnicos comestibles</a>
                                     <ul class="dropdown-menu">
-                                        <a href="http://autorregulacion.saludcapital.gov.co/carnicerias">
-                                            <li class="dropdown-item">
-                                                Inscripción Sanitaria
+                                        <a href="http://appb.saludcapital.gov.co/Sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&n=&Origen=Login">
+                                           <li class="dropdown-item">
+                                               Inscripción y/o Autorización Sanitaria
+
                                             </li>
                                         </a>
-                                        <a href="http://appb.saludcapital.gov.co/SivigilaDC/Login.aspx">
-                                            <li class="dropdown-item">
-                                             Autorización sanitaria
+                                        <!-- <a href="http://appb.saludcapital.gov.co/SivigilaDC/Login.aspx">-->
+                                                  <li class="dropdown-item">
+
                                             </li>
                                         </a>
                                     </ul>
@@ -128,13 +129,13 @@
                                         <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&amp;n=&amp;Origen=Login">
                                             <li class="dropdown-item">
                                                 Cárnicos
-                                             </li>   
+                                             </li>
                                         </a>
                                         <a href="http://appb.saludcapital.gov.co/sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&amp;n=&amp;Origen=Login">
                                             <li class="dropdown-item">
                                                 Alimentos
                                             </li>
-                                        </a>                                        
+                                        </a>
                                     </ul>
                                 </li>
                                 <!-- <a class="dropdown-item" href="http://autorregulacion.saludcapital.gov.co">Establecimientos con concepto favorable</a> -->
@@ -164,9 +165,9 @@
                                             <li class="dropdown-item">
                                              Lista de coches fúnebres
                                             </li>
-                                        </a>                                        
+                                        </a>
                                     </ul>
-                                </li> 
+                                </li>
                                 <a class="dropdown-item" href="{{asset("agua_saneamiento_adulto_mayor")}}">Hogares para persona mayor</a>
                                 <a class="dropdown-item" href="{{asset("agua_saneamiento_conceptos_favorable")}}">Establecimientos con concepto favorable</a>
                                 <a class="dropdown-item" href="{{asset("agua_saneamiento_indicadores")}}">Indicadores</a>
@@ -214,7 +215,7 @@
                             </a>
                             <ul class="dropdown-menu" >
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("medicamentos")}}"> <em>Medicamentos Seguros</em> </a>
-                                    
+
                                     <li class="dropdown-item dropdown-submenu">
                                         <a>Requisitos para apertura a establecimientos</a>
                                         <ul class="dropdown-menu">
@@ -265,11 +266,11 @@
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("etoz")}}"><em>Eventos Transmisibles de Origen <br> Zoonótico ETOZ</em> </a>
                                 <!-- <a class="dropdown-item" href="#">Clínicas y consultorios veterinarios</a> -->
                                 <a class="dropdown-item" href="https://drive.google.com/open?id=0B2R7_2yRTHO0ZXo1aEFub29ab3pVVDdScl9XeWpHeWk2MXA4">Vacunación antirrábica canina y felina</a>
-                                <!-- <a class="dropdown-item" href="#">Control de roedores e insectos</a> -->
+                                 <a class="dropdown-item" href="#">Control de roedores e insectos</a>
                                 <!-- <a class="dropdown-item" href="#">Establecimiento con concepto favorable</a> -->
                                 <a class="dropdown-item"  href="{{asset("etoz_indicadores")}}">Indicadores</a>
-                               <!--  <a class="dropdown-item" href="{{asset("etoz_normatividad")}}">Normatividad</a> -->
-                                <!-- <a class="dropdown-item" href="#">Mapas</a> -->
+                               <a class="dropdown-item" href="{{asset("etoz_normatividad")}}">Normatividad</a>
+                                 <a class="dropdown-item" href="#">Mapas</a>
                                 <a class="dropdown-item"  href="{{asset("etoz_documentos")}}">Documentos e investigaciones</a>
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>

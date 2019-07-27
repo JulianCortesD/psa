@@ -11,20 +11,20 @@
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> | Aire, ruido y radiación electromagnética |</span>
                     <span class="breadcrumb_ aire"> Normatividad</span>
-                </div>  
+                </div>
                 <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span> 
+                        <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
                             Fecha y hora
                         </div>
-                    </div>                                    
+                    </div>
                 </div>
-            </div>  
+            </div>
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
@@ -36,7 +36,7 @@
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -46,45 +46,41 @@
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                            </a>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-            </div>  
-            
+            </div>
+
             <div class="row">
                 <div >
                     <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
+                    </a>
                     <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
+                    </a>
                     <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
-            </div> 
+                    </a>
+            </div>
                 <div height="355">
                     <img src="images/aire/BannerEstAire.png" width="100%" alt="Slider aire" />
                 </div>
             </div>
 
             <div class="row">
-                
+
                 <div class="contenidoSecAmb centradoDiv">
                         <div>
                             <h3>
-                            <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" alt="Calidad aire" width="85" height="63" align="absbottom" />
-                            <span class="colorAire">Normatividad</span>
+                            <strong><img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" alt="Calidad aire" width="85" height="63" align="absbottom" />
+                            <span class="colorAire">Normatividad</span></strong><span class="colorAire"></span>
                             </h3>
                         </div>
-                        <h2 class="centrado colorAire mt40">
-                            Regulación Transversal
-                        </h2>
-                        <p>
-                            <h3  class="centrado " data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer; color:black;">
-                                Normatividad General
-                            </h3>
+                        <p>Compilación   de las normas expedidas por las diferentes organizaciones gubernamentales   relacionadas con la calidad del aire, ambientes 100% libres de humo de tabaco,   contaminación por ruido y radiación electromagnética. </p>
+                  <p>
+                  <h2  class="centrado colorAire mt40" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer; color:black;"><strong>Regulación Transversal</strong></h>
                         </p>
                         <div class="collapse centrado" id="collapseTransversal">
                             <div  align="center">
@@ -128,14 +124,12 @@
                         </div>
 
 
-                        <h2 class="centrado colorAire mt40">Regulación Específica</h2>
+                        <h2 class="centrado colorAire mt40"><strong>Regulación Específica</strong></h2>
                         <table width="100%" border="0">
                             <tr class="alinearVerticalInicial">
                                 <td>
                                     <p>
-                                        <h3 data-toggle="collapse" href="#collapseCalidadAire" role="button" aria-expanded="false" aria-controls="collapseCalidadAire" style="cursor: pointer; color:black; text-align:left;">
-                                            Calidad del Aire
-                                        </h3>
+                                        <h3 data-toggle="collapse" href="#collapseCalidadAire" role="button" aria-expanded="false" aria-controls="collapseCalidadAire" style="cursor: pointer; color:black; text-align:left;"> Calidad del Aire </h3>
                                     </p>
                                     <div class="collapse" id="collapseCalidadAire">
                                         <ul class="sinVinetas">
@@ -168,13 +162,12 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    
+
                                 </td>
                                 <td>
                                     <p>
                                         <h3 data-toggle="collapse" href="#collapseTabaco" role="button" aria-expanded="false" aria-controls="collapseTabaco" style="cursor: pointer; color:black; text-align:left;">
-                                            Humo del Tabaco
-                                        </h3>
+                                        Humo del Tabaco </h3>
                                     </p>
                                     <div class="collapse" id="collapseTabaco">
                                         <ul class="sinVinetas">
@@ -222,21 +215,20 @@
                                                 <a href="https://drive.google.com/open?id=1E4vmtDEZ375T8FXBRiJK9ebouIVFB-lg" class="colorIndicadores">Convenio OMS para el control del Tabaco </a>
                                             </li>
                                             <li>
-                                                <a href="https://drive.google.com/open?id=1-A9Oo1reRSu2ws4b72rzWZVJe1tS_Axd" class="colorIndicadores">AUTO 2014-00011 DE NOVIEMBRE 17 DE 2017</a>
+                                                <a href="https://drive.google.com/open?id=1-A9Oo1reRSu2ws4b72rzWZVJe1tS_Axd" class="colorIndicadores">Auto 2014-00011 DE NOVIEMBRE 17 DE 2017</a>
                                             </li>
                                             <li>
                                                 <a href="http://www.sic.gov.co/sites/default/files/normatividad/032018/circular01.pdf" class="colorIndicadores">Circular 01 de 2018 - SIC </a>
                                             </li>
-                            
+
                                         </ul>
                                     </div>
                                 </td>
-                                <td>  
+                                <td>
                                     <p>
                                         <h3 data-toggle="collapse" href="#collapseRadiacion" role="button" aria-expanded="false" aria-controls="collapseRadiacion" style="cursor: pointer; color:black; text-align:left;">
-                                            Olores Ofensivos
-                                        </h3> 
-                                    </p>    
+                                        Olores Ofensivos </h3>
+                                    </p>
 
                                     <div class="collapse " id="collapseRadiacion">
                                         <ul class="sinVinetas">
@@ -250,7 +242,7 @@
                                                 <a href="https://drive.google.com/open?id=1pmvMc_6LQLlP_kL5o5sn8jyaSocLqqwa" class="colorIndicadores">Norma Técnica 6012-1 de 2013 </a>
                                             </li>
                                         </ul>
-                                    </div> 
+                                    </div>
 
                                     <p>
                                         <h3 data-toggle="collapse" href="#collapseRadiaciones" role="button" aria-expanded="false" aria-controls="collapseRadiaciones" style="cursor: pointer; color:black; text-align:left;">
@@ -293,9 +285,9 @@
                                                 <a href="https://www.ane.gov.co/images/ArchivosDescargables/Normatividad/Radiaciones_no_ionizantes/Resol_774-2018.pdf?s=57572B2572477A469FB185AD1435459E3CD4DB1B"
                                                 class="colorIndicadores">Resolución 774 de 2018</a>
                                             </li>
-                                      
+
                                         </ul>
-                                    </div> 
+                                    </div>
                                 </td>
                                 <td>
                                     <p>
@@ -332,17 +324,17 @@
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1A1l_w3WRP2usQi6jTup46fj20Dn1hbn6" class="colorIndicadores">Ley 769 DE 2002 </a>
                                             </li>
-                            
+
                                         </ul>
                                     </div>
-                                    
-                                    
+
+
                                 </td>
                             </tr>
                         </table>
-                </div>     
-            </div>  
-            
+                </div>
+            </div>
+
             <div class="row">
                 <hr class="lineaAire mt80" style="width: 100%;" />
             </div>
@@ -366,7 +358,7 @@
                     <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
                 </div>
             </div>
-        </div>  
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
