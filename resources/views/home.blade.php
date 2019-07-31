@@ -94,7 +94,7 @@
                 <div class="col-8 mr-2 fluid-left">
                     <div id="rootwizard">
                         <div class="content-inside tab-content">
-                            <div class="tab-pane active" id="tab1">
+                            <div class="tab-pane active" id="tab2">
                                 <section class="content">
                                     <div class="header-content col-12">
                                         <div class="row ml-1">
@@ -135,7 +135,7 @@
                                     </div>
                                 </section>
                             </div>
-                            <div class="tab-pane" id="tab3">
+                            <div class="tab-pane" id="tab4">
                                 <section class="content">
                                     <div class="header-content col-12">
                                         <div class="header-content row col-sm-12">
@@ -174,23 +174,23 @@
                                     </div>
                                 </section>
                             </div>
-                            <div class="tab-pane" id="tab4">
+                            <div class="tab-pane" id="tab1">
                                 <section class="content">
                                     <div class="header-content col-12">
                                         <div class="header-content row col-sm-12">
                                             <span>
-                                                OPERATIVO  DE VIGILANCIA EN EXPENDIOS AVÍCOLAS DE CORABASTO
+                                                PRIMER ENCUENTRO CON TATUADORES
                                             </span>
                                         </div>
                                         <div class="row cont-inside">
                                             <div class="col-12">
                                                 <div class="row">
                                                         <div class="col-10-justify-content-center" style="padding:10px;">
-                                                            <p>Febrero 15 de 2019</p> <br>
-                                                            <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
+                                                            <p>Julio 4 de 2019</p> <br>
+                                                            <img  src="{{asset("images/news/tatuadores.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
                                                             <p style="text-align: justify;">
-                                                                Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos. 
-                                                                <a data-toggle="modal" data-target="#exampleModal" data-line="new" data-title="OPERATIVO  DE VIGILANCIA EN EXPENDIOS AVÍCOLAS DE CORABASTO" data-response="new-3"> 
+                                                                Entre las principales causales de incumplimiento identificadas por Secretaria Distrital de Salud y Ecocapitalen las que incurren los establecimientos que prestan servicios de tatuaje, piercing y micropigmentaciónse encuentran: inobservancia de la norma,la inadecuada segregación de los residuos cortopunzantes, la no rotulación de las bolsas y otros aspectos relacionados con las condiciones de entrega de residuos al gestor externo; bolsas rotas o no anudadas correctamente ocasionando derrames de residuos o fluidos infecciosos.
+                                                                <a data-toggle="modal" data-target="#exampleModal" data-line="new" data-title="PRIMER ENCUENTRO CON TATUADORES" data-response="new-3"> 
                                                                     <em style="color: blue; cursor: pointer;"> (ver mas) </em> 
                                                                 </a>
                                                             </p>
@@ -212,7 +212,7 @@
                                     </div>
                                 </section>
                             </div>
-                            <div class="tab-pane" id="tab2">
+                            <div class="tab-pane" id="tab3">
                                 <section class="content">
                                     <div class="header-content col-12">
                                         <div class="header-content row col-sm-12">
@@ -1211,12 +1211,18 @@
                 <div class="col-10 offset-1">                                      
                     <div class="row">
                         <div class="col-10-justify-content-center">
-                            <p>Febrero 15 de 2019</p> <br>
-                            <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
+                            <p>Julio 4 de 2019</p> <br>
+                            <img  src="{{asset("images/news/tatuadores.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
                             <p style="text-align:justify; margin-left: 5px;">
-                                Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos. 
-                                <br> En el operativo que inició a las tres de la mañana se inspeccionaron plantas de beneficio,  expendios y vehículos trasportadores de productos cárnicos, aplicando las medidas sanitarias de decomiso y desnaturalizaciónde los productos en uno de los establecimientos por mal almacenamiento, pues estaban expuestosa la manipulación directa del consumidor y al ambiente, en conjunto con la Policía Nacional se tomó la medida de sellamiento del mismo establecimiento. Esta actividad  fue coordinada  por la Secretaria Distrital de Salud, con la participación delINVIMA y las Subredes Integradas de Servicios de Salud Sur y Norte. 
-                                <br> La pérdida de la cadena de frío y la exposición  directa al consumidor, trae como consecuencia la contaminación de los productos cárnicos, afectando la salud delosBogotano. La Secretaria Distrital de Salud continuará realizando este tipo de operativos en diferentes puntos de la ciudad mediante la inspección, vigilancia y control de estos y otros alimentos, verificando su inocuidad y previniendo las enfermedades transmitidas por los mismos.
+                                Entre las principales causales de incumplimiento identificadas por Secretaria Distrital de Salud y Ecocapitalen las que incurren los establecimientos que prestan servicios de tatuaje, piercing y micropigmentaciónse encuentran: inobservancia de la norma,la inadecuada segregación de los residuos cortopunzantes, la no rotulación de las bolsas y otros aspectos relacionados con las condiciones de entrega de residuos al gestor externo; bolsas rotas o no anudadas correctamente ocasionando derrames de residuos o fluidos infecciosos.
+                                <br>Por tal razón,se desarrolló en la Secretaria Distrital de Salud el  primer encuentro con tatuadores como parte de una estrategia de capacitación masiva que se implementa en todas las localidades del Distrito, teniendo como temáticas la gestión integral de residuos generados en la atención en salud y otras actividades, condiciones para la prevención de riesgos en salud y requisitos higiénico-sanitarios para la prestación de servicios de tatuajes y piercing, esto con el objetivo de socializar la normativa sanitaria legal vigente que deben dar cumplimiento este tipo de establecimientos, además de los requerimientos  planteados para la prestación del servicio por parte de  Ecocapital.
+                                <br>Otra de las temáticas tratadas en la capacitación fue la importancia de cumplir con el esquema general de vacunación,esteúltimo, obligatorio para laspersonas que laboran en los establecimientos que prestan servicios de tatuaje, piercing y micropigmentación, entre las que se encuentran vacunas como:
+                                <br> •	TD (Tétanos y difteria)
+                                <br> •	TDAP (Tétanos y difteria y tosferina acelular)
+                                <br> •	Influenza estacional ( infección respiratoria por virus estacional  de influenza)
+                                <br> •	Hepatitis B
+                                <br>El encuentro con tatuadores contó con  la participación de más de 50  propietarios de establecimientos generadores de residuos infecciosos,a quienes se les aclararon dudas y se certificaron en cumplimento del programa de educación y formación  establecido en la Resolución 1164 de 2002.  
+                                
                             </p>
                         </div>                                            
                     </div>
@@ -1249,106 +1255,8 @@
                                 <br> Durante 2018, 25 restaurantes que cumplieron con todos los requerimientos fueron distinguidos por un año. Adicionalmente, la SDS les brindó asesoría técnica de gastronomía y de mercadeo para mejorar el servicio a sus clientes.
                                 <br> El día de hoy 7 establecimientos se suman para recibir la distinción en el año 2019, esperando a final de este año realizar otro evento de distinción con los restaurantes que se encuentran en proceso.
                                 <br> Los restaurantes a los que se les otorgará el reconocimiento como ‘Restaurantes 1A’ son:
-                                <br> <table>
-                                        <tbody>
-                                        <tr>
-                                        <td width="65" style=" border: 1px solid;">
-                                        <p><strong>No</strong></p>
-                                        </td>
-                                        <td width="378"  style=" border: 1px solid;">
-                                        <p><strong>RESTAURANTES A RECIBIR DISTINCI&Oacute;N</strong></p>
-                                        </td>
-                                        <td width="161"  style=" border: 1px solid;">
-                                        <p><strong>LOCALIDAD</strong></p>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td width="65"  style=" border: 1px solid;">
-                                        <p>1</p>
-                                        </td>
-                                        <td width="378"  style=" border: 1px solid;">
-                                        <p>RESTAURANTE LOS ALMENDROS COLONIAL</p>
-                                        <p>Direcci&oacute;n: Cl 1F 28 23 Barrio: SANTA ISABEL</p>
-                                        </td>
-                                        <td width="161"  style=" border: 1px solid;">
-                                        <p>MARTIRES</p>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td width="65" style=" border: 1px solid;">
-                                        <p>2</p>
-                                        </td>
-                                        <td width="378" style=" border: 1px solid;">
-                                        <p>SOL Y LUNA RESTAURANTE</p>
-                                        <p>Direcci&oacute;n: Kr 6B 32 34 Barrio: SAN MARTIN</p>
-                                        </td>
-                                        <td width="161" style=" border: 1px solid;">
-                                        <p>SANTA FE</p>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td width="65" style=" border: 1px solid;">
-                                        <p>3</p>
-                                        </td>
-                                        <td width="378" style=" border: 1px solid;">
-                                        <p>RESTAURANTE EL ZOOLOGICO</p>
-                                        <p>Direcci&oacute;n: Cl 19 25 04 Barrio: PALOQUEMAO</p>
-                                        </td>
-                                        <td width="161" style=" border: 1px solid;">
-                                        <p>MARTIRES</p>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td width="65" style=" border: 1px solid;">
-                                        <p>4</p>
-                                        </td>
-                                        <td width="378" style=" border: 1px solid;">
-                                        <p>RESTAURANTE CAFETERIA LA 33</p>
-                                        <p>Direcci&oacute;n: Cl 33 SUR 18 02 Barrio: QUIROGA CENTRAL</p>
-                                        </td>
-                                        <td width="161" style=" border: 1px solid;">
-                                        <p>RAFAEL URIBE</p>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td width="65" style=" border: 1px solid;">
-                                        <p>5</p>
-                                        </td>
-                                        <td width="378" style=" border: 1px solid;">
-                                        <p>RESTAURANTE BON APPETIT</p>
-                                        <p>Direcci&oacute;n: Kr 54A 46 10 SUR Barrio: VENECIA</p>
-                                        </td>
-                                        <td width="161" style=" border: 1px solid;">
-                                        <p>TUNJUELITO</p>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td width="65" style=" border: 1px solid;">
-                                        <p>6</p>
-                                        </td>
-                                        <td width="378" style=" border: 1px solid;">
-                                        <p>RESTAURANTE GIRASSOL</p>
-                                        <p>Direcci&oacute;n: Av Kr 50 91 64 Barrio: LA CASTELLANA</p>
-                                        </td>
-                                        <td width="161" style=" border: 1px solid;">
-                                        <p>BARRIOS UNIDOS</p>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td width="65" style=" border: 1px solid;">
-                                        <p>7</p>
-                                        </td>
-                                        <td width="378" style=" border: 1px solid;">
-                                        <p>MONT CAF&Eacute; RESTAURANTE</p>
-                                        <p>Direcci&oacute;n: KR 22 8 49</p>
-                                        <p>Barrio: LA PEPITA</p>
-                                        </td>
-                                        <td width="161" style=" border: 1px solid;">
-                                        <p>MARTIRES</p>
-                                        </td>
-                                        </tr>
-                                        </tbody>
-                                        </table>
+                                <br> 
+                                <img src="{{asset("images/news/restaurantes2.jpg")}}" width="100%" style="margin-right: 10px;">
                                 
                             </p>
                         </div>                                            
