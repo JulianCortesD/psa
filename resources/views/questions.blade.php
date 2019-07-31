@@ -169,7 +169,7 @@
                         </div>
                     </div>
 
-                    <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoEspacioyMovilidad.png")}}" alt="" >
+                    <!-- <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoEspacioyMovilidad.png")}}" alt="" >
                     <div class="card">
                         <div class="card-header ask-espacio">
                             Espacio y Movilidad
@@ -179,7 +179,7 @@
                             
                             </blockquote>
                         </div>
-                    </div>
+                    </div> -->
 
                     <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoMedicamentosSeguros.png")}}" alt="" >
                     <div class="card">

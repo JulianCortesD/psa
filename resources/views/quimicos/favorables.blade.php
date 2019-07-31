@@ -123,36 +123,30 @@
                 <hr class="lineaCambioC mt80" style="width: 100%;" />
             </div>
 
-            <div class="logos colorAgua bold140p">
-                <div class="centrado colorAgua">
-                    <p align="center" class="colorMedicamentos">Documentos e investigaciones</p>
-                    <p align="center" class="colorMedicamentos">
-                    <img src="images/medicamentos/IMG_MEDICAMENTOS_DOCUMENTOS.jpg" width="85" height="63" />
-                    </p>
-                    <p>&nbsp;</p>
-                </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Mapas</p>
-                    <p class="colorMedicamentos">
-                    <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
-                    </p>
-                    <p class="colorMedicamentos">&nbsp;</p>
-                </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Normatividad</p>
-                    <p class="colorMedicamentos">
-                    <a href="Medicamentos_normatividad.html">
-                        <img src="images/medicamentos/IMG_MEDICAMENTOS_NORMATIVIDAD.jpg" width="85" height="63" />
+            <div class="logos colorSeguridadquimica bold140p">
+                <div class="centrado">
+                    <p class="colorSeguridadquimica">Documentos e investigaciones</p>
+                    <a href="{{asset("quimicos_documentos")}}">
+                    <img src="images/quimica/espacioDOCUMENTOS.jpg" width="85" height="63" alt="Aire docs" />
                     </a>
-                    </p>
                 </div>
-                <div class="centrado colorAgua">
-                    <p class="colorMedicamentos">Indicadores</p>
-                    <p>
-                    <img src="images/medicamentos/IMG_MEDICAMENTOS_INDICADORES.jpg" width="85" height="63" />
-                    </p>
+                <div class="centrado">
+                    <p class="colorSeguridadquimica">Mapas</p>
+                    <img src="images/quimica/espacioMAPA.jpg" width="85" height="63" alt="Aire mapa" />
                 </div>
-            </div>         
+                <div class="centrado">
+                    <p class="colorSeguridadquimica">Normatividad</p>
+                    <a href="{{asset("quimicos_normatividad")}}">
+                        <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
+                    </a>
+                </div>
+                <div class="centrado">
+                    <p class="colorSeguridadquimica">Indicadores</p>
+                    <a href="{{asset("quimicos_indicadores")}}">
+                        <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />
+                    </a>
+                </div>
+            </div>           
             
         </div>    
 @endsection

@@ -76,7 +76,7 @@
                         <p align="left" class="colorAlimentos">
                             <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" align="absbottom" />Normatividad</p>
                         <p align="center" class="colorAlimentos">Regulación Transversal</p>
-                        <p align="center" class="colorAlimentos">&nbsp;</p>
+                        <p align="center" class="colorAlimentos"></p>
                     </div>
 
                     <table width="100%" border="0">
@@ -85,7 +85,7 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseAditivos" role="button" aria-expanded="false" aria-controls="collapseAditivos" style="cursor: pointer; color:black; text-align:left;">
-                                        Aditivos alimentarios
+                                         <span class="breadcrumb_ alimentos">Aditivos alimentarios</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseAditivos">
@@ -131,7 +131,7 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseInspeccion" role="button" aria-expanded="false" aria-controls="collapseInspeccion" style="cursor: pointer; color:black; text-align:left;">
-                                        Inspección, vigilancia y control de procedimientos 
+                                        <span class="breadcrumb_ alimentos">Inspección, vigilancia y control de procedimientos</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseInspeccion">
@@ -165,7 +165,7 @@
                                 
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseMuestras" role="button" aria-expanded="false" aria-controls="collapseMuestras" style="cursor: pointer; color:black; text-align:left;"> 
-                                        Muestras sin valor comercial, incentivos
+                                        <span class="breadcrumb_ alimentos">Muestras sin valor comercial, incentivos</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseMuestras">
@@ -182,7 +182,7 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseImportacion" role="button" aria-expanded="false" aria-controls="collapseImportacion" style="cursor: pointer; color:black; text-align:left;"> 
-                                        Importación y exportación
+                                        <span class="breadcrumb_ alimentos">Importación y exportación</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseImportacion">
@@ -210,7 +210,7 @@
                                 
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseSuperficies" role="button" aria-expanded="false" aria-controls="collapseSuperficies" style="cursor: pointer; color:black; text-align:left;"> 
-                                        Superficies en contacto
+                                       <span class="breadcrumb_ alimentos"> Superficies en contacto</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseSuperficies">
@@ -236,8 +236,8 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapsePracticas" role="button" aria-expanded="false" aria-controls="collapsePracticas" style="cursor: pointer; color:black; text-align:left;">
-                                        Buenas Prácticas de Manufactura - BPM, Sistema de Análisis de Riesgos y Puntos Críticos de Control
-                                        HACCP, Registro, Permiso y Notificación
+                                       <span class="breadcrumb_ alimentos"> Buenas Prácticas de Manufactura - BPM, Sistema de Análisis de Riesgos y Puntos Críticos de Control
+                                        HACCP, Registro, Permiso y Notificación</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapsePracticas">
@@ -270,7 +270,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseRotulado" role="button" aria-expanded="false" aria-controls="collapseRotulado" style="cursor: pointer; color:black; text-align:left;">
-                                        Rotulado etiquetado
+                                        <span class="breadcrumb_ alimentos">Rotulado etiquetado</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseRotulado">
@@ -290,7 +290,7 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseAlimentos" role="button" aria-expanded="false" aria-controls="collapseAlimentos" style="cursor: pointer; color:black; text-align:left;">
-                                        Alimentos envasados herméticamente
+                                        <span class="breadcrumb_ alimentos">Alimentos envasados herméticamente</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseAlimentos">
@@ -302,7 +302,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseLimites" role="button" aria-expanded="false" aria-controls="collapseLimites" style="cursor: pointer; color:black; text-align:left;">
-                                        Límites máximos de residuos y niveles máximos
+                                       <span class="breadcrumb_ alimentos"> Límites máximos de residuos y niveles máximos</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseLimites">
@@ -327,14 +327,14 @@
                             </td>
                         </tr>
                     </table>
-                    
-                    <h2 align="center" class="colorAlimentos">Regulación Específica</h2>
+                    <br></br>
+                    <h2 align="center" class="colorAlimentos"><b>Regulación Específica</b></h2>
                     <table width="100%" border="0">
                         <tr class="alinearVerticalInicial">
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseCarne" role="button" aria-expanded="false" aria-controls="collapseCarne" style="cursor: pointer; color:black; text-align:left;"> 
-                                        Carne y productos cárnicos
+                                        <span class="breadcrumb_ alimentos">Carne y productos cárnicos</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseCarne">
@@ -420,7 +420,7 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapsePesca" role="button" aria-expanded="false" aria-controls="collapsePesca" style="cursor: pointer; color:black; text-align:left;">
-                                        Productos de la pesca
+                                        <span class="breadcrumb_ alimentos">Productos de la pesca</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapsePesca">
@@ -453,7 +453,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseBebidas" role="button" aria-expanded="false" aria-controls="collapseBebidas" style="cursor: pointer; color:black; text-align:left;">
-                                        Bebidas alcohólicas
+                                       <span class="breadcrumb_ alimentos"> Bebidas alcohólicas</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseBebidas">
@@ -474,7 +474,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseLaboratorios" role="button" aria-expanded="false" aria-controls="collapseLaboratorios" style="cursor: pointer; color:black; text-align:left;">
-                                        Laboratorios
+                                       <span class="breadcrumb_ alimentos"> Laboratorios</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseLaboratorios">
@@ -489,7 +489,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseAceites" role="button" aria-expanded="false" aria-controls="collapseAceites" style="cursor: pointer; color:black; text-align:left;">
-                                        Aceites y grasas
+                                        <span class="breadcrumb_ alimentos">Aceites y grasas</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseAceites">
@@ -504,7 +504,7 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#Bebidas" role="button" aria-expanded="false" aria-controls="Bebidas" style="cursor: pointer; color:black; text-align:left;">
-                                        Bebidas Embriagantes
+                                       <span class="breadcrumb_ alimentos"> Bebidas Embriagantes</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="Bebidas">
@@ -519,7 +519,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseDerivados" role="button" aria-expanded="false" aria-controls="collapseDerivados" style="cursor: pointer; color:black; ">
-                                        Derivados lácteos
+                                        <span class="breadcrumb_ alimentos">Derivados lácteos</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseDerivados">
@@ -538,7 +538,7 @@
 
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseSal" role="button" aria-expanded="false" aria-controls="collapseSal" style="cursor: pointer; color:black; ">
-                                        Sal
+                                        <span class="breadcrumb_ alimentos">Sal</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseSal">
@@ -556,7 +556,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseMiel" role="button" aria-expanded="false" aria-controls="collapseMiel" style="cursor: pointer; color:black; ">
-                                        Miel
+                                       <span class="breadcrumb_ alimentos"> Miel</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseMiel">
@@ -568,7 +568,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseSueros" role="button" aria-expanded="false" aria-controls="collapseSueros" style="cursor: pointer; color:black; "> 
-                                        Lacto sueros
+                                        <span class="breadcrumb_ alimentos">Lacto sueros</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseSueros">
@@ -588,7 +588,7 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseEnergizantes" role="button" aria-expanded="false" aria-controls="collapseEnergizantes" style="cursor: pointer; color:black; "> 
-                                        Bebidas energizantes
+                                        <span class="breadcrumb_ alimentos">Bebidas energizantes</span>
                                     </h3>
                                 </p>    
                                 <div class="collapse" id="collapseEnergizantes">
@@ -600,7 +600,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseLeche" role="button" aria-expanded="false" aria-controls="collapseLeche" style="cursor: pointer; color:black; ">
-                                        Leche
+                                        <span class="breadcrumb_ alimentos">Leche</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseLeche">
@@ -618,7 +618,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda" data-toggle="collapse" href="#collapseMayonesa" role="button" aria-expanded="false" aria-controls="collapseMayonesa" style="cursor: pointer; color:black; ">
-                                        Mayonesa
+                                       <span class="breadcrumb_ alimentos"> Mayonesa</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseMayonesa">
@@ -633,7 +633,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapsePastas" role="button" aria-expanded="false" aria-controls="collapsePastas" style="cursor: pointer; color:black; ">
-                                        Pastas alimenticias
+                                        <span class="breadcrumb_ alimentos">Pastas alimenticias</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapsePastas">
@@ -645,7 +645,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseEspecias" role="button" aria-expanded="false" aria-controls="collapseEspecias" style="cursor: pointer; color:black; ">
-                                        Especias
+                                        <span class="breadcrumb_ alimentos">Especias</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseEspecias">
@@ -660,7 +660,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseOrganismos" role="button" aria-expanded="false" aria-controls="collapseOrganismos" style="cursor: pointer; color:black; "> 
-                                        Organismos Genéticamente Modificados - OGM
+                                        <span class="breadcrumb_ alimentos">Organismos Genéticamente Modificados - OGM</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseOrganismos">
@@ -686,7 +686,7 @@
                             <td width="20%">
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseHidratantes" role="button" aria-expanded="false" aria-controls="collapseHidratantes" style="cursor: pointer; color:black; "> 
-                                        Bebidas hidratantes
+                                        <span class="breadcrumb_ alimentos">Bebidas hidratantes</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseHidratantes">
@@ -698,7 +698,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseProduccion" role="button" aria-expanded="false" aria-controls="collapseProduccion" style="cursor: pointer; color:black; ">
-                                        Producción de cacao
+                                       <span class="breadcrumb_ alimentos"> Producción de cacao</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseProduccion">
@@ -710,7 +710,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseAguaEnvasada" role="button" aria-expanded="false" aria-controls="collapseAguaEnvasada" style="cursor: pointer; color:black; ">
-                                        Agua envasada
+                                        <span class="breadcrumb_ alimentos">Agua envasada</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseAguaEnvasada">
@@ -722,7 +722,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseFrutas" role="button" aria-expanded="false" aria-controls="collapseFrutas" style="cursor: pointer; color:black; "> 
-                                        Frutas y hortalizas
+                                        <span class="breadcrumb_ alimentos">Frutas y hortalizas</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapseFrutas">
@@ -746,7 +746,7 @@
                                 </div> 
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseVinagre" role="button" aria-expanded="false" aria-controls="collapseVinagre" style="cursor: pointer; color:black; ">
-                                        Vinagre
+                                       <span class="breadcrumb_ alimentos"> Vinagre</span>
                                     </h3>
                                 </p>                            
                                 <div class="collapse" id="collapseVinagre">
@@ -758,7 +758,7 @@
                                 </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapsePanela" role="button" aria-expanded="false" aria-controls="collapsePanela" style="cursor: pointer; color:black; "> 
-                                        Panela
+                                        <span class="breadcrumb_ alimentos">Panela</span>
                                     </h3>
                                 </p>
                                 <div class="collapse" id="collapsePanela">

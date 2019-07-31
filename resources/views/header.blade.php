@@ -110,30 +110,29 @@
                                 <li class="dropdown-item dropdown-submenu">
                                     <a >Expendio de carnes y cárnicos comestibles</a>
                                     <ul class="dropdown-menu">
-                                        <a href="http://appb.saludcapital.gov.co/Sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&n=&Origen=Login">
-                                           <li class="dropdown-item">
-                                               Inscripción y/o Autorización Sanitaria
-
+                                        <a href="http://appb.saludcapital.gov.co/Sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&n=&Origen=Login#">
+                                            <li class=" dropdown-item ">
+                                                Inscripción y Autorización sanitaria
                                             </li>
                                         </a>
-                                        <!-- <a href="http://appb.saludcapital.gov.co/SivigilaDC/Login.aspx">-->
-                                                  <li class="dropdown-item">
-
+                                      <!--  <a href="http://appb.saludcapital.gov.co/Sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&n=&Origen=Login#">
+                                            <li class="dropdown-item">
+                                             Autorización sanitaria-->
                                             </li>
                                         </a>
                                     </ul>
                                 </li>
-                                <li class="dropdown-item dropdown-submenu">
-                                    <a>Vehículos transportadores</a>
-                                    <ul class="dropdown-menu">
-                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&amp;n=&amp;Origen=Login">
+                                  <li class="dropdown-item dropdown-submenu">
+                                  <a>Vehículos transportadores</a>
+                                    <ul class=" dropdown-menu ">
+                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&Origen=Login&IdTipo=258&n=1295577553#">
                                             <li class="dropdown-item">
-                                                Cárnicos
+                                               IInscripción y Autorización sanitaria
                                              </li>
                                         </a>
-                                        <a href="http://appb.saludcapital.gov.co/sivigiladc/ExpendioDeCarne/frmSubMenuExpCarnes.aspx?opcion=New&amp;n=&amp;Origen=Login">
+                                          <!-- <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&Origen=Login&IdTipo=258&n=990998692#">
                                             <li class="dropdown-item">
-                                                Alimentos
+                                                Autorización sanitaria-->
                                             </li>
                                         </a>
                                     </ul>
@@ -153,8 +152,8 @@
                             </a>
                             <ul class="dropdown-menu" >
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("agua_saneamiento_basico")}}"> <em>Calidad del agua y Sanemaiento Básico</em> </a>
-                                <li class="dropdown-item dropdown-submenu">
-                                    <a>Carrotanques</a>
+                                <!-- <li class="dropdown-item dropdown-submenu">
+                                    <!-- <a>Carrotanques</a> -->
                                     <ul class="dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <a href="https://drive.google.com/open?id=1viKWkuMqYlujwWnJLNfSfXw_ARKD9THh">
                                             <li class="dropdown-item">
@@ -184,7 +183,7 @@
                             </a>
                             <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico"  href="{{asset("cambio_climatico")}}"><em>Cambio Climático</em> </a>
-                                <a class="dropdown-item" href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">Índice de radicaón UV</a>
+                                <a class="dropdown-item" href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">Índice de Radiación UV</a>
                                 <a class="dropdown-item" href="https://drive.google.com/open?id=1qQLcL0pdxRg6FWcKoUIH7WPqhE5Ndog-">Índice de vulnerabilidad</a>
                                 <a class="dropdown-item" href="{{asset("cambio_climatico_indicadores")}}">Indicadores</a>
                                 <a class="dropdown-item" href="{{asset("cambio_climatico_normatividad")}}">Normatividad</a>
@@ -200,7 +199,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("espacio_movilidad")}}"> <em>Hábitat, Espacio público y movilidad</em> </a>
-                                <a class="dropdown-item" href="{{asset("espacio_movilidad_indicadores")}}">Indicadores</a>
+                                <!-- <a class="dropdown-item" href="{{asset("espacio_movilidad_indicadores")}}">Indicadores</a> -->
                                 <!-- <a class="dropdown-item" href="{{asset("espacio_movilidad_normatividad")}}">Normatividad</a> -->
                                 {{-- <a class="dropdown-item" href="{{asset("espacio_movilidad_radiacion")}}">Radiación Electromagnética</a> --}}
                                 {{-- <a class="dropdown-item" href="#">Mapas</a>--}}
@@ -248,12 +247,12 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico"  href="{{asset("quimicos")}}"><em>Seguridad Química</em> </a>
                                 <a class="dropdown-item" href="http://www.saludcapital.gov.co/SectorBelleza/Paginas/Inicio.aspx">Sector belleza y estética</a>
-                                <a class="dropdown-item" href="http://appb.saludcapital.gov.co/microsivigiladc/ServiciosComuni5.aspx">Proyecto PISA</a>
+                                <a class="dropdown-item" href="https://drive.google.com/open?id=1yzklCm3MbDFIJFcvXehRA4kW7H6vX1_D">Proyecto PISA</a>
                                 <a class="dropdown-item" href="{{asset("quimicos_conceptos")}}">Establecimiento con concepto favorable</a>
                                 <a class="dropdown-item" href="{{asset("quimicos_indicadores")}}">Indicadores</a>
                                 <a class="dropdown-item" href="{{asset("quimicos_normatividad")}}">Normatividad</a>
                                 {{-- <a class="dropdown-item" href="#">Mapas</a> --}}
-                                <!-- <a class="dropdown-item"href="{{asset("quimicos_documentos")}}">Documentos e investigaciones</a> -->
+                                <a class="dropdown-item" href="{{asset("quimicos_documentos")}}">Documentos e investigaciones</a>
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>
                         </li>
@@ -265,12 +264,12 @@
                             <div class="dropdown-menu dropdown-menu-izq" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("etoz")}}"><em>Eventos Transmisibles de Origen <br> Zoonótico ETOZ</em> </a>
                                 <!-- <a class="dropdown-item" href="#">Clínicas y consultorios veterinarios</a> -->
-                                <a class="dropdown-item" href="https://drive.google.com/open?id=0B2R7_2yRTHO0ZXo1aEFub29ab3pVVDdScl9XeWpHeWk2MXA4">Vacunación antirrábica canina y felina</a>
-                                 <a class="dropdown-item" href="#">Control de roedores e insectos</a>
+                                <a class="dropdown-item" href="https://drive.google.com/open?id=1XT7W9iDykOtuSFZvWaD7x4mNyJMNjtiU">Vacunación antirrábica canina y felina</a>
+                                <a class="dropdown-item" href="https://drive.google.com/open?id=1O_1ttf1bCVs9W0xA1g8nSdw_B1ZiqVOi">Control de roedores e insectos</a>
                                 <!-- <a class="dropdown-item" href="#">Establecimiento con concepto favorable</a> -->
                                 <a class="dropdown-item"  href="{{asset("etoz_indicadores")}}">Indicadores</a>
-                               <a class="dropdown-item" href="{{asset("etoz_normatividad")}}">Normatividad</a>
-                                 <a class="dropdown-item" href="#">Mapas</a>
+                                <a class="dropdown-item" href="{{asset("etoz_normatividad")}}">Normatividad</a>
+                                 <a class="dropdown-item"  href="{{asset("etoz_mapas")}}">Mapas</a>
                                 <a class="dropdown-item"  href="{{asset("etoz_documentos")}}">Documentos e investigaciones</a>
                                 {{-- <a class="dropdown-item" href="#">Gestión de la salud ambiental</a> --}}
                             </div>

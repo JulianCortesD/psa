@@ -78,17 +78,17 @@
                     de la industria y del sector belleza, así como el acompañamiento a los establecimientos en su gestión de la salud ambiental.</p>
                     <p>&nbsp;</p>
                     <ul>
-                    <li class="colorSeguridadquimica">
-                        <span >Tasa incidencia de intoxicación con sustancias químicas en Bogotá D.C</span>..
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/intoxicacion/">Ver aquí</a>
-                    </li>
+                        <li class="colorSeguridadquimica">
+                            <span >Tasa incidencia de intoxicación con sustancias químicas en Bogotá D.C</span>..
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/intoxicacion/">Ver aquí</a>
+                        </li>
                     </ul>
                     <p>&nbsp;</p>
                     <ul>
-                    <li class="colorSeguridadquimica">
-                        <span >Cantidad de sustancias químicas peligrosas por habitante en Bogotá D.C</span>.
-                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/distribucionsustanciasquimicaspeligrosaspercapita/">ver aquí</a>
-                    </li>
+                        <li class="colorSeguridadquimica">
+                            <span >Cantidad de sustancias químicas peligrosas por habitante en Bogotá D.C</span>.
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/distribucionsustanciasquimicaspeligrosaspercapita/">ver aquí</a>
+                        </li>
                     </ul>
                     <p>&nbsp;</p>
                     <p align="right">&nbsp;</p>
@@ -103,7 +103,7 @@
             <div class="logos colorSeguridadquimica bold140p">
                 <div class="centrado">
                     <p class="colorSeguridadquimica">Documentos e investigaciones</p>
-                    <a href="SeguridadQuimica_Documentos.html">
+                    <a href="{{asset("quimicos_documentos")}}">
                     <img src="images/quimica/espacioDOCUMENTOS.jpg" width="85" height="63" alt="Aire docs" />
                     </a>
                 </div>
@@ -113,17 +113,17 @@
                 </div>
                 <div class="centrado">
                     <p class="colorSeguridadquimica">Normatividad</p>
-                    <a href="SeguridadQuimica_Normatividad.html">
-                    <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
+                    <a href="{{asset("quimicos_normatividad")}}">
+                        <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
                     </a>
                 </div>
                 <div class="centrado">
                     <p class="colorSeguridadquimica">Indicadores</p>
-                    <a href="SeguridadQuimica_Indicadores.html">
-                    <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />
+                    <a href="{{asset("quimicos_indicadores")}}">
+                        <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />
                     </a>
                 </div>
-                </div>        
+            </div>         
             
         </div>    
 @endsection

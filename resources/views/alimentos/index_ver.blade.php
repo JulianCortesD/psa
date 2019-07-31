@@ -96,28 +96,24 @@
 
                     <h2 align="left" class="colorAlimentos">Objetivos Específicos</h2>
                     <ul class="titulos1">
-                    <li>
-                        <div align="justify" class="colorIndicadores">Verificar las condiciones higiénico-sanitarias de los establecimientos donde se preparan, almacenan, transportan
-                        y expenden alimentos y bebidas, así como en las fábricas de bebidas alcohólicas.</div>
-                    </li>
-                    <li>
-                        <div align="justify" class="colorIndicadores">Capacitar a manipuladores de alimentos y población en general en manejo higiénico de alimentos basado en las Buenas
-                        Prácticas de Manufactura.</div>
-                    </li>
-                    <li> </li>
-                    <li>
-                        <div align="justify" class="colorIndicadores">Desarrollar una estrategia de comunicación dirigida a la comunidad en cuanto a la importancia que tiene la notificación
+                  
+                        <li align="justify" class="colorIndicadores">Verificar las condiciones higiénico-sanitarias de los establecimientos donde se preparan, almacenan, transportan
+                        y expenden alimentos y bebidas, así como en las fábricas de bebidas alcohólicas.</li>
+                   
+                    
+                        <li align="justify" class="colorIndicadores">Capacitar a manipuladores de alimentos y población en general en manejo higiénico de alimentos basado en las Buenas
+                        Prácticas de Manufactura.</li>
+                    
+                        <li align="justify" class="colorIndicadores">Desarrollar una estrategia de comunicación dirigida a la comunidad en cuanto a la importancia que tiene la notificación
                         de situaciones que evidencien incumplimiento en las normas sanitarias por parte de los establecimientos. De igual
-                        forma la notificación de eventos de interés en la salud pública asociados al consumo de alimentos.</div>
-                    </li>
-                    <li>
-                        <div align="justify" class="colorIndicadores">Vigilar factores de riesgo que puedan originar la aparición de brotes de Enfermedades Transmitidas por Alimentos-ETA
-                        y tomar decisiones que contribuyan a su disminución y control.</div>
-                    </li>
-                    <li>
-                        <div align="justify" class="colorIndicadores">Verificar la calidad e inocuidad de los alimentos y bebidas alcohólicas que se preparan, almacenan, transportan
-                        y comercializan en el Distrito Capital mediante actividades de inspección, vigilancia y control.</div>
-                    </li>
+                        forma la notificación de eventos de interés en la salud pública asociados al consumo de alimentos.</li>
+                   
+                        <li align="justify" class="colorIndicadores">Vigilar factores de riesgo que puedan originar la aparición de brotes de Enfermedades Transmitidas por Alimentos-ETA
+                        y tomar decisiones que contribuyan a su disminución y control.</li>
+                    
+                        <li align="justify" class="colorIndicadores">Verificar la calidad e inocuidad de los alimentos y bebidas alcohólicas que se preparan, almacenan, transportan
+                        y comercializan en el Distrito Capital mediante actividades de inspección, vigilancia y control.</li>
+                   
                   </ul>
 
                     <h2 class="colorAlimentos">Ejes Temáticos</h2>

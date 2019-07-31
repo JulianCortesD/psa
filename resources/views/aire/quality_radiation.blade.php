@@ -72,20 +72,24 @@
             <div class="row">
                 <div class="contenidoSecAmb centradoDiv">
                     <div></div>
-                
-                    <h3 class="centrado colorAire mt40">Radiación electromagnética</strong>
+                 <br></br>
+                    <h1 class="seccion fondoAire sinSaltoLinea">Radiación electromagnética</h1>
                         </p>
                     </h3>
+ <p align="justify">La Secretaría Distrital de Salud realiza la vigilancia sanitaria, ambiental y epidemiológica de la exposición poblacional
+                        a radiación electromagnética, desarrollando procesos para orientar el diseño de estrategias e intervenciones tendientes
+                        a mitigar los efectos nocivos asociados a este factor de riesgo.</p>
                     <p align="justify">
-                        <strong>Vigilancia Epidemiológica;</strong> Vigila los posibles efectos en salud debido a la exposición a radiaciones electromagnéticas
+                        <h3 class="colorAire">Vigilancia Epidemiológica</h3><p align="justify">
+                       <p align="justify">Vigila los posibles efectos en salud debido a la exposición a radiaciones electromagnéticas
                         no ionizantes, mediante el análisis de la información captada a través de las encuestas de percepción aplicadas a
                         la población entre los 18 a 55 años, con el propósito de conocer los factores asociados al síndrome de radiofrecuencia.
                         </p>
                     <p align="justify">
-                        <strong>Vigilancia Sanitaria:</strong> Contempla la atención de quejas presentadas por la comunidad respecto a la ubicación
+                         <h3 class="colorAire">Vigilancia Sanitaria</h3><p align="justify"> Contempla la atención de quejas presentadas por la comunidad respecto a la ubicación
                         de infraestructuras eléctricas y de comunicaciones que emiten radiaciones electromagnéticas. </p>
                     <p align="justify">
-                        <strong>Vigilancia Ambiental</strong>: Consta del seguimiento a reportes de la Agencia Nacional del Espectro – ANE, así como
+                       <h3 class="colorAire">Vigilancia Ambiental</h3><p align="justify">  Consta del seguimiento a reportes de la Agencia Nacional del Espectro – ANE, así como
                         la caracterización de infraestructuras tales como: estación base de telefonía móvil, antena de telefonía móvil, antena
                         de televisión, antena de radio, transformador, subestación eléctrica, líneas de alta, media y baja tensión u otra,
                         asociadas con la exposición a radiación electromagnética.</p>

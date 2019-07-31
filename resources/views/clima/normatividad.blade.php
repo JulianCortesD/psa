@@ -97,7 +97,7 @@
                                     <a href="https://drive.google.com/open?id=1znstvNoa3HG3WiUCz-9ldxddDq94WCev" class="colorIndicadores">Decreto 596 de 2011</a>
                                     </div>
                                     <div align="center" class="colorIndicadores">
-                                    <a href="https://drive.google.com/open?id=1qqDI10DnNTRNNKarCBeK9Wvumuzytdqj" class="colorIndicadores">Decreto 566 de 2014</a>
+                                    <a href="https://drive.google.com/open?id=1YkTvYQsnab6T8JKnfExvVwb0ymyuNxrK" class="colorIndicadores">Decreto 566 de 2014</a>
                                     </div>
                                     <div align="center" class="colorIndicadores">
                                     <a href="https://drive.google.com/open?id=1k5xaLtDV1yUJ2O7ZIEtK1Q_-f1xl_3J5" class="colorIndicadores">Decreto 579 de 2015</a>
@@ -126,7 +126,7 @@
                                     <a href="https://drive.google.com/open?id=14Co7TLz2pY8GaoFrveBkpSHvrcddXOGW" class="colorIndicadores">Ley 164 de 1994</a>
                                     </div>
                                     <div align="center">
-                                    <a href="https://drive.google.com/open?id=1E_QoUsYp-BLYc1JXOrSWYVPsbNehRr-" class="colorIndicadores">Ley 629 de 2000</a>
+                                    <a href="https://drive.google.com/open?id=1E_QoUsYp-BLYc1JXOrSWYVPsbNehRr-_" class="colorIndicadores">Ley 629 de 2000</a>
                                     </div>
                                     <div align="center">
                                     <a href="https://drive.google.com/open?id=1R1I4ujPg2CwQP4l3VBle6NH1ZUef3cPw" class="colorIndicadores">Conpes 3242 de 2003</a>
@@ -151,9 +151,7 @@
                                     <div align="center">
                                     <a href="https://drive.google.com/open?id=1iy8jD54Odqc6Lknbz-hbq9R-pkWpS-Wx" class="colorIndicadores">Acuerdo 418 de 2009</a>
                                     </div>
-                                    <div align="center">
-                                    <a href="https://drive.google.com/open?id=1tlP1ej3HPDsSi80irYQ4YNVdU2R2yHIy" class="colorIndicadores">Resolución 2733 de 2010</a>
-                                    </div>
+                                    
                                     <div align="center">
                                     <a href="https://drive.google.com/open?id=1lJqCCndFGGQF97qLGlEf2DVuWPr8PImf" class="colorIndicadores">Resolución 2734 de 2010</a>
                                     </div>

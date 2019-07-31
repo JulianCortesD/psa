@@ -78,7 +78,7 @@
                             </h3>
                         </div>
                     
-                        <h3 class="centrado colorAire mt40">Calidad del aire</h3>
+                        <h3 class="colorAire mt40">Calidad del aire</h3>
                         <p align="justify">Aquí podrá observar la ubicación geográfica de las acciones de vigilancia ambiental, sintomatología y enfermedades
                             respiratorias posiblemente asociadas con la exposición a contaminación del aire en Bogotá.  </p>
                         <table border="0">
@@ -164,7 +164,7 @@
                             </tr>
                         </table>
                         <div align="center"></div>
-                        <h3 class="centrado colorAire">Espacios libres de humo</h3>
+                        <h3 class="colorAire">Espacios libres de humo</h3>
                         <p align="justify">Aquí podrá encontrar la &ldquo;ubicación geográfica&rdquo; de las acciones de vigilancia, inspección y control a establecimientos
                             públicos que garanticen ambientes 100% libres de humo de tabaco y la frecuencia de casos relacionados con la exposición
                             al humo de tabaco. </p>
@@ -178,8 +178,95 @@
                             <td width="747" height="50" class="colorIndicadores">Quejas atendidas por exposición a contaminación de tabaco, Bogotá, año 2018. </td>
                             </tr>
                         </table>
-                        <p align="justify">&nbsp;</p>
-                        <h3 class="centrado colorAire">Ruido</h3>
+
+                        <table width="805" border="0">
+                            <tr>
+                            <td width="48">
+                                <a href="https://drive.google.com/open?id=1Icp8dINl8D7u87Gacylj5e8Vk37Y5xeg">
+                                <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                </a>
+                            </td>
+                            <td width="755" height="50" class="colorIndicadores">Tabaco en el hogar en menores de 5 años Vs. Zonas de exposición de contaminación de aire Bogotá, año 2018. </td>
+                            </tr>
+                        </table>
+
+                         <table width="805" border="0">
+                            <tr>
+                            <td width="48">
+                                <a href="https://drive.google.com/open?id=1R_YAxx-1MSvW_DxwrvgA3q2aUUb_cmut">
+                                <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                </a>
+                            </td>
+                            <td width="755" height="50" class="colorIndicadores">Mujeres que fumaron durante el embarazo en menores de 5 años Vs. zonas de exposición de contaminación de aire Bogotá, Año 2018. </td>
+                            </tr>
+                        </table>
+
+                         <table width="805" border="0">
+                            <tr>
+                            <td width="48">
+                                <a href="https://drive.google.com/open?id=1ScpQZwge52wo-WTtfo2KEOlSBwA_uz_a">
+                                <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                </a>
+                            </td>
+                            <td width="747" height="50" class="colorIndicadores">Tabaco en el hogar niños de 5 a 14 años Vs. Zonas de exposición de contaminación de aire Bogotá, año 2018.   </td>
+                            </tr>
+                        </table>
+
+                         <table width="805" border="0">
+                            <tr>
+                            <td width="48">
+                                <a href="https://drive.google.com/open?id=1-QzFpuPMeySvwPe_JR_KgolGbG3Kx2-9">
+                                <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                </a>
+                            </td>
+                            <td width="747" height="50" class="colorIndicadores">Mujeres que fumaron durante el embarazo niños de 5 a 14 años Vs. Zonas de exposición de contaminación de aire Bogotá, Año 2018  </td>
+                            </tr>
+                        </table>
+                        <table width="805" border="0">
+                            <tr>
+                            <td width="48">
+                                <a href="https://drive.google.com/open?id=1PVI71gwbewiIA2uT8d80yI0NkPsepdm3">
+                                <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                </a>
+                            </td>
+                            <td width="747" height="50" class="colorIndicadores">Tabaquismo pasivo en menores de 5 años Vs. Zonas de exposición de contaminación de aire Bogotá, Año 2018  </td>
+                            </tr>
+                        </table>
+
+                        <table width="805" border="0">
+                            <tr>
+                            <td width="48">
+                                <a href="https://drive.google.com/open?id=14AB28HasUoq_uD1nvatAe0oGREpTkHJc">
+                                <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                </a>
+                            </td>
+                            <td width="747" height="50" class="colorIndicadores">Tabaquismo pasivo niños de 5 a 14 años Vs. Zonas de exposición de contaminación de aire Bogotá, Año 2018  </td>
+                            </tr>
+                        </table>
+
+                        <table width="805" border="0">
+                            <tr>
+                            <td width="48">
+                                <a href="https://drive.google.com/open?id=1kZ2cHIDM7D2Y2nHzq4QuS1lUldfF2_uV">
+                                <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                </a>
+                            </td>
+                            <td width="747" height="50" class="colorIndicadores">Tabaquismo pesado en adulto mayor Vs. Zonas de exposición de contaminación de aire Bogotá, Año 2018  </td>
+                            </tr>
+                        </table>
+
+                        <table width="805" border="0">
+                            <tr>
+                            <td width="48">
+                                <a href="https://drive.google.com/open?id=1oPbks8ceDgY3w0VpkQ8lFyDSy7Ye6vH9">
+                                <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                </a>
+                            </td>
+                            <td width="747" height="50" class="colorIndicadores">Establecimientos con incumplimientos de tabaco ley 1335 de 2009 Bogotá, año 2018 </td>
+                            </tr>
+                        </table>
+                        <p align="justify"></p>
+                        <h3 class="colorAire">Ruido</h3>
                         <p>Contempla las ubicaciones geográficas de las acciones de vigilancia ambiental, sanitaria y los eventos de interés en
                             salud pública relacionados con la exposición a ruido en Bogotá. </p>
                         <table width="858" border="0">
@@ -218,7 +305,7 @@
                             <td class="colorIndicadores">Distribución de casos de buenos y malos dormidores en población, según el ICSP. Bogotá, año 2018</td>
                             </tr>
                         </table>
-                        <h3 class="centrado colorAire">Radiación electromagnética</h3>
+                        <h3 class="colorAire">Radiación electromagnética</h3>
                         <p>Muestran las ubicaciones geográficas de las acciones de vigilancia ambiental, sanitaria y eventos de interés en salud
                             pública relacionados con la exposición a radiación electromagnética en Bogotá. </p>
                         <table width="797" border="0">
@@ -231,7 +318,7 @@
                             <td width="615" height="50" class="colorIndicadores">Quejas atendidas por exposición a contaminación de radiación electromagnética en Bogotá. Año 2018. </td>
                             </tr>
                         </table>
-                        <p>&nbsp;</p>
+                        
                     </div>
             </div>      
 

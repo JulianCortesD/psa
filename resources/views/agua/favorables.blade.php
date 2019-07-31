@@ -92,7 +92,7 @@
                             <td width="487" class="colorIndicadores">Listado de vehículos que prestan servicios fúnebres</td>
                         </tr>
                     </table>
-                    <p align="justify">&nbsp;</p>
+                    <p align="justify"></p>
                 </div>
             </div>  
 
@@ -115,7 +115,7 @@
                     <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
-                    <p class="colorAgua">Calidad del aire</p>
+                    <p class="colorAgua">Indicadores</p>
                     <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
             </div>    

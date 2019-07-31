@@ -9,21 +9,21 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Aire, ruido y radiación electromagnética</span>
-                </div>  
+                    <span class="breadcrumb_"> | Aire, ruido y radiación electromagnética|</span>
+                </div>
                 <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span> 
+                        <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
                             Fecha y hora
                         </div>
-                    </div>                                    
+                    </div>
                 </div>
-            </div>  
+            </div>
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
@@ -35,7 +35,7 @@
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -45,28 +45,28 @@
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                            </a>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-            </div>  
-            
+            </div>
+
             <div class="row">
                 <div >
                     <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
+                    </a>
                     <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
+                    </a>
                     <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
-            </div> 
+                    </a>
+               </div>
                 <div height="355">
                     <img src="images/aire/BannerEstAire.png" width="100%" alt="Slider aire" />
-                </div>
-            </div>
+              </div>
+          </div>
 
             <div class="row">
                 <div class="contenidoSecAmb centradoDiv">
@@ -76,10 +76,12 @@
                       <h1 class="seccion fondoAire sinSaltoLinea">Aire, Ruido y Radiación Electromagnética</h1>
                       <p>&nbsp;</p>
                     </div>
-              
-                    <p align="justify" class="contenidoSecAmb">
-                      <div align="justify">
-                        <p>La Secretaría Distrital de Salud de Bogotá (SDS) en coordinación con los equipos de la Línea de Aire, Ruido y Radiaciones
+                 <div class="contenidoSecAmb centradoDiv">
+                      <p align="justify">La Secretaria Distrital de Salud realiza el monitoreo de la información sobre las condiciones de exposición a contaminación
+                        del aire de la población vulnerable en Bogotá, mediante procesos de vigilancia epidemiológica, ambiental y sanitaria
+                        orientada al diseño de estrategias e intervenciones tendientes a mitigar los efectos nocivos asociados a este factor
+                        de riesgo.
+                        La Secretaría Distrital de Salud de Bogotá (SDS) en coordinación con los equipos de la Línea de Aire, Ruido y Radiaciones
                           Electromagnéticas (LARREM) de las Empresas Sociales del Estado E.S.E., dentro del proceso de Vigilancia Epidemiológica,
                           Ambiental y Sanitaria, realiza actividades de seguimiento a los principales efectos en salud asociados con la
                           contaminación del aire por Material Particulado (PM), la exposición a ruido y radiación electromagnética (REM),
@@ -87,80 +89,23 @@
                           y cigarrillo, &nbsp;contribuyendo  así a la prevención de enfermedades, la promoción de la salud y al proceso
                           de toma de decisiones en la implementación de la Política Distrital de Salud Ambiental (PDSA). </p>
                         <p align="right">
+                    </div>
                             <a href="{{asset("/aire_que_hacemos")}}" class="verMas colorAire">
                                 <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
                                 {{-- Ver más --}}
                             </a>
                         </p>
-                      </div>
-                      <h3 class="centrado mt40">
-                        <span class="colorAire">La contaminación del aire en Bogotá y los posibles efectos en salud</span>
-                      </h3>
-                      <p align="justify">La Secretaria Distrital de Salud realiza el monitoreo de la información sobre las condiciones de exposición a contaminación
-                        del aire de la población vulnerable en Bogotá, mediante procesos de vigilancia epidemiológica, ambiental y sanitaria
-                        orientada al diseño de estrategias e intervenciones tendientes a mitigar los efectos nocivos asociados a este factor
-                        de riesgo.</p>
-                      <p class="verMas colorAire">
-                            <a href="{{asset("/aire_calidad_contaminacion")}}" class="verMas colorAire">
-                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
-                                {{-- Ver más --}}
-                            </a>
-                      </p>
-              
-              
-              
-                      <h3 class="centrado colorAire">IBOCA</h3>
-                      <p align="justify">Índice Bogotano del Calidad de Aire (IBOCA): Aquí encontrara la información en tiempo real referente al índice bogotano
-                        de calidad de aire, modelación de calidad del aire y datos de inmisión (contaminantes criterio).</p>
-                      <p class="verMas colorAire">
-                            <a href="{{asset("/aire_calidad_iboca")}}" class="verMas colorAire">
-                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
-                                {{-- Ver más --}}
-                            </a>
-                      </p>
-              
-              
-              
-                      <h3 class="colorAire mt40 centrado">Espacios libres de humo de tabaco</h3>
-                      <p>La Secretaría Distrital de Salud realiza la inspección y vigilancia de la Ley 1335 de 2009 a establecimientos públicos,
-                        garantizando ambientes 100% libres de humo de tabaco. De igual manera, analiza los posibles efectos en salud por
-                        la exposición al humo de tabaco.</p>
-                      <p class="verMas colorAire">
-                            <a href="{{asset("/aire_calidad_tabaco")}}" class="verMas colorAire">
-                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
-                                {{-- Ver más --}}
-                            </a>
-                      </p>
-              
-              
-              
-                      <h3 class="colorAire mt40 centrado">Ruido</h3>
-                      <p align="justify">La Secretaría Distrital de Salud realiza la vigilancia epidemiológica, ambiental y sanitaria de la contaminación
-                        auditiva manteniendo actualizada la información sobre las condiciones de exposición de la población a ruido, mediante
-                        procesos orientados al diseño de estrategias e intervenciones tendientes a mitigar los efectos nocivos asociados
-                        a este factor de riesgo.</p>
-                      <p class="verMas colorAire">
-                            <a href="{{asset("/aire_calidad_ruido")}}" class="verMas colorAire">
-                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
-                                {{-- Ver más --}}
-                            </a>
-                      </p>
-              
-              
-              
-                      <h3 class="colorAire mt40 centrado">Radiación electromagnética</h3>
-                      <p align="justify">La Secretaría Distrital de Salud realiza la vigilancia sanitaria, ambiental y epidemiológica de la exposición poblacional
-                        a radiación electromagnética, desarrollando procesos para orientar el diseño de estrategias e intervenciones tendientes
-                        a mitigar los efectos nocivos asociados a este factor de riesgo.</p>
-                      <p class="verMas colorAire">
-                            <a href="{{asset("/aire_calidad_radiacion")}}" class="verMas colorAire">
-                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
-                                {{-- Ver más --}}
-                            </a>
-                      </p>
+                    </div>
+
+
+
+
+
+
+
                       <p class="notaPiePagina">&nbsp;</p>
                 </div>
-            </div>        
+            </div>
 
             <div class="row">
                 <hr class="lineaAire mt80" style="width: 100%;" />
@@ -186,7 +131,7 @@
                 </div>
             </div>
 
-        </div>    
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

@@ -38,6 +38,11 @@
     background-color: #0ec946;
 }
 .panel-questions {
-    max-height: 300px;
+    max-height: 145px;
     overflow: auto;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }

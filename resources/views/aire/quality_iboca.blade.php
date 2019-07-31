@@ -74,7 +74,7 @@
                         <!-- Texto inicial con fonto azul-->
                     
                         <div></div>
-                        <h3 class="centrado colorAire mt40">Índice Bogotano del Calidad de Aire (IBOCA)</h3>
+                        <h3 class="colorAire mt40">Índice Bogotano del Calidad de Aire (IBOCA)</h3>
                         <p align="justify">El índice bogotano de calidad del aire, fue adoptado de manera conjunta entre la Secretaria Distrital de Ambiente y
                             la Secretaria Distrital de Salud mediante la Resolución 2410 de 2015, en la cual se define al IBOCA como un indicador
                             multipropósito adimensional, calculado a partir de las concentraciones de contaminantes atmosféricos en un momento
@@ -84,7 +84,7 @@
                             También funciona como un indicador de riesgo ambiental por contaminación atmosférica en el marco del Sistema Distrital
                             de Alertas del Sistema Distrital de Gestión del Riesgo y Cambio Climático - SATAB Aire. </p>
                     
-                        <h3 class="centrado colorAire mt40">Pronóstico de calidad del aire</h3>
+                        <h3 class="colorAire mt40">Pronóstico de calidad del aire</h3>
                         <p align="justify">A través del Sistema Integrado de Modelación de Calidad de Aire de Bogotá (SIMCAB) la Secretaría Distrital de Ambiente
                             puede estimar el destino y distribución de la concentración de los contaminantes atmosféricos inventariados en la
                             ciudad, complementando la tarea de monitoreo desarrollada por la Red de Monitoreo de Calidad del Aire de Bogotá (RMCAB).

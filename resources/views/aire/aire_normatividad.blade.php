@@ -80,7 +80,8 @@
                         </div>
                         <p>Compilación   de las normas expedidas por las diferentes organizaciones gubernamentales   relacionadas con la calidad del aire, ambientes 100% libres de humo de tabaco,   contaminación por ruido y radiación electromagnética. </p>
                   <p>
-                  <h2  class="centrado colorAire mt40" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer; color:black;"><strong>Regulación Transversal</strong></h>
+                  <h2  class="centrado colorAire mt40 breadcrumb_ aire" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer; color:black;"><strong>Regulación Transversal</strong></h>
+               
                         </p>
                         <div class="collapse centrado" id="collapseTransversal">
                             <div  align="center">
@@ -100,9 +101,7 @@
                                                 <li>
                                                 <a href="https://drive.google.com/open?id=1m5fGx45ZcrTxsBbr3zpkZlvVlFd0X9xb" class="colorIndicadores">Ley 715 de 2001 </a>
                                                 </li>
-                                                <li>
-                                                <a href="https://drive.google.com/open?id=1R7vjUGyQa69JQTebM6K9n2OwxujrCavg" class="colorIndicadores">Conpes 3344 de 2005 </a>
-                                                </li>
+                                               
                                                 <li>
                                                 <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/decreto-3518-de-2006_1.pdf"
                                                     class="colorIndicadores">Decreto 3518 de 2006 </a>
@@ -129,12 +128,16 @@
                             <tr class="alinearVerticalInicial">
                                 <td>
                                     <p>
-                                        <h3 data-toggle="collapse" href="#collapseCalidadAire" role="button" aria-expanded="false" aria-controls="collapseCalidadAire" style="cursor: pointer; color:black; text-align:left;"> Calidad del Aire </h3>
+                                        <h3 data-toggle="collapse" href="#collapseCalidadAire" role="button" aria-expanded="false" aria-controls="collapseCalidadAire" style="cursor: pointer; color:black; text-align:left;"><span class="breadcrumb_ aire"> Calidad del Aire </span></h3>
+
                                     </p>
                                     <div class="collapse" id="collapseCalidadAire">
                                         <ul class="sinVinetas">
                                             <li>
-                                                <a href="drive.google.com/open?id=11kU7QdHb9cOrUb11JnP3_N4GFMruPkx0" class="colorIndicadores">Resolución 187 de 2007 </a>
+                                                <a href="https://drive.google.com/open?id=1R7vjUGyQa69JQTebM6K9n2OwxujrCavg" class="colorIndicadores">Conpes 3344 de 2005 </a>
+                                                </li>
+                                            <li>
+                                                <a href="https://drive.google.com/open?id=11kU7QdHb9cOrUb11JnP3_N4GFMruPkx0" class="colorIndicadores">Resolución 187 de 2007 </a>
                                             </li>
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1HVtf0AmWgH3kOCl6BjT9mTNXUxIxFMDR" class="colorIndicadores">Resolución 610 de 2010 </a>
@@ -154,9 +157,7 @@
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1PfTBvlLXhrEWaHnfHtQLS0RWkBXAzeto" class="colorIndicadores">Resolución 2410 de 2015 </a>
                                             </li>
-                                            <li>
-                                                <a href="https://drive.google.com/open?id=1lK8WRBvGDejqbkH2rakfH2WV5frvsIc7 " class="colorIndicadores">Guía internacional de la OMS </a>
-                                            </li>
+                                           
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1lK8WRBvGDejqbkH2rakfH2WV5frvsIc7" class="colorIndicadores">Guía internacional de la OMS </a>
                                             </li>
@@ -166,8 +167,7 @@
                                 </td>
                                 <td>
                                     <p>
-                                        <h3 data-toggle="collapse" href="#collapseTabaco" role="button" aria-expanded="false" aria-controls="collapseTabaco" style="cursor: pointer; color:black; text-align:left;">
-                                        Humo del Tabaco </h3>
+                                        <h3 data-toggle="collapse" href="#collapseTabaco" role="button" aria-expanded="false" aria-controls="collapseTabaco" style="cursor: pointer; color:black; text-align:left;"> <span class="breadcrumb_ aire">Humo del Tabaco </spna> </h3>
                                     </p>
                                     <div class="collapse" id="collapseTabaco">
                                         <ul class="sinVinetas">
@@ -178,10 +178,10 @@
                                                 <a href="https://drive.google.com/open?id=11GVY2GGLQiwjVBL_KHl8ULtG0C1XQ-Ha" class="colorIndicadores">Resolución 543 de 2001 </a>
                                             </li>
                                             <li>
-                                                <a href="https://drive.google.com/open?id=1GNWBP3rMUwBr4_uSUGa8S_hSFZ1ihBlps" class="colorIndicadores">Ley 1109 de 2006 </a>
+                                                <a href="https://drive.google.com/open?id=1GNWBP3rMUwBr4_uSUGa8S_hSFZ1ihBlp" class="colorIndicadores">Ley 1109 de 2006 </a>
                                             </li>
                                             <li>
-                                                <a href="https://drive.google.com/open?id=1N_qF7aycABLT1vVL89BR5jFECjbysp6M" class="colorIndicadores">CIRCULAR EXTERNA 80 DE 2008</a>
+                                                <a href="https://drive.google.com/open?id=1N_qF7aycABLT1vVL89BR5jFECjbysp6M" class="colorIndicadores">Circular externa 80 de 2008</a>
                                             </li>
                                             <li>
                                                 <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/resolucion-01956-de-2008.pdf"
@@ -215,7 +215,7 @@
                                                 <a href="https://drive.google.com/open?id=1E4vmtDEZ375T8FXBRiJK9ebouIVFB-lg" class="colorIndicadores">Convenio OMS para el control del Tabaco </a>
                                             </li>
                                             <li>
-                                                <a href="https://drive.google.com/open?id=1-A9Oo1reRSu2ws4b72rzWZVJe1tS_Axd" class="colorIndicadores">Auto 2014-00011 DE NOVIEMBRE 17 DE 2017</a>
+                                                <a href="https://drive.google.com/open?id=1-A9Oo1reRSu2ws4b72rzWZVJe1tS_Axd" class="colorIndicadores">Auto 2014-00011 de noviembre 17 de 2017</a>
                                             </li>
                                             <li>
                                                 <a href="http://www.sic.gov.co/sites/default/files/normatividad/032018/circular01.pdf" class="colorIndicadores">Circular 01 de 2018 - SIC </a>
@@ -226,8 +226,7 @@
                                 </td>
                                 <td>
                                     <p>
-                                        <h3 data-toggle="collapse" href="#collapseRadiacion" role="button" aria-expanded="false" aria-controls="collapseRadiacion" style="cursor: pointer; color:black; text-align:left;">
-                                        Olores Ofensivos </h3>
+                                        <h3 data-toggle="collapse" href="#collapseRadiacion" role="button" aria-expanded="false" aria-controls="collapseRadiacion" style="cursor: pointer; color:black; text-align:left;"><span class="breadcrumb_ aire">Olores Ofensivos</span> </h3>
                                     </p>
 
                                     <div class="collapse " id="collapseRadiacion">
@@ -246,7 +245,7 @@
 
                                     <p>
                                         <h3 data-toggle="collapse" href="#collapseRadiaciones" role="button" aria-expanded="false" aria-controls="collapseRadiaciones" style="cursor: pointer; color:black; text-align:left;">
-                                            Radiaciones Electromagnéticas
+                                           <span class="breadcrumb_ aire"> Radiaciones Electromagnéticas</span>
                                         </h3>
                                     </p>
                                     <div class="collapse" id="collapseRadiaciones">
@@ -291,9 +290,7 @@
                                 </td>
                                 <td>
                                     <p>
-                                        <h3 align="left" data-toggle="collapse" href="#collapseRuido" role="button" aria-expanded="false" aria-controls="collapseRuido" style="cursor: pointer; color:black; text-align:left;">
-                                            Contaminacíón por Ruido
-                                        </h3>
+                                        <h3 align="left" data-toggle="collapse" href="#collapseRuido" role="button" aria-expanded="false" aria-controls="collapseRuido" style="cursor: pointer; color:black; text-align:left;"><span class="breadcrumb_ aire">Contaminación por Ruido </span> </h3>
                                     </p>
                                     <div class="collapse" id="collapseRuido">
                                         <ul class="sinVinetas">
@@ -310,7 +307,7 @@
                                                 <a href="https://drive.google.com/open?id=1QD7Nve1N5DddnusT4uqzVEkpj_bTUqU-" class="colorIndicadores">Resolución 6918 de 2010</a>
                                             </li>
                                             <li>
-                                                <a href="https://drive.google.com/open?id=1S7bDOLfG3jGGWPEpjOn166EU7ryZBVf" class="colorIndicadores">Resolución 6919 de 2010</a>
+                                                <a href="https://drive.google.com/open?id=1S7bDOLfG3jGGWPEpjOn166EU7ryZBVf2" class="colorIndicadores">Resolución 6919 de 2010</a>
                                             </li>
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1jCbxsZHsF4X3TajSuGkpp12SkRnBih0X" class="colorIndicadores">Decreto 1076 de 2015</a>

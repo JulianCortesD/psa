@@ -80,10 +80,15 @@
                         <p align="justify">Casos de morbilidad por ETA por ciclo vital en Bogotá
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/eta/">
                                 <img src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
-</p>
-                                <p align="justify">Proporción de aceptabilidad de alimentos y bebidas  en Bogotá D.C
-                                    <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/aceptabilidadalimentos/">
-                                        <img src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+
+
+
+</p> </a>
+                                 <p align="justify">Proporción de aceptabilidad de alimentos y bebidas  en Bogotá D.C
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/aceptabilidadalimentos/">
+                                <img src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+
+                                
 
                                 {{-- Ver más --}}
                             </a>

@@ -83,7 +83,7 @@
                     productiva, generando modificaciones en el sistema climático local y aumentando la frecuencia e intensidad de los
                     fenómenos hidrometeorológicos extremos.</p>
                     <a href="{{asset("cambio_climatico_ver_mas")}} " align="right">
-                        <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                        <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;" align="right"/>    
                         {{-- Ver más --}}
                     </a>
                 </div>

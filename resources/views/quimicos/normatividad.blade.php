@@ -395,7 +395,7 @@
             <div class="logos colorSeguridadquimica bold140p">
                 <div class="centrado">
                     <p class="colorSeguridadquimica">Documentos e investigaciones</p>
-                    <a href="SeguridadQuimica_Documentos.html">
+                    <a href="{{asset("quimicos_documentos")}}">
                     <img src="images/quimica/espacioDOCUMENTOS.jpg" width="85" height="63" alt="Aire docs" />
                     </a>
                 </div>
@@ -405,17 +405,17 @@
                 </div>
                 <div class="centrado">
                     <p class="colorSeguridadquimica">Normatividad</p>
-                    <a href="SeguridadQuimica_Normatividad.html">
-                    <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
+                    <a href="{{asset("quimicos_normatividad")}}">
+                        <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" alt="Aire normas" />
                     </a>
                 </div>
                 <div class="centrado">
                     <p class="colorSeguridadquimica">Indicadores</p>
-                    <a href="SeguridadQuimica_Indicadores.html">
-                    <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />
+                    <a href="{{asset("quimicos_indicadores")}}">
+                        <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />
                     </a>
                 </div>
-                </div>        
+            </div>        
             
         </div>    
 @endsection

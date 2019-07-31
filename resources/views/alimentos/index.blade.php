@@ -84,7 +84,7 @@
                         transportan y comercializan en el distrito capital. Igualmente, se promueve la acción intersectorial en la ejecución
                     de estrategias de fomento de la seguridad alimentaria y nutricional en espacios educativos, laborales y de vivienda.</p>
                         <a href="{{asset("alimentos_sanos_ver")}}">
-                            <img src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                            <img align="right"src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
                             {{-- Ver más --}}
                         </a>
                 </div>

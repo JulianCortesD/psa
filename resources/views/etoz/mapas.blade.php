@@ -10,21 +10,21 @@
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> Zoonosis y Vectores |  </span>
-                    <span class="breadcrumb_ colorETOZ"> Documetos e Investigaciones</span>
-                </div>
+                    <span class="breadcrumb_ colorETOZ"> Mapas</span>
+                </div>  
                 <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span>
+                        <span>Bogotá hoy</span> 
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
                             Fecha y hora
                         </div>
-                    </div>
+                    </div>                                    
                 </div>
-            </div>
+            </div>  
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
@@ -36,7 +36,7 @@
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>
+                            </a>                            
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -46,43 +46,60 @@
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>
+                            </a>                            
                         </div>
-                    </div>
+                    </div>  
                 </div>
-            </div>
-
+            </div>  
+            
             <div class="row">
-
-                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>
-                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>
-
                 <div height="355">
                     <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" width="100%" alt="Slider Cambio climático" />
                 </div>
             </div>
 
             <div class="row">
-                <div class="contenidoSecAmb centradoDiv">
-
-                    <p>&nbsp;</p>
-                    <h2 align="left">
-                        <img src="images/Eventos zoonoticos/DOCUMENTOS.png" width="85" height="63" align="absbottom" />
-                        <span class="colorETOZ">Documentos e investigaciones</span>
+                <div class="contenidoSecAmb centradoDiv mt-3">
+                    <h2>
+                    <span class="colorETOZ">
+                    <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" align="absbottom" />Mapas</span>
                     </h2>
-                    <p>&nbsp;</p>
-                    <p>Compendio de documentos e investigaciones relacionados con la  implementación de acciones integrales de vigilancia sanitaria y epidemiológica, promoción de la salud y prevención de las enfermedades transmisibles de origen zoonótico</p>
-                    <p><span class="Izquieda"><a href="https://drive.google.com/open?id=1GJXiEpbNFfh48WYlwuWRAH-77z-MDiCK"><img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" width="37" height="41" alt="Cambio climático docs" /></a></span>Comportamiento del evento de Vigilancia integrada de la rabia. Bogotá, 2017.</p>
-                    <p><span class="Izquieda"><a href="https://drive.google.com/open?id=1mbFNjdmZWo0nuHOp70MtvNprXxkZ8qES"><img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" width="37" height="41" alt="Cambio climático docs" /></a></span>Comportamiento del evento de Vigilancia integrada de la rabia. Bogotá, año 2016.</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
+                    <p align="justify">Aquí encontrara la &ldquo;ubicación geográfica&rdquo; de las acciones integrales de vigilancia sanitaria y epidemiológica,
+                        promoción de la salud y prevención de las enfermedades transmisibles de origen zoonótico. </p>
+                    <table width="818" border="0">
+                        <tr>
+                        <td width="50">
+                            <a href="https://drive.google.com/open?id=10Y28wszAx8FnKkBec4mhZu2dhHWcBCb_">
+                            <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" width="37" height="41" />
+                            </a>
+                        </td>
+                        <td width="758" class="colorIndicadores">Establecimientos vigilados Vs Establecimientos que reportan Zoonosis</td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="https://drive.google.com/open?id=1tniIxdmCnTjFcDJkKxNgZ2WChRCaptSx">
+                            <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" alt="" width="37" height="41" />
+                            </a>
+                        </td>
+                        <td class="colorIndicadores">Eventos Zoonóticos reportados por establecimientos veterinarios</td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="https://drive.google.com/open?id=1Ulq932SFz5c58VwZ8oD4HFrJjk3Hx4uv ">
+                            <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" alt="" width="37" height="41" />
+                            </a>
+                        </td>
+                        <td class="colorIndicadores">Establecimientos vigilados Vs Establecimientos que reportan vacunación antirrábica </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="https://drive.google.com/open?id=1roDnSmB8Kvp9KddGC4XGixnasyrlmwQ2">
+                            <img src="images/Eventos zoonoticos/IconoPDFparaETOZ.png" alt="" width="37" height="41" />
+                            </a>
+                        </td>
+                        <td class="colorIndicadores">Vacunación Antirrábica en Caninos y Felinos</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
 
@@ -113,9 +130,9 @@
                         <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" alt="Aire título" />
                     </a>
                 </div>
-            </div>
-
-        </div>
+            </div>       
+            
+        </div>    
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

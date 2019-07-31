@@ -75,7 +75,7 @@ Route::get('/medicamentos_normatividad','MedicamentosController@normatividad')->
 
 Route::get('/quimicos','QuimicosController@index')->name('index');
 Route::get('/quimicos_ver','QuimicosController@indexVer')->name('indexVer');
-Route::get('/quimicos_documentos','QuimicosController@documentos')->name('documentos');
+Route::get('/quimicos_documentos','QuimicosController@documentos')->name('quimicosdocumentos');
 Route::get('/quimicos_normatividad','QuimicosController@normatividad')->name('normatividad');
 Route::get('/quimicos_indicadores','QuimicosController@indicadores')->name('indicadores');
 Route::get('/quimicos_conceptos','QuimicosController@conceptos')->name('conceptos');
@@ -85,7 +85,7 @@ Route::get('/etoz_ver_mas','EtozController@indexVer')->name('indexVer');
 Route::get('/etoz_documentos','EtozController@documentos')->name('documentos');
 Route::get('/etoz_normatividad','EtozController@normatividad')->name('normatividad');
 Route::get('/etoz_indicadores','EtozController@indicadores')->name('indicadores');
+Route::get('/etoz_vacunacion','EtozController@vacunacion')->name('vacunacion');
+Route::get('/etoz_mapas','EtozController@mapas')->name('etozmapas');
 
 Route::get('/calendario','CalendarController@index')->name('index');
-
-

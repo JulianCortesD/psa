@@ -29,19 +29,29 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home.jpg")}}" alt="">
+                        <a href="http://autorregulacion.saludcapital.gov.co/buenpropietario#estrategiasexcelencia">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home.jpg")}}" alt="First slide">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner ETOZ del Home.jpg")}}" alt="Second slide">
+                        <a href="https://drive.google.com/open?id=1Y3Hc3PqQmlh2vaSfNMfdanci4YaEIY-n">
+                        <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner ETOZ del Home.png")}}" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner PISA del Home.jpg")}}" alt="Third slide">
+                        <a href="https://drive.google.com/open?id=1yRyrxbWZfdEQXLG3itBEevAo4V881qFi">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner PISA del Home.png")}}" alt="Third slide">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 altura" src="{{asset("images/carousel/BannerHomeSemanaAmbiental.jpg")}}" alt="">
+                        <a href="https://drive.google.com/open?id=1Y3Hc3PqQmlh2vaSfNMfdanci4YaEIY-n">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/vacunacion.png")}}" alt="Fourth slide">
+                        </a>
+
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner Autorregulacion Home.jpg")}}" alt="">
+                        <a href="http://autorregulacion.saludcapital.gov.co/">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner Autorregulacion Home.jpg")}}" alt="Fifth slide">
+                        </a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -100,49 +110,17 @@
                                             <div class="col-12">
                                                 <div class="row mr-1">
                                                     <div class="col" style="text-align: justify">
-                                                            <p>Junio 27 de 2019</p> <br>
+                                                        <p>Junio 27 de 2019</p> <br>
                                                             <img src="{{asset("images/news/expendiocarnes.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
                                                             De los cerca de 9.700 establecimientos que venden y almacenan productos cárnicos en Bogotá, 4.039 han hecho durante 2019 ante la Secretaría Distrital de Salud (SDS) la solicitud de autorización sanitaria para su funcionamiento. De estos, 1.050 expendios han sido aprobados por ajustarse a los estándares sanitarios. Sin embargo, los que no cumplan con este requisito se exponen a sanciones, que contemplan incluso la clausura
-                                                        <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
-                                                    </div>
-                                                </div>
-                                                <div class="row justify-content-end mb-1">
-                                                    <div >
-                                                        <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
-                                                    </div>
-                                                    <div >
-                                                        <img  src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
-                                                    </div>
-                                                    <div >
-                                                        <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                            <div class="tab-pane" id="tab2">
-                                <section class="content">
-                                    <div class="header-content col-12">
-                                        <div class="header-content row col-sm-12">
-                                            <span>
-                                                ENCUENTRO DE FÁRMACO VIGILANCIA
-                                            </span>
-                                        </div>
-                                        <div class="row cont-inside">
-                                           <div class="col-12">
-                                                <div class="row">
-                                                    <div class="col" style="text-align: justify">
-                                                        <p>Febrero 15 de 2019</p> <br>
-                                                        <img  src="{{asset("images/news/encuentrofarmaco.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
-                                                        <p style="text-align: justify;">
-                                                            Con la participación de más de 200 asistentes se realizóen el auditorio principal de la Secretaría Distritalde Salud (SDS) el Encuentro de Fármacovigilancia, el evento estuvo dirigido a establecimientos farmacéuticos minoristas, el propósito fundamental fue brindar capacitación y sensibilizar a los asistentes en laimportancia del reportede eventosadversosrelacionados con el uso demedicamentos
-                                                            <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
+                                                            <!-- <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a> -->
+                                                            <a data-toggle="modal" data-target="#exampleModal" data-line="new" data-title="AUMENTA EL NÚMERO EXPENDIOS DE CARNE AUTORIZADOS POR LA SECRETARÍA DISTRITAL DE SALUD" data-response="new-1">
+                                                                <em style="color: blue; cursor: pointer;"> (ver mas) </em>
+                                                            </a>
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="row justify-content-end">
+                                                <div class="row justify-content-end mb-1">
                                                     <div >
                                                         <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
                                                     </div>
@@ -163,20 +141,23 @@
                                     <div class="header-content col-12">
                                         <div class="header-content row col-sm-12">
                                             <span>
-                                                OPERATIVO  DE VIGILANCIA EN EXPENDIOS AVÍCOLAS DE CORABASTO
+                                                ENCUENTRO DE FÁRMACO VIGILANCIA
                                             </span>
                                         </div>
                                         <div class="row cont-inside">
-                                            <div class="col-12">
+                                           <div class="col-12">
                                                 <div class="row">
-                                                        <div class="col-10-justify-content-center" style="padding:10px;">
-                                                            <p>Febrero 15 de 2019</p> <br>
-                                                            <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
-                                                            <p style="text-align: justify;">
-                                                                Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos.
-                                                                <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
-                                                            </p>
-                                                        </div>
+                                                    <div class="col" style="text-align: justify">
+                                                        <p>Febrero 15 de 2019</p> <br>
+                                                        <img  src="{{asset("images/news/encuentrofarmaco.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
+                                                        <p style="text-align: justify;">
+                                                            Con la participación de más de 200 asistentes se realizóen el auditorio principal de la Secretaría Distritalde Salud (SDS) el Encuentro de Fármacovigilancia, el evento estuvo dirigido a establecimientos farmacéuticos minoristas, el propósito fundamental fue brindar capacitación y sensibilizar a los asistentes en laimportancia del reportede eventosadversosrelacionados con el uso demedicamentos
+                                                            <a data-toggle="modal" data-target="#exampleModal" data-line="new" data-title="ENCUENTRO DE FÁRMACO VIGILANCIA" data-response="new-2">
+                                                                <em style="color: blue; cursor: pointer;"> (ver mas) </em>
+                                                            </a>
+                                                        </p>
+
+                                                    </div>
                                                 </div>
                                                 <div class="row justify-content-end">
                                                     <div >
@@ -199,22 +180,62 @@
                                     <div class="header-content col-12">
                                         <div class="header-content row col-sm-12">
                                             <span>
-                                                RECONOCIMIENTO A 7 RESTAURANTES POPULARES POR SU CALIDAD Y CUMPLIMIENTO SANITARIO
+                                                OPERATIVO  DE VIGILANCIA EN EXPENDIOS AVÍCOLAS DE CORABASTO
                                             </span>
                                         </div>
                                         <div class="row cont-inside">
                                             <div class="col-12">
                                                 <div class="row">
-                                                    <div class="col-10-justify-content-center" style="padding:10px;">
+                                                        <div class="col-10-justify-content-center" style="padding:10px;">
+                                                            <p>Febrero 15 de 2019</p> <br>
+                                                            <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
+                                                            <p style="text-align: justify;">
+                                                                Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos.
+                                                                <a data-toggle="modal" data-target="#exampleModal" data-line="new" data-title="OPERATIVO  DE VIGILANCIA EN EXPENDIOS AVÍCOLAS DE CORABASTO" data-response="new-3">
+                                                                    <em style="color: blue; cursor: pointer;"> (ver mas) </em>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+                                                </div>
+                                                <div class="row justify-content-end">
+                                                    <div >
+                                                        <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                                                    </div>
+                                                    <div >
+                                                        <img  src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                                                    </div>
+                                                    <div >
+                                                        <img  src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="tab-pane" id="tab2">
+                                <section class="content">
+                                    <div class="header-content col-12">
+                                        <div class="header-content row col-sm-12">
+                                            <span>
+                                                RECONOCIMIENTO A 7 RESTAURANTES POPULARES POR SU CALIDAD Y CUMPLIMIENTO SANITARIO
+                                            </span>
+                                        </div>
+                                        <div class="row cont-inside">
+                                            <div class="col-12">
+                                                <div class="row mr-1">
+                                                    <div class="col" style="text-align: justify">
                                                         <p>Junio 27 de 2019</p> <br>
                                                         <img  src="{{asset("images/news/restaurantes.jpg")}}" style="width:203px; margin-right: 10px;" class="rounded float-left" >
                                                         <p style="text-align: justify;">
                                                             La Secretaría Distrital de Salud (SDS) entrega hoy la distinción ‘Restaurantes1A’ a 7 establecimientos populares de la ciudad que se destacan por cumplir con las normas sanitarias y contar con menús balanceados y variados, buenos niveles de calidad y de atención y una adecuada manipulación de alimentos
-                                                            <a href="{{asset("noticias")}}"> <em> (ver mas) </em> </a>
+                                                            <a data-toggle="modal" data-target="#exampleModal" data-line="new" data-title="RECONOCIMIENTO A 7 RESTAURANTES POPULARES POR SU CALIDAD Y CUMPLIMIENTO SANITARIO" data-response="new-4">
+                                                                <em style="color: blue; cursor: pointer;"> (ver mas) </em>
+                                                            </a>
                                                         </p>
                                                     </div>
-                                                </div>
-                                                <div class="row justify-content-end">
+                                                    </div>
+                                                <div class="row justify-content-end mb-1">
                                                     <div >
                                                         <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
                                                     </div>
@@ -302,7 +323,7 @@
                 </div>    -->
                 <div class="col-2" >
                     <div class="d-block mt-3">
-                        <a href="{{asset("acreditados")}}" class="boton-registe">
+                        <a href="https://drive.google.com/open?id=1reQd6ajLjVMJQ1VjYFt8VxDOauguElPy">
                             <img src="{{asset("images/news/BotonConsulteEstablecimiento2.svg")}}" alt="restablecimientos acreditados" style="height: 60px; margin-left: 65px">
                         </a>
                     </div>
@@ -1058,7 +1079,7 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <input type="radio" name="gender" value="male"> Acepta los términos y condiciones: autorizo expresamente a las Secretaria  Distrital de Salud y el Fondo Financiero Distrital de Salud,
+                        <input type="radio" name="gender" value="male"> Acepta los términos y condiciones: autorizo expresamente a las Secretaria  Distrital de Salud,
                         para hacer uso y tratamiento de datos personales de conformidad con lo previsto en Decreto 1377 de 2013 que reglamenta la Ley 1581 de 2012. (Política de Protección de Datos Personales)
                         <br>
                     </form>
@@ -1104,9 +1125,166 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="text-align: justify;">
+            </div>
+        </div>
+        </div>
+    </div>
+    <div hidden>
+        <div id="new-1">
+            <div class="row cont-inside">
+                <div class="col-10 offset-1">
+                    <div class="row">
+                        <div class="col-10-justify-content-center" >
+                            <p>Junio 27 de 2019</p> <br>
+                            <img src="{{asset("images/news/expendiocarnes.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
+                            <p style="text-align:justify; margin-left: 5px;">
+                                    De los cerca de 9.700 establecimientos que venden y almacenan productos cárnicos en Bogotá, 4.039 han hecho durante 2019 ante la Secretaría Distrital de Salud (SDS) la solicitud de autorización sanitaria para su funcionamiento. De estos, 1.050 expendios han sido aprobados por ajustarse a los estándares sanitarios. Sin embargo, los que no cumplan con este requisito se exponen a sanciones, que contemplan incluso la clausura.
+                                    <br> La autorización sanitaria hace parte de la campaña de autorregulación ‘Negocios Saludables, Negocios Rentables’ que ha implementado la SDS para que los propietarios de establecimientos comerciales tomen conciencia de cumplir con las normas sanitarias y adelanten en línea, de manera ágil y sencilla, los trámites necesarios para funcionar.
+                                    <br> El mayor número de solicitudes de autorización corresponde a las localidades de Kennedy (709), Ciudad Bolívar (435), Suba (268), Bosa (266), Rafael Uribe Uribe
+                                    (241) y Fontibón (218).
+
+                                    <br> Los expendios de carnes con autorización sanitaria garantizan que los productos son adecuados para el consumo. Todos los establecimientos de este tipo deben inscribirse y estar autorizados por la Secretaría Distrital de Salud. Entre otros requisitos deben cumplir con:
+                                    <br> •	Mantener los productos cárnicos en cadena de frío con las temperaturas correspondientes de refrigeración y congelación.
+                                    <br> •	No tener la carne expuesta al medio ambiente.
+                                    <br> •	Tener capacidad de almacenamiento para el volumen que comercializa.
+                                    <br> •	Almacenar de forma separada las carnes de diferentes especies (avícolas, porcinos, bovinos) y de otros alimentos.
+                                    <br> •	Contar con soportes que garanticen que los productos provienen de plantas autorizadas e inspeccionadas por el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (Invima).
+                                    <br> Los trámites de inscripción y solicitud de la autorización sanitaria se realizan a través de la web www.saludcapital.gov.co, en el enlace ‘Negocios Saludables, Negocios Rentables’.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div>
+                            <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                        </div>
+                        <div>
+                            <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                        </div>
+                        <div>
+                            <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="new-2">
+            <div class="row cont-inside">
+                <div class="col-10 offset-1">
+                    <div class="row">
+                        <div class="col-10-justify-content-center" >
+                            <p>Febrero 15 de 2019</p> <br>
+                            <img  src="{{asset("images/news/encuentrofarmaco.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
+                            <p style="text-align:justify; margin-left: 5px;">
+                                    Con la participación de más de 200 asistentes se realizó en el auditorio principal de la Secretaría Distritalde Salud (SDS) el Encuentro de Fármacovigilancia, el evento estuvo dirigido a establecimientos farmacéuticos minoristas, el propósito fundamental fue brindar capacitación y sensibilizar a los asistentes en laimportancia del reportede eventosadversosrelacionados con el uso demedicamentos.
+                                    <br> Los farmaceutas minoritarios o las farmacias de barrio como también se les conoce, cobran gran importancia por su cercanía con la comunidad y el acontecer diario de enfermedades o brotes que se puedan presentar en este contexto, es por esto que la SDS busca mantener una comunicación constante para la capacitación en el manejo adecuado de la ficha de reporte de eventos que por venta, consumo o reacciones alérgicas puedan ocurrir.
+                                    <br> <em>“Todos en algún momento somos pacientes”o “todos en algún momento consumimos algún tipo de medicamento”</em>
+                                    <br> Estas fueron dos de las premisas del encuentro con las cuales se pretendía recordar el compromiso que las farmacias tienen con la salud y la atención al usuario, ya que en cualquier momento se puede estar del otro lado de la vitrina, es por esto que la Línea de Medicamentos Seguros tieneprogramadas diferentes jornadas de actualización teniendo en cuenta los tipos de establecimientos, grupos y gremios.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div>
+                            <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                        </div>
+                        <div>
+                            <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                        </div>
+                        <div>
+                            <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="new-3">
+            <div class="row cont-inside">
+                <div class="col-10 offset-1">
+                    <div class="row">
+                        <div class="col-10-justify-content-center">
+                            <p>Febrero 15 de 2019</p> <br>
+                            <img  src="{{asset("images/news/operativo.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
+                            <p style="text-align:justify; margin-left: 5px;">
+                                Con el objetivo de verificar la  adecuada manipulación, almacenamiento y comercialización de alimentos en Bogotá,   la Secretaría Distrital de Salud el pasado mes de febrero realizóvisitade inspección, vigilancia y control(IVC) en los expendios cárnicos y procesadoras de productos avícolas del sector de Corabastos.
+                                <br> En el operativo que inició a las tres de la mañana se inspeccionaron plantas de beneficio,  expendios y vehículos trasportadores de productos cárnicos, aplicando las medidas sanitarias de decomiso y desnaturalizaciónde los productos en uno de los establecimientos por mal almacenamiento, pues estaban expuestosa la manipulación directa del consumidor y al ambiente, en conjunto con la Policía Nacional se tomó la medida de sellamiento del mismo establecimiento. Esta actividad  fue coordinada  por la Secretaria Distrital de Salud, con la participación delINVIMA y las Subredes Integradas de Servicios de Salud Sur y Norte.
+                                <br> La pérdida de la cadena de frío y la exposición  directa al consumidor, trae como consecuencia la contaminación de los productos cárnicos, afectando la salud delosBogotano. La Secretaria Distrital de Salud continuará realizando este tipo de operativos en diferentes puntos de la ciudad mediante la inspección, vigilancia y control de estos y otros alimentos, verificando su inocuidad y previniendo las enfermedades transmitidas por los mismos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div>
+                            <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                        </div>
+                        <div>
+                            <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                        </div>
+                        <div>
+                            <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="new-4">
+            <div class="row cont-inside">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-10-justify-content-center" style="padding:10px;">
+                            <p>Junio 27 de 2019</p> <br>
+                            <img  src="{{asset("images/news/restaurantes.jpg")}}" style="width:203px; margin-right: 10px;" class="rounded float-left" >
+                            <p style="text-align:justify; margin-left: 5px;">
+                                La Secretaría Distrital de Salud (SDS) entrega hoy la distinción ‘Restaurantes1A’ a 7 establecimientos populares de la ciudad que se destacan por cumplir con las normas sanitarias y contar con menús balanceados y variados, buenos niveles de calidad y de atención y una adecuada manipulación de alimentos.
+                                <br> Los restaurantes populares son reconocidos por ofrecer almuerzos ejecutivos o ‘corrientazos’. El programa ‘Restaurantes 1A’ busca que los propietarios implementen buenas prácticas sanitarias y de alimentación adecuada y así los clientes tengan confianza que los productos que consumen son de calidad y seguros para su salud.
+                                <br> Para ser un ‘Restaurante 1A’, el establecimiento debe tener al menos un año de funcionamiento, vender como mínimo 30 servicios al día (desayunos, almuerzos, cenas), que el costo no sea mayor a $ 11.00, no ser de venta callejera ni estar ubicado en plazoletas de centros comerciales o pertenecer a una cadena de restaurantes y tener afiliados a los empleados al Sistema General de Seguridad Social en Salud.
+                                <br> Así mismo, el reconocimiento se otorga a los restaurantes que cumplen con la normatividad sanitaria vigente para estos establecimientos, análisis microbiológico óptimo para jugos y ensaladas, platos balanceados nutricionalmente y con bajo contenido de sal y azúcar.
+                                <br> Durante 2018, 25 restaurantes que cumplieron con todos los requerimientos fueron distinguidos por un año. Adicionalmente, la SDS les brindó asesoría técnica de gastronomía y de mercadeo para mejorar el servicio a sus clientes.
+                                <br> El día de hoy 7 establecimientos se suman para recibir la distinción en el año 2019, esperando a final de este año realizar otro evento de distinción con los restaurantes que se encuentran en proceso.
+                                <br> Los restaurantes a los que se les otorgará el reconocimiento como ‘Restaurantes 1A’ son:
+                                <br>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div>
+                            <img src="{{asset("images/news/IconoMegusta.svg")}}" alt="megusta" class="iconoNew">
+                        </div>
+                        <div>
+                            <img src="{{asset("images/news/IconoCompartir.svg")}}" alt="copmartir" class="iconoNew">
+                        </div>
+                        <div>
+                            <img src="{{asset("images/news/IconoComentar.svg")}}" alt="comentar" class="iconoNew">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 @endsection
 @section('scripts')
 <script>
+     $('#exampleModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var recipient = button.data('title');
+
+        $('#exampleModal').find('.modal-header').addClass(button.data('line'));
+        var modal = $(this);
+        modal.find('.modal-title').text( recipient);
+        modal.find('.modal-body').text('');
+        $('#'+button.data('response')).clone().appendTo(modal.find('.modal-body'));
+    });
     $(function() {
         $('#btn-enviar').click( function(){
             if(  $('#name').val() !== '' && $('#localidad').val() !== '' && $('#telefono').val() !== '' && $('#temainteres').val() !== '' && $('#correo').val() !== '' && $('#comentarios').val() !== '' && $('#tiponegocio').val() !== '' ) {

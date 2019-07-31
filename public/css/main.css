@@ -161,7 +161,7 @@ body{
 }
 .menu-nav {
     color: white;
-    background-color: #003e67; 
+    background-color: #003e67;
     border-radius: 0;
     margin-top: 18px;
     margin-bottom: 15px;
@@ -171,7 +171,7 @@ body{
 }
 
 .nav-menu{
-    background-color: #003e67 !important; 
+    background-color: #003e67 !important;
     border-radius: 0 !important;
     height: 60px !important;
     margin-top: 18px;
@@ -267,7 +267,7 @@ body{
     color:white;
     margin-left:100px;
     margin-top:35px;
-   
+
     /* padding-top: 70px; */
 }
 .new-publics figure{
@@ -279,7 +279,7 @@ body{
     margin-top:-60px;
     margin-left:10px;
     font-weight: 600;
-    font-size:15pt; 
+    font-size:15pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -297,7 +297,7 @@ body{
     color:white;
     font-size: 20pt;
     font-family: GothamRoundedBold, Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
 
 .container-date .title-date span{
@@ -320,7 +320,7 @@ body{
 }
 .clima-date{
     margin-top:10px;
-    
+
 }
 
 .cont-inside{
@@ -337,13 +337,13 @@ body{
 
 .register-estab{
     background-color:#019EE2;
-    padding: 5px;  
+    padding: 5px;
 }
 
 .ban-1{
     height: 50px;
     border-style:solid ;
-    border-width: 1px;  
+    border-width: 1px;
     border-color: white;
     text-align: center;
     padding: 15px 5px 5px 5px;
@@ -353,7 +353,7 @@ body{
 
 .consult-estab{
     background-color:#019EE2;
-    padding: 5px;  
+    padding: 5px;
     margin-left:5px;
 }
 
@@ -387,7 +387,7 @@ body{
     /* background-color: #777775 ; */
 }
 
-.img-btns{    
+.img-btns{
     margin-top:30px !important;
 }
 
@@ -490,7 +490,7 @@ hr{
     font-family: GothamRoundedBold, Arial, Helvetica, sans-serif;
 }
 
-.container-calendar { 
+.container-calendar {
     background-color: #003e67;
     text-align: center;
     color: white;
@@ -583,6 +583,11 @@ hr{
     font-family: 'GothamRoundedBold','Gotham Rounded Book'
 }
 
+.new {
+    color: white;
+    background-color: #003e67;;
+}
+
 @media (max-width: 576px){
     .search {
         margin-left: 8%;
@@ -596,8 +601,8 @@ hr{
     .title-text {
         font-size: 27px;
     }
-} 
-/* 
+}
+/*
 @media (min-width: 0px) {
     .img-calidad-aire {
         margin-left: -15px;
@@ -617,8 +622,8 @@ hr{
     .wrapper {
         max-width: 768px;
     }
-    
-} 
+
+}
 
 @media (min-width: 768px) {
     .img-calidad-aire {
@@ -639,7 +644,7 @@ hr{
     .wrapper {
         max-width: 768px;
     }
-} 
+}
 
 @media (min-width: 992px) {
     .img-calidad-aire {
@@ -660,7 +665,7 @@ hr{
     .menu-down-header {
         font-size: 9px;
     }
-} 
+}
 */
 @media (min-width: 1200px) {
     .img-calidad-aire{
@@ -684,11 +689,11 @@ hr{
     .menu-down-header {
         font-size: 9px;
     }
-}  
+}
 
 
 @media (max-width: 992px) {
     .menu-down-header {
         font-size: 9px;
     }
-} 
+}

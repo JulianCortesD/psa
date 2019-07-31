@@ -52,10 +52,10 @@ class EtozController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function favorables()
+    public function vacunacion()
     {
-        return view("etoz/favorables");
-    }   
+        return view("etoz/vacunacion");
+    }
 
     /**
      * Display a listing of the resource.
@@ -67,7 +67,7 @@ class EtozController extends Controller
         return view("etoz/indicadores");
     }
 
-    
+
 
     /**
      * Display a listing of the resource.

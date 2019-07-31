@@ -95,7 +95,7 @@
                         </a>
                         </li>
                     </ul>
-                    <p>&nbsp;</p>
+                    <p></p>
                     <ul>
                         <li style="font-size: 16px; color: black;" >Temperatura en Bogotá D.C
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/tbogota/" align="right">

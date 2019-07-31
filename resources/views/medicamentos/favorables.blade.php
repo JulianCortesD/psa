@@ -80,7 +80,7 @@
                     </h1>
                     <p>&nbsp;</p>
                     <p align="justify">Consulte aquí los establecimientos farmacéuticos ubicados en la ciudad de Bogotá, que cumplen al 100% con la norma
-                        sanitaria y cuentan con concepto  favorable por parte de la Secretaria de Salud, emitido en la ultima visita de Inspeccion
+                        sanitaria y cuentan con concepto  favorable por parte de la Secretaria de Salud, emitido en la última visita de Inspección
                         Vigilancia y Control realizada durante el periodo enero-diciembre 2018</p>
                     <table width="883" border="0">
                         <tr>
@@ -113,11 +113,10 @@
                             <img src="images/medicamentos/IconoPDFMedicamentos.png" alt="" width="38" height="44" />
                             </a>
                         </td>
-                        <td class="colorIndicadores">Droguerias que manejan medicamentos de control especial (MECE)</td>
+                        <td class="colorIndicadores">Droguerías que manejan medicamentos de control especial (MECE)</td>
                         </tr>
                     </table>
-                    <p align="justify">&nbsp;</p>
-                    <p align="justify">&nbsp;</p>
+                  
                 </div>
             </div>  
 

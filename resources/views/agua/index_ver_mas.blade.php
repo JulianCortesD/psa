@@ -87,22 +87,25 @@
               
                     <h2 class="colorAgua">Objetivos Específicos:</h2>
                     <ul>
-                      <li>
+                      
                         <div align="justify">
-                          <span class="colorIndicadores">Desarrollar estrategias que faciliten el acceso y manejo del agua apta para consumo humano para todos los habitantes
-                            del Distrito Capital, incluidos los habitantes rurales y de asentamientos informales. </span>
+                          <li class="colorIndicadores">Desarrollar estrategias que faciliten el acceso y manejo del agua apta para consumo humano para todos los habitantes
+                            del Distrito Capital, incluidos los habitantes rurales y de asentamientos informales. </li>
                         </div>
-                      </li>
-                      <li>
+                      
+                       </ul>
+                        <ul>
+                      
                         <div align="justify">
-                          <span class="colorIndicadores">Fortalecer los instrumentos existentes que buscan garantizar la calidad del agua apta para consumo humano, su
-                            sostenibilidad en el tiempo y la promoción de buenas prácticas de uso, manejo y disposición del agua en el Distrito Capital.
+                          <li class="colorIndicadores">Fortalecer los instrumentos existentes que buscan garantizar la calidad del agua apta para consumo humano, su
+                            sostenibilidad en el tiempo y la promoción de buenas prácticas de uso, manejo y disposición del agua en el Distrito Capital.</li>
                           </span>
                         </div>
-                      </li>
+                      
+                       </ul>
                       {{-- <li>
                         <div align="justify">
-                          <span class="colorIndicadores">promoción de buenas prácticas de uso, manejo y disposición del agua en el Distrito Capital.&nbsp;</span>
+                          <li class="colorIndicadores">promoción de buenas prácticas de uso, manejo y disposición del agua en el Distrito Capital.&nbsp;</li>
                         </div>
                       </li> --}}
                     </ul>
@@ -120,26 +123,21 @@
                     </div>
                     <h2 class="colorAgua">Ejes Temáticos:</h2>
                     <ul>
-                      <li>
-                        <div align="justify" class="colorIndicadores">Abastecimiento de agua potable en condiciones apropiadas.</div>
-                      </li>
-                      <li>
-                        <div align="justify" class="colorIndicadores">Control de eventos mórbidos y mortales asociados a la calidad del agua y saneamiento básico.</div>
-                      </li>
-                      <li>
-                        <div align="justify" class="colorIndicadores">Gestión ambiental del recurso hídrico y los servicios hidrológicos</div>
-                      </li>
-                      <li>
-                        <div align="justify" class="colorIndicadores">Prevención y control de riegos en agua para uso recreativo</div>
-                      </li>
-                      <li>
-                        <div align="justify" class="colorIndicadores">Manejo integral de residuos sólidos</div>
-                      </li>
-                      <li>
-                        <div align="justify" class="colorIndicadores">Mejoramiento de condiciones higiénicas y sanitarias en viviendas y establecimientos abiertos al público</div>
-                      </li>
-                      <li>
-                        <div align="justify" class="colorIndicadores">Gestión de la salud ambiental para la calidad del agua y el saneamiento básico</div>
+                     
+                        <li align="justify" class="colorIndicadores">Abastecimiento de agua potable en condiciones apropiadas.</li>
+                     
+                     
+                        <li align="justify" class="colorIndicadores">Control de eventos mórbidos y mortales asociados a la calidad del agua y saneamiento básico.</li>
+                     
+                        <li align="justify" class="colorIndicadores">Gestión ambiental del recurso hídrico y los servicios hidrológicos</li>
+                      
+                        <li align="justify" class="colorIndicadores">Prevención y control de riegos en agua para uso recreativo</li>
+                      
+                        <li align="justify" class="colorIndicadores">Manejo integral de residuos sólidos</li>
+                     
+                        <li align="justify" class="colorIndicadores">Mejoramiento de condiciones higiénicas y sanitarias en viviendas y establecimientos abiertos al público</li>
+                      
+                        <li align="justify" class="colorIndicadores">Gestión de la salud ambiental para la calidad del agua y el saneamiento básico</li>
                       </li>
                     </ul>
 
@@ -147,7 +145,7 @@
                         <a href="{{asset("agua_saneamiento_basico")}}">Volver</a>
                     </p>
               
-                    <h2 class="colorAgua mt40">&nbsp;</h2>
+                    <h2 class="colorAgua mt40"></h2>
                 </div>
 
             </div>  
@@ -171,7 +169,7 @@
                     <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
-                    <p class="colorAgua">Calidad del aire</p>
+                    <p class="colorAgua">Indicadores</p>
                     <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
             <!-- </div> -->
