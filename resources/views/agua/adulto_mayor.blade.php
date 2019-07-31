@@ -73,12 +73,10 @@
                 
                 <div class="contenidoSecAmb centradoDiv">
                     <h1 class="seccion fondoAgua sinSaltoLinea">Adulto mayor</h1>
-                    <p align="justify">A continuación, usted encontrará las definiciones de cada una de las Instituciones Protectoras de la Persona Mayor que
-                    funcionan en el Distrito Capital. Así mismo señor usuario escogerá la Institución que más se acomode a sus expectativas
-                    de trabajo o de constitución de los mismos.</p>
+                    <p align="justify">A continuación, usted encontrará las definiciones de cada una de las Instituciones Protectoras de la Persona Mayor que funcionan en el Distrito Capital. Así mismo, los usuarios podran escoger la Institución que más se acomode a sus expectativas de trabajo o de constitución de los mismos.</p>
                     <p class="verMas colorAgua">
                         <a href="{{asset("agua_saneamiento_adulto_mayor_ver_mas")}}">
-                            <img src="images/agua/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                            <img align="right" src="images/agua/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
                             {{-- Ver más --}}
                         </a>
                     </p>
@@ -90,41 +88,23 @@
             </div>
 
            <!--  <div class="row"> -->
-           <div class="logos colorAgua bold140p">
+            <div class="logos colorAgua bold140p">
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Documentos e investigaciones</p>
-                    <a  href="{{asset("agua_saneamiento_documentos")}}">
-                      <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
-                    </a>
-                    
+                    <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Mapas</p>
-                    <a  href="{{asset("agua_saneamiento_mapas")}}">
-                      <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
-                    </a>
-                    
+                    <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Normatividad</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
-                    </a>
-                    
+                    <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Indicadores</p>
-                    <a href="{{asset("agua_saneamiento_indicadores")}}">
-                      <img src="images/agua/IMG_AGUA_INDICADORES.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
+                    <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
-                <!-- <div class="centrado colorAgua">
-                    <p class="colorAgua">Calidad del aire</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
-                </div> -->
-            </div>  
             <!-- </div> -->
         </div>    
 @endsection

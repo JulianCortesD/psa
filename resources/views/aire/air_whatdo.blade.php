@@ -9,7 +9,8 @@
             <div class="row mb-3">
                 <div class="col-8">
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_">| Aire, ruido y radiación electromagnética | ¿Qué hacemos? </span>
+                    <span class="breadcrumb_"> | Aire, ruido y radiación electromagnética |</span>
+                    <span class="breadcrumb_ aire">Mas información</span>
                 </div>  
                 <div class="col-4">
                     <div class="row">
@@ -76,7 +77,7 @@
               
                     <p align="justify">La contaminación atmosférica, por ruido y radiación electromagnética puede ser producto de fuentes naturales o antrópicas
                       que bajo unos niveles y unas condiciones específicas pueden producir impactos en la salud y la calidad de vida de
-                      los individuos, por esta razón es necesario realizar un análisis epidemiológico y ambiental. Por lo anterior la línea
+                      los individuos, por esta razón es necesario realizar un análisis epidemiológico y ambiental. Por lo anterior, la línea
                       de Aire, Ruido y REM, utiliza como fuente primaria de información obtenida de la aplicación de encuestas de prevalencia
                       de sintomatología respiratoria posiblemente asociada a contaminación del aire en los grupos etarios como son menores
                       de 5 años, 5 a 14 años y mayores de 60 años, encuestas de percepción por exposición a ruido, test de sueño en población
@@ -102,29 +103,21 @@
                       
             <div class="logos colorAire bold140p">
                 <div class="centrado colorAire">
-                    <p class="colorAire">Documentos e investigaciones</p>
-                    <a href="{{asset("aire_documentos")}}">
-                        <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs" />
-                    </a>
-                    
+                  <p class="colorAire">Documentos e investigaciones</p>
+                  <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
+                  />
                 </div>
                 <div class="centrado colorAire">
-                    <p class="colorAire">Mapas</p>
-                    <a href="{{asset("aire_mapas")}}">
-                        <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
-                    </a>                    
+                  <p class="colorAire">Mapas</p>
+                  <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAire">
-                    <p class="colorAire">Normatividad</p>
-                    <a href="{{asset("aire_normatividad")}}">
-                        <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
-                    </a>
+                  <p class="colorAire">Normatividad</p>
+                  <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAire">
-                    <p class="colorAire">Indicadores</p>
-                    <a href="{{asset("aire_indicadores")}}">
-                        <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
-                    </a>                    
+                  <p class="colorAire">Indicadores</p>
+                  <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
                 </div>
             </div>
         </div>    

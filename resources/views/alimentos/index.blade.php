@@ -77,16 +77,14 @@
                         <h1 class="seccion fondoAlimentos sinSaltoLinea"> Alimentos Sanos y Seguros</h1>
                     </div>
 
-                    <p align="justify" class="colornegro">Este es el nombre técnico de este apartado donde se tendrá siguiente texto, acompañado de un banner distrital y un
-                        logo que identifica la línea correspondiente:</p>
                     <p align="justify" class="colornegro">La línea de alimentos sanos y seguros contribuye al mejoramiento la calidad de vida de la población mediante la verificación
                         del cumplimiento de los requisitos higiénico-sanitarios y del funcionamiento y manipulación exigidos en la normatividad
                         sanitaria, promoviendo la identificación y control de factores de riesgo que puedan afectar la calidad e inocuidad
                         de los alimentos y bebidas (alcohólicas y no alcohólicas) en los establecimientos que los preparan, almacenan, distribuyen,
                         transportan y comercializan en el distrito capital. Igualmente, se promueve la acción intersectorial en la ejecución
-                        de estrategias de fomento de la seguridad alimentaria y nutricional en espacios educativos, laborales y de vivienda.</p>
+                    de estrategias de fomento de la seguridad alimentaria y nutricional en espacios educativos, laborales y de vivienda.</p>
                         <a href="{{asset("alimentos_sanos_ver")}}">
-                            <img src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                            <img align="right"src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
                             {{-- Ver más --}}
                         </a>
                 </div>
@@ -112,19 +110,19 @@
                 </div>
                 <div class="centrado colorAlimentos">
                     <p class="colorAlimentos">Normatividad</p>
-                    <a href="{{asset("alimentos_sanos_normatividad")}}">
+                    <a href="Alimentos_normatividad.html">
                         <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                     </a>
                 </div>
                 <div class="centrado colorAlimentos">
                     <p class="colorAlimentos">Indicadores</p>
                     <p class="colorAlimentos">
-                        <a href="{{asset("alimentos_sanos_indicadores")}}">
-                            <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
+                        <a href="Alimentos_indicadores.html">
+                        <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
                         </a>
                     </p>
                 </div>
-            </div>          
+            </div>         
             
         </div>    
 @endsection

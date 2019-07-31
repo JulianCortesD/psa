@@ -122,29 +122,21 @@
 
             <div class="logos colorAire bold140p">
                 <div class="centrado colorAire">
-                    <p class="colorAire">Documentos e investigaciones</p>
-                    <a href="{{asset("aire_documentos")}}">
-                        <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs" />
-                    </a>
-                    
+                  <p class="colorAire">Documentos e investigaciones</p>
+                  <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
+                  />
                 </div>
                 <div class="centrado colorAire">
-                    <p class="colorAire">Mapas</p>
-                    <a href="{{asset("aire_mapas")}}">
-                        <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
-                    </a>                    
+                  <p class="colorAire">Mapas</p>
+                  <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAire">
-                    <p class="colorAire">Normatividad</p>
-                    <a href="{{asset("aire_normatividad")}}">
-                        <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
-                    </a>
+                  <p class="colorAire">Normatividad</p>
+                  <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAire">
-                    <p class="colorAire">Indicadores</p>
-                    <a href="{{asset("aire_indicadores")}}">
-                        <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
-                    </a>                    
+                  <p class="colorAire">Indicadores</p>
+                  <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
                 </div>
             </div>
         </div>  

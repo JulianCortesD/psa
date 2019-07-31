@@ -11,20 +11,20 @@
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> | Cambio climático |</span>
                     <span class="breadcrumb_ cambioC">Cambio climático</span>
-                </div>  
+                </div>
                 <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span> 
+                        <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
                             Fecha y hora
                         </div>
-                    </div>                                    
+                    </div>
                 </div>
-            </div>  
+            </div>
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                         <div width="300px">
@@ -36,7 +36,7 @@
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -46,23 +46,23 @@
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                            </a>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-            </div>  
-            
+            </div>
+
             <div class="row">
                 <!-- <div >
                     <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
+                    </a>
                     <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
+                    </a>
                     <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
+                    </a>
                 </div>  -->
                 <div height="355">
                     <img src="images/cambioClimatico/BannerCambioClimaticoPartenterna.png" width="100%" alt="Slider Alimentos" />
@@ -70,7 +70,7 @@
             </div>
 
             <div class="row" style="text-align:justify;">
-                
+
                 <div class="contenidoSecAmb centradoDiv">
 
                     <h1 align="right" class="centrado colorCambioC mt20">&nbsp;</h1>
@@ -95,12 +95,13 @@
                         la radiación solar ultravioleta incidente sobre la superficie de la tierra que puede causar afecciones en la piel
                         humana. Por su parte, el pronóstico de radiación ultravioleta UV expone la intensidad de la radiación solar ultravioleta
                         UV-B en una escala del 1 al 11+ (1) como se muestra a continuación:</span>
-                        <a href="http://saludata.saludcapital.gov.co/osb/?s=IUV">
-                            <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                        <a href="http://saludata.saludcapital.gov.co/osb/?s=IUV" class="colorcambioclimatico"> Ver Infografía
+                            <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
                             {{-- Ver más --}}
                         </a>
-                   
+
                     </div>
+                    <br></br>
                     <h2>
                     <span class="colorcambioclimatico">
                         <strong>ÍNDICE DE VULNERABILIDAD</strong>
@@ -114,57 +115,54 @@
                             urbana y la infraestructura (2). Por esta razón, la SDS realiza el análisis del índice de vulnerabilidad al cambio
                             climático el cual evalúa la sensibilidad humana frente al riesgo de exposición al cambio climático y a fenómenos
                             extremos y a su vez la capacidad de la ciudad para adaptarse a los impactos potenciales del cambio climático o
-                            su aprovechamiento (3).</span> <br>
-                        <a href="https://drive.google.com/file/d/1qQLcL0pdxRg6FWcKoUIH7WPqhE5Ndog-/view" class="colorcambioclimatico">
+                            su aprovechamiento (3).</span>
+                        <a href="https://drive.google.com/file/d/1qQLcL0pdxRg6FWcKoUIH7WPqhE5Ndog-/view" class="colorcambioclimatico">Ver Infografía
                             <img src="images/cambioClimatico/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
-                            Ver Infografía
+
                         </a>
-                        <br />
-                    </p>
-                    <p align="justify">&nbsp;</p>
+
+                    <p align="justify">
+                    <div class="row">
+                      <hr class="lineaCambioC mt80" style="width: 100%;" />
+                  </div>
+                  <div id="pie">
+                    <div id="pieuno"class="colorcambioclimatico">1. Ballesteros HOB. Información técnica sobre la radiación ultravioleta, el índice uv y su pronóstico. <a href=" http://documentacion.ideam.gov.co/openbiblio/bvirtual/22454/NotatecnicaIUVPaginaWEBfinal.pdf"><u>Disponible aquí</u></a></div>
+                            <div id="pieuno"class="colorcambioclimatico">2.Boletin_25.pdf [Internet]. [citado 16 de mayo de 2019]. <a href=" http://documentacion.ideam.gov.co/openbiblio/bvirtual/023738/Boletin_25.pdf"><u>Disponible aquí</u></a></div>
+
+                            <div id="pieuno"class="colorcambioclimatico">3.CAF. Índice de vulnerabilidad y adaptación al cambio climático en la región de América Latina y el Caribe [Internet]. CAF; 2014 [citado 16 de mayo de 2019] <a href=" http://scioteca.caf.com/handle/123456789/517"><u>Disponible aquí</u></a>                    </div>
                     <p align="right" class="colorCambioC">
-                    <a href="{{asset("cambio_climatico")}} " class="colorcambioclimatico">Volver</a>
-                    </p>
-                </div>
-                
-
-            </div>  
-
-            <div class="row">
-                <hr class="lineaCambioC mt80" style="width: 100%;" />
+                    <a href="{{asset("cambio_climatico")}} " class="colorcambioclimatico">Volver</a></p>
+          <hr class="lineaCambioC mt80" style="width: 100%;" />
             </div>
-
-            <div class="logos colorCambioC bold140p">
+           <div class="logos colorCambioC bold140p">
                 <div class="centrado colorCambioC">
                     <p class="colorCambioC">Documentos e investigaciones</p>
-                    <a href="{{asset("cambio_climatico_documentos")}}">
+                    <a href="CambioClimatico_Documentos.html">
                     <img src="images/cambioClimatico/cambioDOCUMENTOS.jpg" width="85" height="63" alt="Cambio climático docs" />
                     </a>
                 </div>
                 <div class="centrado colorCambioC">
                     <p class="colorCambioC">Mapas</p>
-                    <a href="{{asset("cambio_climatico_mapas")}}">
+                    <a href="CambioClimatico_mapas.html">
                     <img src="images/cambioClimatico/cambioMAPA.jpg" width="85" height="63" alt="Cambio climático mapa" />
                     </a>
                 </div>
                 <div class="centrado colorCambioC">
                     <p class="colorCambioC">Normatividad</p>
-                    <a href="{{asset("cambio_climatico_normatividad")}}">
+                    <a href="CambioClimatico_normatividad.html">
                     <img src="images/cambioClimatico/cambioNORMATIVIDAD.jpg" width="85" height="63" alt="Cambio climático normas" />
                     </a>
                 </div>
                 <div class="centrado colorCambioC">
                     <p class="colorCambioC">Indicadores</p>
                     <p>
-                    <a href="{{asset("cambio_climatico_indicadores")}}">
+                    <a href="CambioClimatico_Indicadores.html">
                         <img src="images/cambioClimatico/cambioINDICADORES.jpg" width="85" height="63" alt="Cambio climático título" />
-                    </a>
-                    </p>
-                    <p>&nbsp;</p>
+                    </a></p>
                 </div>
-            </div>           
-            
-        </div>    
+            </div>
+
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

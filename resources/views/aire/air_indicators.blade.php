@@ -80,7 +80,7 @@
                         </h1>
                         </span>
                     </h3>
-                    <h2 class="centrado colorAire mt40">Calidad del aire</h2>
+                    <h2 class="colorAire mt40">Calidad del aire</h2>
                     <p>Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente
                         asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá. </p>
                     <ul>
@@ -91,17 +91,67 @@
                                 {{-- Ver más --}}
                             </a>
                         </li>
-                        <li>
-                        <span class="colorIndicadores">Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</span>
+                       
+                        <li span class="colorIndicadores">Prevalencia de sibilancias en niños de 5 a 14 años posiblemente asociado a material particulado, Bogotá D.C.</span>
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancia514/" class="verMas colorAire">
                             <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
-                            {{-- Ver más --}}
+                            {{-- Ver más --}}</li>
+                        </a>
+                        </li>
+                          
+                        <li span class="colorIndicadores">Prevalencia de sibilancias en adultos mayores de 60 años en Bogotá D.C.</span>
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/sibilancias60anios/">
+                            <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                            {{-- Ver más --}}</li>
+                        </a>
+                        <li span class="colorIndicadores">Proporción de demanda de consulta por enfermedad respiratoria en niños menores de 14 años  atendidos en el servicio de urgencias, Red Pública en Bogotá D.C.</span>
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/consultaurgencias14anios/">
+                            <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                            {{-- Ver más --}}</li>
+                        </a>
+                         <li span class="colorIndicadores">Proporción de demanda de consulta por enfermedad cardiovascular en adulto mayor de 60 años atendidos en el servicio de urgencias, Red Pública en Bogotá D.C.</span>
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/cardiovascular60anios"/>
+                            <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                            {{-- Ver más --}}</li>
+                        </a>
+                         <li span class="colorIndicadores">Ausentismo escolar por enfermedad respiratoria en niños menores de 14 años en Bogotá D.C.</span>
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/ausentismo-escolar"/>
+                            <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                            {{-- Ver más --}}</li>
                         </a>
                         </li>
                     </ul>
-                    <p>&nbsp;</p>
-                
-                    <h2 class="centrado colorAire mt40">Espacios libre de humo y tabaco</h2>
+                   <h2 class="colorAire mt40">Ruido</h2>
+                    <p>Describen la tendencia de la frecuencia de casos relacionados con la pérdida de audición y la calidad del sueño debido a la exposición a ruido y los resultados de las acciones de la vigilancia sanitaria y ambiental por contaminación auditiva en Bogotá </p>
+                    <ul>
+                       
+                            <li span class="colorIndicadores">Prevalencia de alteración del sueño en Bogotá D.C.</span>
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/alteracionsueno/"> 
+                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                                {{-- Ver más --}}
+                            </a>
+                        </li>
+
+
+                        <li span class="colorIndicadores">Prevalencia de somnolencia diurna por exposición al ruido en Bogotá D.C..</span>
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/somnolencia"/> 
+                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                                {{-- Ver más --}}
+                            </a>
+                        </li>
+                 </ul>
+                 <h2 class="colorAire mt40">Radiación electromagnética</h2>
+                    <p>Visualizan la frecuencia de los eventos de interés relacionados con la exposición a radiación electromagnética y los resultados de las acciones de la vigilancia sanitaria y ambiental por contaminación de radiación electromagnética en Bogotá </p>
+                    <ul>
+                    
+                            <li span class="colorIndicadores">Prevalencia de síndrome de radiofrecuencia en Bogotá D.C.</span>
+                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/prevalenciasindromeradiofrecuencia"/> 
+                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                                {{-- Ver más --}}
+                            </a>
+                        </li>
+                    </ul>
+                    <h2 class="colorAire mt40">Espacios libre de humo y tabaco</h2>
                     <p>Permiten mostrar las principales acciones afines con la implementación de la norma de espacios libres de humo de tabaco
                         y la frecuencia de la exposición al humo de tabaco en Bogotá. </p>
                     <ul>
@@ -124,28 +174,20 @@
             <div class="logos colorAire bold140p">
                 <div class="centrado colorAire">
                     <p class="colorAire">Documentos e investigaciones</p>
-                    <a href="{{asset("aire_documentos")}}">
-                        <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs" />
-                    </a>
-                    
+                    <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
+                    />
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Mapas</p>
-                    <a href="{{asset("aire_mapas")}}">
-                        <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
-                    </a>                    
+                    <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Normatividad</p>
-                    <a href="{{asset("aire_normatividad")}}">
-                        <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
-                    </a>
+                    <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Indicadores</p>
-                    <a href="{{asset("aire_indicadores")}}">
-                        <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
-                    </a>                    
+                    <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
                 </div>
             </div>
         </div>    

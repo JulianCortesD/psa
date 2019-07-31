@@ -80,16 +80,24 @@
                         <p align="justify">La Secretaria Distrital de Salud realiza el monitoreo de la información sobre las condiciones de exposición a contaminación
                             del aire de la población vulnerable en Bogotá, mediante procesos de vigilancia epidemiológica, ambiental y sanitaria
                             orientada al diseño de estrategias e intervenciones tendientes a mitigar los efectos nocivos asociados a este factor
-                            de riesgo.
+                            de riesgo. <br></br>
+                            Actualmente el crecimiento de las dinámicas sociales y económicas de la ciudad pueden contribuir al incremento de las concentraciones de material particulado en el aire superando los estándares permisibles por la Organización Mundial de la Salud (OMS) y la resolución 2254 de 2017 del Ministerio de Ambiente de Colombia. Por ende, la importancia de la vigilancia epidemiológica, ambiental y sanitaria reside en el análisis de los efectos negativos de la contaminación del aire en la salud de la población y en la elaboración y divulgación de recomendaciones y medidas voluntarias para que la ciudadanía ejerza el autocuidado y contribuya a mejorar la calidad del aire referida en el Índice Bogotano de Calidad de Aire (IBOCA). 
                         </p>
-                       {{--  <a href="{{asset("agua_saneamiento_adulto_mayor_ver_mas")}}">
-                            <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
-                        </a> --}}
+                        <h3 class="colorAire">IBOCA</h3>
+                       <p align="justify">
+                           <a href="https://sdsgissaludbog.maps.arcgis.com/apps/MapSeries/index.html?appid=0a6ba64953d04fc592e9292b17c8bbdd&folderid=a8be0de8f77d4c87826464d40e687a14&autoplay">
+                            <p align="justify">Indice Bogotano del Calidad de Aire (IBOCA):</a> Aquí encontrara la información en tiempo real referente al índice bogotano de calidad de aire, modelación de calidad del aire y datos de inmisión (contaminantes criterio). </P>
+                       <p class="verMas colorAire">
+                            <a href="{{asset("/aire_calidad_iboca")}}" class="verMas colorAire">
+                                <img src="images/aire/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                                {{-- Ver más --}}
+                            </a>
+                      </p>
                     
                     
                     
-                        <h3 class="centrado colorAire">&nbsp;</h3>
-                        <p class="notaPiePagina">&nbsp;</p>
+                        <h3 class="centrado colorAire"></h3>
+                        <p class="notaPiePagina"></p>
                     
                     </div>
             </div>
@@ -101,28 +109,20 @@
             <div class="logos colorAire bold140p">
                 <div class="centrado colorAire">
                     <p class="colorAire">Documentos e investigaciones</p>
-                    <a href="{{asset("aire_documentos")}}">
-                        <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs" />
-                    </a>
-                    
+                    <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
+                    />
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Mapas</p>
-                    <a href="{{asset("aire_mapas")}}">
-                        <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
-                    </a>                    
+                    <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Normatividad</p>
-                    <a href="{{asset("aire_normatividad")}}">
-                        <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
-                    </a>
+                    <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Indicadores</p>
-                    <a href="{{asset("aire_indicadores")}}">
-                        <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
-                    </a>                    
+                    <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
                 </div>
             </div>
         </div>        

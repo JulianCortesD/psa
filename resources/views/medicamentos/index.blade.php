@@ -82,7 +82,7 @@
                         y/o fraudulentos, y contribuyendo a su disposición final en condiciones ambientalmente sostenibles.</p>
                     <p align="justify">&nbsp;</p>
                     <a href="{{asset("medicamentos_ver")}} " align="right" class="verMas colorMedicamentos">
-                        <img src="images/medicamentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                        <img src="images/medicamentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"align="right"/>    
                         {{-- Ver más --}}
                     </a>
 
@@ -104,14 +104,14 @@
                 <div class="centrado colorAgua">
                     <p class="colorMedicamentos">Mapas</p>
                     <p class="colorMedicamentos">
-                        <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
+                    <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
                     </p>
                     <p class="colorMedicamentos">&nbsp;</p>
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorMedicamentos">Normatividad</p>
                     <p class="colorMedicamentos">
-                    <a href="{{asset("medicamentos_normatividad")}}">
+                    <a href="Medicamentos_normatividad.html">
                         <img src="images/medicamentos/IMG_MEDICAMENTOS_NORMATIVIDAD.jpg" width="85" height="63" />
                     </a>
                     </p>
@@ -122,7 +122,7 @@
                     <img src="images/medicamentos/IMG_MEDICAMENTOS_INDICADORES.jpg" width="85" height="63" />
                     </p>
                 </div>
-            </div>          
+            </div>         
             
         </div>    
 @endsection

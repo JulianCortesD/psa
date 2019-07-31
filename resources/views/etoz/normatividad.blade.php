@@ -17,22 +17,22 @@
                     </div>
 
                 </div>
-                <div class="col-4" id="ocultar-contenedor">
+                <div class="col-4">
                     <div class="row ocultar">
                         <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span> 
+                        <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row ocultar">
-                        <div class="col-12 date-time" id="reloj">
+                        <div class="col-12 date-time" >
                             Fecha y hora
                         </div>
-                    </div>  
+                    </div>
                     <div class="row mt-2">
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -42,17 +42,15 @@
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                            </a>
                         </div>
-                    </div>                                    
+                    </div>
                 </div>
-            </div>  
-            
-            <div class="row">
+            </div>
 
-                <div height="355">
-                    <img src="images/quimica/Banner peluqueria parte interna.png" alt="Slider aire" width="945" />
-                </div>
+            <div class="row">
+            <div height="355">
+              <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" width="100%" alt="Slider Alimentos" /></div>
             </div>
 
             <div class="row" style="text-align:justify;">
@@ -69,7 +67,7 @@
                         <h2 align="center" class="colorETOZ">
                             Regulación transversal &nbsp; &nbsp; &nbsp;&nbsp; Regulación Especifica</h2>
                     </p>
-                    
+
                     <div align="center">
                     <table width="545" border="0">
                         <tr>
@@ -157,8 +155,8 @@
                     </div>
                     <p align="left">&nbsp;</p>
                 </div>
-                
-            </div>  
+
+            </div>
 
             <div class="row">
                 <hr class="lineaETOZ mt80" style="width: 100%;" />
@@ -187,9 +185,9 @@
                         <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" alt="Aire título" />
                     </a>
                 </div>
-            </div>      
-            
-        </div>    
+            </div>
+
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

@@ -72,12 +72,15 @@
             <div class="row " style="text-align: justify;">
                 <!-- INICIO contenido-->
                 <div class="contenidoSecAmb centradoDiv">
-                    <p align="justify"><strong>Hogar Geriátrico:</strong> Instituciones que ofrecen albergue, servicios sociales y atención integral en salud a la persona mayor con grado moderado o severo de incapacidad física y/o psíquica, para desarrollar las actividades de la vida diaria (levantarse, deambular, bañarse, vestirse, usar el baño, alimentarse y controlar esfínteres) o que están aquejados por enfermedades que requieren control frecuente de medicina, enfermería y servicios de rehabilitación y disciplinas afines.</p>
-                    <p align="justify"><strong> Hogares Gerontológicos:</strong> Instituciones destinadas al albergue permanente o temporal de ancianos con mínima incapacidad física o psíquica, donde se ofrecen servicios sociales y de salud básicos (suministro o supervisión de tratamientos médicos, primeros auxilios, terapias, etc.). </p>
-                    <p align="justify"><strong>Centro Días o Centro Vida para la Persona Mayor:</strong> Son lugares donde se reúnen las personas mayores para desarrollar actividades puramente sociales: funcionan durante el día hasta 8 horas y la persona mayor vuelve a su red familiar.</p>
+                    
+                    <p align="justify">
+                        
+                        <strong class="breadcrumb_ agua">Hogar Geriátrico:</strong> Instituciones que ofrecen albergue, servicios sociales y atención integral en salud a la persona mayor con grado moderado o severo de incapacidad física y/o psíquica, para desarrollar las actividades de la vida diaria (levantarse, deambular, bañarse, vestirse, usar el baño, alimentarse y controlar esfínteres) o que están aquejados por enfermedades que requieren control frecuente de medicina, enfermería y servicios de rehabilitación y disciplinas afines.</p>
+                    <p align="justify"><strong class="breadcrumb_ agua"> Hogares Gerontológicos:</strong> Instituciones destinadas al albergue permanente o temporal de ancianos con mínima incapacidad física o psíquica, donde se ofrecen servicios sociales y de salud básicos (suministro o supervisión de tratamientos médicos, primeros auxilios, terapias, etc.). </p>
+                    <p align="justify"><strong class="breadcrumb_ agua">Centro Días o Centro Vida para la Persona Mayor:</strong> Son lugares donde se reúnen las personas mayores para desarrollar actividades puramente sociales: funcionan durante el día hasta 8 horas y la persona mayor vuelve a su red familiar.</p>
                     <p align="justify">La Secretaría Distrital de Salud, ha venido promocionando para los diferentes establecimientos que actualmente funcionan en el Distrito Capital y que cumplen con las condiciones higiénico sanitarias, el buen trato a la persona mayor, cuentan con personal idóneo, con una minuta de alimentación acorde a la situación de salud a la persona mayor institucionalizada o por horas el Reconocimiento Distrital Hogar Dorado. El cual es un reconocimiento a las condiciones anteriormente mencionadas y será un reconocimiento a nivel Distrital.</p>
-                    <p align="justify"><strong> Establecimientos con concepto favorable:</strong> Consulte aquí los establecimientos vigilados por la línea de calidad del agua y saneamiento básico ubicado en la ciudad de Bogotá, que cuentan con concepto favorable por parte de la Secretaria Distrital de Salud.</p>
-                    <p class="mt40"><a href="https://drive.google.com/open?id=1bc1HCAgUdkDTKDKbDQ39qEwFT9Ai-gpu" class="colorAgua">Consulte normatividad</a> que rige para la apertura de hogares para adulto mayor.</p>
+                   
+                    <p class="mt40"><a href="https://drive.google.com/open?id=1bc1HCAgUdkDTKDKbDQ39qEwFT9Ai-gpu" class="colorAgua"><u>Consulte normatividad</u></a> que rige para la apertura de hogares para adulto mayor.</p>
                     <p class="verMas colorAgua">
                         <a href="{{asset("agua_saneamiento_adulto_mayor")}}">Volver</a>
                     </p>
@@ -90,41 +93,23 @@
             </div>
 
            <!--  <div class="row"> -->
-           <div class="logos colorAgua bold140p">
+                <div class="logos colorAgua bold140p">
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Documentos e investigaciones</p>
-                    <a  href="{{asset("agua_saneamiento_documentos")}}">
-                      <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
-                    </a>
-                    
+                    <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Mapas</p>
-                    <a  href="{{asset("agua_saneamiento_mapas")}}">
-                      <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
-                    </a>
-                    
+                    <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Normatividad</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
-                    </a>
-                    
+                    <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Indicadores</p>
-                    <a href="{{asset("agua_saneamiento_indicadores")}}">
-                      <img src="images/agua/IMG_AGUA_INDICADORES.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
+                    <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
-                <!-- <div class="centrado colorAgua">
-                    <p class="colorAgua">Calidad del aire</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
-                </div> -->
-            </div>  
             <!-- </div> -->
             
             

@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta> @section('titulo','id="Ambiente Bogotá"')
         <title>@yield('titulo','Ambiente Bogotá') </title>
 
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
@@ -18,23 +19,23 @@
         <script src='packages/core/main.js'></script>
         <script src='packages/interaction/main.js'></script>
         <script src='packages/daygrid/main.js'></script>
-        
+
         @yield('styles')
-            
+
     </head>
     <body style="min-width: 1250px;">
         <div class="wrapper" style="min-width: 768px;">
             <!-- Inicio header -->
             @include("header")
             <!-- Fin header -->
-        </div> 
+        </div>
         <div class="content-wrapper">
             @yield('contenido')
         </div>
         <div class="wrapper">
             @include('footer')
         </div>
-        
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

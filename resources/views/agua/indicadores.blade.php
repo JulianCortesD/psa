@@ -73,17 +73,14 @@
                 
                 <div class="contenidoSecAmb centradoDiv">
                     <div>
-                      <p>&nbsp;</p>
+                     
                       <h2>
-                        <img src="images/agua/IMG_AGUA_INDICADORES.jpg" width="85" height="63" align="absbottom" />
+                        <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" align="absbottom" />
                         <span class="colorAgua">Indicadores</span>
                       </h2>
                     </div>
-                    <p align="justify">&nbsp;</p>
-                    <p align="justify" style="font-size: 16px; text-decoration: underline;">El Índice de Riesgo de la Calidad del Agua (IRCA) es la metodología por la cual se evalúan los resultados de los análisis
-                      de muestras de agua para consumo (Decreto 1575 de 2007); de acuerdo con el proceso de muestreo y análisis de resultados,
-                      se integraron al cálculo del IRCA Distrital, los datos del monitoreo que se hace a los sistemas de abastecimiento
-                      comunitarios, de veredas e instituciones, durante el periodo 2012-2018</p>
+                    <p align="justify"></p>
+                    <p align="justify" style="font-size: 16px;">Indica la proporción  de  intervenciones  relacionadas con la inspección, vigilancia y control de las condiciones higiénico sanitarias de los establecimientos y la frecuencia de eventos de interés en salud pública.</p>
                     <p align="justify">&nbsp;</p>
                     <ul>
               
@@ -95,13 +92,21 @@
                         </a>
                       </div>
               
-                    </ul>
-              
-                    <ul>
-              
+                    </ul>             
+                 
+              <ul>
                       <div align="justify">
                         <span class="colorIndicadores">Índice de Riesgo para la Calidad del Agua Potable de la Empresa de Acueducto y Alcantarillado de Bogotá D.C</span>.
                         <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/irca-eaab/">
+                            <img src="images/agua/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                           {{--  Ver más --}}
+                        </a>
+                      </div>
+                      </ul> 
+                        <ul>
+                       <div align="justify">
+                        <span class="colorIndicadores">Conceptos sanitarios emitidos y medidas de seguridad aplicadas en establecimientos intervenidos en Bogotá D.C</span>.
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/conceptos-sanitarios-establecimientos/">
                             <img src="images/agua/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
                            {{--  Ver más --}}
                         </a>
@@ -118,41 +123,24 @@
             </div>
 
            <!--  <div class="row"> -->
-           <div class="logos colorAgua bold140p">
+            <div class="logos colorAgua bold140p">
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Documentos e investigaciones</p>
-                    <a  href="{{asset("agua_saneamiento_documentos")}}">
-                      <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
-                    </a>
-                    
+                    <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Mapas</p>
-                    <a  href="{{asset("agua_saneamiento_mapas")}}">
-                      <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
-                    </a>
-                    
+                    <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Normatividad</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
-                    </a>
-                    
+                    <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Indicadores</p>
-                    <a href="{{asset("agua_saneamiento_indicadores")}}">
-                      <img src="images/agua/IMG_AGUA_INDICADORES.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
+                    <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
-                <!-- <div class="centrado colorAgua">
-                    <p class="colorAgua">Calidad del aire</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
-                </div> -->
-            </div>  
+            </div>    
             <!-- </div> -->
             
             

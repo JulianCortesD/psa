@@ -73,7 +73,7 @@
                 <div class="contenidoSecAmb centradoDiv">
                     <div align="justify">
                         <p>&nbsp;</p>
-                        <h3 class="centrado colorMedicamentos"> Objetivo General: </h3>
+                        <h3 class="colorMedicamentos"> Objetivo General: </h3>
                         <p align="justify" style="font-size: 16px;">
                                 
                         <br /> Contribuir en la defensa de los derechos de las personas a que le sean suministrados medicamentos, dispositivos
@@ -82,10 +82,10 @@
                         </p>
                     </div>
 
-                    <h3 class="centrado colorMedicamentos"> Objetivos Específicos:</h3>
+                    <h3 class="colorMedicamentos"> Objetivos Específicos:</h3>
                     <p align="justify" style="font-size: 16px;">
-                        <br /> Promover en los habitantes de la ciudad una cultura de uso racional de medicamentos, dispositivos médicos y productos
-                        farmacéuticos. </p>
+                         <p align="justify">Promover en los habitantes de la ciudad una cultura de uso racional de medicamentos, dispositivos médicos y productos
+                        farmacéuticos.</p>
                     <p align="justify">Fomentar la gestión integral de los medicamentos, dispositivos médicos y productos farmacéuticos en condiciones seguras
                         y ambientalmente saludables. </p>
                     <p align="justify">Vigilar la comercialización de medicamentos, dispositivos médicos y productos farmacéuticos de calidad en condiciones
@@ -94,16 +94,17 @@
                         en Bogotá D.C. </p>
                     <p align="justify">Promover el fortalecimiento de las instituciones encargadas de la gestión de la salud ambiental en los temas referidos
                         a medicamentos, dispositivos médicos y productos farmacéuticos. </p>
-                    <p align="justify">Ejes Temáticos:
-                        <br /> Promoción del uso racional de medicamentos, dispositivos médicos y demás productos farmacéuticos. </p>
+                  
+                          <h3 class="colorMedicamentos"> Ejes Temáticos: </h3>
+
+                        <br /> <p>Promoción del uso racional de medicamentos, dispositivos médicos y demás productos farmacéuticos. </p>
                     <p align="justify">Manejo integral de medicamentos, dispositivos médicos y demás productos farmacéuticos. </p>
                     <p align="justify">Vigilancia de la salud ambiental sobre medicamentos, dispositivos médicos y demás productos farmacéuticos. </p>
                     <p align="justify">Gestión para el conocimiento y la regulación de alternativas farmacoterapéuticas. </p>
                     <p align="justify">Fortalecimiento de la capacidad institucional para la gestión de medicamentos, dispositivos médicos y demás productos
                         farmacéuticos.</p>
-
-                    <h3 class="centrado colorMedicamentos"> Inspección, Vigilancia y Control de Establecimientos Farmacéuticos distribuidores minoristas y mayoristas entre
-                            otros</h3>
+ <p align="justify">Inspección, Vigilancia y Control de Establecimientos Farmacéuticos distribuidores minoristas y mayoristas entre
+                            otros</p>
                     <h3 class=" colorMedicamentos"> Objetivo</h3>
                     <p align="justify" style="font-size: 16px;">
                         <br /> Vigilar la comercialización de medicamentos, dispositivos médicos entre otros, en los establecimientos competencia
@@ -149,14 +150,14 @@
                 <div class="centrado colorAgua">
                     <p class="colorMedicamentos">Mapas</p>
                     <p class="colorMedicamentos">
-                        <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
+                    <img src="images/medicamentos/IMG-MEDICAMENTOS_MAPA.jpg" width="85" height="63" />
                     </p>
                     <p class="colorMedicamentos">&nbsp;</p>
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorMedicamentos">Normatividad</p>
                     <p class="colorMedicamentos">
-                    <a href="{{asset("medicamentos_normatividad")}}">
+                    <a href="Medicamentos_normatividad.html">
                         <img src="images/medicamentos/IMG_MEDICAMENTOS_NORMATIVIDAD.jpg" width="85" height="63" />
                     </a>
                     </p>

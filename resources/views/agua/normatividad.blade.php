@@ -83,14 +83,16 @@
                     <p>&nbsp;</p>
                     <p>
                       <h1 align="center" class="colorAgua" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer;">
-                        Regulación Transversal
+                       <b> Regulación Transversal</b>
                       </h1>  
                     </p>
                     <div class="collapse show" id="collapseTransversal">
-                      <ul class="sinVinetas">                
+                      <ul> 
+                                  
                         <div align="center">
                           <a href="https://drive.google.com/open?id=1KM4SlJjP-ntbUQkeTW1hTvRxOmrGo1a_" class="colorIndicadores">Ley 09 de 1979</a>
                         </div>
+
                         <div align="center">
                           <a href="https://drive.google.com/open?id=1lEQeeQvIfU0In99FD5VeD4xq3RA0M2n1" class="colorIndicadores">Ley 715 de 2001 </a>
                         </div>
@@ -102,7 +104,7 @@
                         </div>
                         <div align="center">
                           <a href="https://drive.google.com/open?id=1_6izKlJ7cMIGHmbTtYiZqsTd3JPTSfe1" class="colorIndicadores">Resolución 705 de 2007 </a>
-                        </div>
+                        </div><strong class="breadcrumb_ agua">
                         <div align="center">
                           <a href="https://drive.google.com/open?id=1r982i4y5kOKr0U-1d2HgeDB3Ph34d6bx" class="colorIndicadores">Resolución 1956 de 2008</a>
                         </div>
@@ -116,17 +118,17 @@
                       </ul>
                     </div>
               
-                    <h2 align="center" class="colorAgua">Regulación Específica</h2>
+                    <h2 align="center" class="colorAgua"><b>Regulación Específica</b></h2>
                     <table width="100%" border="0">
                       <tr class="alinearVerticalInicial">
                         <td width="36%">
                           <p>
-                            <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseAgua" role="button" aria-expanded="false" aria-controls="collapseAgua" style="cursor: pointer; color:black; ">
-                              Agua para consumo humano
+                            <h2 class="colorIndicadores" data-toggle="collapse" href="#collapseAgua" role="button" aria-expanded="false" aria-controls="collapseAgua" style="cursor: pointer; color:black; ">
+                             <strong class="breadcrumb_ agua"> Agua para consumo humano</strong>
                             </h2>
                           </p>
-                          <div class="collapse show" id="collapseAgua">
-                            <ul class="sinVinetas">
+                          <h2 class="collapse show" id="collapseAgua">
+                            <ul>
                               <li>
                                 <a href="https://drive.google.com/open?id=1hkBAmqeQlz5z4mOuQpohdBEB_w9ZEmbD" class="colorIndicadores">Resolución 1096 de 2000 </a>
                               </li>
@@ -134,10 +136,10 @@
                                 <a href="https://drive.google.com/open?id=1Z8ArTEKyttPG4IzWd4IdbsHHixZfvrXx" class="colorIndicadores">Resolución 414 de 2002</a>
                               </li>
                               <li>
-                                <a href="https://drive.google.com/open?id=1hm5t_Sbvmo5VbUuY24nK_MNV14VL7Ge" class="colorIndicadores">Decreto 1575 de 2007</a>
+                                <a href="https://drive.google.com/open?id=1jfqh9HrK9Mvhvl6H0mEZzAfbnc6C1ynW" class="colorIndicadores">Decreto 1575 de 2007</a>
                               </li>
                               <li>
-                                <a href="https://drive.google.com/open?id=1Kqbz9LCdZeTed84sTsfRSInZBQA-nsIR" class="colorIndicadores">Resolución 2115</a>
+                                <a href="https://drive.google.com/open?id=1Kqbz9LCdZeTed84sTsfRSInZBQA-nsIR" class="colorIndicadores">Resolución 2115 de 2007</a>
                               </li>
                               <li>
                                 <a href="https://drive.google.com/open?id=1i9O04ip1FN8d9Pv4M7QpbjHWU_9J4aH5" class="colorIndicadores">Resolución 811 de 2008</a>
@@ -158,16 +160,16 @@
                                 <a href="https://drive.google.com/open?id=1OmzgvkMVKlwD0JDU1itN8Zmpaps6jCng" class="colorIndicadores">Resolución 549 de 2017</a>
                               </li>
                             </ul>
-                          </div>
+                          </h2>
                         </td>
                         <td width="31%">
                           <p>
-                            <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseResiduos" role="button" aria-expanded="false" aria-controls="collapseResiduos" style="cursor: pointer; color:black; ">
-                              Residuos sólidos y líquidos
+                            <h2 class="colorIndicadores" data-toggle="collapse" href="#collapseResiduos" role="button" aria-expanded="false" aria-controls="collapseResiduos" style="cursor: pointer; color:black; ">
+                              <strong class="breadcrumb_ agua">Residuos sólidos y líquidos</strong>
                             </h2>
                           </p>
-                          <div class="collapse show" id="collapseResiduos">
-                            <ul class="sinVinetas">
+                          <h2 class="collapse show" id="collapseResiduos">
+                            <ul>
                               <li>
                                 <a href="https://drive.google.com/open?id=1eqtybUGOLxyNStIey2NYNh9L-lnEwowz" class="colorIndicadores">Decreto 605 de 1996</a>
                               </li>
@@ -178,7 +180,7 @@
                                 <a href="https://drive.google.com/open?id=1mYGrTxkHVupFqy3XykAgF-mJHYt9e1AD" class="colorIndicadores">Decreto 400 de 2004</a>
                               </li>
                               <li>
-                                <a href="https://drive.google.com/open?id=1j_pcpKQW_nu1XqKxMyXTbNQ9nl3fTJE" class="colorIndicadores">Decreto 838 de 2005</a>
+                                <a href="https://drive.google.com/open?id=1j_pcpKQW_nu1XqKxMyXTbNQ9nl3fTJEU" class="colorIndicadores">Decreto 838 de 2005</a>
                               </li>
                               <li>
                                 <a href="https://drive.google.com/open?id=1fQBKw618wJoXoRaAydNAuL4kfKKAuAqX" class="colorIndicadores">Resolución 0482 de 2009</a>
@@ -190,14 +192,14 @@
                                 <a href="https://drive.google.com/open?id=1s2ZiNDOiRj6wbIXP85tWxWmuwKdspD9Z" class="colorIndicadores">Decreto 780 de 2016</a>
                               </li>
                             </ul>
-                          </div>
+                          </h2>
                           <p>
                             <h2 align="center" class="colorIndicadores"  data-toggle="collapse" href="#collapseCarro" role="button" aria-expanded="false" aria-controls="collapseCarro" style="cursor: pointer; color:black; ">
-                              Carrotanques
+                             <strong class="breadcrumb_ agua"> Carrotanques</strong>
                             </h2>
                           </p>
-                          <div class="collapse show" id="collapseCarro">
-                            <ul class="sinVinetas">
+                          <h2 class="collapse show" id="collapseCarro">
+                            <ul>
                               <li>
                                 <a href="https://drive.google.com/open?id=1ILIIT85UO6OL3vTrA5r7lVbPhX45dPXO" class="colorIndicadores">Resolución 2190 de 1991 </a>
                                 </span>
@@ -213,7 +215,7 @@
                               </li>
                             </ul>
                             
-                          </div>
+                          </h2>
 
 
 
@@ -221,11 +223,11 @@
                         <td width="33%">
                           <p>
                             <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapsePiscinas" role="button" aria-expanded="false" aria-controls="collapsePiscinas" style="cursor: pointer; color:black; ">
-                              Piscinas
+                              <strong class="breadcrumb_ agua">Piscinas</strong>
                             </h2>
                           </p>
-                          <div class="collapse show" id="collapsePiscinas">
-                            <ul class="sinVinetas">
+                          <h2 class="collapse show" id="collapsePiscinas">
+                            <ul>
                               <li>
                                 <a href="https://drive.google.com/open?id=1ECsMO6pOFkamwkxsAAunP7DUg3fUrXnx" class="colorIndicadores">Ley 1209 de 2008</a>
                               </li>
@@ -233,7 +235,7 @@
                                 <a href="https://drive.google.com/open?id=1LgFy0JBLqeJYiRHX4MBZ2t2Pl2AFHbUl" class="colorIndicadores">Resolución 1394 del 2015</a>
                               </li>
                               <li class="colorIndicadores">
-                                <a href="https://drive.google.com/open?id=18k39G0GT9MnLB0at36bUa-IalWziYw9g" style="color: black; text-decoration:none;"> 
+                                <a href="https://drive.google.com/open?id=1s2ZiNDOiRj6wbIXP85tWxWmuwKdspD9Z" style="color: black; text-decoration:none;"> 
                                   Decreto 780 de 2016
                                 </a>
                               </li>
@@ -244,7 +246,7 @@
                                 </a> 
                               </li>
                             </ul>
-                          </div>
+                          </h2>
                         </td>
                       </tr>
                     </table>
@@ -255,11 +257,11 @@
                           <td width="32%" height="275">
                             <p>
                               <h2 class="colorIndicadores" data-toggle="collapse" href="#collapseFunerarios" role="button" aria-expanded="false" aria-controls="collapseFunerarios" style="cursor: pointer; color:black; ">
-                                Servicios funerarios y cementerios
+                                <strong class="breadcrumb_ agua">Servicios funerarios y cementerios</strong>
                               </h2>
                             </p>
-                            <div class="collapse show" id="collapseFunerarios">
-                              <ulclass="colorIndicadores sinVinetas">
+                            <h2 class="collapse show" id="collapseFunerarios">
+                              <ul class="colorIndicadores">
                                 <li>
                                   <a href="https://drive.google.com/open?id=1kDqwkCsCoZCO8nrkoKCj4EUSWZKebF-j" class="colorIndicadores">Decreto 391 de 1991</a>
                                 </li>
@@ -280,16 +282,16 @@
                                   </a>
                                 </li>
                               </ul>
-                            </div>
+                            </h2>
                           </td>
                           <td width="32%">
                             <p>
                               <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseServicios" role="button" aria-expanded="false" aria-controls="collapseServicios" style="cursor: pointer; color:black; ">
-                                Establecimientos con servicios de alto impacto
+                                <strong class="breadcrumb_ agua">Establecimientos con servicios de alto impacto</strong>
                               </h2>
                             </p>
-                            <div class="collapse show" id="collapseServicios">
-                              <ul class="sinVinetas">
+                            <h2 class="collapse show" id="collapseServicios">
+                              <ul>
                                 <li>
                                   <a href="https://drive.google.com/open?id=1fAwTe8A5s0CL84_xczwwRxKqsdk2MMMn" class="colorIndicadores">Decreto 400 de 2004</a>
                                 </li>
@@ -297,14 +299,14 @@
                                   <a href="https://drive.google.com/open?id=1OYWmG42FPVxiWiS62eRWfC7BFdbGqjrI" class="colorIndicadores">Decreto 780 de 2016</a>
                                 </li>
                               </ul>
-                            </div>
+                            </h2>
                             <p>
                               <h2 class="colorIndicadores" align="center" data-toggle="collapse" href="#collapseCarcel" role="button" aria-expanded="false" aria-controls="collapseCarcel" style="cursor: pointer; color:black; ">
-                                Cárceles, centros de rehabilitación de menores y salas de retenidos
+                                <strong class="breadcrumb_ agua">Cárceles, centros de rehabilitación de menores y salas de retenidos</strong>
                               </h2>
                             </p>
-                            <div class="collapse show" id="collapseCarcel">
-                              <ul class="sinVinetas">
+                            <h2 class="collapse show" id="collapseCarcel">
+                              <ul>
                                 <li>
                                   <a href="https://drive.google.com/open?id=14cB2i-bKCPC-LV23_KGJhhVMIqV3jOFd" class="colorIndicadores">Ley 65 de1993</a>
                                 </li>
@@ -312,16 +314,16 @@
                                   <a href="https://drive.google.com/open?id=1-rDq3n9cqLaJ_It6GFV7tTlDyN2LdgDG" class="colorIndicadores">Acuerdo 011 de 1995</a>
                                 </li>
                               </ul>
-                            </div>                            
+                            </h2>                            
                           </td>
                           <td width="36%">
                             <p>
                               <h2 align="center" class="colorIndicadores" data-toggle="collapse" href="#collapseHogares" role="button" aria-expanded="false" aria-controls="collapseHogares" style="cursor: pointer; color:black; ">
-                                Hogares geriátricos
+                                <strong class="breadcrumb_ agua">Hogares geriátricos</strong>
                               </h2>
                             </p>
-                            <div class="collapse show" id="collapseHogares">
-                              <ul class="sinVinetas">
+                            <h2 class="collapse show" id="collapseHogares">
+                              <ul>
                                 <li>
                                   <a href="https://drive.google.com/open?id=1IhUMmoVcQHn79ZN8Up42IzvB068Q6oEk" class="colorIndicadores">Acuerdo 312 de 2008</a>
                                 </li>
@@ -335,7 +337,7 @@
                                   <a href=": https://drive.google.com/open?id=199TcCo-iJfAoKBRn4sHjavN2LuKKBlXc" class="colorIndicadores">Decreto 780 de 2016</a>
                                 </li>
                               </ul>
-                            </div>
+                            </h2>
                             
                           </td>
                         </tr>
@@ -346,13 +348,12 @@
                           Establecimientos de bajo riesgo físico
                         </h2>
                       </p>
-                      <div class="collapse show" id="collapseBajo">
+                      <h2 class="collapse show" id="collapseBajo">
                         <table width="94%" border="0">
                           <tr class="alinearVerticalInicial">
                             <td width="27%" height="133">
                               <div align="center">
-                                <a href="https://drive.google.com/open?id=1LFiim7IXylTAmRKADN0MLvixitAx-225" class="colorIndicadores">Resolución 3388 de 2008
-                
+                                <a href="https://drive.google.com/open?id=1LFiim7IXylTAmRKADN0MLvixitAx-225" class="colorIndicadores">Resolución 3388 de 2008              
                 
                 
                                 </a>
@@ -362,7 +363,7 @@
                 
                 
                                   </a>
-                                </div>
+                                </h2>
                                 <div align="center" class="colorIndicadores">
                                   <div>
                                     <a href="https://drive.google.com/open?id=1oJpKKduY6iQ7LWWW0N2EpdMMfOdPUBus" align="center" class="colorIndicadores">Decreto 456 de 2010
@@ -370,18 +371,18 @@
                                     </a>
                                   </div>
                                 </div>
-                                <div align="center">
+                                <h2 align="center">
                                   <a href="https://drive.google.com/open?id=1X_-En83FfovRwvWMvEOiIJa5CI0T911D" class="colorIndicadores">Resolución 1682 de 2010
                 
                 
                                   </a>
-                                </div>
-                                <div align="center">
-                                  <div align="center">
+                                </h2>
+                                <h2 align="center">
+                                 
                                     <span class="colorIndicadores">
                                       <a href="https://drive.google.com/open?id=19I4ahBG6uxPIdSrngU6ldiSesIfqNlvi" class="colorIndicadores">Decreto 113 de 2013</a>
                                     </span>
-                                  </div>
+                                  </h2>
                                 </div>
                               </div>
                               <div>
@@ -403,49 +404,33 @@
                         </table>
                       </div>
                     </div>
+                    <p></p>
                 </div>
 
             </div>  
 
             <div class="row">
-                <hr class="lineaAgua " style="width: 100%;" />
+                <hr class="lineaAgua mt80" style="width: 100%;" />
             </div>
 
            <!--  <div class="row"> -->
             <div class="logos colorAgua bold140p">
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Documentos e investigaciones</p>
-                    <a  href="{{asset("agua_saneamiento_documentos")}}">
-                      <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
-                    </a>
-                    
+                    <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Mapas</p>
-                    <a  href="{{asset("agua_saneamiento_mapas")}}">
-                      <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
-                    </a>
-                    
+                    <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Normatividad</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
-                    </a>
-                    
+                    <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Indicadores</p>
-                    <a href="{{asset("agua_saneamiento_indicadores")}}">
-                      <img src="images/agua/IMG_AGUA_INDICADORES.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
+                    <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
-                <!-- <div class="centrado colorAgua">
-                    <p class="colorAgua">Calidad del aire</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
-                </div> -->
             </div>    
             <!-- </div> -->
             

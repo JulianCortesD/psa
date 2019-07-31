@@ -92,7 +92,7 @@
                             <td width="487" class="colorIndicadores">Listado de vehículos que prestan servicios fúnebres</td>
                         </tr>
                     </table>
-                    <p align="justify">&nbsp;</p>
+                    <p align="justify"></p>
                 </div>
             </div>  
 
@@ -101,41 +101,24 @@
             </div>
 
            <!--  <div class="row"> -->
-           <div class="logos colorAgua bold140p">
+            <div class="logos colorAgua bold140p">
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Documentos e investigaciones</p>
-                    <a  href="{{asset("agua_saneamiento_documentos")}}">
-                      <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
-                    </a>
-                    
+                    <img src="images/agua/aguaDOCUMENTOS.png" width="85" height="63" alt="Agua docs"/>
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Mapas</p>
-                    <a  href="{{asset("agua_saneamiento_mapas")}}">
-                      <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
-                    </a>
-                    
+                    <img src="images/agua/IMG_AGUA_MAPA.jpg" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Normatividad</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
-                    </a>
-                    
+                    <img src="images/agua/aguaNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAgua">
                     <p class="colorAgua">Indicadores</p>
-                    <a href="{{asset("agua_saneamiento_indicadores")}}">
-                      <img src="images/agua/IMG_AGUA_INDICADORES.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
+                    <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
                 </div>
-                <!-- <div class="centrado colorAgua">
-                    <p class="colorAgua">Calidad del aire</p>
-                    <a href="{{asset("agua_saneamiento_normatividad")}}">
-                      <img src="images/agua/IMG_AGUA_TITULO.jpg" width="85" height="63" alt="Agua título" />
-                    </a>
-                </div> -->
-            </div>      
+            </div>    
             <!-- </div> -->
         </div>    
 @endsection

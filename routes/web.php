@@ -85,8 +85,7 @@ Route::get('/etoz_ver_mas','EtozController@indexVer')->name('indexVer');
 Route::get('/etoz_documentos','EtozController@documentos')->name('documentos');
 Route::get('/etoz_normatividad','EtozController@normatividad')->name('normatividad');
 Route::get('/etoz_indicadores','EtozController@indicadores')->name('indicadores');
+Route::get('/etoz_vacunacion','EtozController@vacunacion')->name('vacunacion');
 Route::get('/etoz_mapas','EtozController@mapas')->name('etozmapas');
 
 Route::get('/calendario','CalendarController@index')->name('index');
-
-
