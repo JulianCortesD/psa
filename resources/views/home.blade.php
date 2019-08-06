@@ -1404,3 +1404,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap-wizard/1.2/jquery.bootstrap.wizard.js"></script>
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
 @endsection
+@section('scripts')
+<script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
+@endsection

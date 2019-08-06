@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 date-time" >
+                        <div class="col-12 date-time" id="reloj">
                             Fecha y hora
                         </div>
                     </div>
@@ -148,4 +148,7 @@
                 </div>
             </div>
         </div>
+@endsection
+@section('scripts')
+<script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
 @endsection

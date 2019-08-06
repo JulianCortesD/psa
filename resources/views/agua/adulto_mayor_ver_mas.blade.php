@@ -16,14 +16,14 @@
                 </div>
                 </div>
             <div class="col-4">
-              <div class="row ">
-            <div class="col-12 date-time-title">
-                    <span>Bogotá hoy</span>
+                <div class="row ">
+                    <div class="col-12 date-time-title">
+                        <span>Bogotá hoy</span>
                     </div>
-                    </div>
+                </div>
 
                 <div class="row">
-                    <div class="col-12 date-time">
+                    <div class="col-12 date-time" id="reloj">
                         Fecha y hora
                       </div>
                   </div>

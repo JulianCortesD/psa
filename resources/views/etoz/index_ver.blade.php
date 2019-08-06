@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="row ocultar">
-                        <div class="col-12 date-time">
+                        <div class="col-12 date-time" id="reloj">
                             Fecha y hora
                         </div>
                     </div>

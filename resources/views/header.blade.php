@@ -127,7 +127,7 @@
                                     <ul class=" dropdown-menu ">
                                         <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&Origen=Login&IdTipo=258&n=1295577553#">
                                             <li class="dropdown-item">
-                                               IInscripción y Autorización sanitaria
+                                               Inscripción y Autorización sanitaria
                                              </li>
                                         </a>
                                           <!-- <a href="http://appb.saludcapital.gov.co/sivigiladc/VehiculosTranspCarne/frmSubMenuVehiculos.aspx?opcion=New&Origen=Login&IdTipo=258&n=990998692#">

@@ -26,7 +26,7 @@
                     </div>
                 <div class="row">
                     <div class="col-12 date-time"id="reloj">
-                        <div class="col-12 date-time" >
+                        <div class="col-12 date-time" id="reloj">
                         Fecha y hora
                     </div>
                 </div>
