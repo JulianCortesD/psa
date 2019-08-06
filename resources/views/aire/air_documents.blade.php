@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/secAmbiente.css")}}" />
 @endsection
 @section('contenido')
-    <div class="wrapper">
+
         <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-8">
@@ -23,9 +23,10 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 date-time" >
+                        <div class="col-12 date-time" id="reloj" >
                             Fecha y hora
                         </div>
+                    </div>
                     </div>
                     <div class="row mt-2">
                         <div class="col-4">
@@ -35,7 +36,7 @@
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
-                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
+                              <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
                             </a>
                         </div>
                         <div class="col-4">
@@ -45,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+
 
            <div class="row">
                 <div >

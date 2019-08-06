@@ -8,7 +8,6 @@
              <div class="wrapper">
               <div class="container-fluid">
                 <div class="row mb-3">
-
                 <div class="col-8">
                     <br clear="left"><img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> | Política Distrital de Salud Ambiental |</span>
@@ -62,7 +61,7 @@
               </a>
 
                 <div height="355">
-                      <img src="images/menu/imagen politica.jpg" width="1070px" height="270"alt="Slider aire" />
+                      <img src="images/menu/imagen politica.jpg" width="1000px" height="270"alt="Slider aire" />
                 </div>
 
             </div>

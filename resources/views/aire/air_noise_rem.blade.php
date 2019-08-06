@@ -23,9 +23,11 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 date-time" >
+                        <div class="col-12 date-time" id="reloj">
+                          
                             Fecha y hora
-                        </div>
+
+                    </div>
                     </div>
                     <div class="row mt-2">
                         <div class="col-4">
@@ -48,7 +50,7 @@
             </div>
 
            <div class="row">
-                <div >
+
                     <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
                     </a>
@@ -58,15 +60,13 @@
                     <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
                     </a>
-            </div>
+
                 <div height="355">
                    <a href="https://drive.google.com/open?id=1pPWUpFKRV1rh4eoH413mjKgoRphWf9eu">
                             <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home.png")}}" alt="Sixth slide">
                         </a>
                 </div>
             </div>
-
-
             <div class="row">
                 <div class="contenidoSecAmb centradoDiv">
                     <div>
@@ -128,5 +128,7 @@
                     <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
                 </div>
             </div>
+              </div>
+              </div>
 
 @endsection
