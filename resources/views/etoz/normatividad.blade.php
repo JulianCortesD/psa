@@ -8,12 +8,12 @@
         <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-8">
-                    <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
+                   <br clear="left"> <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> Zoonosis y Vectores |</span>
                     <span class="breadcrumb_ colorETOZ">Normatividad</span>
 
                     <div width="300px">
-                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
+                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" width="100%" height="" alt="símbolo sección etoz" />
                     </div>
 
                 </div>
@@ -47,11 +47,23 @@
                     </div>
                 </div>
             </div>
-
             <div class="row">
-            <div height="355">
-              <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" width="100%" alt="Slider Alimentos" /></div>
-            </div>
+
+                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
+                    </a>
+                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
+                    </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqCtqydhFbuFFOvxOpMP8v5f4KeVWcSPQVsP3SN0Vts2_mEg/viewform?usp=sf_link">
+              <div height="355">
+                  <img src="images/Eventos zoonoticos/Banner ETOZ del Home.png" width="100%" alt="Slider Cambio climático" />
+              </div>
+              </a>
+              </div>
 
             <div class="row" style="text-align:justify;">
                 <div class="contenidoSecAmb centradoDiv mt-3">
@@ -158,7 +170,7 @@
 
             </div>
 
-            <div class="row">
+             <div class="row">
                 <hr class="lineaETOZ mt80" style="width: 100%;" />
             </div>
 
@@ -171,7 +183,9 @@
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Mapas</p>
+                   <a href="{{asset("etoz_mapas")}}">
                     <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" alt="Aire mapa" />
+                    </a>
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Normatividad</p>

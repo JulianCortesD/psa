@@ -105,7 +105,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico"  href="{{asset("alimentos_sanos")}}"> <em>Alimentos sanos y seguros</em> </a>
-                                <a class="dropdown-item" href="https://app.invima.gov.co/alertas/alertas-alimentos-bebidas">Alertas</a>
+                                <a class="dropdown-item" href="https://app.invima.gov.co/alertas/alertas-alimentos-bebidas"> Alertas Sanitarias</a>
                                 <a class="dropdown-item" href="http://autorregulacion.saludcapital.gov.co/buenpropietario#estrategiasexcelencia">Restaurantes 1A</a>
                                 <li class="dropdown-item dropdown-submenu">
                                     <a >Expendio de carnes y cárnicos comestibles</a>
@@ -151,7 +151,7 @@
                                 <div>Agua y <br> saneamiento</div>
                             </a>
                             <ul class="dropdown-menu" >
-                                <a class="dropdown-item titulo-tecnico" href="{{asset("agua_saneamiento_basico")}}"> <em>Calidad del agua y Sanemaiento Básico</em> </a>
+                                <a class="dropdown-item titulo-tecnico" href="{{asset("agua_saneamiento_basico")}}"> <em>Calidad del agua y Saneamiento Básico</em> </a>
                                 <!-- <li class="dropdown-item dropdown-submenu">
                                     <!-- <a>Carrotanques</a> -->
                                     <ul class="dropdown-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -230,7 +230,7 @@
                                             </a>
                                         </ul>
                                     </li>
-                                    <a class="dropdown-item" href="#">Alertas sanitarias</a>
+                                    <a class="dropdown-item" href="https://app.invima.gov.co/alertas/medicamentos-productos-biologicos">Alertas Sanitarias</a>
                                     <a class="dropdown-item"  href="{{asset("medicamentos_favorables")}}">Establecimiento con concepto favorable</a>
                                    <!--  <a class="dropdown-item" href="#">Indicadores</a> -->
                                     <a class="dropdown-item" href="{{asset("medicamentos_normatividad")}}">Normatividad</a>
@@ -264,7 +264,7 @@
                             <div class="dropdown-menu dropdown-menu-izq" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item titulo-tecnico" href="{{asset("etoz")}}"><em>Eventos Transmisibles de Origen <br> Zoonótico ETOZ</em> </a>
                                 <!-- <a class="dropdown-item" href="#">Clínicas y consultorios veterinarios</a> -->
-                                <a class="dropdown-item" href="https://drive.google.com/open?id=1XT7W9iDykOtuSFZvWaD7x4mNyJMNjtiU">Vacunación antirrábica canina y felina</a>
+                                <a class="dropdown-item" href="https://drive.google.com/open?id=1UY8UVdkNAa1N8FDQF2hlAyFpBARSflSd">Vacunación antirrábica canina y felina</a>
                                 <a class="dropdown-item" href="https://drive.google.com/open?id=1O_1ttf1bCVs9W0xA1g8nSdw_B1ZiqVOi">Control de roedores e insectos</a>
                                 <!-- <a class="dropdown-item" href="#">Establecimiento con concepto favorable</a> -->
                                 <a class="dropdown-item"  href="{{asset("etoz_indicadores")}}">Indicadores</a>

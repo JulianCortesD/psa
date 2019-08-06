@@ -26,24 +26,25 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a href="http://autorregulacion.saludcapital.gov.co/buenpropietario#estrategiasexcelencia">
-                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home.jpg")}}" alt="First slide">
+                        <a href=" http://autorregulacion.saludcapital.gov.co/buenpropietario#estrategiasexcelencia">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/BannerRuido.jpg")}}" alt="First slide">
                         </a>
                     </div>
                     <div class="carousel-item">
-                        <a href="https://drive.google.com/open?id=1Y3Hc3PqQmlh2vaSfNMfdanci4YaEIY-n">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqCtqydhFbuFFOvxOpMP8v5f4KeVWcSPQVsP3SN0Vts2_mEg/viewform?usp=sf_link">
                         <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner ETOZ del Home.png")}}" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <a href="https://drive.google.com/open?id=1yRyrxbWZfdEQXLG3itBEevAo4V881qFi">
+                        <a href="https://drive.google.com/open?id=1EabkR_9o69R0gUbPtOJH1iWUPrOFu83v">
                             <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner PISA del Home.png")}}" alt="Third slide">
                         </a>
                     </div>
                     <div class="carousel-item">
-                        <a href="https://drive.google.com/open?id=1Y3Hc3PqQmlh2vaSfNMfdanci4YaEIY-n">
+                        <a href="https://drive.google.com/open?id=1IX86wCrlZMDRZo366JQMLXGpWK46IPyR">
                             <img class="d-block w-100 altura" src="{{asset("images/carousel/vacunacion.png")}}" alt="Fourth slide">
                         </a>
 
@@ -51,6 +52,11 @@
                     <div class="carousel-item">
                         <a href="http://autorregulacion.saludcapital.gov.co/">
                             <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner Autorregulacion Home.jpg")}}" alt="Fifth slide">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://drive.google.com/open?id=1pPWUpFKRV1rh4eoH413mjKgoRphWf9eu">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home.png")}}" alt="Sixth slide">
                         </a>
                     </div>
                 </div>
@@ -186,13 +192,13 @@
                                         <div class="row cont-inside">
                                             <div class="col-12">
                                                 <div class="row">
-                                                        <div class="col-10-justify-content-center" style="padding:10px;">
+                                                        <div class="col-10-justify-content-center" style="padding:5px;">
                                                             <p>Julio 4 de 2019</p> <br>
-                                                            <img  src="{{asset("images/news/tatuadores.jpg")}}" class="rounded float-left" style="margin-right: 10px;">
-                                                            <p style="text-align: justify;">
-                                                                Entre las principales causales de incumplimiento identificadas por Secretaria Distrital de Salud y Ecocapitalen las que incurren los establecimientos que prestan servicios de tatuaje, piercing y micropigmentaciónse encuentran: inobservancia de la norma,la inadecuada segregación de los residuos cortopunzantes, la no rotulación de las bolsas y otros aspectos relacionados con las condiciones de entrega de residuos al gestor externo; bolsas rotas o no anudadas correctamente ocasionando derrames de residuos o fluidos infecciosos.
-                                                                <a data-toggle="modal" data-target="#exampleModal" data-line="new" data-title="PRIMER ENCUENTRO CON TATUADORES" data-response="new-3"> 
-                                                                    <em style="color: blue; cursor: pointer;"> (ver mas) </em> 
+                                                            <img  src="{{asset("images/news/tatuadores.jpg")}}" class="rounded float-left" style="margin-right: 8px;">
+                                                            <p style="text-align:justify">
+                                                                Entre las principales causales de incumplimiento identificadas por Secretaria Distrital de Salud y Ecocapital en las que mas incurr en los establecimientos que prestan servicios de tatuaje, piercing y micropigmentación se encuentran: inobservancia de la norma, la inadecuada segregación de los residuos cortopunzantes, la no rotulación de las bolsas y otros aspectos relacionados con las condiciones de entrega de residuos al gestor externo; bolsas rotas o no anudadas correctamente ocasionando derrames de residuos o fluidos infecciosos.
+                                                                <a data-toggle="modal" data-target="#exampleModal" data-line="new" data-title="PRIMER ENCUENTRO CON TATUADORES" data-response="new-3">
+                                                                    <em style="color: blue; cursor: pointer;"> (ver mas) </em>
                                                                 </a>
                                                             </p>
                                                         </div>
@@ -323,7 +329,7 @@
                 </div>    -->
                 <div class="col-2" >
                     <div class="d-block mt-3">
-                        <a href="https://drive.google.com/open?id=1reQd6ajLjVMJQ1VjYFt8VxDOauguElPy">
+                        <a href="https://drive.google.com/open?id=12OWLZ0mRxW4Z_hsMlfOv3Qx5XINDRApU">
                             <img src="{{asset("images/news/BotonConsulteEstablecimiento2.svg")}}" alt="restablecimientos acreditados" style="height: 60px; margin-left: 65px">
                         </a>
                     </div>
@@ -1222,8 +1228,8 @@
                                 <br> •	TDAP (Tétanos y difteria y tosferina acelular)
                                 <br> •	Influenza estacional ( infección respiratoria por virus estacional  de influenza)
                                 <br> •	Hepatitis B
-                                <br>El encuentro con tatuadores contó con  la participación de más de 50  propietarios de establecimientos generadores de residuos infecciosos,a quienes se les aclararon dudas y se certificaron en cumplimento del programa de educación y formación  establecido en la Resolución 1164 de 2002.  
-                                
+                                <br>El encuentro con tatuadores contó con  la participación de más de 50  propietarios de establecimientos generadores de residuos infecciosos,a quienes se les aclararon dudas y se certificaron en cumplimento del programa de educación y formación  establecido en la Resolución 1164 de 2002.
+
                             </p>
                         </div>
                     </div>
@@ -1256,9 +1262,9 @@
                                 <br> Durante 2018, 25 restaurantes que cumplieron con todos los requerimientos fueron distinguidos por un año. Adicionalmente, la SDS les brindó asesoría técnica de gastronomía y de mercadeo para mejorar el servicio a sus clientes.
                                 <br> El día de hoy 7 establecimientos se suman para recibir la distinción en el año 2019, esperando a final de este año realizar otro evento de distinción con los restaurantes que se encuentran en proceso.
                                 <br> Los restaurantes a los que se les otorgará el reconocimiento como ‘Restaurantes 1A’ son:
-                                <br> 
+                                <br>
                                 <img src="{{asset("images/news/restaurantes2.jpg")}}" width="100%" style="margin-right: 10px;">
-                                
+
                             </p>
                         </div>
                     </div>
@@ -1316,7 +1322,7 @@
 
         var calendar = new FullCalendar.Calendar(calendarEl, {
         plugins: [  'dayGrid' ],
-        defaultDate: '2019-07-22',
+        defaultDate: '2019-08-22',
         editable: true,
         lang: 'es',
         eventLimit: true, // allow "more" link when too many events

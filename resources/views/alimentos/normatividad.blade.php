@@ -8,35 +8,29 @@
         <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-8">
-                    <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Alimentos y bebidas | </span>
-                    <span class="breadcrumb_ alimentos">Normatividad</span>
-                </div>  
+                    <br clear="left"><img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
+                    <span class="breadcrumb_"> |Alimentos y bebidas | <span class="breadcrumb_ alimentos">Normatividad</span></span>
+                    <div width="300px">
+                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" width="100%" alt="" />
+                    </div>
+
+                </div>
                 <div class="col-4">
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span> 
+                        <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 date-time" id="reloj">
+                        <div class="col-12 date-time" >
                             Fecha y hora
                         </div>
-                    </div>                                    
-                </div>
-            </div>  
-            <div class="row">
-                <div class="col-8 mr-2 fluid-left">
-                    <div width="300px">
-                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="símbolo sección agua" />
                     </div>
-                </div>
-                <div class="col-4" style="margin-left: 7px;">
-                    <div class="row">
+                    <div class="row mt-2">
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -45,36 +39,39 @@
                         </div>
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
-                                <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                                <img src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                            </a>
                         </div>
-                    </div>  
-                </div>
-            </div>  
-            
-            <div class="row">
-                <!-- <div >
-                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
-                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
-                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
-                </div>  -->
-                <div height="355">
-                    <img src="images/alimentos/BannerCarnesParteInterna.png" width="100%" alt="Slider Alimentos" />
+                    </div>
                 </div>
             </div>
+</div>
+            <div class="row">
+            <div>
+                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
+                    </a>
+                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
+                    </a>
+                </div>
+                <div height="355">
+                    <a href="http://autorregulacion.saludcapital.gov.co/carnicerias">
+                    <img src="images/alimentos/BannerCarnes.png" width="100%" height="" alt="Slider Alimentos" /></a>
+                </div>
+            </div>
+ </div>
 
             <div class="row" style="text-align:justify;">
-                
-                <div class="contenidoSecAmb centradoDiv">
+
+              <br></br>
                     <div>
-                        <p align="left" class="colorAlimentos">
-                            <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" align="absbottom" />Normatividad</p>
+                        <p align="left" class="colorAlimentos bold140p">
+                            <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" align="absbottom" /><b>Normatividad</b></p>
+                            <p>Compilación de las normas expedidas por las diferentes organizaciones gubernamentales relacionadas con la inspección, vigilancia y control de establecimientos  de alimentos  y eventos de interés en salud pública  </p>
                         <p align="center" class="colorAlimentos">Regulación Transversal</p>
                         <p align="center" class="colorAlimentos"></p>
                     </div>
@@ -162,9 +159,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                
+
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseMuestras" role="button" aria-expanded="false" aria-controls="collapseMuestras" style="cursor: pointer; color:black; text-align:left;"> 
+                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseMuestras" role="button" aria-expanded="false" aria-controls="collapseMuestras" style="cursor: pointer; color:black; text-align:left;">
                                         <span class="breadcrumb_ alimentos">Muestras sin valor comercial, incentivos</span>
                                     </h3>
                                 </p>
@@ -181,7 +178,7 @@
                             </td>
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseImportacion" role="button" aria-expanded="false" aria-controls="collapseImportacion" style="cursor: pointer; color:black; text-align:left;"> 
+                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseImportacion" role="button" aria-expanded="false" aria-controls="collapseImportacion" style="cursor: pointer; color:black; text-align:left;">
                                         <span class="breadcrumb_ alimentos">Importación y exportación</span>
                                     </h3>
                                 </p>
@@ -207,9 +204,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                
+
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseSuperficies" role="button" aria-expanded="false" aria-controls="collapseSuperficies" style="cursor: pointer; color:black; text-align:left;"> 
+                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseSuperficies" role="button" aria-expanded="false" aria-controls="collapseSuperficies" style="cursor: pointer; color:black; text-align:left;">
                                        <span class="breadcrumb_ alimentos"> Superficies en contacto</span>
                                     </h3>
                                 </p>
@@ -328,12 +325,13 @@
                         </tr>
                     </table>
                     <br></br>
+                    <div class="colorAlimentos">
                     <h2 align="center" class="colorAlimentos"><b>Regulación Específica</b></h2>
                     <table width="100%" border="0">
                         <tr class="alinearVerticalInicial">
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseCarne" role="button" aria-expanded="false" aria-controls="collapseCarne" style="cursor: pointer; color:black; text-align:left;"> 
+                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseCarne" role="button" aria-expanded="false" aria-controls="collapseCarne" style="cursor: pointer; color:black; text-align:left;">
                                         <span class="breadcrumb_ alimentos">Carne y productos cárnicos</span>
                                     </h3>
                                 </p>
@@ -567,7 +565,7 @@
                                     </ul>
                                 </div>
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseSueros" role="button" aria-expanded="false" aria-controls="collapseSueros" style="cursor: pointer; color:black; "> 
+                                    <h3 class="alinearIzquierda mb0" align="left" data-toggle="collapse" href="#collapseSueros" role="button" aria-expanded="false" aria-controls="collapseSueros" style="cursor: pointer; color:black; ">
                                         <span class="breadcrumb_ alimentos">Lacto sueros</span>
                                     </h3>
                                 </p>
@@ -587,10 +585,10 @@
                             </td>
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseEnergizantes" role="button" aria-expanded="false" aria-controls="collapseEnergizantes" style="cursor: pointer; color:black; "> 
+                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseEnergizantes" role="button" aria-expanded="false" aria-controls="collapseEnergizantes" style="cursor: pointer; color:black; ">
                                         <span class="breadcrumb_ alimentos">Bebidas energizantes</span>
                                     </h3>
-                                </p>    
+                                </p>
                                 <div class="collapse" id="collapseEnergizantes">
                                     <ul class="sinVinetas">
                                         <li>
@@ -659,7 +657,7 @@
                                     </ul>
                                 </div>
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseOrganismos" role="button" aria-expanded="false" aria-controls="collapseOrganismos" style="cursor: pointer; color:black; "> 
+                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseOrganismos" role="button" aria-expanded="false" aria-controls="collapseOrganismos" style="cursor: pointer; color:black; ">
                                         <span class="breadcrumb_ alimentos">Organismos Genéticamente Modificados - OGM</span>
                                     </h3>
                                 </p>
@@ -685,7 +683,7 @@
                             </td>
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseHidratantes" role="button" aria-expanded="false" aria-controls="collapseHidratantes" style="cursor: pointer; color:black; "> 
+                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseHidratantes" role="button" aria-expanded="false" aria-controls="collapseHidratantes" style="cursor: pointer; color:black; ">
                                         <span class="breadcrumb_ alimentos">Bebidas hidratantes</span>
                                     </h3>
                                 </p>
@@ -721,7 +719,7 @@
                                     </ul>
                                 </div>
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseFrutas" role="button" aria-expanded="false" aria-controls="collapseFrutas" style="cursor: pointer; color:black; "> 
+                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseFrutas" role="button" aria-expanded="false" aria-controls="collapseFrutas" style="cursor: pointer; color:black; ">
                                         <span class="breadcrumb_ alimentos">Frutas y hortalizas</span>
                                     </h3>
                                 </p>
@@ -743,12 +741,12 @@
                                             <a href="https://drive.google.com/open?id=1hv865LLKQt_IGSQp1YgE1KH7Cq6Ss_cY" class="colorIndicadores">Resolución 1155 de 2014</a>
                                         </li>
                                     </ul>
-                                </div> 
+                                </div>
                                 <p>
                                     <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseVinagre" role="button" aria-expanded="false" aria-controls="collapseVinagre" style="cursor: pointer; color:black; ">
                                        <span class="breadcrumb_ alimentos"> Vinagre</span>
                                     </h3>
-                                </p>                            
+                                </p>
                                 <div class="collapse" id="collapseVinagre">
                                     <ul class="sinVinetas">
                                         <li>
@@ -757,7 +755,7 @@
                                     </ul>
                                 </div>
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapsePanela" role="button" aria-expanded="false" aria-controls="collapsePanela" style="cursor: pointer; color:black; "> 
+                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapsePanela" role="button" aria-expanded="false" aria-controls="collapsePanela" style="cursor: pointer; color:black; ">
                                         <span class="breadcrumb_ alimentos">Panela</span>
                                     </h3>
                                 </p>
@@ -785,13 +783,13 @@
                         </tr>
                     </table>
 
-                </div>             
+                </div>
 
-            </div>  
+            </div>
 
-            
 
-            <div class="row">
+
+           <div class="row">
                 <hr class="lineaAlimentos mt80" style="width: 100%;" />
             </div>
 
@@ -807,21 +805,23 @@
                 </div>
                 <div class="centrado colorAlimentos">
                     <p class="colorAlimentos">Normatividad</p>
-                    <a href="Alimentos_normatividad.html">
+                    <a href="{{asset("alimentos_sanos_normatividad")}}">
+                    
                         <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                     </a>
                 </div>
                 <div class="centrado colorAlimentos">
                     <p class="colorAlimentos">Indicadores</p>
-                    <p class="colorAlimentos">
-                        <a href="Alimentos_indicadores.html">
+                   
+                <a href="{{asset("alimentos_sanos_indicadores")}}">
+                    <p class="colorAlimentos">                        
                         <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
                         </a>
                     </p>
                 </div>
-            </div>           
-            
-        </div>    
+            </div>
+
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

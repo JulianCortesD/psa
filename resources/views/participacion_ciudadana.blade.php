@@ -123,6 +123,9 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-10 offset-1">
+           <div class="row">
                     <table width="825" border="0">
                       <tr>
                         <td width="60">
@@ -156,7 +159,7 @@
                                 <tr>
                                 <td>
                                     <span class="colorIndicadores">
-                                    <a href="https://drive.google.com/open?id=1KlIZfShTzpj2iI4jyPZDC0wqVhhRLBJj">
+                                    <a href="https://drive.google.com/file/d/1b4X3RPLO9HuqPzK0i-IRyFWRIixk5EXr/view">
                                         <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
                                       </a>
                                       </span>
@@ -164,10 +167,24 @@
                                 </td>
 
                                 <td width="755" class="colorIndicadores">
-                                    <span class="colorIndicadores">Recomendaciones consumo de pescado</span>
+                                    <span class="colorIndicadores">Vacunación canina y felina</span>
+                                    <tr>
+                                    <td>
+                                        <span class="colorIndicadores">
+                                        <a href="https://drive.google.com/open?id=1Du6dD3i8tjyCrfqXvWT43PRdgivmEUof">
+                                            <img src="images/aire/IconoPDFparaAire.png" alt="" width="37" height="46" />
+                                          </a>
+                                          </span>
+                                      </td>
+                                    </td>
+
+                                    <td width="755" class="colorIndicadores">
+                                        <span class="colorIndicadores">Recomendaciones para viajeros</span>
 
 
                                 </table>
+                              </div>
+                          </div>
 
 @endsection
 @section('scripts')

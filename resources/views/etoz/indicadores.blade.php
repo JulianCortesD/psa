@@ -8,12 +8,12 @@
         <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-8">
-                    <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
+                   <br clear="left"> <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> Zoonosis y Vectores | </span>
                     <span class="breadcrumb_ colorETOZ">Indicadores</span>
 
                     <div width="300px">
-                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
+                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" width="100%" height=""alt="símbolo sección etoz" />
                     </div>
 
                 </div>
@@ -47,32 +47,39 @@
                     </div>
                 </div>
             </div>
-
             <div class="row">
-              <div height="355">
-              <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" width="100%" alt="Slider Alimentos" /></div>
-          </div>
-            <div class="row mt-3" style="text-align:justify;">
-                <div class="contenidoSecAmb centradoDiv">
-                    <h2 class="colorETOZ">
-                        <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" align="absbottom" />
-                        Indicadores
-                    </h2>
 
-                    <p>Permite conocer la gestión de las acciones integrales de vigilancia sanitaria y  epidemiológica, promoción de la salud y prevención de las enfermedades  transmisibles de origen zoonótico.</p>
-                    <p>&nbsp;</p>
-                    <ul>
-                    <p>Tasa incidencia de intoxicación con sustancias químicas en Bogotá D.C.<a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/intoxicacion/">Ver aquí</a>
+                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
+                    </a>
+                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
+                    </a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqCtqydhFbuFFOvxOpMP8v5f4KeVWcSPQVsP3SN0Vts2_mEg/viewform?usp=sf_link">
+              <div height="355">
+                  <img src="images/Eventos zoonoticos/Banner ETOZ del Home.png" width="100%" alt="Slider Cambio climático" />
+              </div>
+              </a>
+              </div>
+            <div class="contenidoSecAmb centradoDiv mt-3">
+              <h2>
+              <span class="colorETOZ bold140p">
+              <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" align="absbottom" />Indicadores</span>
+              </h2>
+                  <p>Permite conocer la gestión de las acciones integrales de vigilancia sanitaria y  epidemiológica, promoción de la salud y prevención de las enfermedades  transmisibles de origen zoonótico.</p>
+
+                    <p>Cobertura de vacunación antirrábica en Bogotá D.C.<a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/vacunacion-antirrabica/">
+                            <img src="images/Eventos zoonoticos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
+                            {{-- Ver más --}}
+                        </a>
                     </p>
-                    </ul>
-                    <p>&nbsp;</p>
-                    <ul>
-                    <p>Cantidad de sustancias químicas peligrosas por habitante en Bogotá D.C.<a href="http://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/salud-ambiental/distribucionsustanciasquimicaspeligrosaspercapita/">ver aquí</a>                    </li>
-                    </p>
-                    </ul>
-                    <p>&nbsp;</p>
-                    <p align="right">&nbsp;</p>
-                    <p align="right">&nbsp;</p>
+                    
+
+
+
                 </div>
             </div>
 
@@ -89,7 +96,9 @@
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Mapas</p>
+                   <a href="{{asset("etoz_mapas")}}">
                     <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" alt="Aire mapa" />
+                    </a>
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Normatividad</p>

@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
-                        <img src="{{asset("images/medicamentos/LogoMedicamentos.png")}}" width="480" height="93" alt="símbolo sección medicamentos" />
+                        <img src="{{asset("images/medicamentos/LogoMedicamentos.png")}}" width="100%" height="" alt="símbolo sección medicamentos" />
                     </div>
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
@@ -119,8 +119,8 @@
                 </div>
             </div>  
 
-            <div class="row">
-                <hr class="lineaCambioC mt80" style="width: 100%;" />
+             <div class="row">
+                <hr class="lineaETOZ mt80" style="width: 100%;" />
             </div>
 
             <div class="logos colorETOZ bold140p">
@@ -132,7 +132,9 @@
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Mapas</p>
+                   <a href="{{asset("etoz_mapas")}}">
                     <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" alt="Aire mapa" />
+                    </a>
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Normatividad</p>
@@ -146,9 +148,9 @@
                         <img src="images/Eventos zoonoticos/INDICADORES.png" width="85" height="63" alt="Aire título" />
                     </a>
                 </div>
-            </div>         
-            
-        </div>    
+            </div>
+
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

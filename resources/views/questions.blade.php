@@ -14,33 +14,33 @@
                             <img class="concept-title d-inline-block"  src="{{asset("images/contactenos/IconoPreguntasFrecuentes.svg")}}" alt="">
                         </div>
                         <div class="d-inline-block titulo-contenido px-5">
-                            <label > Preguntas Frecuentes</label> 
+                            <label > Preguntas Frecuentes</label>
                         </div>
                     </div>
-                </div>  
+                </div>
                 <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                            <span>Bogotá hoy</span> 
+                            <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
                             Fecha y hora
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
-                    
+
                 </div>
                 <div class="col-4" style="margin-left: 7px;">
                     <div class="row">
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -50,32 +50,14 @@
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                            </a>
                         </div>
-                    </div>  
-                </div>
-            </div>  
-            
-            <div class="row">
-                <div >
-                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
-                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
-                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
-            </div> 
-                <div height="355">
-                    <img src="images/aire/BannerEstAire.png" width="100%" alt="Slider aire" />
+                    </div>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-10 offset-1 mt-3">
-                    <img class="d-block altura mt-2" src="{{asset("images/indicators/LogoAireRuidoREM.png")}}" alt="" >
+                    <img class="d-block altura mt-2" src="{{asset("images/preguntas/LogoAireRuidoREM1.png")}}" width="50%" alt="" >
                     <div class="card">
                         <div class="card-header ask-aire">
                             Aire, Ruido y REM
@@ -112,7 +94,7 @@
                             </blockquote>
                         </div>
                     </div>
-                    <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="" >
+                    <img class="d-block altura mt-3" src="{{asset("images/preguntas/LogoAlimentosSanos1.png")}}" width="50%" alt="" >
                     <div class="card">
                         <div class="card-header ask-alimentos">
                             Alimentos sanos y seguros
@@ -132,7 +114,7 @@
                         </div>
                     </div>
 
-                    <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoAguaSaneamiento.png")}}" alt="" >
+                    <img class="d-block altura mt-3" src="{{asset("images/preguntas/LogoAguaSaneamiento1.png")}}" width="50%" alt="" >
                     <div class="card">
                         <div class="card-header ask-agua">
                             Agua y saneamiento básico
@@ -157,7 +139,7 @@
                         </div>
                     </div>
 
-                    <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoCambioClimatico.png")}}" alt="" >
+                    <img class="d-block altura mt-3" src="{{asset("images/preguntas/LogoCambioClimatico1.png")}}" width="50%"alt="" >
                     <div class="card">
                         <div class="card-header ask-clima">
                             Cambio Climático
@@ -169,19 +151,19 @@
                         </div>
                     </div>
 
-                    <!-- <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoEspacioyMovilidad.png")}}" alt="" >
+                    <!-- <img class="d-block altura mt-3" src="{{asset("images/preguntas/LogoEspacioyMovilidad1.png")}}" width="50%" alt="" >
                     <div class="card">
                         <div class="card-header ask-espacio">
                             Espacio y Movilidad
                         </div>
                         <div class="card-body panel-questions">
                             <blockquote class="blockquote mb-0">
-                            
+
                             </blockquote>
                         </div>
                     </div> -->
 
-                    <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoMedicamentosSeguros.png")}}" alt="" >
+                    <img class="d-block altura mt-3" src="{{asset("images/Preguntas/LogoMedicamentos1.png")}}" width="50%" alt="" >
                     <div class="card">
                         <div class="card-header ask-medicamentos">
                             Medicamentos y dispositivos médicos
@@ -216,7 +198,7 @@
                         </div>
                     </div>
 
-                    <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoSeguridadQuimica.png")}}" alt="" >
+                    <img class="d-block altura mt-3" src="{{asset("images/preguntas/LogoSeguridadQuimica1.png")}}" width="50%" alt="" >
                     <div class="card">
                         <div class="card-header ask-quimicos">
                             Productos Químicos, Industria y belleza
@@ -243,7 +225,7 @@
                         </div>
                     </div>
 
-                    <img class="d-block altura mt-3" src="{{asset("images/indicators/LogoETOZ.png")}}" alt="" >
+                    <img class="d-block altura mt-3" src="{{asset("images/preguntas/LOGO_ZOONOSIS1.png")}}" width="50%" alt="" >
                     <div class="card">
                         <div class="card-header ask-zoonosis">
                             Zoonosis y Vectores
@@ -262,10 +244,10 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-        </div>        
-    </div>    
+        </div>
+    </div>
 
 
     <!-- Modal -->
@@ -304,7 +286,7 @@
         Los seis contaminantes más comunes del aire son: La contaminación por partículas o material particulado, el ozono a nivel del suelo, monóxido de carbono, óxidos de azufre, óxidos de nitrógeno y el plomo.
     </div>
     <div id="ask-aire-4">
-        El Índice de Calidad del Aire (ICA) es un valor dentro del rango de 0 a 500 que permite categorizar los niveles de contaminación del aire y su posible afectación de los mismos para el estado de salud humana. Dicho valor se calcula utilizando la ecuación determinada por la metodología establecida por la US-EPA (Sigla en inglés de la Agencia de Protección Ambiental de los Estados Unidos) de la cantidad de contaminantes hallados en un período 
+        El Índice de Calidad del Aire (ICA) es un valor dentro del rango de 0 a 500 que permite categorizar los niveles de contaminación del aire y su posible afectación de los mismos para el estado de salud humana. Dicho valor se calcula utilizando la ecuación determinada por la metodología establecida por la US-EPA (Sigla en inglés de la Agencia de Protección Ambiental de los Estados Unidos) de la cantidad de contaminantes hallados en un período
         de exposición determinado a través de las estaciones de monitoreo que conforman un Sistema de Vigilancia de Calidad del Aire. Los niveles se miden de acuerdo a la normativa específica para cada uno de los contaminantes.
     </div>
     <div id="ask-aire-5">
@@ -314,7 +296,7 @@
         Hace referencia a la contaminación del aire en espacios al aire libre, a cielo abierto, es decir, por fuera de cualquier infraestructura que comprenda techo y paredes. La contaminación del aire extramural ocurre cuando los niveles de concentración de los contaminantes medidos en el aire, indican que son tan elevados que logran impactar negativamente la salud humana y/o el medio ambiente. El término contaminación del aire extramural se relaciona con la mala calidad del aire urbano, de las ciudades o en sus alrededores.
     </div>
     <div id="ask-aire-7">
-        Hace referencia a la contaminación del aire en espacios cerrados, interiores o que comprenden infraestructura de techo y paredes sin importar su tipo de material. Por lo general la contaminación intramural tiene como causa el empleo de tecnologías rudimentarias que ocasionan procesos de combustión ineficientes en actividades como cocinar principalmente, alumbrar y obtener calefacción. Otra causa de contaminación del aire intramural tiene que ver con el uso de sustancias químicas presentes en productos de 
+        Hace referencia a la contaminación del aire en espacios cerrados, interiores o que comprenden infraestructura de techo y paredes sin importar su tipo de material. Por lo general la contaminación intramural tiene como causa el empleo de tecnologías rudimentarias que ocasionan procesos de combustión ineficientes en actividades como cocinar principalmente, alumbrar y obtener calefacción. Otra causa de contaminación del aire intramural tiene que ver con el uso de sustancias químicas presentes en productos de
         aseo y limpieza o en componentes de los materiales de construcción que también afectan la salud.
     </div>
     <div id="ask-aire-8">
@@ -327,7 +309,7 @@
         Pese a que no se ha podido establecer una relación directa entre los malos olores y la toxicidad que pueda afectar la salud humana, sí se puede determinar un efecto de estímulo – respuesta dada las reacciones fisiológicas del sistema nervioso central o periférico ante la percepción de malos olores. Las reacciones pueden ir desde la simple sensación de desagrado hasta la presencia de cefalea (dolores de cabeza), mareos, inapetencia o irritabilidad; esto dependiendo de factores individuales o intrínsecos y/ o el tiempo de exposición a los malos olores. Al exponerse continúa o crónicamente a un mismo olor, se puede experimentar un fenómeno conocido como fatiga olfativa, la cual puede ser de corto o largo plazo según el tiempo que se requiera para recuperar la sensibilidad olfativa.
     </div>
     <div id="ask-aire-11">
-        Se conoce como Humo de Tabaco Ambiental (H.T.A.) a la emisión gaseosa exhalada por los pulmones de quien fuma o vapea, y al humo que se genera al tiempo que se enciende o consume la sustancia al fumar. El humo del tabaco contiene más de 4000 productos químicos, de los cuales se sabe que al menos 250 son nocivos, y más de 50 causan cáncer, estar expuesto a este humo se conoce como fumar pasivamente y al no existir niveles seguros de exposición se afirma que aún en cantidades bajas del contaminante producirían 
+        Se conoce como Humo de Tabaco Ambiental (H.T.A.) a la emisión gaseosa exhalada por los pulmones de quien fuma o vapea, y al humo que se genera al tiempo que se enciende o consume la sustancia al fumar. El humo del tabaco contiene más de 4000 productos químicos, de los cuales se sabe que al menos 250 son nocivos, y más de 50 causan cáncer, estar expuesto a este humo se conoce como fumar pasivamente y al no existir niveles seguros de exposición se afirma que aún en cantidades bajas del contaminante producirían
         efectos nocivos a la salud, siendo la tercera causa prevenible de muerte, después de fumar activamente y del alcoholismo.
     </div>
     <div id="ask-aire-12">
@@ -370,7 +352,7 @@
         Un nivel perjudicial de ruido puede ser, por ejemplo, la exposición a más de 85 decibelios (dB) durante ocho horas o 100 dB durante 15 minutos
     </div>
     <div id="ask-aire-23">
-        Cuando los establecimientos abiertos al público o en eventos privados se producen ruido excesivo que afecta la tranquilidad y genera molestias a las personas, la policía está autorizada para desactivar la fuente generadora de ruido, además podrá sellar 
+        Cuando los establecimientos abiertos al público o en eventos privados se producen ruido excesivo que afecta la tranquilidad y genera molestias a las personas, la policía está autorizada para desactivar la fuente generadora de ruido, además podrá sellar
         temporalmente y definitivamente los establecimientos que excedan los niveles de ruido permitidos según la normatividad vigente.
     </div>
     <div id="ask-aire-24">
@@ -592,7 +574,7 @@
         <p> 	Solicitud de visitas a establecimientos para la emisión de conceptos sanitarios </p>
         <p> 	Inspección a vehículos de alimentos  </p>
         <p> 	Inspección a vehículos de carnes y productos cárnicos comestibles   </p>
-        <p> 	Todas las actividades e inquietudes relacionadas con Salud Pública </p> 
+        <p> 	Todas las actividades e inquietudes relacionadas con Salud Pública </p>
     </div>
     <div id="ask-alimentos-3">
         <p> Es importante que tenga en cuenta que si la actividad comercial que desarrolla el establecimiento es de proceso y/o distribución de alimentos o planta de sacrificio de animales de especies mayores o menores se comunique con el Instituto de Vigilancia de Alimentos y Medicamentos INVIMA quien tiene la competencia de otorgar el concepto Técnico Sanitario PBX 2948700. </p>
@@ -783,7 +765,7 @@
                     </td>
                 </tr>
             </tbody>
-        </table>    
+        </table>
     </div>
     <div id="ask-alimentos-4">
         <p> •	Si sospecha que usted o su familia tienen una enfermedad transmitida por alimentos debe asistir de inmediato a su servicio médico de urgencias. </p>
@@ -809,7 +791,7 @@
         <p> Fotocopia de la tarjeta de propiedad del vehículo. </p>
         <p> Original y copia de: certificación de capacitación en el tema de manejo higiénico de alimentos y certificado médico de las personas manipuladoras de alimentos en vehículo.</p>
         <p> Para más información sobre el tema dirigirlas a los correos: </p>
-        <p> mhernandez@saludcapital.gov.co, mcpsanchez@saludcapital.gov.co</p>           
+        <p> mhernandez@saludcapital.gov.co, mcpsanchez@saludcapital.gov.co</p>
 
     </div>
     <div id="ask-alimentos-6">
@@ -869,7 +851,7 @@
         <p> Todo establecimiento debe cumplir con las condiciones sanitarias que se describen en la Ley 9 de 1979, que está compuesta por títulos de carácter general como los de protección del medio ambiente, suministro de agua, y salud ocupacional, así como algunos específicos como el título V denominado Alimentos, en el que se establecen las normas específicas a las que están sujetos los establecimientos industriales y comerciales en los que se realicen actividades que se relacionan con alimentos. </p>
         <p> También deben cumplir con los requisitos sanitarios establecidos en la Resolución 2674 de 2013. Esta norma indica específicamente en el capítulo VIII  las condiciones sanitarias que deben cumplir los restaurantes y establecimientos gastronómicos.   </p>
     </div>
-    
+
     <div id="ask-agua-1">
         <p> Dentro de las acciones de inspección, vigilancia y control se debe propender por garantizar las condiciones higiénicas y sanitarias de cada uno de los siguientes establecimientos:  </p>
         <table width="603" style="border-collapse: collapse;" border="1">
@@ -935,7 +917,7 @@
         <p> •	Hepatitis A </p>
         <p> •	Enfermedad Diarreica Aguda (EDA) </p>
         <p> •	Mortalidad por EDA en menores de 5 años </p>
-        <p> •	Morbilidad según el perfil epidemiológico institucional de los hospitales de la red pública Distrital </p>     
+        <p> •	Morbilidad según el perfil epidemiológico institucional de los hospitales de la red pública Distrital </p>
     </div>
     <div id="ask-agua-3">
         Los índices de morbilidad y mortalidad de enfermedades que pueden estar asociadas al consumo de agua se realizan a través del área de vigilancia epidemiológica mediante el seguimiento de reportes al sistema de vigilancia SIVIGILA, así como las consultas y atenciones de la red pública hospitalaria a través del Registro Individual de Prestación de Servicios de Salud RIPS.
@@ -1046,7 +1028,7 @@
                     <td width="200">
                         <p>&nbsp;</p>
                     </td>
-                </tr>                
+                </tr>
             </tbody>
         </table>
     </div>
@@ -1457,7 +1439,7 @@
         <p> Lo anterior teniendo en cuenta que de conformidad a lo descrito en el Titulo XIII, Capítulo IIIde la Ley 1801 de 2016, las autoridades tomarán las medidas necesarias para despejar las vías de animales abandonados, que serán conducidos al coso o se entregarán a asociaciones sin ánimo de lucros encargados de su cuidado. Se crearán los cosos o depósitos animales, en cada uno de los municipios del país, y, en el caso del distrito capital de Bogotá, uno en cada una de sus localidades. El coso o depósito de animales será un inmueble dotado con los requisitos necesarios para el alojamiento adecuado de los animales que en él se mantengan. Este inmueble comprenderá una parte especializada en especies menores, otra para especies mayores y otra para fauna silvestre, esta última supervisada por la entidad administrativa del recurso. </p>
         <p> Sumado a lo anterior el Decreto 546 de 2016, mediante el cual se conforma el Instituto Distrital de Protección y Bienestar Animal, define que dicha entidad es igualmente responsable en la atención de la fauna domestica callejera.  </p>
     </div>
-    
+
 </div>
 
 
@@ -1469,7 +1451,7 @@
         var button = $(event.relatedTarget) // Button that triggered the modal
         var recipient = button.text() // Extract info from data-* attributes
         // var respuesta = $('#'+button.data('response'));
-        
+
         $('#exampleModal').find('.modal-header').addClass(button.data('line'));
         // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
         // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
@@ -1480,7 +1462,7 @@
         // setTimeout(() => {
         //     modal.find('.modal-body').append(respuesta);
         // });
-        
+
     })
 </script>
 

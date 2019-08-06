@@ -8,35 +8,29 @@
         <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-8">
-                    <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Alimentos y bebidas | </span>
-                    <span class="breadcrumb_ alimentos">Alimentos Sanos y Seguros</span>
-                </div>  
+                    <br clear="left"><img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
+                    <span class="breadcrumb_"> |Alimentos y bebidas | <span class="breadcrumb_ alimentos">Alimentos sanos y seguros</span></span>
+                    <div width="300px">
+                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" width="100%" alt="" />
+                    </div>
+
+                </div>
                 <div class="col-4">
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span> 
+                        <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 date-time" id="reloj">
+                        <div class="col-12 date-time" >
                             Fecha y hora
                         </div>
-                    </div>                                    
-                </div>
-            </div>  
-            <div class="row">
-                <div class="col-8 mr-2 fluid-left">
-                    <div width="300px">
-                        <img src="{{asset("images/indicators/LogoAlimentosSanos.png")}}" alt="símbolo sección agua" />
                     </div>
-                </div>
-                <div class="col-4" style="margin-left: 7px;">
-                    <div class="row">
+                    <div class="row mt-2">
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -45,30 +39,31 @@
                         </div>
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
-                                <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                                <img src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                            </a>
                         </div>
-                    </div>  
-                </div>
-            </div>  
-            
-            <div class="row">
-                <!-- <div >
-                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
-                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
-                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
-                </div>  -->
-                <div height="355">
-                    <img src="images/alimentos/BannerCarnesParteInterna.png" width="100%" alt="Slider Alimentos" />
+                    </div>
                 </div>
             </div>
-
+</div>
+            <div class="row">
+            <div>
+                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
+                    </a>
+                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
+                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
+                    </a>
+                </div>
+                <div height="355">
+                    <a href="http://autorregulacion.saludcapital.gov.co/carnicerias">
+                    <img src="images/alimentos/BannerCarnes.png" width="100%" height="" alt="Slider Alimentos" /></a>
+                </div>
+            </div>
+ </div>
             <div class="row" style="text-align:justify;">
                 <div class="contenidoSecAmb centradoDiv">
 
@@ -84,17 +79,17 @@
                         transportan y comercializan en el distrito capital. Igualmente, se promueve la acción intersectorial en la ejecución
                     de estrategias de fomento de la seguridad alimentaria y nutricional en espacios educativos, laborales y de vivienda.</p>
                         <a href="{{asset("alimentos_sanos_ver")}}">
-                            <img align="right"src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>    
+                            <img align="right"src="images/alimentos/vermas.png" width="20" height="20" alt="ver más" style="margin-top: -8px;"/>
                             {{-- Ver más --}}
                         </a>
                 </div>
-                
+</div>
 
-            </div>  
+            </div>
 
-            
 
-            <div class="row">
+
+           <div class="row">
                 <hr class="lineaAlimentos mt80" style="width: 100%;" />
             </div>
 
@@ -110,21 +105,23 @@
                 </div>
                 <div class="centrado colorAlimentos">
                     <p class="colorAlimentos">Normatividad</p>
-                    <a href="Alimentos_normatividad.html">
+                    <a href="{{asset("alimentos_sanos_normatividad")}}">
+
                         <img src="images/alimentos/alimentosNORMATIVIDAD.png" width="85" height="63" alt="Agua normas" />
                     </a>
                 </div>
                 <div class="centrado colorAlimentos">
                     <p class="colorAlimentos">Indicadores</p>
+
+                <a href="{{asset("alimentos_sanos_indicadores")}}">
                     <p class="colorAlimentos">
-                        <a href="Alimentos_indicadores.html">
                         <img src="images/alimentos/IMG_ALIMENTOS_INDICADOR.jpg" width="85" height="63" />
                         </a>
                     </p>
                 </div>
-            </div>         
-            
-        </div>    
+            </div>
+
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

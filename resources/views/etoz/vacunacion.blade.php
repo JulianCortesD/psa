@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <div class="row">
+             <div class="row">
                 <hr class="lineaETOZ mt80" style="width: 100%;" />
             </div>
 
@@ -78,7 +78,9 @@
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Mapas</p>
+                   <a href="{{asset("etoz_mapas")}}">
                     <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" alt="Aire mapa" />
+                    </a>
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Normatividad</p>

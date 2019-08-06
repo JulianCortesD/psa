@@ -8,22 +8,20 @@
         <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-8">
-                    <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
+                    <br clear="left"><img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> Zoonosis y Vectores | <span class="breadcrumb_ colorETOZ">Eventos Transmisibles de Origen Zoonótico</span></span>
-
-
                     <div width="300px">
-                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" height="93" alt="símbolo sección etoz" />
+                        <img src="{{asset("images/Eventos zoonoticos/LOGO_ZOONOSIS.png")}}" width="100%" alt="" />
                     </div>
 
                 </div>
                 <div class="col-4">
-                    <div class="row ocultar">
+                    <div class="row ">
                         <div class="col-12 date-time-title">
                         <span>Bogotá hoy</span>
                         </div>
                     </div>
-                    <div class="row ocultar">
+                    <div class="row">
                         <div class="col-12 date-time" >
                             Fecha y hora
                         </div>
@@ -58,11 +56,12 @@
               <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
                   <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
               </a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqCtqydhFbuFFOvxOpMP8v5f4KeVWcSPQVsP3SN0Vts2_mEg/viewform?usp=sf_link">
                 <div height="355">
-                    <img src="images/Eventos zoonoticos/Banner ETOZ del Home.jpg" width="100%" alt="Slider Cambio climático" />
+                    <img src="images/Eventos zoonoticos/Banner ETOZ del Home.png" width="100%" alt="Slider Cambio climático" />
                 </div>
+                </a>
             </div>
-
             <div class="contenidoSecAmb centradoDiv">
                 <h1 align="right" class="centrado colorETOZ mt20">&nbsp;</h1>
                 <h2 class="seccion fondoETOZ sinSaltoLinea">Eventos transmisibles de origen zoonótico</h2>
@@ -95,7 +94,9 @@
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Mapas</p>
+                   <a href="{{asset("etoz_mapas")}}">
                     <img src="images/Eventos zoonoticos/MAPA.png" width="85" height="63" alt="Aire mapa" />
+                    </a>
                 </div>
                 <div class="centrado">
                     <p class="colorETOZ">Normatividad</p>

@@ -11,20 +11,20 @@
                     <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
                     <span class="breadcrumb_"> | Hábitat, Espacio Público y Movilidad |</span>
                     <span class="breadcrumb_ espacio">Normatividad</span>
-                </div>  
+                </div>
                 <div class="col-4">
                     <div class="row">
                         <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span> 
+                        <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 date-time" id="reloj">
                             Fecha y hora
                         </div>
-                    </div>                                    
+                    </div>
                 </div>
-            </div>  
+            </div>
             <div class="row">
                 <div class="col-8 mr-2 fluid-left">
                     <div width="300px">
@@ -36,7 +36,7 @@
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
+                            </a>
                         </div>
                         <div class="col-4">
                             <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
@@ -46,23 +46,23 @@
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
                                 <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
+                            </a>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-            </div>  
-            
+            </div>
+
             <div class="row">
                 <!-- <div >
                     <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
+                    </a>
                     <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
+                    </a>
                     <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
+                    </a>
                 </div>  -->
                 <div height="355">
                     <img src="images/espacio/bannerEspacioPublico3.png" width="100%" alt="Slider Alimentos" />
@@ -70,12 +70,12 @@
             </div>
 
             <div class="row" style="text-align:justify;">
-                           
+
                 <div class="contenidoSecAmb centradoDiv">
 
                     <h1 class="seccion fondoEspacio mt40">Normatividad</h1>
 
-                    
+
                     <p>
                         <h2 class="centrado mt40 colorEspacio " data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer;">
                             Regulación transversal
@@ -118,7 +118,7 @@
                             </tr>
                         </table>
                     </div>
-                    
+
                     <h2 class="centrado mt80 colorEspacio ">Regulación específica</h2>
                     <table width="100%" border="0">
                         <tr class="alinearVerticalInicial">
@@ -156,7 +156,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                
+
                             </td>
                             <td width="25%">
                                 <p>
@@ -209,7 +209,7 @@
                                         <a href="https://drive.google.com/open?id=1H-qouvCeJBWwuo6afEHsVKCHvBv-NSwBs">Circular 001 Externa de 2018 </a>
                                         </li>
                                     </ul>
-                                </div>                                
+                                </div>
                             </td>
                             <td width="25%">
                                 <p>
@@ -320,11 +320,11 @@
                         </tr>
                     </table>
 
-                </div>    
+                </div>
 
-            </div>  
+            </div>
 
-            
+
 
             <div class="row">
                 <hr class="lineaEspacio mt80" style="width: 100%;" />
@@ -351,9 +351,9 @@
                     <img src="images/espacio/espacioNube.png" width="85" height="63" alt="Espacio y movilidad título"
                     />
                 </div>
-            </div>        
-            
-        </div>    
+            </div>
+
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>

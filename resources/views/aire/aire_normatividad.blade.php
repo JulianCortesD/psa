@@ -4,35 +4,30 @@
 <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/secAmbiente.css")}}" />
 @endsection
 @section('contenido')
-    <div class="wrapper">
+   <div class="wrapper">
         <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-8">
-                    <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Aire, ruido y radiación electromagnética |</span>
-                    <span class="breadcrumb_ aire"> Normatividad</span>
+                    <br clear="left"><img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
+                  <span class="breadcrumb_"> | Aire, ruido y radiación electromagnética |</span>
+                    <span class="breadcrumb_ aire">Normatividad</span>
+                    <div width="300px">
+                        <img src="{{asset("images/aire/LogoAireRuidoREM.png" )}}" width="100%" alt="" />
+                    </div>
+
                 </div>
                 <div class="col-4">
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-12 date-time-title">
                         <span>Bogotá hoy</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 date-time" id="reloj">
+                        <div class="col-12 date-time" >
                             Fecha y hora
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-8 mr-2 fluid-left">
-                    <div width="300px">
-                        <img src="images/aire/LogoAireRuidoREM.png" width="50%" alt="símbolo sección aire" />
-                    </div>
-                </div>
-                <div class="col-4" style="margin-left: 7px;">
-                    <div class="row">
+                    <div class="row mt-2">
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
                                 <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
@@ -45,14 +40,14 @@
                         </div>
                         <div class="col-4">
                             <a href="http://www.ideam.gov.co/">
-                                <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                                <img src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+           <div class="row">
                 <div >
                     <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
                         <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
@@ -65,7 +60,9 @@
                     </a>
             </div>
                 <div height="355">
-                    <img src="images/aire/BannerEstAire.png" width="100%" alt="Slider aire" />
+                   <a href="https://drive.google.com/open?id=1pPWUpFKRV1rh4eoH413mjKgoRphWf9eu">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home.png")}}" alt="Sixth slide">
+                        </a>
                 </div>
             </div>
 
@@ -73,15 +70,16 @@
 
                 <div class="contenidoSecAmb centradoDiv">
                         <div>
+                            <br></br>
                             <h3>
                             <strong><img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" alt="Calidad aire" width="85" height="63" align="absbottom" />
-                            <span class="colorAire">Normatividad</span></strong><span class="colorAire"></span>
+                            <span class="colorAire mt 40">Normatividad</span></strong><span class="colorAire"></span>
                             </h3>
                         </div>
                         <p>Compilación   de las normas expedidas por las diferentes organizaciones gubernamentales   relacionadas con la calidad del aire, ambientes 100% libres de humo de tabaco,   contaminación por ruido y radiación electromagnética. </p>
                   <p>
                   <h2  class="centrado colorAire mt40 breadcrumb_ aire" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer; color:black;"><strong>Regulación Transversal</strong></h>
-               
+
                         </p>
                         <div class="collapse centrado" id="collapseTransversal">
                             <div  align="center">
@@ -101,7 +99,7 @@
                                                 <li>
                                                 <a href="https://drive.google.com/open?id=1m5fGx45ZcrTxsBbr3zpkZlvVlFd0X9xb" class="colorIndicadores">Ley 715 de 2001 </a>
                                                 </li>
-                                               
+
                                                 <li>
                                                 <a href="http://biblioteca.saludcapital.gov.co/img_upload/03d591f205ab80e521292987c313699c/decreto-3518-de-2006_1.pdf"
                                                     class="colorIndicadores">Decreto 3518 de 2006 </a>
@@ -157,7 +155,7 @@
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1PfTBvlLXhrEWaHnfHtQLS0RWkBXAzeto" class="colorIndicadores">Resolución 2410 de 2015 </a>
                                             </li>
-                                           
+
                                             <li>
                                                 <a href="https://drive.google.com/open?id=1lK8WRBvGDejqbkH2rakfH2WV5frvsIc7" class="colorIndicadores">Guía internacional de la OMS </a>
                                             </li>
@@ -332,26 +330,29 @@
                 </div>
             </div>
 
-            <div class="row">
-                <hr class="lineaAire mt80" style="width: 100%;" />
+             <div class="row">
+               <hr class="lineaAire mt80" style="width: 100%;" />
             </div>
 
             <div class="logos colorAire bold140p">
                 <div class="centrado colorAire">
                     <p class="colorAire">Documentos e investigaciones</p>
-                    <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"
-                    />
+                     <a href="{{asset("aire_documentos")}}">
+                    <img src="images/aire/IMG_AIRE_DOCUMENTOS.jpg" width="85" height="63" alt="Agua docs"/>
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Mapas</p>
+                    <a href="{{asset("aire_mapas")}}">
                     <img src="images/aire/aireMAPA.png" width="85" height="63" alt="Agua mapa" />
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Normatividad</p>
+                    <a href="{{asset("aire_normatividad")}}">
                     <img src="images/aire/IMG_AIRE_NORMATIVIDAD.jpg" width="85" height="63" alt="Agua normas" />
                 </div>
                 <div class="centrado colorAire">
                     <p class="colorAire">Indicadores</p>
+                    <a href="{{asset("aire_indicadores")}}">
                     <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
                 </div>
             </div>

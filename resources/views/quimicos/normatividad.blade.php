@@ -4,86 +4,80 @@
 <link rel="stylesheet" type="text/css" media="screen" href="{{asset("css/secAmbiente.css")}}" />
 @endsection
 @section('contenido')
-    <div class="wrapper">
-        <div class="container-fluid">
-            <div class="row mb-3">
-                <div class="col-8">
-                    <img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
-                    <span class="breadcrumb_"> | Productos químicos, industria y belleza| </span>
-                    <span class="colorSeguridadquimica">Normatividad</span>
-                </div>  
-                <div class="col-4">
-                    <div class="row">
-                        <div class="col-12 date-time-title">
-                        <span>Bogotá hoy</span> 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 date-time" id="reloj">
-                            Fecha y hora
-                        </div>
-                    </div>                                    
-                </div>
-            </div>  
-            <div class="row">
-                <div class="col-8 mr-2 fluid-left">
-                    <div width="300px">
-                        <img src="{{asset("images/quimica/LogoSeguridadQuimica.png")}}" width="568" height="93" alt="símbolo sección medicamentos" />
-                    </div>
-                </div>
-                <div class="col-4" style="margin-left: 7px;">
-                    <div class="row">
-                        <div class="col-4">
-                            <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
-                                <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
-                            </a>                            
-                        </div>
-                        <div class="col-4">
-                            <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
-                                <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <a href="http://www.ideam.gov.co/">
-                                <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
-                            </a>                            
-                        </div>
-                    </div>  
-                </div>
-            </div>  
-            
-            <div class="row">
-                <!-- <div >
-                    <a href="https://twitter.com/AmbienteBogota" class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
-                    </a>    
-                    <a href="https://www.facebook.com/AmbienteBogota/" class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
-                    </a> 
-                    <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ" class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
-                        <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
-                    </a>             
-                </div>  -->
-                <div height="355">
-                    <img src="images/quimica/Banner peluqueria parte interna.png" alt="Slider aire" width="945" />
+<div class="wrapper">
+    <div class="container-fluid">
+        <div class="row mb-3">
+            <div class="col-8">
+            <br clear="left"><img src="images/aire/iconoHome.png" width="42" height="38" alt="Ir al home" />
+                <span class="breadcrumb_"> | Productos químicos, industria y belleza| </span>
+                <span class="colorSeguridadquimica">Normatividad</span>
+                <div width="300px">
+                    <img src="{{asset("images/quimica/LogoSeguridadQuimica.png")}}" width="100%" height=""  alt="" />
                 </div>
             </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-12 date-time-title">
+                    <span>Bogotá hoy</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 date-time">
+                        Fecha y hora
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-4">
+                        <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
+                            <img src="{{asset("images/news/calidadaire.svg")}}" alt="calidad aire" class="img-calidad-aire">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="http://saludata.saludcapital.gov.co/osb/index.php/2019/07/01/protejase-del-sol-lo-que-debe-saber-sobre-la-radiacion-solar/">
+                            <img src="{{asset("images/news/indiceuv.svg")}}" alt="indice uv" class="img-indice-uv">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="http://www.ideam.gov.co/">
+                            <img  src="{{asset("images/news/climaactual.svg")}}" alt="clima actual" class="img-clima-actual">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
 
+        <div class="row">
+                <a href="https://twitter.com/AmbienteBogota"  class="redes pl-1 pt-2" style="margin-top: 90px; margin-left:0px;">
+                    <img  src="{{asset("images/redessociales/Twitter.svg")}}" alt="" style="height: 80%">
+                </a>
+                <a href="https://www.facebook.com/AmbienteBogota/"class="redes pl-2 pt-2" style="margin-top: 150px; margin-left:0px;">
+                    <img  src="{{asset("images/redessociales/IconoFacebook.svg")}}" alt="" style="height: 95%">
+                </a>
+                <a href="https://www.youtube.com/channel/UCjboPXY4C2F3rnqP7k4_9cQ"class="redes pl-1 pt-2" style="margin-top: 210px; margin-left:0px;">
+                    <img  src="{{asset("images/redessociales/IconoYouTube.svg")}}" alt="" style="height: 70%">
+                </a>
+            <a href="http://autorregulacion.saludcapital.gov.co/salonesbelleza">
+            <div height="355">
+                <img src="images/quimica/Banner peluqueria.png" alt="Slider aire" width="100%"/>
+            </div>
+            </a>
+        </div>
+<br></br>
             <div class="row" style="text-align:justify;">
                 <div class="contenidoSecAmb centradoDiv">
-                    <h2 class="colorSeguridadquimica">
-                        <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" align="absbottom" />Normatividad </h2>
+                    <h2 class="colorSeguridadquimica bold140p">
+                        <img src="images/quimica/espacioNORMATIVIDAD.jpg" width="85" height="63" align="absbottom" />Normatividad</h2>
                     <p>Compilación de las normas expedidas por las diferentes organizaciones gubernamentales relacionadas con la implementación
                         de procesos de vigilancia y control en las actividades de la industria y del sector belleza</p>
                 </div>
                 <div style="width:100%">
                     <p>
-                        <h2 align="center" class="colorSeguridadquimica" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer;">
+                        <h2 align="center" class="colorSeguridadquimica bold140p" data-toggle="collapse" href="#collapseTransversal" role="button" aria-expanded="false" aria-controls="collapseTransversal" style="cursor: pointer;">
                             Regulación transversal
                         </h2>
                     </p>
-                    
-                    <div align="center" class="collapse show" id="collapseTransversal" style="700px">
+
+                    <div align="center" class="collapse" id="collapseTransversal" style="700px">
 
                         <table  border="0">
                             <tr class="alinearVerticalInicial">
@@ -185,17 +179,17 @@
                 </div>
 
                 <div>
-                    <h2 align="center" class="colorSeguridadquimica">Regulación Específica</h2>
+                    <h2 align="center" class="colorSeguridadquimica bold140p">Regulación Específica</h2>
                     <table width="100%" border="0">
                         <tr class="alinearVerticalInicial">
 
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseManipulacion" role="button" aria-expanded="false" aria-controls="collapseManipulacion" style="cursor: pointer;">
-                                        Manipulación, almacenamiento y expendio de productos químicos
+                                    <h3 class="alinearIzquierda mb0 colorSeguridadquimica"  data-toggle="collapse" href="#collapseManipulacion" role="button" aria-expanded="false" aria-controls="collapseManipulacion" style="cursor: pointer; color: " >
+                                      Manipulación, almacenamiento y expendio de productos químicos
                                     </h3>
                                 </p>
-                                <div class="collapse show" id="collapseManipulacion">
+                                <div class="collapse" id="collapseManipulacion">
                                     <ul class="sinVinetas">
                                         <li>
                                             <a href="https://drive.google.com/open?id=1v_IcrxvUulj1bM29K6YRItGuKtJ3oWGT " class="colorIndicadores">Convenio 170 OIT de 1990 </a>
@@ -218,11 +212,11 @@
                             </td>
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseUso" role="button" aria-expanded="false" aria-controls="collapseUso" style="cursor: pointer;">
+                                    <h3 class="alinearIzquierda mb0  colorSeguridadquimica" data-toggle="collapse" href="#collapseUso" role="button" aria-expanded="false" aria-controls="collapseUso" style="cursor: pointer;">
                                         Uso, manipulación y/o almacenamiento de residuos peligrosos
                                     </h3>
                                 </p>
-                                <div class="collapse show" id="collapseUso">
+                                <div class="collapse " id="collapseUso">
                                     <ul class="sinVinetas">
                                         <li>
                                             <a href="https://drive.google.com/open?id=1x5_NqaGd1zKfP55CdW_j78gQwvpMyFxG " class="colorIndicadores">Resolución 2309 de 1986 </a>
@@ -260,11 +254,11 @@
                             </td>
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseProductos" role="button" aria-expanded="false" aria-controls="collapseProductos" style="cursor: pointer;">
+                                    <h3 class="alinearIzquierda mb0 colorSeguridadquimica"  data-toggle="collapse" href="#collapseProductos" role="button" aria-expanded="false" aria-controls="collapseProductos" style="cursor: pointer;">
                                         Uso, manipulación, almacenamiento, aplicación y expendio de plaguicidas o productos agroquímicos
                                     </h3>
                                 </p>
-                                <div class="collapse show" id="collapseProductos">
+                                <div class="collapse" id="collapseProductos">
                                     <ul class="sinVinetas">
                                         <li>
                                             <a href="https://drive.google.com/open?id=1mftz7O_2TMKIK9uknf5o1Q4S-fnV3ld-" class="colorIndicadores">Código internacional distribución y utilización de plaguicidas </a>
@@ -292,16 +286,16 @@
                                         </li>
                                     </ul>
                                 </div>
-                                
+
 
                             </td>
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseServicios" role="button" aria-expanded="false" aria-controls="collapseServicios" style="cursor: pointer;">
+                                    <h3 class="alinearIzquierda mb0 colorSeguridadquimica" data-toggle="collapse" href="#collapseServicios" role="button" aria-expanded="false" aria-controls="collapseServicios" style="cursor: pointer;">
                                         Servicios personales de belleza (estética facial, corporal y ornamental)
                                     </h3>
                                 </p>
-                                <div class="collapse show" id="collapseServicios">
+                                <div class="collapse " id="collapseServicios">
                                     <ul class="sinVinetas">
                                         <li>
                                             <a href="https://drive.google.com/open?id=10Wi91uf4S1bi1Ko-OJ5ghUombw755tCY " class="colorIndicadores">Circular 001 de 1996 </a>
@@ -338,15 +332,15 @@
                                         </li>
                                     </ul>
                                 </div>
-                                
+
                             </td>
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseActividades" role="button" aria-expanded="false" aria-controls="collapseActividades" style="cursor: pointer;">
+                                    <h3 class="alinearIzquierda mb0 colorSeguridadquimica" data-toggle="collapse" href="#collapseActividades" role="button" aria-expanded="false" aria-controls="collapseActividades" style="cursor: pointer;">
                                         Actividades o servicios específicos
                                     </h3>
                                 </p>
-                                <div class="collapse show " id="collapseActividades">
+                                <div class="collapse" id="collapseActividades">
                                     <ul class="sinVinetas">
                                         <li>
                                             <a href="https://drive.google.com/open?id=1h-woAZz0DXFNiRjv7MlPzl-o_UfsCOvY " class="colorIndicadores">- Resolución 2190 de 1991</a>
@@ -362,15 +356,15 @@
                                         </li>
                                     </ul>
                                 </div>
-                                
+
                             </td>
                             <td width="20%">
                                 <p>
-                                    <h3 class="alinearIzquierda mb0" data-toggle="collapse" href="#collapseCombustibles" role="button" aria-expanded="false" aria-controls="collapseCombustibles" style="cursor: pointer;">
+                                    <h3 class="alinearIzquierda mb0 colorSeguridadquimica" data-toggle="collapse" href="#collapseCombustibles" role="button" aria-expanded="false" aria-controls="collapseCombustibles" style="cursor: pointer;">
                                         Uso, manipulación, almacenamiento y expendio de combustibles
-                                    </h3>                            
+                                    </h3>
                                 </p>
-                                <div class="collapse show" id="collapseCombustibles">
+                                <div class="collapse" id="collapseCombustibles">
                                     <ul class="sinVinetas">
                                         <li>
                                             <a href="https://drive.google.com/open?id=1bZNLdPpeGiETIjt_5VAC-SV2rxGyNq7A " class="colorIndicadores">Resolución 80505 de 1997 </a>
@@ -384,9 +378,9 @@
                         </tr>
                     </table>
                 </div>
-                
 
-            </div>  
+
+            </div>
 
             <div class="row">
                 <hr class="lineaQuimica mt80" style="width: 100%;" />
@@ -415,9 +409,9 @@
                         <img src="images/quimica/espacioINDICADORES.jpg" width="85" height="63" alt="Aire título" />
                     </a>
                 </div>
-            </div>        
-            
-        </div>    
+            </div>
+
+        </div>
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
