@@ -61,7 +61,7 @@
             </div>
                 <div height="355">
                    <a href="https://drive.google.com/open?id=1pPWUpFKRV1rh4eoH413mjKgoRphWf9eu">
-                            <img class="d-block w-100 altura" src="{{asset("images/carousel/BannerRudio.png")}}" alt="Sixth slide">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home.png")}}" alt="Sixth slide">
                         </a>
                 </div>
             </div>

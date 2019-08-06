@@ -61,7 +61,7 @@
             </div>
                 <div height="355">
                    <a href="https://drive.google.com/open?id=1pPWUpFKRV1rh4eoH413mjKgoRphWf9eu">
-                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home")}}" alt="Sixth slide">
+                            <img class="d-block w-100 altura" src="{{asset("images/carousel/Banner restaurante 1a del Home.png")}}" alt="Sixth slide">
                         </a>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                         <span class="colorAire"><b>Indicadores</b></span></h3>
                         <br></br>
                     <div class="contenidoSecAmb centradoDiv">
-                    <h3 class="colorAire mt 40"><b>Calidad del aire</b></h3></div>
+                    <h3 class="colorAire"><b>Calidad del aire</b></h3></div>
                     <p align="justify">Representan la tendencia de las enfermedades respiratorias y cardiovasculares y la sintomatología respiratoria posiblemente asociada con la exposición a contaminación del aire en la población vulnerable de Bogotá. </p>
 
                         <p span class="colorIndicadores">
