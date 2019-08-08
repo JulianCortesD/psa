@@ -15,7 +15,7 @@
                 <div class="col-10 offset-1">
 
                     <div class="row justify-content-center">
-                        <div class="mt-3 container-calendar">
+                        <div class="mt-3 mb-3 container-calendar">
                             <div style="height: 340px; width: 600px;">
                                 <label>Calendario de eventos Salud Ambiental</label>
                                 <div class="col-10 offset-1" >
@@ -90,92 +90,84 @@
 @endsection
 @section('scripts')
 <script>
-
-var mes = new Date().getMonth();
-if(mes === 7) {
-    $('.card-calendar').css("display", "block");
-} else {
-    $('.card-calendar').css("display", "none");
-}
-
-
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
 
         var calendar = new FullCalendar.Calendar(calendarEl, {
-        plugins: [  'dayGrid' ],
-        defaultDate: '2019-08-22',
-        editable: true,
-        lang: 'es',
-        height: 'parent',
-        eventLimit: true, // allow "more" link when too many events
-        events: [
-                       
-           
+            plugins: [  'dayGrid' ],
+            defaultDate: '2019-08-22',
+            editable: true,
+            lang: 'es',
+            height: 'parent',
+            eventLimit: true, // allow "more" link when too many events
+            events: [
+                {
+                title: 'CAPACITACIÓN EN NORMATIVIDAD A FARMACEUTAS".',
+                start: '2019-08-22'
+                },
+                {
+                title: 'DÍA INTERNACIONAL CONTRA EL RUIDO “SOMOS TODOS OÍDOS”".',
+                start: '2019-08-29'
+                },
+                {
+                title: 'CAPACITACIÓN PARA ESTABLECIMIENTOS ACREDITADOS EN EL SECTOR BELLEZA".',
+                start: '2019-08-13'
+                },
+                {
+                title: 'TALLER PROYECTO PREVENCIÓN INTEGRAL EN SALUD AMBIENTAL - PISA ".',
+                start: '2019-08-16'
+                },
 
-            {
-            title: 'CAPACITACIÓN EN NORMATIVIDAD A FARMACEUTAS".',
-            start: '2019-08-22'
-            },
-            {
-            title: 'DÍA INTERNACIONAL CONTRA EL RUIDO “SOMOS TODOS OÍDOS”".',
-            start: '2019-08-29'
-            },
-            {
-            title: '“IX SIMPOSIO DETECCIÓN  TEMPRANA DEL CÁNCER: CÁNCER DE PIEL”".',
-            start: '2019-08-22'
-            },
-            {
-            title: 'CAPACITACIÓN PARA ESTABLECIMIENTOS ACREDITADOS EN EL SECTOR BELLEZA".',
-            start: '2019-08-13'
-            },
-            {
-            title: 'TALLER PROYECTO PREVENCIÓN INTEGRAL EN SALUD AMBIENTAL - PISA ".',
-            start: '2019-08-16'
-            },
-           
 
-            /* {
-            groupId: 999,
-            title: 'Repeating Event',
-            start: '2019-06-16T16:00:00'
-            },
-            {
-            title: 'Conference',
-            start: '2019-06-11',
-            end: '2019-06-13'
-            },
-            {
-            title: 'Meeting',
-            start: '2019-06-12T10:30:00',
-            end: '2019-06-12T12:30:00'
-            },
-            {
-            title: 'Lunch',
-            start: '2019-06-12T12:00:00'
-            },
-            {
-            title: 'Meeting',
-            start: '2019-06-12T14:30:00'
-            },
-            {
-            title: 'Happy Hour',
-            start: '2019-06-12T17:30:00'
-            },
-            {
-            title: 'Dinner',
-            start: '2019-06-12T20:00:00'
-            },
-            {
-            title: 'Birthday Party',
-            start: '2019-06-13T07:00:00'
-            },
-            {
-            title: 'Click for Google',
-            url: 'http://google.com/',
-            start: '2019-06-28'
-            } */
-        ]
+                /* {
+                groupId: 999,
+                title: 'Repeating Event',
+                start: '2019-06-16T16:00:00'
+                },
+                {
+                title: 'Conference',
+                start: '2019-06-11',
+                end: '2019-06-13'
+                },
+                {
+                title: 'Meeting',
+                start: '2019-06-12T10:30:00',
+                end: '2019-06-12T12:30:00'
+                },
+                {
+                title: 'Lunch',
+                start: '2019-06-12T12:00:00'
+                },
+                {
+                title: 'Meeting',
+                start: '2019-06-12T14:30:00'
+                },
+                {
+                title: 'Happy Hour',
+                start: '2019-06-12T17:30:00'
+                },
+                {
+                title: 'Dinner',
+                start: '2019-06-12T20:00:00'
+                },
+                {
+                title: 'Birthday Party',
+                start: '2019-06-13T07:00:00'
+                },
+                {
+                title: 'Click for Google',
+                url: 'http://google.com/',
+                start: '2019-06-28'
+                } */
+            ],
+            eventRender: function(){
+
+                if ($('#calendar > div.fc-toolbar.fc-header-toolbar > div.fc-left > h2').text().indexOf('agosto') !== -1) {
+                    $('.card-calendar').css("display", "block");
+                } else {
+                    $('.card-calendar').css("display", "none");
+                }
+            }
         });
 
         calendar.render();

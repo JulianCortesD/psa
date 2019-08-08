@@ -1328,16 +1328,24 @@
         eventLimit: true, // allow "more" link when too many events
         events: [
             {
-            title: ' IVC  promoción y prevención prostitución y comunidad  LGBTI  “Dueños de Establecimientos”.',
-            start: '2019-07-24'
+            title: ' Capacitación en Normatividad a Farmaceutas”.',
+            start: '2019-08-22'
             },
             {
-            title: 'Taller mensual  proyecto  PISA  “Aspectos ambiental  y Cumplimiento de la Normatividad”.',
-            start: '2019-07-23'
+            title: 'Día internacional contra el ruido “somos todos oídos” ”.',
+            start: '2019-08-23'
             },
             {
-            title: 'Evento Acoplasticos  Café & Polímeros "Economía Circular y Sostenibilidad".',
-            start: '2019-07-31'
+            title: 'Capacitación para Establecimientos Acreditados en el Sector Belleza".',
+            start: '2019-08-13'
+            },
+            {
+            title: 'Taller Proyecto Prevención Integral en Salud Ambiental - PISA ".',
+            start: '2019-08-16'
+            },
+            {
+            title: 'Taller Proyecto Prevención Integral en Salud Ambiental - PISA".',
+            start: '2019-08-28'
             },
             /* {
             title: 'All Day Event',
@@ -1402,5 +1410,8 @@
     });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap-wizard/1.2/jquery.bootstrap.wizard.js"></script>
+<script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
+@endsection
+@section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
 @endsection

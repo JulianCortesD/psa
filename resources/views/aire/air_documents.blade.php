@@ -27,7 +27,7 @@
                             Fecha y hora
                         </div>
                     </div>
-                    </div>
+
                     <div class="row mt-2">
                         <div class="col-4">
                             <a href="http://www.ambientebogota.gov.co/calidad-del-aire">
@@ -247,7 +247,8 @@
 
                 </div>
             </div>
-
+            </div>
+</div>
             <div class="row">
                <hr class="lineaAire mt80" style="width: 100%;" />
             </div>
@@ -274,7 +275,7 @@
                     <img src="images/aire/aireINDICADORES.png" width="85" height="63" alt="Agua título" />
                 </div>
             </div>
-        </div>
+
 @endsection
 @section('scripts')
 <script type='text/javascript'  src="{{asset("js/news/news.js")}}"></script>
